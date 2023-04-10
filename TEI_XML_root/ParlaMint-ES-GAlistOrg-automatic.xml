@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-ES-GAlistOrg" xml:lang="gl">
+<org xml:id="party.AGE">
+	<orgName full="yes" lang="gl">Alternativa Galega de Esquerda</orgName>
+	<orgName full="yes" lang="en">Galician Leftist Alternative</orgName>
+	<orgName full="abb">AGE</orgName>
+	<event from="11.09.2012" to="02.08.2016"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Alternativa_Galega_de_Esquerda</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Galician_Left_Alternative</idno>
+</org>
+<org xml:id="party.BNG">
+	<orgName full="yes" lang="gl">Bloque Nacionalista Galego</orgName>
+	<orgName full="yes" lang="en">Galician Nationalist Bloc</orgName>
+	<orgName full="abb">BNG</orgName>
+	<event from="25.09.1982"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Bloque_Nacionalista_Galego</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Galician_Nationalist_Bloc</idno>
+</org>
+<org xml:id="party.EM">
+	<orgName full="yes" lang="gl">En Marea</orgName>
+	<orgName full="yes" lang="en">In Tide</orgName>
+	<orgName full="abb">EM</orgName>
+	<event from="30.07.2016" to="26.09.2020"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/En_Marea</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/En_Marea</idno>
+</org>
+<org xml:id="party.PSdeG-PSOE">
+	<orgName full="yes" lang="gl">Partido de los Socialistas de Galicia</orgName>
+	<orgName full="yes" lang="en">Socialists' Party of Galicia</orgName>
+	<orgName full="abb">PSdeG-PSOE</orgName>
+	<event from="1879-05-02"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_dos_Socialistas_de_Galicia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Socialists%27_Party_of_Galicia</idno>
+</org>
+<org xml:id="party.PPdeG">
+	<orgName full="yes" lang="gl">Partido Popular de Galicia</orgName>
+	<orgName full="yes" lang="en">People's Party of Galicia</orgName>
+	<orgName full="abb">PPdeG</orgName>
+	<event from="22.01.1989"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_Popular_de_Galicia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/People%27s_Party_of_Galicia</idno>
+</org>
+<org xml:id="party.Abrente-EDG">
+	<orgName full="yes" lang="gl">Abrente-Esquerda Democrática Galega</orgName>
+	<orgName full="yes" lang="en">Abrente-Galician Democratic Left</orgName>
+	<orgName full="abb">Abrente-EDG</orgName>
+	<event from="09.07.2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Abrente-Esquerda_Democr%C3%A1tica_Galega</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Abrente%E2%80%93Galician_Democratic_Left</idno>
+</org>
+<org xml:id="party.ADCeG">
+	<orgName full="yes" lang="gl">Acción Democrática de Centro de Galicia</orgName>
+	<orgName full="yes" lang="en">Democratic Action of Center of Galicia</orgName>
+	<orgName full="abb">ADCeG</orgName>
+	<event from="18.08.2010" to="01.01.2016"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.Anova-IN">
+	<orgName full="yes" lang="gl">Anova-Irmandade Nacionalista</orgName>
+	<orgName full="yes" lang="en">Renewal-Nationalist Brotherhood</orgName>
+	<orgName full="abb">Anova-IN</orgName>
+	<event from="14.07.2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Anova-Irmandade_Nacionalista</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Renewal%E2%80%93Nationalist_Brotherhood</idno>
+</org>
+<org xml:id="party.CDL">
+	<orgName full="yes" lang="gl">Centro Democrático Liberal</orgName>
+	<orgName full="yes" lang="en">Liberal Democratic Centre</orgName>
+	<orgName full="abb">CDL</orgName>
+	<event from="14.02.2006" to="24.02.2014"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Centro_Democr%C3%A1tico_Liberal</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Liberal_Democratic_Centre</idno>
+</org>
+<org xml:id="party.Cs">
+	<orgName full="yes" lang="gl">Ciudadanos-Partido de la Ciudadanía</orgName>
+	<orgName full="yes" lang="en">Citizens</orgName>
+	<orgName full="abb">Cs</orgName>
+	<event from="2006"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Cidad%C3%A1ns-Partido_da_Cidadan%C3%ADa</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Citizens_(Spanish_political_party)</idno>
+</org>
+<org xml:id="party.CCD">
+	<orgName full="yes" lang="gl">Coalición de Centro Democrático</orgName>
+	<orgName full="yes" lang="en">Democratic Centre Coalition</orgName>
+	<orgName full="abb">CCD</orgName>
+	<event from="10.09.2010"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Democratic_Centre_Coalition</idno>
+</org>
+<org xml:id="party.CxG">
+	<orgName full="yes" lang="gl">Compromiso x Galicia</orgName>
+	<orgName full="yes" lang="en">Committment to Galicia</orgName>
+	<orgName full="abb">CxG</orgName>
+	<event from="2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Compromiso_por_Galicia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Commitment_to_Galicia</idno>
+</org>
+<org xml:id="party.PG-PCPE">
+	<orgName full="yes" lang="gl">Comunistas da Galiza-PCPE</orgName>
+	<orgName full="yes" lang="en">Communists of Galicia-PCPE</orgName>
+	<orgName full="abb">CG-PCPE</orgName>
+	<event from="2008"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Comunistas_da_Galiza</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.CSD">
+	<orgName full="yes" lang="gl">Contigo Somos Democracia</orgName>
+	<orgName full="yes" lang="en">With You We are Democracy</orgName>
+	<orgName full="abb">CSD</orgName>
+	<event from="12.07.2017"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.C21">
+	<orgName full="yes" lang="gl">Converxencia XXI</orgName>
+	<orgName full="yes" lang="en">Convergence XXI</orgName>
+	<orgName full="abb">C21</orgName>
+	<event from="04.05.2009"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Converxencia_21</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Converxencia_XXI</idno>
+</org>
+<org xml:id="party.DO">
+	<orgName full="yes" lang="gl">Democracia Ourensana</orgName>
+	<orgName full="yes" lang="en">Ourensan Democracy</orgName>
+	<orgName full="abb">DO</orgName>
+	<event from="2001"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Democracia_Ourensana</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Ourensan_Democracy</idno>
+</org>
+<org xml:id="party.DeC">
+	<orgName full="yes" lang="gl">Demos el Cambio</orgName>
+	<orgName full="yes" lang="en">Let's Make the Change</orgName>
+	<orgName full="abb">DeC</orgName>
+	<event from="20.09.2011"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.EnComún">
+	<orgName full="yes" lang="gl">En Común-Unidas Podemos / Galicia en Común</orgName>
+	<orgName full="yes" lang="en">In Common–United We Can / Galicia in Common</orgName>
+	<orgName full="abb">EnComún</orgName>
+	<event from="01.04.2019"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/En_Com%C3%BAn</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Galicia_en_Com%C3%BAn</idno>
+</org>
+<org xml:id="party.EB">
+	<orgName full="yes" lang="gl">Escaños en Blanco</orgName>
+	<orgName full="yes" lang="en">Seats in White</orgName>
+	<orgName full="abb">EB</orgName>
+	<event from="21.10.2010"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Escanos_en_Branco</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.EcoSoGal">
+	<orgName full="yes" lang="gl">Espazo Ecosocialista Galega</orgName>
+	<orgName full="yes" lang="en">Galician Eco-Socialist Space</orgName>
+	<orgName full="abb">EcoSoGal</orgName>
+	<event from="31.05.2012" to="2017"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Espazo_Ecosocialista_Galego</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Espazo_Ecosocialista_Galego</idno>
+</org>
+<org xml:id="party.EU">
+	<orgName full="yes" lang="gl">Esquerda Unida</orgName>
+	<orgName full="yes" lang="en">United Left</orgName>
+	<orgName full="abb">EU</orgName>
+	<event from="1986"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Esquerda_Unida</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/United_Left_(Galicia)</idno>
+</org>
+<org xml:id="party.FE-JONS">
+	<orgName full="yes" lang="gl">Falange Española de la JONS</orgName>
+	<orgName full="yes" lang="en">Spanish Phalanx of the Committees for the National-Syndicalist Offensive</orgName>
+	<orgName full="abb">FE-JONS</orgName>
+	<event from="04.10.1976"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Falange_Espa%C3%B1ola_de_las_JONS_(1976)</idno>
+</org>
+<org xml:id="party.GAÑEMOS">
+	<orgName full="yes" lang="gl">Gañemos</orgName>
+	<orgName full="yes" lang="en">Guanyem</orgName>
+	<orgName full="abb">GAÑEMOS</orgName>
+	<event from="26.08.2014"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Ga%C3%B1emos</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Guanyem</idno>
+</org>
+<org xml:id="party.HARTOS.ORG">
+	<orgName full="yes" lang="gl">Hartos.org</orgName>
+	<orgName full="yes" lang="en">Jaded.org</orgName>
+	<orgName full="abb">HARTOS.ORG</orgName>
+	<event from="2011"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.+G">
+	<orgName full="yes" lang="gl">Máis Galiza</orgName>
+	<orgName full="yes" lang="en">+Galicia</orgName>
+	<orgName full="abb">+G</orgName>
+	<event from="11.03.2012" to="16.12.2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/M%C3%A1is_Galiza</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/M%C3%A1is_Galiza</idno>
+</org>
+<org xml:id="party.MG">
+	<orgName full="yes" lang="gl">Marea Galeguista</orgName>
+	<orgName full="yes" lang="en">Galicianist Tide</orgName>
+	<orgName full="abb">MG</orgName>
+	<event from="30.05.2020"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Marea_Galeguista</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Marea_Galeguista</idno>
+</org>
+<org xml:id="party.PACMA">
+	<orgName full="yes" lang="gl">Partido Animalista contra el Maltrato Animal</orgName>
+	<orgName full="yes" lang="en">Animalist Party Against Mistreatment of Animals</orgName>
+	<orgName full="abb">PACMA</orgName>
+	<event from="24.02.2003"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_Animalista_Contra_o_Maltrato_Animal</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Animalist_Party_Against_Mistreatment_of_Animals</idno>
+</org>
+<org xml:id="party.PAyJ">
+	<orgName full="yes" lang="gl">Partido Anticorrupción y Justicia</orgName>
+	<orgName full="yes" lang="en">Anticorruption and Justice Party</orgName>
+	<orgName full="abb">PAyJ</orgName>
+	<event from="2016"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.PCTG">
+	<orgName full="yes" lang="gl">Partido Comunista dos Traballadores de Galicia</orgName>
+	<orgName full="yes" lang="en">Communist Party of Workers of Galicia</orgName>
+	<orgName full="abb">PCTG</orgName>
+	<event from="03.03.2019"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_Comunista_dos_Traballadores_de_Espa%C3%B1a</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Communist_Party_of_the_Workers_of_Spain</idno>
+</org>
+<org xml:id="party.PT">
+	<orgName full="yes" lang="gl">Partido da Terra</orgName>
+	<orgName full="yes" lang="en">Land Party</orgName>
+	<orgName full="abb">PT</orgName>
+	<event from="25.07.2011"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_da_Terra</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Land_Party_(Spain)</idno>
+</org>
+<org xml:id="party.PGD">
+	<orgName full="yes" lang="gl">Partido Galeguista Demócrata</orgName>
+	<orgName full="yes" lang="en">Galician Nationalist Democratic Party</orgName>
+	<orgName full="abb">PGD</orgName>
+	<event from="13.11.2004" to="2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.PH">
+	<orgName full="yes" lang="gl">Partido Humanista</orgName>
+	<orgName full="yes" lang="en">Humanist Party</orgName>
+	<orgName full="abb">PH</orgName>
+	<event from="16.05.1984"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Humanist_Party_(Spain)</idno>
+</org>
+<org xml:id="party.PyC">
+	<orgName full="yes" lang="gl">Partido Integración Comunitaria</orgName>
+	<orgName full="yes" lang="en">Community Integration Party</orgName>
+	<orgName full="abb">PyC</orgName>
+	<event from="13.07.2011"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.P-LIB">
+	<orgName full="yes" lang="gl">Partido Libertario</orgName>
+	<orgName full="yes" lang="en">Libertarian Party</orgName>
+	<orgName full="abb">P-LIB</orgName>
+	<event from="02.07.2009"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_Libertario_(Espa%C3%B1a)</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Libertarian_Party_(Spain)</idno>
+</org>
+<org xml:id="party.PNG-PG">
+	<orgName full="yes" lang="gl">Partido Nacionalista Galego - Partido Galeguista</orgName>
+	<orgName full="yes" lang="en">Galician Nationalist Party-Galicianist Party</orgName>
+	<orgName full="abb">PNG-PG</orgName>
+	<event from="1987"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Partido_Nacionalista_Galego-Partido_Galeguista</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Galician_Nationalist_Party%E2%80%93Galicianist_Party</idno>
+</org>
+<org xml:id="party.PIRATA.GAL">
+	<orgName full="yes" lang="gl">Piratas de Galicia</orgName>
+	<orgName full="yes" lang="en">Pirates of Galicia</orgName>
+	<orgName full="abb">PIRATA.GAL</orgName>
+	<event from="26.11.2012"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Piratas_de_Galicia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Pirate_Party_of_Galicia</idno>
+</org>
+<org xml:id="party.PodemosG">
+	<orgName full="yes" lang="gl">Podemos Galicia</orgName>
+	<orgName full="yes" lang="en">Podemos Galicia</orgName>
+	<orgName full="abb">PodemosG</orgName>
+	<event from="2014"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.M+J">
+	<orgName full="yes" lang="gl">Por un Mundo Más Justo</orgName>
+	<orgName full="yes" lang="en">For a Fairer World</orgName>
+	<orgName full="abb">M+J</orgName>
+	<event from="08.01.2004"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Por_un_Mundo_m%C3%A1is_Xusto</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/For_a_Fairer_World</idno>
+</org>
+<org xml:id="party.RC-GV">
+	<orgName full="yes" lang="gl">Recortes Cero-Grupo Verde</orgName>
+	<orgName full="yes" lang="en">Zero Cuts - Green Group</orgName>
+	<orgName full="abb">RC-GV</orgName>
+	<event from="2014"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> https://en.wikipedia.org/wiki/Zero_Cuts</idno>
+</org>
+<org xml:id="party.SCD">
+	<orgName full="yes" lang="gl">Sociedad Civil y Democracia</orgName>
+	<orgName full="yes" lang="en">Civil Society and Democracy</orgName>
+	<orgName full="abb">SCD</orgName>
+	<event from="20.07.2011" to="2014"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Sociedade_Civil_e_Democracia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.SAIn">
+	<orgName full="yes" lang="gl">Solidaridad y Autogestión Internacionalista</orgName>
+	<orgName full="yes" lang="en">Solidarity and Internationalist Self-Management</orgName>
+	<orgName full="abb">SAIn</orgName>
+	<event from="31.03.2004"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.UNIDOS SI-DEF">
+	<orgName full="yes" lang="gl">Unidos por el Futuro</orgName>
+	<orgName full="yes" lang="en">United for the Future</orgName>
+	<orgName full="abb">UNIDOS SI-DEF</orgName>
+	<event from=" -"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.UCE">
+	<orgName full="yes" lang="gl">Unificación Comunista de España</orgName>
+	<orgName full="yes" lang="en">Communist Unification of Spain</orgName>
+	<orgName full="abb">UCE</orgName>
+	<event from="1973"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Unificaci%C3%B3n_Comunista_de_Espa%C3%B1a</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Communist_Unification_of_Spain</idno>
+</org>
+<org xml:id="party.UC">
+	<orgName full="yes" lang="gl">Unión Coruñesa</orgName>
+	<orgName full="yes" lang="en">Union of A Coruña</orgName>
+	<orgName full="abb">UC</orgName>
+	<event from="1989"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Uni%C3%B3n_Coru%C3%B1esa</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.UPYD">
+	<orgName full="yes" lang="gl">Unión Progreso y Democracia</orgName>
+	<orgName full="yes" lang="en">Union, Progress and Democarcy</orgName>
+	<orgName full="abb">UPyD</orgName>
+	<event from="29.09.2007" to="06.12.2020"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Uni%C3%B3n_Progreso_y_Democracia</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Union,_Progress_and_Democracy</idno>
+</org>
+<org xml:id="party.VNG">
+	<orgName full="yes" lang="gl">Vía Nova Galicia</orgName>
+	<orgName full="yes" lang="en">New Route Galicia</orgName>
+	<orgName full="abb">VNG</orgName>
+	<event from="2016"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia"> -</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia"> -</idno>
+</org>
+<org xml:id="party.VOX">
+	<orgName full="yes" lang="gl">Vox</orgName>
+	<orgName full="yes" lang="en">Vox</orgName>
+	<orgName full="abb">VOX</orgName>
+	<event from="17.12.2013"/>
+	<idno type="URI" xml:lang="gl" subtype="wikimedia">https://gl.wikipedia.org/wiki/Vox</idno>
+	<idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Vox_(political_party)</idno>
+</org>
+</listOrg>
