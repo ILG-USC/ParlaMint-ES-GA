@@ -50,6 +50,7 @@ bundle exec rake -t -m process:match[output] &> to_output.log
 bundle exec rake -t process:meta 
 ```
 
+The output documents will be in `documents/output`.
 
 ## Generation of final files and validation
 
