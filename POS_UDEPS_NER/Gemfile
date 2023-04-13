@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in ncs_processing.gemspec
+gemspec
+
+# We have to reference git gems here until we found a better solution
+gem 'nxml', path: 'vendor/nxml'

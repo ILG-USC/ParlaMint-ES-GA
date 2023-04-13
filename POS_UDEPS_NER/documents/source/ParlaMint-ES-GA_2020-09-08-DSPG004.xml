@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004" ana="#parla.sitting #covid">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2020-09-08-DSPG004 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2020-09-08-DSPG004 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="004">Número 004</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2020-09-08">08.09.2020</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="3"/>
+			<measure unit="words" quantity="2668"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110004.pdf</idno>
+				<date when="2020-09-08">08.09.2020</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2020-09-08">08.09.2020</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#covid">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110004.pdf"/>
+			<note type="time">Ábrese a sesión ás doce e seis minutos do mediodía.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.u1">
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg1">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg2">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg3">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia do 4 de setembro. Non hai xustificación de inasistencias. Polo tanto, entramos no desenvolvemento da orde do día, e para iso prégolle á secretaria que dea lectura á orde do día.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.u2">
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg4">Punto único. Declaración institucional de apertura da XI lexislatura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg5">Declaración institucional de apertura da XI lexislatura</seg>
+			</u>
+			<note>(Punto único da orde do día.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.u3">
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg6">Grazas, señora secretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg7">Presidente da Xunta de Galicia, conselleiras e conselleiros, portavoces, señoras e señores deputados, xornalistas, persoal do Parlamento de Galicia, dámonos cita, nun escenario inédito por mor das circunstancias sanitarias das que todos somos coñecedores, na solemne sesión de apertura da XI lexislatura do Parlamento de Galicia. Pido desculpas por non poder contar na tribuna cos convidados que noutras ocasións, tal día como o de hoxe, nos honraban coa súa presenza, e fago votos pola recuperación da normalidade nun prazo razoable.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg8">Secundamos este mediodía unha convocatoria que marca formalmente o inicio dos traballos da Cámara xurdida dos comicios celebrados o pasado 12 de xullo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg9">Cómpre, en primeiro lugar, felicitar as súas señorías pola confianza depositada en cada un de nós polas galegas e os galegos que nos elixiron nas urnas libre e democraticamente, coa seguridade e a confianza de que respondemos a ese sentimento ofrecendo o mellor de cada un ao servizo de Galicia e da súa xente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg10">Sexan especialmente benvidos os deputados e as deputadas que se incorporan pola primeira vez ao Parlamento de Galicia, onde terán ocasión de desempeñar a súa alta encomenda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg11">Somos todas e todos deputados do Parlamento de Galicia, o que supón unha honra e unha responsabilidade que debería situarse por riba dos intereses partidistas e dos postulados ideolóxicos nos que lexítima e democraticamente milita cadaquén.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg12">Dispoñen e disporán neste parlamento de ferramentas abondas ―tecnolóxicas e, sobre todo, regulamentarias― para canalizaren e exerceren as funcións de control e impulso que a Cámara ten encomendadas. Dende a Presidencia animo a todas as súas señorías, con independencia do grupo parlamentario ao que estean adscritos, a utilizaren con intensidade todas as posibilidades que o Regulamento da Cámara pon ao seu dispor, sen máis límites que os fixados polo dereito parlamentario e o respecto ás persoas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg13">Invito as súas señorías a non se desanimar xamais por pensaren que tal ou cal iniciativa podería non prosperar. As únicas que, de entrada, carecen de toda posibilidade de ver a luz son as iniciativas que non se rexistran.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg14">Non fai falta reiterar que, como veu acontecendo ata o de agora, calquera decisión desta presidencia ou dos diferentes órganos que compoñen a Cámara, estará sempre sustentada no parecer favorable dos Servizos Xurídicos, por ser esta a única maneira de proceder con plena solvencia. Porque unha democracia que non respecta a lei, o conxunto das leis, non pode nin debe considerarse unha democracia plena.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg15">Reunímonos nun salón de sesións presidido por unha vidreira que é obra dun galego bo e xeneroso, ao que algúns dos aquí presentes tivemos a honra de coñecer e de tratar. Refírome a Isaac Díaz Pardo, nado agora hai cen anos. Un home polifacético ―artista, pensador e empresario― que non tivo máis obxectivo vital que o engrandecemento de Galicia. Malia ter sido protagonista dunha vida azarosa, vítima da represión e testemuña directa da barbarie desatada tras a sublevación militar de 1936, foi sempre capaz de se repor, por dura que fose a proba por superar. Foi un exemplo de enteireza, dignidade e coherencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg16">De entre os consellos recibidos ao longo da súa vida recordaba don Isaac que &quot;Todos temos a obriga de intervir achegando o que sabemos; non facelo é unha covardía. Se non o facemos, non teremos dereito a criticar e a queixarnos&quot;. Fariamos ben, señoras e señores deputados, en aplicarnos esta filosofía de vida, que se en xeral resulta acaída para calquera momento, tórnase imprescindible nas angueiras cotiás de cantos exercemos responsabilidades públicas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg17">Galicia, España, Europa e o mundo acusamos os efectos da pandemia provocada polo novo coronavirus, a covid-19. Unha pandemia que, con independencia do tempo que tardemos en controlala ou erradicala, seguramente cambiou para sempre realidades e hábitos de vida que ata hai ben pouco considerabamos inmutables.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg18">Canda a dor pola perda de vidas humanas, o sufrimento e as secuelas dos que padeceron e padecen a infección e de cantos atravesaron situacións persoais e familiares desgarradoras, estamos inmersos nunha crise económica, social e sanitaria de proporcións descoñecidas para os nacidos despois da Guerra Civil. Unha crise e uns desafíos maiúsculos fronte aos que nin este parlamento nin ningunha outra cámara lexislativa poden permanecer alleos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg19">Xa o dixen ―e malia a obviedade o repito―: esta deberá ser a lexislatura das persoas, especialmente a das persoas máis vulnerables, como as que padecen na propia carne os efectos da covid-19 nas súas diferentes manifestacións, directas ou colaterais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg20">Neste contexto, señorías, a nosa predisposición para o acordo e a procura de consensos amplos nos asuntos de interese xeral para o país debería ser absoluta. Porque, aínda que non sempre nos decatemos diso, é moito máis o que nos une que o que nos separa. Porque é algo inherente á nosa condición e aos valores humanos, dos que xamais debemos desprendernos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg21">Convido as señoras e os señores deputados a dedicaren polo menos tanto esforzo a forxar acordos como a escenificar diferenzas. Iso —poden estar seguros— é o que a cidadanía nos pide a berros, e sería unha irresponsabilidade non escoitar esa demanda reiterada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg22">Dixen tamén ―e volvo reiteralo― que cómpren discursos sólidos e ben argumentados, na medida en que o artificio e a estridencia están de sobra en calquera institución que aspire, como fai este parlamento, a representar coa maior fidelidade os galegos e as galegas que nos elixiron.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg23">Nunha sociedade que escruta ata o máis mínimo xesto de calquera, a exemplaridade das persoas que exercen cargos públicos ―entre as que, por suposto, nos incluímos as deputadas e os deputados desta cámara― tórnase unha exixencia ineludible, tanto no exercicio das responsabilidades que nos foron encomendadas como no noso proceder cotián no ámbito privado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg24">Na antiga Roma, o xuízo póstumo dun persoeiro público, nomeadamente o dos emperadores, podía acabar impondo castigos como a damnatio memoriae, que implicaba a condena ao esquecemento, ou recoñecementos como a apotheosis, que divinizaba o homenaxeado, polos seus logros en vida.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg25">Infelizmente, na política contemporánea abundan máis os primeiros casos que os segundos. Cambiar esta tendencia é unha responsabilidade compartida e tamén unha necesidade imperiosa, non tanto por preservar o bo nome duns ou doutros, senón para mudar o rumbo da espiral autodestrutiva en que ás veces estamos instalados a política e os políticos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg26">Superarmos a crise de credibilidade da política das institucións ―crise, certamente, menos acentuada en Galicia que na nosa contorna― exixe unha resposta contundente e continuada por parte de todos: das deputadas e dos deputados, que deberán entregarse de cheo cada día no exercicio das responsabilidade asumidas, e tamén da propia cámara, coa Presidencia e a Mesa encabezando esta tarefa coral.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg27">O 21 de decembro de 1980, o pobo galego aprobou en referendo o vixente Estatuto de autonomía de Galicia. Canda aquel &quot;si&quot; expresado nas urnas, os galegos e as galegas convertíanse ―uns, seguramente, sen se decataren e outros, certamente, ilusionados e comprometidos― en partícipes dun proceso de edificación da autonomía política de Galicia, que ten neste parlamento a súa primeira institución. Cómpre neste momento recuperarmos e reforzarmos a ilusión e o compromiso dos pioneiros da Autonomía galega.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg28">Precisamos continuar esforzándonos por mudar a imaxe social do Parlamento de Galicia, co obxectivo último de conseguir que os galegos coñezan e valoren o traballo que aquí se fai, na institución sobre a que pivota a autonomía política de Galicia, na medida en que en excesivas ocasións segue a ser aínda percibida como afastada da rúa e desconectada dos problemas reais da xente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg29">Con independencia do esforzo de cada unha das súas señorías para trasladar á axenda do poder lexislativo a auténtica realidade das galegas e dos galegos, a institución deberá seguir desenvolvendo e afianzando algunhas liñas de traballo iniciadas no pasado con razoable éxito. Falo do programa de visitas guiadas nas súas diferentes modalidades ―agora lamentablemente condicionadas pola covid-19―. Falo de continuar afondando nos mecanismos de participación cidadá e transparencia, no apoio á visibilización e integración da discapacidade e doutros colectivos especialmente vulnerables, ou da posta en valor da colección de arte desta institución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg30">Falo de medidas coas que esta cámara foi pioneira no conxunto dos lexislativos do Estado, razón pola cal podemos e debemos sentirnos lexitimamente orgullosos, porque máis unha vez puidemos abrir camiños e converternos en exemplo para seguir fóra das nosas fronteiras. É un mérito partillado, moi especialmente das deputadas e dos deputados que o fixeron posible.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg31">Esta cámara, os diferentes servizos que integran a Administración parlamentaria e cada unha das persoas que co seu traballo ―calado, máis sempre eficaz― fan posible un funcionamento ordinario do Parlamento de Galicia levan anos avanzando no ámbito das TIC, ata o punto de termos logrado a plena dixitalización da institución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg32">O Parlamento de Galicia foi a primeira administración destas características en contar coa súa propia sede electrónica, que na práctica se traduce en que calquera cidadán, e tamén calquera das súas señorías, pode presentar todo tipo de documentación en modo remoto e sen necesidade de utilizar un só papel. Este feito, unido á permanente actualización dos equipos técnicos, permitiu que a totalidade da Administración parlamentaria funcionase en modo de teletraballo e de maneira plenamente satisfactoria durante o confinamento decretado como consecuencia da covid-19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg33">A experiencia acumulada, a permanente capacidade de superación dos nosos técnicos e a aposta decidida desta presidencia pola extensión das TIC fará que a dixitalización, nas súas diferentes utilidades, ocupe un lugar preponderante entre os obxectivos para este mandato parlamentario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg34">A nosa aposta polas portas abertas debe ser bidireccional: que os galegos e as galegas veñan física ou virtualmente ao Parlamento, mais tamén que o Parlamento, a través das súas deputadas e deputados, se faga presente en calquera punto do país. Mais ha de ser, ao tempo, unha aposta tecnolóxica que se traduza nunha porta aberta virtual, de maneira que calquera residente en calquera dos nosos trescentos trece concellos sinta e perciba o Parlamento, e cada un dos seus setenta e cinco deputados e deputadas, como unha institución próxima ao seu servizo, tamén a golpe de clic.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg35">Falamos de accesibilidade virtual, mais tamén de accesibilidade física a estas dependencias, accesibilidade que ha de mellorar notablemente coas obras que en breve se acometerán neste edificio para suprimir determinadas barreiras que, se cadra, outrora eran imperceptibles, pero que nos nosos días resultan inadmisibles para un espazo destas características.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg36">Señoras e señores deputados, non é preciso recordar que se Galicia dispón na actualidade dun dos autogobernos máis avanzados de Europa, o mesmo que as restantes comunidades de España, iso é consecuencia directa do pacto constitucional formalizado e referendado democraticamente no seu momento. Porque ―e convén recordalo ante o risco da desmemoria― a vixente Constitución española foi aprobada cun 87 % de votos a favor. España e Galicia viviron dende aquela o maior período de estabilidade, crecemento e consolidación do benestar da nosa historia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg37">Como médico e como membro dunha familia de longa tradición sanitaria, recordo perfectamente como era a Galicia de hai catro décadas, e moi particularmente as pésimas condicións de vida da nosa xente. Nestes máis de corenta anos, e a pesar das obvias dificultades do presente, Galicia e España mudaron radicalmente, sempre para mellor, ata consolidaren unha democracia parlamentaria avanzada e un razoable Estado de benestar, que todos debemos esforzarnos en perfeccionar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg38">Este avance é consecuencia directa e non debe custarnos admitir que foi grazas ao pacto constitucional forxado no contexto dunha transición á democracia modélica e con artífices diversos: a sociedade civil, que reclamaba un cambio de réxime; os políticos dun e doutro signo, que empuxaron na mesma dirección; os axentes sociais, os medios de comunicación e a propia xefatura do Estado, que pilotou o proceso. Entre todos foron quen de desmontar aquel omnímodo e devolverlle a soberanía nacional ao pobo español a través da Constitución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg39">Mais do mesmo xeito que este proceso culminou con éxito, e así debe ser recoñecido, os seus protagonistas, uns e outros, na política, na sociedade civil, nas institucións, tamén cometeron erros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg40">Nun estado constitucional e de dereito, que consagra a separación de poderes, xulgar, se for o caso, non é nin debe ser competencia dos políticos. Respectemos e acatemos as decisións da xustiza, todas ―compartámolas ou non―, e centrémonos na responsabilidade que a cidadanía nos encomendou: construírmos e reconstruírmos unha sociedade e unha economía máis necesitadas ca nunca dun empuxe, de enerxía e de colaboración de todas e todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg41">Contribuírmos, cadaquén dende as súas competencias e posibilidades, a restablecer, consolidar e acentuar o clima de estabilidade, liberdade, crecemento e benestar do que gozamos nas últimas décadas tórnase unha tarefa urxente, un desafío que a todos concirne, tamén dende e para Galicia, tamén dende este parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg42">Urxe, co concurso de todos, restablecer o crédito social das institucións a partir de comportamentos individuais caracterizados pola exemplaridade, a transparencia e a honestidade, cun escrupuloso respecto ao marco normativo do que nos dotamos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg43">É de xustiza, nunha xornada coma esta, rememorar o camiño iniciado pola Xeración Nós, da que este ano celebramos o seu primeiro centenario. Nun contexto inzado de dificultades, persoeiros como Otero Pedrayo, Risco, Cuevillas, Losada Diéguez ou Castelao, entre outros, foron quen de abrir un horizonte de esperanza e universalidade para Galicia, a súa cultura e a súa xente, como fixeran as Irmandades da Fala ou o Seminario de Estudos Galegos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg44">Malia que o seu labor foi tronzado de súpeto, e os seus artífices padeceron na propia carne os efectos da barbarie, co paso do tempo, a semente do traballo e do exemplo daqueles galegos &quot;bos e xenerosos&quot; xerminou e deu froito. Coidarmos e engrandecermos cada día os froitos daquel traballo é obriga de todas e todos, sobre todo e moi especialmente dos aquí presentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg45">Señorías, dentro de apenas un ano, este parlamento celebrará catro décadas de vida. Nos corenta anos transcorridos dende aquel afastado 19 de decembro de 1981 en que a Cámara celebrou a súa primeira sesión constitutiva no pazo de Xelmírez, Galicia foi crecendo en autonomía política, en benestar, en servizos públicos, en oportunidades de desenvolvemento e en magnitudes económicas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg46">É evidente que non todo tempo pasado foi mellor, mais non por iso debemos de deixar de rememorar o legado dos que nos precederon na nobre tarefa de dotar Galicia das súas propias institucións de autogoberno, así como o desenvolvemento e a consolidación delas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg47">Quero convidar as súas señorías a volver a vista atrás para, na medida do posible, inspirarnos nas formas e no fondo daquel primeiro Parlamento de Galicia, no que a precariedade de medios ―ata o punto de se reunir nunha sala prestada― se suplía decote co escrupuloso respecto ás formas, unha oratoria coidada e unha permanente procura de consenso, como quedou acreditado coa aprobación, por unanimidade, de boa parte do corpus lexislativo sobre o que se puxo en marcha o noso autogoberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg48">Ante a inmensidade dos retos a que nos enfrontamos, fago votos para que cada un dos aquí presentes poña canto estea ao seu alcance para que sexamos quen de antepor sempre, en calquera circunstancia, os intereses de Galicia e dos galegos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg49">Fago votos para que cada un dos deputados e deputadas desta cámara sexa recordado, pasado o tempo e polos seus propios méritos, como un galego bo e xeneroso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg50">Que así sexa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg51">Moitas grazas.</seg>
+				<kinesic type="applause">
+					<desc>(Fortes aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg52">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg53">Polo tanto, declaro aberta a XI lexislatura do Parlamento de Galicia e invito a todas as deputadas e deputados en pé a escoitaren o himno galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg54">Moitas grazas.</seg>
+				<note>(Soa o himno de Galicia nunha gravación dunha versión coral co acompañamento musical dun órgano.)</note>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg55">Remata a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-09-08-DSPG004.seg56">Bo día a todas e a todos.</seg>
+			</u>
+			<note type="time">Remata a sesión ás doce e trinta e catro minutos do mediodía.</note>
+		</div>
+	</body>
+</text>
+</TEI>

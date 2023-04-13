@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2015-07-23-DSPG008 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2015-07-23-DSPG008 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.9 #parla.uni" n="009">IX Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="008">Número 008</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2015-07-23">23.07.2015</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="92"/>
+			<measure unit="words" quantity="15875"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90008.pdf</idno>
+				<date when="2015-07-23">23.07.2015</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2015-07-23">23.07.2015</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90008.pdf"/>
+			<note type="time">Ábrese a sesión ás doce da mañá.</note>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u1">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg1">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg2">Pídolle á señora Soneira Tajes que proceda á comprobación de asistencia, de quórum.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Soneira Tajes):</note>
+			<u who="#SoneiraMaríaSoledad" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u2">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg3">José Manuel Balseiro Orol: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg4">Xosé Manuel Beiras Torrado: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg5">María Concepción Burgo López: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg6">Jaime Castiñeira Broz (substituído por Mª Carmen Pardo López).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg7">Yolanda Díaz Pérez: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg8">Mª Carmen Gallego Calvar: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg9">Juan Carlos González Santín: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg10">Javier Jorge Guerra Fernández (substituído por  Santiago Freire Abeijón).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg11">Carmen Iglesias Sueiro (substituída por Mª Consuelo Martínez García).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg12">Francisco Xesús Jorquera Caselas: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg13">José Luis Méndez Romeu: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg14">Alberto Núñez Feijóo (substituído por Mª Isabel García Pacín).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg15">Ana Belén Pontón Mondelo (substituída por Tereixa Paz Franco).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg16">Paula Prado del Río: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg17">Pedro Puy Fraga: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg18">Marta Rodríguez Arias (substituída por Agustín Baamonde Díaz).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg19">Cristina Isabel Romero Fernández: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg20">Alfonso Rueda Valenzuela (substituído por Alejandro Gómez Alonso).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg21">Miguel Ángel Tellado Filgueira: Si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg22">E estamos presentes a Mesa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg23">Hai quórum, señora presidenta.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u3">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg24">Moitas grazas, señora Soneira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg25">Solicitude de convocatoria, por iniciativa dos GG.PP. do Bloque Nacionalista Galego e Mixto, dun pleno extraordinario para a comparecencia urxente do presidente da Xunta de Galicia co fin de que explique as xestións da Xunta de Galicia ante a dramática situación do sector lácteo</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg26">Solicitude de convocatoria, por iniciativa do G.P. dos Socialistas de Galicia, dun pleno extraordinario cuxa orde do día sexan as solicitudes de comparecencia urxente do presidente da Xunta de Galicia solicitadas nos docs. núms. 38409, 38412, 38413 e 38414	</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg27">Solicitude de convocatoria, por iniciativa dos GG.PP. da Alternativa Galega de Esquerda e do Bloque Nacionalista Galego, dun pleno extraordinario para a creación dunha comisión de investigación sobre o accidente ferroviario en Angrois</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u4">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg28">Comezamos, entón, polo desenvolvemento da orde do día, que, como vostedes saben, é un punto único de solicitude de convocatoria dun pleno extraordinario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg29">Dado que existen tres solicitudes de convocatorias de pleno extraordinario diferentes e, tal e como foi, polo tanto, comunicado aos distintos portavoces, faremos tres debates coa ordenación que xa lles comentei e votaremos ao final dos debates as tres solicitudes de xeito, loxicamente, separado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg30">Polo tanto, comezariamos pola primeira das solicitudes:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg31">Solicitude de convocatoria, por iniciativa dos GG.PP. do Bloque Nacionalista Galego e Mixto, dun pleno extraordinario para a comparecencia urxente do presidente da Xunta de Galicia co fin de que explique as xestións da Xunta de Galicia ante a dramática situación do sector lácteo</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u5">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg32">Ten a palabra, en primeiro lugar, polo Grupo Mixto, a señora Martínez.</seg>
+			</u>
+			<note type="speaker">A señora MARTÍNEZ GARCÍA:</note>
+			<u who="#MartínezMaríaConsuelo" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u6">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg33">Grazas, presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg34">Bo día a todos e a todas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg35">A solicitude deste pleno extraordinario coa comparecencia do presidente para explicar as xestións da Xunta ante a dramática situación do sector lácteo non é a primeira vez que se fai. Estamos ante unha situación de tremenda e profunda crise no sector leiteiro, un sector estratéxico para o noso país onde o prezo do leite está acadando uns niveis de miseria que non permiten manter as explotacións abertas, estando pagándose actualmente a 0,20 e incluso a 0,16 céntimos por litro de leite; é dicir, moito menos do que custa un litro de auga, por exemplo. É realmente unha cantidade moi inferior ao que se está pagando noutras comunidades que teñen produción leiteira, como pode ser Asturias ou Cantabria. Incluso a presión da industria está chegando ao límite de que non recollen o leite dalgunhas explotacións, como, por exemplo, ten feito xa Leite Río, impedindo, polo tanto, manter as explotacións abertas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg36">Parece imprescindible que a Xunta, e, en concreto, o presidente da Xunta, explique cales son as accións que están levando adiante, xa que a propia conselleira di que a situación non é tan grave e que se está exaxerando a situación. Polo tanto, entendo que está dicindo que os gandeiros e gandeiras menten cando contan a súa realidade, o que me parece gravísimo. O outro día houbo unha manifestación multitudinaria de gandeiros e gandeiras de todo o país queixándose desta explotación e da situación extrema na que se lles está poñendo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg37">Ademais, consideramos que a Xunta está desprezando unha posibilidade importantísima de activar o medio rural, de apostar polas nosas explotacións gandeiras, de aproveitar para crear unha industria gandeira que dea saída ao produto do leite creando valor engadido e tamén creando un nicho de emprego que é fundamental para devolver poboación ao rural, asentar poboación no rural e terminar co envellecemento da nosa poboación e a desertización do noso medio rural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg38">Polo tanto –xa lle paso a palabra ao BNG– cremos que esta comparecencia é imprescindible.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg39">Nada máis.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u7">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg40">Moitas grazas, señora Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg41">Ten a palabra señora Paz.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u8">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg42">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg43">Bos días a todos e a todas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg44">Intentarei brevemente, no tempo que ten este grupo parlamentar, xustificar por que é imprescindíbel a comparecencia do presidente da Xunta de Galiza para dar conta de cal vai ser a actuación do seu goberno en relación co sector lácteo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg45">En primeiro lugar, é imprescindíbel porque o sector leiteiro está nunha situación límite na que xa non é só unicamente un problema de prezos e de perdas nas explotacións senón que o que está en xogo, o que está en perigo, é a propia supervivencia do sector lácteo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg46">É imprescindible, ademais, que esa comparecencia sexa do presidente da Xunta de Galiza, porque a señora conselleira do Medio Rural, por desgraza, está absolutamente invalidada para afrontar o problema do sector lácteo; está invalidada pola súa irresponsabilidade, mesmo displicencia, nas declaracións que fai permanentemente, minimizando a problemática dun sector que agoniza, pero tamén está invalidada porque está absolutamente deslexitimada como interlocutora por un sector moi importante, que ten moito que dicir na solución da problemática do sector lácteo, como é a industria. Exemplo desa deslexitimación foi unha reunión convocada pola propia conselleira o pasado día 11 na que toda a industria practicamente, unanimemente, lle deu plantón e ostentosamente dixo que non tiña nada que negociar con esta señora.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg47">É curioso que fagan isto co Goberno da Xunta de Galiza ao mesmo tempo que cando a señora Tejerinos os convoca no Ministerio e non teñen ningún problema en acudir a esas interlocucións. Isto vén demostrar que precisamente a política da Xunta de Galiza nos últimos anos de desentenderse da problemática do sector lácteo, de deixar que fose Madrid quen ditase toda a política en relación con este sector, ten provocado precisamente esa febleza da Xunta por ter desertado da defensa do sector lácteo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg48">E, en terceiro lugar, cremos que é imprescindíbel que compareza o presidente da Xunta de Galiza porque non estamos unicamente ante un problema sectorial, estamos ante un auténtico problema nacional para Galiza. Tanto que falamos de poboación no medio rural, tanto que falamos de demografía, e non parece que este goberno acabe de ser consciente de que a desaparición do sector lácteo, de que a desaparición das explotacións, vai conlevar, ineludiblemente, a desaparición non só da vida económica senón mesmo diría que da vida humana en moitas partes do noso territorio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg49">O outro día, na manifestación do día 17, á que facía alusión a señora Martínez, moitos gandeiros dicían que o leite era o petróleo de Galiza, e o único que parece non darse conta desta situación é o presidente da Xunta de Galiza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg50">Señoras e señores deputados, non é que esteamos ante un problema no que a moitos gandeiros lles pagan por menos de 20 céntimos polo seu leite, estamos ante un problema no que hai moitos gandeiros aos que directamente non lles pagan. As industrias fanlle o favor de recoller o leite para que non teñan que tiralo e, polo tanto, enfrontarse aínda por riba a sancións medioambientais por tirar co leite e a cambio simplemente lles din que non se sabe nin cando lles van pagar nin se lles van pagar nin a como lles van pagar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg51">Hai moitas explotacións, e non precisamente explotacións pequenas –desas que moitas veces lle temos escoitado ao Partido Popular que non son viables e que, polo tanto, están condenadas a desaparecer–, senón explotacións de 200 e de máis vacas, que son as que están en grave perigo de desaparecer neste país. Hai máis de 3.000 explotacións lácteas neste momento en risco grave de desaparición, co que iso comporta para o sector lácteo. Non estamos ante un problema de mercado, señoras e señores do Partido Popular, porque se non non se explicaría por que, non habendo unha redución do consumo de leite no Estado español, que segue estando nos 9 millóns, cando a nosa produción global non dá cuberto máis do 70 % e seguimos importando leite doutros países, se dá esta situación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg52">Tampouco sería explicable unicamente en termos de mercado por que precisamente Andalucía –e escoiten ben de que comunidades lles vou falar– Estremadura e Castela-A Mancha están aumentando espectacularmente a súa produción de leite ao mesmo tempo que en Galiza non nos deixan producir; comunidades que non teñen actitudes materiais nin territoriais para a produción de leite e onde ademais de estar aumentando espectacularmente a súa produción lles pagan moito máis do que lles pagan aos gandeiros galegos. Eu non sei se ao presidente da Xunta de Galiza non lle preocupa que poidamos estar ante unha estratexia da industria de deslocalizar a produción de leite, de centralizar a produción de leite, nos lugares máis próximos á comercialización e na que para Galiza nos deixen simplemente a produción marxinal, o que poderiamos dicir que sería que Galiza acabe condenada a ser o low cost da produción do leite no Estado español.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg53">Por todas estas razóns cremos que é absolutamente imprescindíbel que compareza o presidente da Xunta de Galiza, xa non só para dar conta da situación do sector lácteo, que esa a coñecemos perfectamente porque falamos coas persoas afectadas, senón sobre todo para dicirnos a este Parlamento e para dicirlles a esas miles de persoas que están coa súa vida pendente dun fío, que non dan pagado as súas débedas, que non dan sacado adiante as súas explotacións e polo tanto, os seus proxectos vitais, qué ten pensado facer a Xunta de Galiza para salvar non só as súas situacións senón sobre todo para salvar un sector que é estratéxico para este país; qué ten pensado facer o presidente da Xunta de Galiza para obrigar as industrias e a distribución a que os gandeiras tamén poidan participar  da cadea do valor do leite, para que o prezo se configure de abaixo arriba e non como está sendo actualmente, para garantir un prezos mínimos e para garantir a recollida.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg54">É moi pintoresco, señoras e señores do Partido Popular, que aquí sempre nos espetan na cara, cando falamos de protexer o sector lácteo, as normas da competencia e a lexislación internacional. Que eu saiba, está prohibido vender por debaixo do custo en calquera sector, e sen embargo aquí todos e todas vemos como hai leite a 40, a 37 ou a 36 céntimos o litro nos lineais dos supermercados e a ninguén parece preocuparlle. Todos estamos vendo como se lles obriga aos gandeiros a vender moi por debaixo dos prezos de produción e a ninguén parece preocuparlle.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg55">Por iso –e remato señoras e señores deputados–, cremos –e esperamos que así o entenda tamén o Partido Popular– que esas  9.200 persoas que seguen sendo titulares de explotación, pero tamén eses outros miles de persoas cuxa actividade económica depende tamén directa ou indirectamente do sector lácteo, e o conxunto do país, que o ve como un sector estratéxico para o noso futuro, merecen que o Partido Popular acepte que o señor presidente da Xunta de Galiza teña que vir aquí deseñar unha estratexia para salvar o sector lácteo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg56">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u9">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg57">Moitas grazas, señora Paz.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg58">Rolda dos grupos non propoñentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg59">Ten a palabra, polo Grupo da Alternativa Galega de Esquerda, o señor Beiras Torrado.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u10">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg60">Vou dicir, para empezar, que subscribo absolutamente toda a exposición e a argumentación expresada tanto pola señora Martínez como por dona Tereixa Paz, esta última en nome do Bloque Nacionalista Galego e, polo tanto, non o vou reiterar, porque, ademais, levamos moito tempo, anos, reiterando argumentacións que nunca foron refutadas, pero que son como esas argumentacións ad nauseam –que se di na lóxica– pero que resultan, seguramente, nauseabundas para o grupo que goberna, claro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg61">O problema, a diferenza, é que eu non espero que o Grupo Popular, polo menos os dirixentes dos populares, e os que ocupan o Goberno da Xunta de Galiza, entendan nada, porque xa o entenden; non é que non o entendan, o problema é que están doutra banda da trincheira e serven intereses que son antitéticos aos intereses do campesiñado galego,  de Galicia. Polo tanto, non é que non o entendan, enténdeno perfectamente, por iso fan o que fan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg62">E todo forma parte de algo que eu xa, polo menos, levo expresado dende hai certo número de anos: unha estratexia de exterminio do campesiñado. E ¿por que? Pois simplemente porque, en primeiro lugar, colisiona cos intereses das razóns de Estado, da estratexia do Estado, tanto no inicial Mercado Común Europeo como despois na adhesión a ese Mercado Común e Comunidade Europea e despois na Unión Europea. E, en segundo lugar, porque son unha raza inferior, sempre foi así. É dicir, o campesiñado galego –os galegos en conxunto– sempre foi considerado..., aquilo de &quot;gallego el último&quot;. Todo iso aínda dura no subconsciente de certa caverna carpetovetónica, integrista, e sae a relucir cada vez que se rasca un pouco na pel ou no coco, pero, sobre todo, na ideoloxía procesada polos dirixentes do Partido Popular. Son unha casta inferior, condenada a desaparecer, porque son un residuo histórico. Eu era moi novo cando xa se escribía que &quot;los campesinos gallegos no tienen espíritu empresarial&quot;. ¡Manda puñeta!, ¿non? Porque nada menos que Díaz de Rábago, a finais do XIX –e non era sospeitoso de marxismo-leninismo, aínda non existía o leninismo–, explicara perfectamente que a estruturación das explotacións agrarias galegas precapitalistas era a máis racional posible para as súas... Claro, logo resulta que espírito empresarial o tiñan os empresarios, que, moi ben de subvencións, pero afundiron a economía deste país, a empezar polos banqueiros, eses si.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg63">Hai unha política de exterminio, e, ante iso, unicamente a mobilización constante e dar saltos adiante que progresen no que acaba de acontecer o 24 de maio pode dar lugar a que, efectivamente, isto mude. É necesaria unha mutación política rotunda. Agora, aquí, nesta Cámara, non imos conseguir nada porque van a piñón fijo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg64">Unicamente quero facer unha mención nos minutos que me queden –non sei cantos– dun artigo publicado nun xornal deste país, nada menos que o 4 de marzo de 1983, e vou ler só algúns anacos dese artigo. Fai o comentario dun libro de Luis Moure Mariño –que se considera excelente– que se titulaba La desigualdad humana: &quot;Dícese que estamos ante uno de los libros más importantes que se han escrito en España en los últimos anos. Constituye una prueba irrefutable de la falsedad de la afirmación de que todos los hombres son iguales, y, por ende, las normas, que son consecuencia de ellos. Ya en épocas remotas –siglo VI a.c.– se afirmaba como verdad indiscutible que la estirpe determina al hombre tanto en lo físico como en lo psíquico, y estos conocimientos han sido confirmados más adelante por la ciencia. Desde que Mendel formulara sus famosa leyes, nadie pone ya en tela de juicio que el hombre es esencialmente desigual, no solo desde el momento de su nacimiento sino desde el propio de la fecundación&quot;. Despois esténdese nunha explicación divulgadora de bioloxía, de xenética: &quot;El hombre nace predestinado para lo que habrá de ser. La desigualdad natural del hombre viene escrita en el código genético, etc, etc&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg65">É ben sabido que as leis de Mendel, que, obxectivamente, teñen o seu valor –logo foron superadas, por suposto–, foron unha versión ideolóxica determinada e foron a base da ideoloxía nazi que conduciu aos campos de exterminio e á definición do que eran os &quot;untermenchen&quot;, &quot;os subhumanos&quot; e, polo tanto, había que acabar con eles. É o que se está practicando no fondo co campesiñado galego. Son untermenchen, son subhumanos e, polo tanto, hai que acabar con eles, se non fisicamente, polo menos destruíndo as súas bases de subsistencia material.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg66">E nese mesmo artigo dise: &quot;Por eso todos los modelos, desde el comunismo radical hasta el socialismo atenuado...,&quot; –teñan coidado, non pacten con eses señores, porque xa saben que... Vailles pasar como a SPD nos anos trinta...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u11">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg67">Remate, por favor, señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u12">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg68">...en Alemaña, antes do III Reich– &quot;que predican la igualdad de riquezas y establecen para ello normas cuya filosofía última es la de la imposición de la igualdad, son radicalmente contrarios a la esencia misma del hombre&quot;. ¿Saben vostedes quen asinaba este artigo, publicado en El Faro de Vigo el 4 de marzo de 1973? Mariano Rajoy Brey, diputado de Alianza Popular en el Parlamento gallego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg69">Polo tanto, ¿que me van contar? ¿Como pretenden convencer a señores e señoras que dependen do actual presidente do Goberno español, que escribía estas cousas e nunca se desdiciu, se evidentemente predica que a desigualdade é xa xeneticamente unha característica que é determinista? Iso era o materialismo filosófico de Sade, polo menos...;</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u13">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg70">Moitas grazas, señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u14">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg71">...non era o materialismo científico nin dialéctico, o materialismo filosófico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg72">¿Que centella se pode esperar de xente así?, que, naturalmente, seguen adiante porque lles importan un nabo os subhumanos, que son os labregos galegos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg73">Nada máis.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u15">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg74">Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg75">Ten a palabra a señora Gallego Calvar.</seg>
+			</u>
+			<note type="speaker">A señora GALLEGO CALVAR:</note>
+			<u who="#GallegoMaríaCarmen" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u16">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg76">Moitas grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg77">Bos días, señoras deputadas e señores deputados.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg78">O Grupo Parlamentario Socialista vai apoiar a petición da comparecencia do presidente da Xunta para que explique a estratexia de futuro acerca do sector lácteo, posto que tamén nesta mesma sesión e a continuación o meu compañeiro portavoz explicitará a petición que facemos desde o Grupo Socialista no mesmo senso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg79">Entendemos que o prezo do leite, que neste momento está a 20 céntimos de euro e a menos –nos casos nos que se paga, porque noutros nin tan sequera se chega a pagar–, está sufrindo a peor crise dende os últimos trinta anos. E a verdade é que non deixa de ser anunciada esta crise, porque os grupos parlamentarios da oposición, o propio sector produtor, levan nestes últimos seis anos reiteradamente solicitando do Goberno galego unha atención que, dende logo, non reciben.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg80">A política do Goberno do señor Feijóo en canto ao sector lácteo pódese resumir en dúas palabras: ausencia e subordinación. Ausencia en enfrontar os problemas que ten o sector lácteo e subordinación ás decisións que adopta o Goberno central, que, como as de onte mesmo nesa xuntanza do Ministerio, son absolutamente ridículas e insuficientes. Pretender solventar esta crise do sector lácteo cun millón e medio de euros sobrepasa con moito o ridículo, cando temos, por exemplo, que en Francia, que están pagando o leite a 30 céntimos de euro, vanse poñer á disposición do sector 600 millóns de euros xa de inicio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg81">A verdade é que o contraste evidencia claramente cal é a posición política dun e doutro goberno respecto dun sector que para Galicia é fundamental, posto que, a pesar de todo, seguimos sendo líderes en produción, aínda que, dende logo, non líderes na vangarda política, como deberamos de selo. Máis da metade da produción española segue residindo en Galicia –iso seguramente por pouco tempo–. Nós entendemos que nestes últimos seis anos o Goberno galego está ausente das solucións que demanda o sector lácteo, que isto está poñendo en risco o sector lácteo e que, ademais de poñer en risco o sector lácteo, está poñendo en risco unha parte importante do desenvolvemento rural, posto que se no medio rural non existen sectores que poidan favorecer que a xente poida seguir residindo no medio rural, está agravándose o problema que ten Galicia de desertización do medio rural, de abandono da poboación do medio rural. E entendemos, ademais, que o comportamento do Goberno galego, ademais de ser a todas luces insuficiente, ás veces raia no bochorno, porque escoitar a conselleira de Medio Rural dicir nos medios de comunicación hai escasas datas que se ía reunir coas organizacións de consumidores de Galicia para ver se se poñía en valor o consumo do leite e, polo tanto, se incrementaba o prezo, despois deses seis anos de actuación, sen tan sequera ter feito ese xesto ao inicio da lexislatura, sen ter feito un esforzo de negociación de contratos homologados e sen ter feito un esforzo de diversificación da actividade económica do sector lácteo no medio rural, a verdade é que é desesperante para o sector produtor; e así o están manifestando nas rúas de Galicia un día tras outro –iso si, tamén con escaso éxito– diante do Goberno galego, que segue ausente, tanto a conselleira como o presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg82">Polo tanto, nós imos apoiar esta solicitude de comparecencia do presidente porque tamén o noso grupo a presenta e porque entendemos que é un problema urxente. E cremos que hai que deseñar medidas urxentes para atender esta crise urxente, pero tamén que hai que deseñar unha estratexia de futuro tendo en conta que a partir do pasado 1 de abril desapareceu o sistema de cotas, que era algo que se vía vir, e este goberno non fixo nada en prevención desa nova situación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg83">Máis nada e moitas grazas, señora presidenta.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u17">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg84">Grazas, señora Gallego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg85">Grupo Parlamentario Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg86">Ten a palabra a señora García Pacín.</seg>
+			</u>
+			<note type="speaker">A señora GARCÍA PACÍN:</note>
+			<u who="#GarcíaMaríaIsabel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u18">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg87">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg88">Bo día, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg89">A diagnose da situación actual do sector lácteo nesta campaña 2015-2016 –a primeira sen cotas– pódese cualificar de complicada, difícil e cunha incerteza de cara ao futuro, pero non coincidimos nos termos utilizados pola oposición. Nin estamos ante unha situación dramática nin límite, estamos nun escenario de transición onde a distribución, a industria, e sobre todo o sector produtor, están obrigados a entenderse, a comprometerse con acordos que aseguren a estabilidade das relacións contractuais e muden a volatilidade dos prezos en orixe pola súa propia consolidación e viabilidade futura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg90">Feitos que avalan estas afirmacións son as diversas reunións, negociacións, mobilizacións e reivindicacións mediáticas dos axentes do sector, onde as administracións, señorías, son as protagonistas. E dentro das competencias recoñecidas polas novidosas lexislacións actuais –novidosas e recentes lexislacións actuais–, tanto o Ministerio de Agricultura como a Consellería do Medio Rural, as deputacións, os concellos, actúan, señorías, con axilidade e rigor dentro das súas responsabilidades. Exemplos témolos todos os días nos titulares dos medios, onde hai reunións coa Inlac a nivel nacional, onde hai reunións da Consellería do Medio Rural e da señora conselleira cos representantes dos produtores, onde hai mobilizacións nas que participan as entidades e os responsables locais e onde hai iniciativas sociais como mocións e outras nos diferentes concellos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg91">Señorías, nunha comparativa, o mercado lácteo, ao longo dos últimos anos, caracterizouse por crises dos prezos en orixe: a crise –recordemos– de 2008-2009 –naquela non eran gobernos do Partido Popular os responsables dunhas fortes caídas–; a crise de 2012. Señorías, pero ninguén se acorda a día de hoxe das campañas do 2013-2014, cando os prezos e as marxes de beneficios si existían. Moitas das medidas adoptadas polas administracións son normativas para protexer a produción, vertebrar a cadea dende regulamentos europeos, dende lexislacións a nivel nacional, dende reais decretos, decretos autonómicos, para habilitar a aplicación do paquete lácteo, cos seus correspondentes plans de melloras en materia de sancións, inspeccións, que, señorías, parece que non abondan para conseguir os obxectivos de estabilidade, transparencia e seguridade que se demandan dende a oposición.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg92">Pero súmanse a estas frutíferas accións normativas, nas que seguen teimando todas as administracións e os responsables nestas materias, outras accións non menos importantes, señorías. Porque falaba agora a señora portavoz que me precedeu no uso da palabra de axuda no Estado francés de 600 millóns de euros. Señorías, na campaña que acabamos de rematar existiron axudas directas ao sector por case 95 millóns de euros; para a incorporación da mocidade, señorías, máis de 5 millóns de euros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg93">Señorías, falaban vostedes de proxectos vitais. Existen, señora Paz, proxectos vitais onde a nosa mocidade aposta por investir no rural e, sobre todo, nas explotacións lácteas empresariais, señor Beiras.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg94">Tamén recordemos medidas específicas que se habilitaron dende o Ministerio e que veñen ser a continuidade de medidas específicas que a Consellería do Medio Rural xa adoptou durante estes últimos anos, como o apoio ao circulante, préstamos cunhas condicións vantaxosas; accións e actuacións onde a Consellería e o Goberno do señor Feijóo demostran día a día a carón de quen se atopa a responsabilidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg95">
+					Vostedes teiman na súa crítica destrutiva, intentan sempre manipular, falsificar os datos, porque fan referencia aos pagamentos por quilos de leite de 19 e 20 céntimos. Señorías, cando vostedes falan de deslocalización, vostede afirma que en Galicia non se produce máis. Pois ese, realmente, é un dos problemas, señorías, que a produción non se axeita á demanda, que as nosas explotacións están producindo por riba das cotas asignadas en anteriores campañas. Ese é o problema, ese leite é o que se está pagando quizais a eses prezos, pero non existe, hoxe por hoxe, nin falla de recollida, señora Paz...
+					<vocal type="murmuring">
+						<desc>(A señora Paz Franco pronuncia palabras que non se perciben.)</desc>
+					</vocal>
+					A verdade é que vostede non pisa o rural, non está a carón das explotacións. Vostede o que intenta é seguir manipulando e alarmando o sector, incentivando a incerteza do sector, e fraco favor lle están a facer.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg96">Pero, señorías, ao Grupo Parlamentario e ao Goberno o que lle preocupa é o sector lácteo, e teno manifestado coa súa presenza en todos os plenos dos anteriores períodos de sesións e nas comisións. Porque vostedes afirman moi alegremente que están ausentes, pois eu creo que todo o contrario.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u19">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg97">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora GARCÍA PACÍN:</note>
+			<u who="#GarcíaMaríaIsabel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u20">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg98">Realmente, a iniciativa que vostedes propoñen a imos rexeitar porque no vindeiro pleno anunciado para debater o teito de gasto do orzamento está rexistrada nesta Cámara a comparecencia da señora conselleira do Medio Rural para falar do sector lácteo, como vén acontecendo en todos os períodos de sesións e en todas as comisións, dúas cada mes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg99">Señorías, realmente, aquí a única irresponsable é a oposición, non o Goberno actual...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u21">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg100">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora GARCÍA PACÍN:</note>
+			<u who="#GarcíaMaríaIsabel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u22">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg101">...nin os responsables políticos do grupo ao que pertenzo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg102">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u23">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg103">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg104">Rolda de réplica dos grupos propoñentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg105">Ten a palabra, polo Grupo Mixto, a señora Martínez.</seg>
+			</u>
+			<note type="speaker">A señora MARTÍNEZ GARCÍA:</note>
+			<u who="#MartínezMaríaConsuelo" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u24">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg106">Grazas, presidenta, moi brevemente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg107">Dende logo, escoitar o Partido Popular é alarmante, un partido ao que lle importa nada Galiza, ao que lle importan nada os galegos e as galegas e ao que o único que lle importa é tapar a súa propia corrupción e os seus propios problemas internos; é do único que se preocupa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg108">É dun valor incrible afirmar aquí que o problema é a superprodución, afirmar aquí que dende a oposición se incentivan as protestas do sector lácteo. ¿Pero vostedes en que mundo viven? Vostede si que nunca pisou o rural, e se o pisa é para que a escoiten.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg109">Non saben escoitar, e como non escoita nin vostede nin a conselleira, non se enteran e non se queren enterar do que pasa no país, porque é o que lles interesa. Porque vostedes só defenden os intereses da industria da distribución, non os intereses dos gandeiros e das gandeiras. Nin defenden este país, porque sería a primeira vez que o fixeran; non o fixeron nunca e non esperamos que o fagan agora.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg110">Pero teñan claro que quen se está cargando o sector lácteo galego é o Partido Popular, e conscientemente están vostedes abocando ao peche a produción láctea do noso país. E tamén están vostedes coa súa política condenando o medio rural á desertización, iso é o que están facendo coa súa política.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg111">E, dende logo, non vale a comparecencia dunha conselleira que está totalmente deostada e que non vale xa para falar nin co sector produtor nin, dende logo, para dar información a este Parlamento, porque nunca lla deu.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg112">Moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u25">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg113">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg114">Ten a palabra a señora Paz.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u26">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg115">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg116">Eu, se a señora presidenta mo permite, vou formular unha emenda á iniciativa que presentou este grupo parlamentario, a ver se o Partido Popular a acepta, que é pedir a comparecencia urxente do presidente da Xunta de Galiza para que nos veña falar do ben que lle foi ao sector lácteo no 2013 e no 2014. Porque despois da intervención da señora portavoz, parece que aquí o importante non é falar do que pasa agora, senón do que supostamente pasou nos anos 2013 e 2014.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg117">
+					Miren, eu estou estupefacta polas manifestacións que fixo a señora García Pacín de dicir –de atreverse a dicir, vostede que ademais é dunha comarca leiteira– que a situación dos gandeiros non é nin dramática nin está nunha situación límite
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					, que o único que estamos é...
+				</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u27">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg118">Silencio, por favor.</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg119">Silencio, por favor, que ten a palabra a señora Paz. Continúe, señora Paz.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u28">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg120">...que o único que estamos...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u29">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg121">Señor Beiras, non ten a palabra. Ten a señora Paz a palabra. Faga o favor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg122">Señora Paz, continúe.</seg>
+				<vocal type="murmuring">
+					<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg123">Pero ela está calada xa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg124">Continúe, señora Paz.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u30">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg125">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg126">Aquí o único que estamos é nun período de transición, é certo, estamos nun período de transición cara á defunción do sector lácteo galego. E claro, nós somos tan irresponsables, os da oposición, que alertamos desta situación. Debemos ser tan irresponsables como o Goberno francés, que onte aprobou un paquete extraordinario en relación co sector lácteo, xa non só de 600 millóns de euros, a maiores; porque vostede sempre nos vén aquí coa ladaíña das axudas da PAC.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg127">
+					Pero é que, mire, os 95 millóns de euros que se destinaron ao sector lácteo durante o ano pasado non foron grazas a este goberno. Perdóeme que llo diga
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					, pero as axudas da PAC veñen determinadas...
+				</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u31">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg128">Silencio, por favor.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u32">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg129">...para cada período operativo polos orzamentos da Unión Europea. É que parece que nos queren meter os dedos nos ollos permanentemente, e mire, eu, polo menos, teño gafas, teño protexidos os ollos, de momento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg130">E mire, o Goberno francés, que é tan irresponsable e que o seu sector está tan mal que están cobrando unha media ponderada de 30 céntimos por litro, 4 céntimos máis ou 5 do que están cobrando aquí, tamén considera que a situación é límite. E por iso, ademais dos 600 millóns de euros, adoptou medidas para modificar o paquete lácteo, porque seguen considerando que a política contractual é insuficiente, e iso que en Francia está bastante máis avanzada que aquí.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg131">E tomaron medidas para subir os prezos do leite, e tomaron medidas para desendebedar as explotacións, e nada que ver a débeda das explotacións francesas coas de aquí, que tiveron que gastar máis de 200 millóns de euros para ter dereito a producir, para ter cota, que agora é un papel mollado que non vale para nada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg132">Pero, sobre todo, señoras e señores...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u33">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg133">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u34">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg134">...–e remato, señora presidenta– é tan irresponsable o Goberno francés que o propio señor Valls e o propio señor Hollande colleron a distribución polas orellas e metéronas ao rego para que non utilicen o leite e os alimentos como elemento de reclamo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg135">O que pasa é que, claro, aquí, no Estado español, seguro que temos un problema co Partido Popular, que é que non poden coller ao señor Roig polas orellas porque os ten collidos a vostedes pola caixa B.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg136">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u35">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg137">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg138">Continuamos coa segunda das solicitudes de convocatoria dun pleno extraordinario, esta vez por parte do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg139">Solicitude de convocatoria, por iniciativa do G.P. dos Socialistas de Galicia, dun pleno extraordinario cuxa orde do día sexan as solicitudes de comparecencia urxente do presidente da Xunta de Galicia solicitadas nos docs. núms. 38409, 38412, 38413 e 38414</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u36">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg140">Ten a palabra o señor Méndez Romeu para...</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg141">Señor Méndez Romeu, ¿é vostede o que fala?</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u37">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg142">Si.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u38">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg143">Señor Méndez Romeu, ten a palabra.</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u39">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg144">Cando hai uns días o señor presidente da Xunta anunciaba urbi et orbi que pensaba esgotar a lexislatura, o correlato normal para calquera persoa que siga o acontecer diario de Galicia era que a Xunta se poñería a traballar. É dicir, que abandonaría a pasividade que reina na Administración galega dende hai moito tempo e que se traballaría, alomenos, nas dúas frontes básicas dun goberno: a produción normativa ou a execución orzamentaria, ambas as dúas abandonadas e substituídas por unha sucesión de notas de prensa, entrevistas, declaracións, filtracións interesadas; é dicir, formas espurias de información. Ata tal punto que dende hai moito é inversamente proporcional a actividade da Xunta co caudal de propaganda, a menor actividade, maior abundancia da propaganda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg145">Pero iso si, o presidente continúa rizando o rizo coas declaracións ambiguas, alimentando deliberadamente as especulacións que ao final retratan unha imaxe inesquecible dun presidente que quere fuxir canto antes da súa obriga e ao tempo se postula abertamente, non se sabe moi ben para que outras responsabilidades.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg146">Mentres, o Goberno galego carece, como acabamos de ver neste asunto e comentaremos agora en máis, de obxectivos comprometidos e da vontade de resolver os problemas da sociedade galega.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg147">Logo de seis anos de Goberno popular só unha minoría de cidadáns galegos, que se corresponden cos de maiores rendas ou patrimonios, pode dicir que ten mellorado a súa situación coa crise ou sen a crise; para o resto da poboación a situación é hoxe moito peor logo das políticas dos gobernos dos señores Rajoy e Feijóo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg148">Hoxe propoñemos que rachando o costume inveterado do presidente teña que comparecer en pleno para dar conta, alomenos, de catro asuntos. Sabemos que o feito de que comparecera para tratar calquera asunto en si mesmo sería unha nova, sería unha aportación inédita deste presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg149">Propoñemos, en primeiro lugar, que compareza para combater a desigualdade rampante. Denúnciana todos os informes, o último o do Consello Económico e Social de Galicia. Desigualdade que ten varias dimensións, ten unha dimensión suprarrexional, porque durante este goberno Galicia retrocede na converxencia coa media europea. Cando vostedes chegaron ao goberno Galicia tiña como renda per cápita o 92 % do PIB europeo, hoxe ten nove puntos menos, o 83 %; desigualdade que ten unha dimensión moi preocupante dentro do país entre os preceptores das rendas máis altas e as rendas máis baixas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg150">Datos EPA, 777.000 asalariados galegos: a primeira fila, o primeiro 10 % dos asalariados galegos ten como ingreso medio bruto 410 euros mensuais; ben por debaixo do salario mínimo. Son nada menos que 70.000 persoas, o 9 % dos asalariados. E se miramos a segunda fila, que afecta o 11 %, o salario bruto mensual é de 818 euros. É dicir, 1 de cada 5 traballadores neste momento en Galicia está en situación de pobreza, aínda que teña traballo, aínda que teña un salario. E xa vostedes poden decatarse de ata que punto se pode vivir con ese nivel de rendas salariais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg151">Mesmo se chegamos á terceira fila, é dicir, se chegamos ao 30 % dos traballadores galegos, non chegan a ser mileuristas en termos brutos. E, ademais, son precisamente os que menos gañan os que máis perden coa crise. Durante estes anos os ingresos das rendas máis altas baixaron un 4 %, os das rendas máis baixas un 23 %, seis veces máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg152">E, ademais, hai estudos a día de hoxe que identifican e que fan o retrato robot da pobreza laboral, da pobreza dos que son asalariados. Xa non estamos nin a falar dos que están desempregados con percepción e dos que están desempregados sen subsidio nin percepción.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg153">Pois ben, os pobres laborais, os que traballan e teñen estas rendas tan baixas, son persoas que traballan a tempo parcial, maior discriminación que a tempo completo; son mulleres novas en proporción de 3 a 1 cos varóns; son persoas con pouca antigüidade. Hoxe mesmo se nos volve ilustrar que son os contratos de menor duración os que teñen maior rotación, que traballan en empresas pequenas e que traballan no sector servizos; son todos os traballadores do emprego doméstico, da hostalería, do comercio ou dos servizos auxiliares das empresas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg154">Consecuencias: exclusión, dualización e precarización non só salarial, senón mesmo das condicións vitais de existencia. E iso non se palía –como se sabe ademais en todos os países do noso contorno– coas rendas de dependencia, coas rendas da risga e coas axudas das organizacións non gobernamentais, que o que fan é perpetuar esa situación da que é cada vez máis difícil fuxir.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg155">Pois cremos que sobre isto a Xunta a día de hoxe non ten feito nada para paliar e inverter esa situación. É máis, a evidencia é que nin sequera forma parte das súas preocupacións, e que afectan estes datos como efectos colaterais da reforma laboral que vostedes aprobaron.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg156">Solicitamos, ademais, a comparecencia do presidente para abordar dous asuntos relacionados co medio rural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg157">Primeiro, o sector lácteo. Os argumentos foron explicitados pola señora Gallego, e non teño máis que engadir, aínda que a intervención da señora Pacín me provoca alarma. Porque, señora Pacín, está ben que retoricamente vostede acuse de todos os males a oposición. Pero, oia, ¿cre vostede que a semana pasada 15.000 gandeiros galegos perderon un día de traballo para vir pasear baixo o sol de Santiago? ¿Estaba vostede alí escoitando o que se dicía? ¿Foi vostede testemuña de que alí escoitando o que se dicía, respaldando coa súa presenza, había alcaldes do Partido Popular? ¿E decatouse vostede de que o que se poñía en cuestión era a falta dunha política que dera resposta ao que sobrepasa a capacidade individual ou colectiva dos gandeiros? ¿A necesidade de poñer a distribución e de poñer a industria, conxuntamente cos produtores, a buscar unha solución a estes problemas co respaldo do Goberno?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg158">Vostede parece que non estivo alí, e, dende logo, que se estivo non escoitou a xente que alí falou, e que non foi testemuña de quen eran as persoas que alí estaban presentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg159">Quero subliñar que na materia de incendios forestais, pola que tamén pedimos a comparecencia do presidente, a señora conselleira este ano non tivo tempo nin considerou oportuno presentarse aquí a falar do Pladiga. É certo que o Pladiga moitas veces parece que non ten moito que aportar, que son ideas xerais que se repiten ano tras ano. Pero tamén é certo que nestes días, onte mesmo, se está denunciando que o que vostedes consideran datos principais do dispositivo contra o lume, o que chaman pomposamente as brigadas, que na práctica están faltas de efectivos e que vostedes lle chaman brigadas a conxuntos dun traballador ou de dous traballadores, en moitos casos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg160">Iso é o que se está a denunciar sistematicamente, ou que a día de hoxe hai brigadas non operativas na maioría dos concellos galegos, ou que o traballo de prevención está totalmente desatendido, ou que se están utilizando en moitos casos estas brigadas municipais como meros equipos de protección civil dos concellos, iso si, pagadas cos fondos de prevención europeos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg161">Pero máis aló destes datos, señorías do Grupo Popular, o que está posto de manifesto é que un ano máis o único dispositivo real contra a loita dos lumes é o que existe dende tempo inmemorial na conciencia dos cidadáns: a climatoloxía. Se a climatoloxía axuda, os lumes estarán controlados; se a climatoloxía é adversa, pois a culpa será... Bueno, basta escoitar a conselleira para saber de quen é a culpa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg162">E, dende logo, vostedes teñen rexeitado ao longo dos anos que levan gobernando que exista unha verdadeira política de prevención ao longo de todo o ano para evitar os incendios.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg163">Cuarto asunto polo que demandamos a comparecencia do señor presidente da Xunta: para explicar a supresión de servizos públicos no medio rural. Porque está ben o discurso das directrices de ordenación do territorio ou do Plan de dinamización demográfica, pero o que si está a acontecer fronte ao que din os documentos oficiais é que se pechan postos de facultativos nos ambulatorios rurais e que se pechan –onte mesmo saía a última relación– colexios por toda a xeografía galega.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg164">Non hai a necesaria dotación de servizos que invite... Hoxe mesmo tamén se fala de escolas infantís pechadas, non hai necesaria dotación de servizos para que os cidadáns consideren que vivir no medio rural é viable, é sostible e que, ademais, permite unha calidade de vida semellante ao doutros hábitats.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg165">E unha última cuestión. Onte, diante de todo isto, como un gran descubrimento, tres membros do Goberno anúnciannos que Galicia, quérese dicir o rural galego, vai perder un millón de habitantes nada menos, o 40 % nos próximos anos. Eu non sei se é que os conselleiros quedaron sorprendidos diante destas cifras de dimensión verdadeiramente catastrófica ou se realmente o consideran como algo inevitable, como as pragas de Exipto. Porque o certo é que non existe nin existiu onte ningunha proposta clara para levar a adiante medidas correctoras desta desertización demográfica.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg166">E no segundo turno volveremos con máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg167">Moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u40">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg168">Moitas grazas, señor Méndez Romeu.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg169">Rolda de grupos non propoñentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg170">Grupo Mixto, señora Martínez.</seg>
+			</u>
+			<note type="speaker">A señora MARTÍNEZ GARCÍA:</note>
+			<u who="#MartínezMaríaConsuelo" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u41">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg171">Grazas, presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg172">Ben, dar o apoio a estas solicitudes de comparecencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg173">En principio, e en relación coa primeira solicitude sobre a desigualdade, consideramos que o incremento da desigualdade é un escándalo neste país. Esta crise serviu para que os ricos se fagan máis ricos e para que os pobres sexan máis pobres, e, dende logo, está servindo para eliminar a clase media galega. Os salarios –como dicía o voceiro do Partido Socialista– chegaron a un nivel de precariedade tal que traballar a xornada completa xa non garante que un poida cubrir as necesidades vitais mínimas. Necesidades vitais mínimas como poden ser a vivenda ou unha alimentación axeitada para toda a familia, incluídos os nenos, nenas e enfermos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg174">Tamén unha desigualdade baseada nunha reforma laboral destrutiva, bestial, aniquiladora da clase traballadora, que entregou todas as armas á patronal, deixando a clase traballadora totalmente desprotexida e en mans dos seus empregadores. Unha reforma laboral que serviu para reducir salarios, para reducir xornadas obrigatoriamente; cada vez máis poboación traballa a tempo parcial, o cal quere dicir tamén salario parcial, nunha comunidade que xa ten os salarios máis baixos do Estado. E tamén unha reforma laboral que levou a ter o despedimento practicamente gratuíto, porque libre xa era e segue sendo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg175">Pero tamén creou un desemprego tremendo no noso país, un desemprego que, ademais, se está volvendo estrutural. Unhas persoas, sobre todo as maiores de 45 anos, ás que non se lles está ofrecendo ningún futuro máis que ser xubilados pobres; persoas que levan traballado vinte e cinco e máis anos na súa vida laboral, e que na última etapa da súa vida laboral se atopan no paro, sen ningún tipo de prestación, con fillos menores a cargo e sen un futuro laboral á vista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg176">Tamén axudou a esta desigualdade o desmantelamento e a privatización dos servizos públicos, tanto da sanidade, onde cada vez hai máis pagos, copagos e repagos na sanidade pública, cada vez menos sanidade pública e máis sanidade privada como no caso que nos pasa en Vigo, pero tamén menos servizos sociais, máis privatización dos servizos sociais e privatizacións do ensino.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg177">E a toda esta desigualdade tamén axuda a baixada dos impostos directos e a subida indiscriminada dos impostos indirectos, sobre todo o imposto do IVE nos produtos básicos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg178">Pero tamén unha desigualdade que ten moito que ver co que falabamos do sector lácteo e que ten moito que ver coas comparecencias que se piden a continuación, posto que tamén hai unha discriminación, unha desigualdade evidente entre o medio rural interior e a periferia galega. Uns servizos públicos que se desmantelaron non só en todo aquilo que tiña que ver co asesoramento e apoio aos traballos precisamente no medio rural, senón tamén a loita contra incendios –como falabamos antes–, tamén as brigadas helitransportadas e tamén os peches que temos tratado xa neste Parlamento en varias ocasións tanto de centros de saúde como de escolas de atención primaria e escolas de secundaria, así como os medios de transporte. Por exemplo, a provincia de Lugo é a provincia con menos medios de transporte, máis illada do resto de Galiza, o cal dificulta tamén o seu despegue económico e o seu despegue industrial.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg179">Polo tanto, vostedes en vez de estar poñendo os medios para que o rural recupere poboación, para crear unha industria que poida manterse precisamente da produción agrícola e láctea, vostedes simplemente decidiron pechar o interior de Galiza, pechar o rural. Iso si, mantendo o Camiño de Santiago que pase por el, porque parece que é o único que teñen na cabeza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg180">E en relación xa cos servizos sociais, chama a atención a negativa da conselleira xa a falar cos traballadores e traballadoras antiincendios. Séguense queixando os traballadores e traballadoras non só deses recortes en efectivos que poñen en risco a súa vida, senón tamén en material. E clama ao ceo que sexa o Goberno galego precisamente o que incumpra algo tan importante como é a dotación de EPI ao persoal de loita contra incendios. Iso é un atentado á vida dos traballadores e traballadoras que intentan salvar o monte, que intentan salvar as vivendas que están ameazadas polo lume.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg181">Polo tanto, apoiaremos as peticións de comparecencia.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u42">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg182">Moitas grazas, señora Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg183">Grupo Parlamentario do Bloque Nacionalista Galego, señora Paz.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u43">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg184">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg185">O Grupo Parlamentario do Bloque Nacionalista Galego tamén vai votar favorablemente as comparecencias que solicita o Grupo Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg186">En primeiro lugar, en relación co sector lácteo, dou por reproducida na súa totalidade as intervencións anteriores en relación coa ausencia e necesidade desta comparecencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg187">E en relación co dispositivo de incendios forestais, permítanme que lles diga que onte, efectivamente, tamén houbo unha manifestación multitudinaria que percorreu as rúas de Santiago, que contou coa presenza eu diría que de todos e todas as traballadoras que non estaban naquel momento na súa quenda de traballo e que están integrados no dispositivo de loita contra incendios forestais. Tanto axentes forestais, persoal das brigadas de fixos descontinuos de nove meses, dos de tres meses, persoal de Seaga e persoal doutras empresas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg188">Entón, despois de escoitar a intervención do Grupo Popular na anterior iniciativa, chego á conclusión –que onte non me dei conta cando estiven alí con eles– de que tamén son un fato de irresponsables e de mentireiros que viñeron unicamente a Santiago para enganarnos aos deputados e para intentar enganar o resto da opinión pública, e que veñamos aquí facer actuacións absolutamente irresponsables e faltas de respecto e de consideración en relación con este goberno tan magnífico do que goza este país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg189">Onte, na manifestación os traballadores e traballadoras do dispositivo, que estaba convocada esa manifestación non só por todas as organizacións sindicais, senón tamén por todas as organizacións profesionais de traballadores que están integrados no dispositivo de incendios forestais, denunciaban fundamentalmente dúas cousas: o desmantelamento do dispositivo público de loita contra incendios forestais e, polo tanto, a introdución de elementos que dificultan ou case poderiamos dicir que impiden a adecuada coordinación do dispositivo para un funcionamento que sexa útil ao país, sobre todo de producirse nun momento de estrés, e o absoluto abandono da política de prevención. E poñían dous exemplos para ilustrar isto:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg190">O despropósito das brigadas municipais e dos convenios que aparecen no Pladiga deste ano provoca que esteamos hoxe o día 23 de xullo, practicamente un mes desde que estamos en período de máximo risco, e a inmensa maioría das brigadas municipais aínda non están en funcionamento. A maioría delas ademais van ser privatizadas porque os concellos non poden afrontar, segundo eles, outra forma de contratalas. E as de prevención, na que na maioría dos distritos os axentes forestais teñen que ir indicarlles aos concellos cales son as hectáreas que teñen que someter aos labores de prevención, teñen iso en axenda para a partir da primeira semana do mes de agosto. Ben, desde logo, eu nunca vin en ningún manual e teño lido algunha cousa a este respecto, nin manifestacións de expertos, en que a prevención o momento idóneo para facela sexa a partir do mes de agosto no hemisferio norte, ¡eh! Estou falando do hemisferio norte; no hemisferio sur seguramente sexa así.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg191">Tamén denunciaban que, a pesar da propaganda permanente da Consellería de Medio Rural, que mesmo o día antes da mobilización se atreveu a sacar unha nota de prensa dicindo que cubriran o 75 % das prazas vacantes e das baixas que existían no dispositivo, que iso era rotundamente falso. Pero, claro, dicíano eles, que son irresponsables e mentireiros. Eu o único que fago é facerme eco porque son tan irresponsable coma eles. Dicían tamén os traballadores que só se cobren, e para iso non sempre, as baixas vacantes de peóns condutores, pero nunca as de peóns. Polo tanto, efectivamente, temos como dicía o señor Méndez Romeu brigadas formadas por conxuntos humanos dunha persoa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg192">E, señoras e señores do Partido Popular, o corolario de todo isto, se vostedes algún día queren –desde logo, son libres de facelo ou non– analizar os resultados da política de incendios forestais, é un auténtico fracaso, porque a pesar de que o número de incendios forestais, porque as cousas hai que medilas en termos relativos,  descendeu nun 60 %, que é moito no noso país, non se pode dicir o mesmo da superficie forestal. E, polo tanto, iso é porque fracasa o dispositivo. E, sobre todo, non poden dicir o mesmo, senón todo o contrario, da superficie por incendio forestal; é dicir, temos menos incendios e a pesar diso temos menos capacidade para apagar os poucos, os menos, que aínda seguen sendo moitos desgraciadamente, incendios que temos. Iso, desde logo, é un dato absolutamente ilustrativo...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u44">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg193">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora PAZ FRANCO:</note>
+			<u who="#PazMaríaTareixa" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u45">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg194">...do fracaso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg195">E a respecto das outras dúas tamén asumimos os argumentos tanto do autor da iniciativa como os expostos anteriormente, no que cremos que é imprescindible abordar a fagocitación do medio rural que está facendo este goberno e tamén poñer medidas urxentes para facer fronte á pobreza e ás desigualdades sociais crecentes que se producen no noso país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg196">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u46">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg197">Moitas grazas, señora Paz.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg198">Grupo Parlamentario da Alternativa Galega de Esquerda, ten a palabra a señora Díaz.</seg>
+			</u>
+			<note type="speaker">A señora DÍAZ PÉREZ:</note>
+			<u who="#DíazYolanda" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u47">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg199">Grazas, presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg200">Bos días a todos e a todas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg201">
+					A verdade é que soamente, señor Méndez, se o presidente da Xunta de Galicia tivese a ben comparecer en verán só para tratar monograficamente as problemáticas derivadas das políticas que practica o Partido Popular e que levan consigo á desigualdade, eu creo que xa só por iso cobraría sentido esta lexislatura. Coido que non vai ser así e que o voto vai ser absolutamente desfavorable. Pero supoño que, dende logo, estaremos de acordo en que soamente iso serviría ou xustificaría de sentido todo o que estamos a facer. O que revela pola pasiva é que se las trae al pairo –se me permite a expresión– o que está pasando en Galicia. Non pasa nada, señora presidenta, é unha expresión normal, coloquial é normal...
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					É unha cousa normal.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg202">Eu o que si... esta é a política do Partido Popular nos novos tempos do Partido Popular, señor Méndez. Tuit do Partido Popular, cuenta oficial: &quot;A desigualdade pódese combater&quot; –din eles– &quot;creando emprego, educación de calidade con igualdade de oportunidades en orixe. Novos aires, Partido Popular&quot;. Isto é o desiderátum do Partido Popular. O que pasa é que, efectivamente, o sexenio de Alberto Núñez Feijóo máis esa proclama de que se pode combater, efectivamente, nos indican que están defendendo uns intereses que nada teñen que ver coa realidade que abafa as maiorías sociais do noso país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg203">E, efectivamente, os índices son terribles no balance do noso país. Non vou falar xa do que falou o señor Méndez Romeu, pero si dar algúns datos da situación social deste país, porque se está configurando unha mudanza no modelo social –da que están a falar practicamente todos os sociólogos e sociólogas, mesmo de dereitas– na que o que está acontecendo é que están pulando polo cambio do modelo social; é dicir, están configurando os chamados &quot;jobs&quot;, están configurando un modelo no que, efectivamente, se pode acceder ao mercado de traballo, pero é igualmente pobre a persoa que accede a ese mercado de traballo. Por tanto, teñen que ir a Cáritas para poder darlles de comer aos seus fillos e ás súas fillas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg204">E, efectivamente, señor Méndez, os números da Axencia Tributaria son aterradores: 153.000 persoas asalariadas en Galicia, o 20 % do total, son pobres. Unha realidade brutal, ¡brutal!, que, se un fora presidente da Xunta de Galicia, ¡home!, digo eu que algo lle tería que facer pensar sobre o modelo que están a construír. 245.000 persoas asalariadas, un terzo do total, acadan 950 euros brutos; e estamos falando de 800 euros ao mes, ¡que a ver quen é o guapo ou a guapa que vive con estes salarios! Esta é a vida real. Non é que sexamos mileuristas, é que é a vida real dos datos que afloran do Partido Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg205">E no que atinxe ás rendas salariais –falamos todo o tempo de asalariados e asalariadas–, hai unha fenda, que xa non é que sexa social, é que é letal, efectivamente, porque os decís máis baixos perden nas súas rendas o 23 % e os de decís máis altos perden tan só o 4 %. Polo tanto, o modelo que están a construír é brutalmente agresivo e case fai desaparecer as posibilidades de vida digna das maiorías sociais. Están configurando un modelo que é o que se vén denominar, efectivamente, &quot;o precariado&quot;, sen lugar a dúbidas. Este é o modelo que vostedes incorporaron na última contrarreforma laboral; unha reforma laboral –volvo repetir– que nin sequera tiña como pretensión crear emprego. E volvo citar o informe do Banco de España, no que fala claro, no que nos di, efectivamente, que ese non era o obxectivo desa reforma. O obxectivo desa reforma laboral era emprender a chamada &quot;devaluación interna&quot;; é dicir, baixar salarios, isto que, insisto, estamos vivindo no noso país, ou mesmo isto que estamos vivindo, que reflicte a EPA, e que se vén de publicar no día de hoxe, que é configurar ou substituír persoal asalariado por falsos autónomos, a razón de 44.000 nesta última EPA no conxunto do Estado. Pero seguimos nunha senda de falsos autónomos; son realmente asalariados que se ven na necesidade de aceptar o que lles poñan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg206">Por tanto, están configurando un modelo que é absolutamente arriscado e temerario en termos sociais. Algúns teóricos da teoría máis radical en termos económicos advirten do modelo que están a construír; ou, por exemplo, o propio informe do CES en Galicia, que non é nada revolucionario, e que está sinalando que, efectivamente, por favor, emprendan –e remato, señora presidenta– algunha medida contra a desigualdade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg207">Eu remato, sinxelamente, cun artigo do profesor Leiceaga –este home maldito que non valía para o Consello de Contas–; titulábase A tormenta perfecta. Efectivamente –e remato, señora presidenta–, a tormenta perfecta en Galicia, cunhas políticas autenticamente suicidas e a peor tripulación que puidemos ter no conxunto do país; uns capitáns que nos levan, efectivamente, á configuración dos chavs. E seguramente non hai tempo, pero estaría ben falar desa outra parte do modelo social, que é a desindustrialización do noso país, na que, efectivamente, non temos ningunha posibilidade nin ningún acerto no futuro.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u48">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg208">Grazas, señora Díaz.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg209">Ten a palabra, polo Grupo Parlamentario Popular, don Pedro Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u49">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg210">Moitas grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg211">A sesión de hoxe é simplemente para debater se a Cámara estima conveniente que no período non ordinario compareza o presidente da Xunta para tratar diversos temas e, loxicamente, este debate non é para entrar no fondo dos asuntos que se plantexan, senón simplemente para decidir se agora é o momento de que veña o presidente a falar destas cuestións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg212">Eu quero dicir que, xa de entrada, o Grupo Popular estimou que é conveniente que veña o Goberno falar na cuestión do sector lácteo, e, como anunciou a miña compañeira, Isabel García Pacín, é intención do Goberno incluír a comparecencia da conselleira do Medio Rural no pleno extraordinario que, xunto co teito de gasto, vai solicitar polo menos o Goberno nos próximos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg213">No resto das cuestións eu quixera simplemente lembrar algo. O Goberno, no que levamos de lexislatura, compareceu 60 veces en comisión e respostou 1.271 preguntas en comisión; no Pleno compareceu 68 veces. O presidente respostou 137 preguntas da oposición, 227 preguntas adicionais e 137 interpelacións. Estamos a falar, desde dous anos, exactamente 206 días de lexislatura...</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg214">Perdón, señora presidenta, hai algún deputado que está falando e interrompendo...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u50">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg215">Continúe vostede, e silencio, por favor.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u51">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg216">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg217">Son 206 días, que se suman aos dous anos que levamos de lexislaturas, 236 días; o cal quere dicir que, incluídos os festivos, é unha presenza do Goberno nesta Cámara de 2,5 membros ao día; insisto, no que levamos de lexislatura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg218">Polo tanto, realmente non estamos ante unha premura para que o Goberno compareza. A oposición controla o Goberno no período ordinario; acabamos de alongar este período ordinario, e diso é exactamente do que estamos a falar. Evidentemente, isto aprovéitase para xerar alarmismo, en liñas xerais, por parte dos grupos da oposición.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg219">Dicíase que na desigualdade se loita creando emprego. Xustamente empeza a haber problemas de alarmismo co desemprego xusto o día en que a EPA o que nos di é que creceu a poboación ocupada en Galicia un 1,85 %, que Galicia reduciu, en relación co trimestre anterior, o 8,4 % o desemprego, e, con respecto ao mesmo trimestre do ano anterior, un 11,20 % o desemprego. Polo tanto, como comprenderán vostedes...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Pronúncianse palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u52">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg220">Silencio, por favor.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u53">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg221">Eu comprendo que a vostedes lles moleste que se cree emprego, pero nós estamos satisfeitos. E en canto ao de máis calidade e con máis transformación do emprego estable, que é o que están dicindo as cifras oficiais, pois moito mellor. Iso contribúe a que haxa desigualdade económica. Certamente, os patrimonios grandes de Galicia están preocupados, entre outras cousas, porque pagan o mesmo imposto do patrimonio que o Partido Socialista e Izquierda Unida teñen en Andalucía, o que puxeron en Andalucía, que é o mesmo que pactamos o Partido Popular e o Partido Socialista en Galicia. Polo tanto, efectivamente, os grandes patrimonios, moitos, quéixanse porque non pagan os impostos do patrimonio que hai noutras comunidades autónomas como Madrid. Polo tanto, aquí un pode dicir cousas, dicir algunhas historias e considerarse un perseguido dunha especie de partido nazi mentres comparte o seu tempo entre vir ao Parlamento e interromper aos demais e dar conferencias na Complutense, na capital do reino, pagado e subvencionado pola principal entidade financeira de España, e pensar que é un perseguido dos nazis, pero ese non é o noso problema.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg222">Eu quero dicir que hai un plan social contra a desigualdade, o Goberno acaba de reimpulsalo; hai máis de 300 medidas de orzamento, 520 millóns de euros; hai unha bonificación dos medicamentos que se estende non só aos que percibían a Risga, senón tamén a aquelas familias que teñen menores ao cargo, que se encontran en situacións de febleza económica; hai un convenio con entidades financeiras para seguir pelexando polos desafiuzamentos das familias máis febles economicamente; e estamos traballando tamén na educación, incrementando as axudas, neste caso para o cheque escolar. Medidas que acompañarán a outras e que fan que en Galicia, segundo todas as estatísticas oficiais, tanto na taxa do risco da pobreza como na taxa Arope, esteamos significativamente mellor que na media de España en relación co risco de pobreza e coa exclusión social, e mesmo no que son os ingresos medios por persoa na evolución do último ano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg223">Tamén se crea alarmismo dicindo que o rural está abandonado. Bueno, este goberno non pechou ningún centro de saúde nin ningún punto de atención continuada no rural. Incluso se remataron, se reformaron e se construíron 33 novos centros de saúde. O transporte sanitario –que atende o rural, fundamentalmente–, con 11 ambulancias asistenciais de soporte vital avanzado, 101 de soporte vital básico, garante unha isocrona de 20 minutos no rural, e hai dous helicópteros medicalizados que apoian isto. E, ao mesmo tempo, os hospitais comarcais, todos eles, o do Barco de Valdeorras...,</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u54">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg224">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u55">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg225">...o do Salnés, Monforte, Barbanza, Burela e Verín, ampliaron e non diminuíron a súa carteira de servizos nos últimos anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg226">Con respecto á educación, bueno, eu quero dicir simplemente que a diminución progresiva do alumnado fai que haxa que administrar ben os recursos. Isto fixérono os gobernos de esquerda tamén, cunha pequena diferenza, e é que o Goberno de esquerdas pechaba as unidades escolares do rural, as famosas escolas unitarias, cando había 9 alumnos ou menos, e este goberno simplemente as reagrupa e pode reabrilas no futuro, como, por exemplo, ocorreu en Lugo, onde se pecharon unhas pero se abriron máis, e estamos a falar de cinco alumnos ou menos, que son os que levan....</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u56">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg227">Remate, señor Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u57">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg228">...ao peche dunha unidade deste estilo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg229">Podería seguir enumerando outros servizos no rural. Quero recordar simplemente que, con relación aos incendios, é tradicional –e, por suposto, este goberno o volverá facer, despois de poñer en marcha o principal dispositivo que hai en España na loita contra o lume forestal– comparecer unha vez que remate a campaña, e non certamente...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u58">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg230">Moitas grazas, señor Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u59">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg231">...no momento no que se está a desenvolver e a despregar o dispositivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg232">Por todos estes motivos, imos votar en contra da petición do Grupo Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg233">Grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u60">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg234">Señor Méndez Romeu, ten a palabra para o peche do debate.</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u61">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg235">Moitas grazas, presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg236">Quero agradecer o apoio dos demais grupos da oposición a esta iniciativa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg237">E, señor Puy, antes de entrar en materia, quero romper unha lanza pola deputada señora García Pacín, porque ela, que dixo moitas cousas que escoitei atentamente, ás que a algunhas xa lle respostei, o que non dixo é que fora comparecer o presidente, evidentemente. Vostede o que dixo é que vai comparecer a conselleira. Estamos aquí falando de que compareza o presidente. A conselleira ten todos os días do ano para comparecer e temos unha inmensa lista de peticións de comparecencia denegadas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg238">Dinos vostede que isto está marabillosamente en comparación co resto de España. Oia, lémbrolle os datos: salarios brutos de 410 euros mensuais para o 10 % dos traballadores e de 818 euros brutos para outro 10 %. ¿A vostede parécelle que isto é o modelo cara ao que imos?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg239">Fala vostede de alarmismo, ¿pero non escoitan o que acontece nas manifestacións?, ¿non escoitaron os gandeiros o venres pasado?, ¿non escoitaron onte os traballadores dos incendios? Estamos traendo aquí os problemas que están, precisamente, na rúa e vostede despáchaos alegremente coma se isto non tivera relevancia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg240">Despreza, menospreza vostede, a loita contra a pobreza. Bueno, eu compréndoo, con vostedes as familias sen ningún ingreso aumentaron en 93.000. Pero, señor Puy, dende o día 24 de maio, cando o presidente redescobre que ten que preocuparse dunha senda social, asistimos a moitas declaracións orfas de respaldo orzamentario, e, dende logo, ben cativas en relación coa magnitude dos problemas. Vostedes agora están preocupados polo tema dos desafiuzamentos –¡non vai sen tempo!–, pero vostedes liquidaron a política de vivenda neste país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg241">E voltando ao que é o argumento desta petición de comparecencia, ¿como é posible o desenvolvemento rural se non existe unha política de vivenda axeitada, se non existe unha política que favoreza o emprego? Vostedes, cando chegaron ao Goberno, decidiron que a lexislación de mobilidade de terras impulsada polo Goberno de coalición de socialistas e nacionalistas en Galicia era mala. Estaban no seu dereito a pensalo. Pero a que vostedes puxeron en marcha simplemente non funciona, e cóntallo calquera gandeiro. E supoño que vostedes son coñecedores do que significa, nos custos de explotación gandeiros, que non haxa terras suficientes para ter cultivos e ter que substituílos por outros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg242">Claro, se falamos do monte, ¿cantas unidades de xestión forestal tan importantes funcionan en Galicia? Ese é o fracaso da súa política cando estamos a falar de crear condicións dignas de traballo que fagan atractiva a vida no medio rural. Non vou falar, unha vez máis, de todo o fracaso que ten significado a ausencia de política láctea, ou do fracaso de Alimentos Lácteos, ou da falta de vontade cando se ten máis do 60 % da produción de España, da falta de vontade para liderar a política española en materia agraria, que non a lidera o Goberno galego, que a lideran outros, non sei quen; dende logo, o Goberno galego non, a pesar de que está aquí radicada a maior parte da produción. Entón, ¿a que está o Goberno, cando aquí pedimos que compareza neste momento o Goberno galego para dar conta destes problemas?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg243">E un último apunte. Hoxe, despois de anunciar, non sei se con satisfacción, ou dende logo con sorpresa, que imos perder un millón de habitantes, nos anuncian que imos traballar con Saxonia. Bueno, está ben. Imos traballar con Saxonia para o repunte demográfico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg244">Señor Puy, creo que hai que ser un pouco máis rigoroso na realidade...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u62">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg245">Remate, por favor, señor Méndez.</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u63">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg246">O vixente Plan demográfico de Galicia que foi tratado aquí, como xa se dixo moitas veces, de xeito máis que acelerado, é a nova constatación dun fracaso. ¿Realmente cren vostedes que se vai combater a desertización do medio rural e a creación de emprego falando con Saxonia para ver se conseguimos uns fondos para investir en camiños rurais?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg247">Señor Puy, insisto, creo que o presidente debería comparecer para facer fronte, por unha vez, aos grandes problemas do país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg248">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u64">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg249">Moitas grazas, señor Méndez Romeu.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg250">Solicitude de convocatoria, por iniciativa dos GG.PP. da Alternativa Galega de Esquerda e do Bloque Nacionalista Galego, dun pleno extraordinario para a creación dunha comisión de investigación sobre o accidente ferroviario en Angrois</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u65">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg251">Comezamos o debate coa rolda dos grupos propoñentes, comezando polo señor Jorquera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg252">Ten a palabra.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u66">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg253">Grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg254">Deputados e deputadas, nesta solicitude, que é froito dunha iniciativa da Alternativa Galega de Esquerda, pero que tamén subscribe o Bloque Nacionalista Galego, cometemos a irresponsabilidade de solicitar a convocatoria dun pleno extraordinario para a creación da Comisión de investigación sobre o accidente ferroviario de Angrois.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg255">E quero comezar cunha petición. Tendo en conta que está en trámite neste Parlamento a reforma do Regulamento e que nesta reforma se contempla, entre outras cousas, que poida haber unha comisión de investigación por lexislatura a instancias da oposición, pois o convite, a petición é que poden comezar por votar a favor desta solicitude. Aínda que curiosamente esta medida para flexibilizar as condicións para crear comisións de investigación proponse que entre en vigor a vindeira lexislatura, mentres que o recorte de dereitos que se contemplan nesta reforma do Regulamento entraría en vigor dende o momento da súa aprobación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg256">Pero dito isto, vou procurar non reiterar todos os argumentos que xa demos en pleno nas múltiples veces que propuxemos a creación desta comisión. Simplemente lles pido a todos vostedes que contesten sinceramente esta pregunta: ¿o accidente de Angrois podería terse evitado? Creo sinceramente que cos datos que hoxe coñecemos ninguén podería dicir que non. Creo que é evidente, cos datos que hoxe coñecemos, que non se adoptaron as medidas necesarias para minimizar o risco no caso de que se producise un erro humano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg257">Miren, vostedes: dende a última vez en que esta solicitude foi debatida en pleno, coñecemos que o maquinista xefe alertou a Renfe antes do accidente do perigo da curva de Angrois. As súas palabras por desgraza foron proféticas, e vounas ler textualmente: &quot;O freado na curva de Angrois debe realizarse de xeito brusco sen un aviso previo por sinalización da vía. Unicamente existe un sinal de velocidade descendente á altura do punto quilométrico 84,230, pero de pouco vale, posto que de non ter reducido previamente a velocidade nada se pode facer xa&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg258">Soubemos tamén que un informe de 2002 xa alertaba do perigo de curvas como a de Angrois. Soubemos que informes periciais afirman que a curva de Angrois tiña un risco previsíbel e non tolerábel, que non se analizaron os riscos como require a normativa europea, e que as posibilidades de descarrilamento eran dun cada seis meses. E soubemos tamén que a investigación xudicial leva case un ano practicamente paralizada, entre outras cousas, pola táctica obstrucionista dos responsábeis de Renfe e do Adif. Soubemos que a empresa coa que Renfe ten contratado o seguro obrigatorio de viaxeiros condiciona o pago de indemnizacións a que se asine un documento no que o afectado se considere totalmente indemnizado e renuncia a cantas accións e dereitos puideran corresponderlle fronte á aseguradora e fronte a Renfe operadora. Soubemos que en Angrois o único que se fixo dende o accidente foi mellorar a sinalización, pero os trens seguen circulando sen ERTMS. Soubemos que non dimitiu ningún responsábel político; é máis, para humillación das vítimas, algúns mesmo foron premiados.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg259">Miren, señorías, e dito todo isto, neste Parlamento tense falado moito de honrar a memoria das vítimas. Pois as vítimas quéixanse do trato humillante que están recibindo por parte dalgunhas institucións. As vítimas seguen demandando verdade e xustiza. As vítimas, as vítimas que afortunadamente seguen vivas, que non perderon a vida, e os familiares dos falecidos e os achegados de todas as vítimas piden que se cree esta comisión de investigación. Miren, mañá cúmprense dous anos desta traxedia e as vítimas non merecen que o 24 de xullo pase á historia como o aniversario da impunidade. Por esa razón pedimos que se vote a favor da convocatoria de pleno extraordinario para que se cree esta comisión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg260">Moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u67">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg261">Moitas grazas, señor Jorquera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg262">Grupo Parlamentario da Alternativa Galega de Esquerda, ten a palabra o señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u68">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg263">Moi obrigado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg264">En rigor, o que acaba de expoñer o compañeiro Jorquera xa está suficientemente argumentado, ¿non?, a razón de ser desta reiteración da nosa exixencia, que será van unha vez máis de que se constitúa unha comisión de investigación. Se cadra, á vista do que estamos vendo no debate que está a transcorrer, debiamos en vez de solicitar unha comisión de investigación para analizar e depurar responsabilidades pola catástrofe, traxedia de Angrois pois unha comisión de investigación para averiguar se hai presidente da Xunta e, en caso afirmativo, onde está agochado, ¿non? Porque vai resultar que este é un goberno sen presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg265">Recórdame aquela cousa tráxica de hai moitísimos anos durante o franquismo, o chiste aquel que dicía cousas raras: &quot;En El Ferrol del Caudillo nació un niño sin cabeza, le pusieron un melón y es jefe del Estado&quot;. Bueno, é moi grave. Ás veces o humor negro é a única defensa que un ten da súa sensibilidade fronte ao que é realmente algo que eu non me resisto a dicirlles que confío en que algún día algúns deses responsables sexan procesados por delitos contra os dereitos humanos. Así si, é o que está a acontecer. Á fin e ao cabo, na catástrofe de Angrois só morreron oitenta e tantos, 81 persoas, non persoas, untermenschen, e houbo nada máis que 140 feridos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg266">Morren moitos máis por falta de asistencia médica adecuada, non por culpa dos profesionais, senón polo estado desastroso en que se atopa. É absolutamente indecente escoitar algunha persoa do Grupo Popular dicir aquí, falar da sanidade nos termos en que fala, cando todos temos familiares, amigos, coñecidos que de repente resulta que a súa nai que necesita..., que estaba nunha lista de espera para unha operación bastante fastidiada, pois que lle din que lla dan por fin, pero que a tal centro ou tal centro, que non é naturalmente o Hospital Clínico ou equivalente. E que di que non, que non, que quere o Hospital Clínico, que é o que lle merece garantías, por ese nivel, e non quere este. Entón dinlle: &quot;¡Ah! Entonces, lo siento mucho, pero lo ponemos a la cola de las peticiones ya existentes&quot;. O que significa estar outra vez oito meses agardando. Esta é unha situación constante.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg267">Se iso é así, se aos vivos os tratan así, ¿que raio lles poden importar a vostedes os mortos? Se os vivos, que aínda poden protestar, os tratan desta maneira, é evidente que os mortos lles importan un nabo. É esa a súa falta absoluta de ética.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg268">E volvo ao principio, outra xoíña do 24 de xullo do 1984. Só o título é fabuloso: &quot;La envidia igualitaria&quot;. É dicir, se pretendemos que os seres humanos sexan iguais como o declara a Declaración das Nacións Unidas, porque polo visto o Estado español non está nas Nacións Unidas, non subscribe a súa declaración, e os xefes de goberno determinados tampouco acatan a Declaración dos dereitos humanos, &quot;La envidia igualitaria&quot; di: &quot;La igualdad implica siempre despotismo y la desigualdad es el fruto de la libertad. La aprobación de leyes como la última de la función pública&quot; –ano 1984, era o Goberno socialista o que a aprobou– &quot;constituye un claro ejemplo de igualdad impuesta, pues pretende equiparar a quien por capacidad, trabajo y méritos son claramente desiguales y sólo va a servir para satisfacer ese gran mal que constituye la envidia igualitaria&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg269">A unha persoa así, unha vez máis, don Mariano Rajoy, daquela xa era presidente da Deputación de Pontevedra, ¿que lle importan os mortos nunha catástrofe? &quot;A burro muerto, la cebada al rabo&quot;. É o que practican vostedes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg270">De todas as maneiras, insistiremos solidariamente cos demais grupos da oposición en solicitar que se constitúa esa comisión de investigación, de paso tamén para poder investigar onde está o disque presidente da Xunta de Galicia, que non se lle ve o pelo.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u69">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg271">Grazas, señor Beiras.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg272">Rolda dos grupos non propoñentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg273">Grupo Mixto, señora Martínez.</seg>
+			</u>
+			<note type="speaker">A señora MARTÍNEZ GARCÍA:</note>
+			<u who="#MartínezMaríaConsuelo" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u70">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg274">Grazas, presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg275">Manifestar o apoio tamén a esta comparecencia, que considero que é de xustiza social. E o Partido Popular sempre nos di: iso está nos tribunais. Porque entenden que xustiza é a xustiza dos tribunais e que non hai nada máis que dicir, e, sobre todo, cando fan o que vostedes queren; é dicir, conseguir unha cabeza de turco, neste caso o maquinista do tren, cando foi do Prestige o capitán do barco, aquí sempre se busca ao traballador; o que estaba levando o medio de transporte, o que estaba traballando ese é o culpable e dos demais desaparece a súa culpabilidade. Porque o propio Goberno impide que se investiguen as responsabilidades políticas, as decisións políticas que levaron á situación onde estamos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg276">Pero é máis, consente que o perigo siga, que non se poñan os medios de seguridade axeitados. E é máis, consente en abrir unha nova liña Vigo-A Coruña sen os medios tampouco de seguridade. É dicir, vostedes realmente están apostando porque a Galiza sexa viaxar a un sitio inseguro. E non só por tren, pois liamos –creo que foi onte–, saía o informe sobre as estradas galegas, que son as peor sinalizadas e onde se producen maior número de accidentes por unha deficiente sinalización, ou ás veces por incluso excesiva sinalización sen sentido.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg277">Polo tanto, imos apoiar esta iniciativa e esperabamos, deberiamos de esperar que todo o Parlamento apoiara esta iniciativa, porque saber cal foi a causa que deu lugar ao peor accidente ferroviario do noso país, buscar as consecuencias e as responsabilidades políticas é unha función obrigatoria deste goberno. O que pasa é que sabemos que igual que non quere investigar que pasou coas caixas de aforros, que non quere investigar que pasou co Prestige, nunca quixo investigar que pasa con Angrois, o que vostedes pretenden é que nunca se descubra quiénes son los Bárcenas, los Álvarez Cascos e toda esa corruptela que teñen metida aí, e que rouban nas obras públicas e despois pasa o que pasa, e temos unhas obras públicas deficientes no noso país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg278">Nada máis.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u71">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg279">Grazas, señora Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg280">Grupo Parlamentario Socialista, señor González Santín.</seg>
+			</u>
+			<note type="speaker">O señor GONZÁLEZ SANTÍN:</note>
+			<u who="#GonzálezJuanCarlos" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u72">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg281">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg282">Mañá fará dous anos do terrible accidente ferroviario que marcou un día tráxico na axenda de Galicia, na historia de Galicia. Un día no que faleceron moitas persoas, un día no que houbo decenas de feridos tanto física como psicoloxicamente. En definitiva –como lles dicía–, un día negro para Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg283">É imprescindible clarificar que provocou o accidente, é imprescindible identificar os erros e corrixilos para que non volva suceder, é imprescindible depurar responsabilidades. As vítimas e a sociedade esperan que se clarifique con transparencia o que sucedeu aquel 24 de xullo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg284">O Goberno ten a obriga de explicar á sociedade as causas do accidente e facer canto sexa necesario para que a investigación aclare o sucedido, identifique os responsables e poña as solucións técnicas pertinentes para que algo así nunca máis se repita. Neste caso está en xogo a credibilidade do Goberno, pero tamén está en xogo a credibilidade que temos como país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg285">Neste caso existiron e existen varias investigacións paralelas. A primeira, a feita por Renfe e Adif, que estuda as causas técnicas con especialistas ferroviarios para que nos digan que é o que pasou aquel tráxico día. E tamén –hai que dicilo– hai unha investigación xudicial en marcha, unha investigación xudicial que, como xa dixeron antes os compañeiros que me precederon na palabra, pois non vai con moita axilidade. Nosoutros sempre pedimos que estas actuacións xudiciais sexan áxiles, porque, se non, non serán xustas. E tamén é necesario que se paguen inmediatamente as indemnizacións a todas as vítimas. Creo que necesitamos e temos que respectar as vítimas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg286">Analizar a situación do que pasou aquel día implica analizar como estaba a situación antes, a situación das vías, dos trens, a seguridade, e tamén o que ocorreu naquel momento. Pero tamén hai que analizar outra cousa: non podemos olvidar a xestión posterior ao accidente, como se tratou ás vítimas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg287">O Grupo Socialista mantivo sempre desde o minuto un unha posición de prudencia con respecto ao sucedido en Angrois, criamos que era mellor non ter un titular, pero facer o que tiñamos que facer. Prudencia, que entendemos era necesaria, pero que en ningún momento se pode converter en parálise. E sabemos que é necesario coñecer o que pasou aquel día 24 e tamén saber quen foi o responsable do que alí ocorreu.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg288">E por iso hai moitas formas de facelo. Nós cremos que era mellor esperar ao resultado da Subcomisión parlamentaria constituída para o efecto no Parlamento do Estado. Isto en ningún caso quere dicir que o Partido Socialista renuncia a adoptar calquera medida que poida levar a saber o que ocorreu aquel tráxico día en Angrois. Ao contrario, non renunciamos a nada, porque cremos que as vítimas, os veciños, os médicos, os bombeiros, os psicólogos, os policías e o resto da sociedade teñen dereito a saber o que pasou aquel día en Angrois.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg289">Neste tráxico accidente sufriuse moito, a sociedade galega sufriu moito, pero tamén saíu o mellor de nós: a xenerosidade, a solidariedade, a humanidade de todo un exército de voluntarios que alí estiveron para dar a cara polas vítimas, recibindo o recoñecemento non só das vítimas senón de toda a sociedade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg290">Unhas vítimas que nos fixeron un chamamento, dixéronnos que non se nos olvide e que non se nos abandone. Este chamamento das vítimas tamén forma parte da xestión deste accidente. Tense que aclarar o sucedido en Angrois para que algo así non volva ocorrer. É necesario saber as causas e pór os medios materiais e humanos necesarios para que algo así nunca máis volva ocorrer. E para iso, polo tanto, é necesario coñecer os resultados das investigacións que están en marcha, pero iso non implica que non poidamos facer nada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg291">A Subcomisión Parlamentaria de Análise Xeral do Sistema Ferroviario constituída para tal efecto no Parlamento español xa rematou e obtivo unha serie de conclusións. Recomendan a revisión urxente das medidas de seguridade de toda a rede ferroviaria. E din tamén que é necesario prestar máis atención ao factor humano e tamén ao factor organizativo, á parte dos factores tecnolóxicos. Polo tanto, hai moitas cousas por mellorar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg292">Está claro que o obxectivo que nós temos e que temos marcado como sociedade é que algo así non volva ocorrer, pero tamén é necesario saber o que ocorreu sen limitación ningunha. Por iso xa lles anuncio desde aquí que imos apoiar a convocatoria deste pleno extraordinario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg293">Máis nada e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u73">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg294">Moitas grazas, señor González Santín.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg295">Grupo Popular, señor Gómez Alonso.</seg>
+			</u>
+			<note type="speaker">O señor GÓMEZ ALONSO:</note>
+			<u who="#GómezAlejandro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u74">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg296">Moitas grazas, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg297">Señorías, como ben dixo o voceiro do Partido Socialista e tamén do Bloque Nacionalista Galego, mañá cúmprense dous anos da traxedia de Angrois. E dende o noso grupo parlamentario, por respecto e solidariedade ás vítimas dese terrible accidente ferroviario, o peor quizais da historia do noso país, gustaríanos volver reiterar unha vez máis que queremos que se investiguen e se depuren as responsabilidades e as causas deste terrible accidente, que marcou, evidentemente, por desgraza a historia do noso país. Pero iso si, como xa tamén manifestamos noutras sesións, queremos que se faga con base na legalidade vixente. E a legalidade vixente, señorías, como vostedes ben saben, marca que este Parlamento non é o competente para estudar nin crear esa comisión de investigación, porque nós non temos competencias en materia nin de posta en servizo de ferrocarrís, nin en ferrocarrís, nin, polo tanto, en seguridade ferroviaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg298">
+					Señorías, o que di a lexislación vixente é que o competente en materia de ferrocarrís, de servizos ferroviarios, é o Ministerio de Fomento. O que di a lexislación vixente con base nas directivas europeas é que o órgano competente de determinar as causas do accidente, xa que aquí algún deputado preguntou cales eran as causas do accidente, é a Comisión de Investigación de Accidentes Ferroviarios, a CIAF, que está composta por dezasete enxeñeiros expertos en seguridade ferroviaria e en instalación ferroviaria e en servizos ferroviarios. E se vostedes se molestaran en ver o informe da CIAF, aínda que fora a parte resumida,
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					vostedes chegarían a saber que dentro dese informe de 266 páxinas di a CIAF:
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg299">&quot;La causa del accidente fue un exceso de velocidad del tren (circulaba a 179 kilómetros por hora) en la curva de entrada a bifurcación A Grandeira (curva de Angrois limitada a 80 kilómetros), por no respetar el personal de conducción lo establecido en el Libro horario del tren 150/151 y en el cuadro de velocidades máximas de la línea 082.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg300">Como causa coadyuvante se apunta una falta de atención del personal de conducción al responder este a una llamada telefónica de servicio del propio tren, proveniente del interventor, lo que motivó la no aplicación del freno de forma adecuada para reducir la velocidad antes de la entrada a dicha curva.&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg301">Engade o informe: &quot;La investigación realizada por la CIAF es independiente de cualquier investigación judicial y no se ocupa, en ningún caso, de la determinación de la culpa o responsabilidad del accidente, según recoge el Real decreto 810/2007, de 22 de junio, en su título III, artículo 21.&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg302">
+					Polo tanto, as causas técnicas do accidente, señorías, aínda que vostedes non as queiran escoitar, están determinadas pola Comisión de Investigación de Accidentes Ferroviarios. As responsabilidades xurídicas, penais ou civís son as que determinará o xuíz cando remate a investigación,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					cando remate a investigación.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg303">
+					Polo tanto, señorías, imos respectar os tempos procesuais que están marcados e non imos entrar no xogo fácil de tentar manipular as vítimas por tentar acadar réditos electorais, porque iso, señor Jorquera, non é irresponsable, iso é inmoral. Como tamén é... O que si é irresponsable,
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					señor Jorquera e señora Martínez, é dicir que o noso sistema ferroviario en Galicia non é seguro.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg304">
+					Vostede facía unha pregunta: ¿Púidose evitar o accidente de Angrois? Eu fágolles a vostedes outra pregunta: ¿É máis seguro ou é menos seguro o sistema ASFA dixital que o sistema ERTMS? ¿Vostedes pódeno asegurar?, ¿pódeno asegurar?
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					¿Si? Moi ben, pois demóstreo tecnicamente. Pois vostede preséntelles unha querela aos responsables do Adif por pór en servizo trens con ASFA dixital. A ver se vostede gaña ese xuízo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg305">Vostedes din que non se fixo nada dende o accidente de Angrois. ¡Home!, aprobouse a Axencia Estatal de Seguridade Ferroviaria, aprobouse o Regulamento de seguridade ferroviario, estase a traballar na mellora da protección e asistencia ás vítimas, instaláronse en 80 locomotoras e 363 unidades de Renfe sistemas de axuda de condución por satélite, mellorouse a ubicación e protección de equipaxes, estase a traballar na instalación de novos sinais de balizas asociadas, creouse un novo sistema de sinalización que é a transición significativa de velocidade, e os problemas técnicos que tiña o S-730 do seu sistema ETCS cos ETCS da vía xa están resoltos, señorías. E vostedes se ven o sistema ferroviario europeo compararán que España é un dos países ou quizais o país que máis sistemas de seguridade ERTMS con sinalización...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u75">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg306">Vaia rematando, por favor.</seg>
+			</u>
+			<note type="speaker">O señor GÓMEZ ALONSO:</note>
+			<u who="#GómezAlejandro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u76">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg307">
+					...ten instalados en toda a Unión Europea. Polo tanto, señorías, o ERTMS non significa maior seguridade
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					, é un sistema de homoxeneización dos sistemas de sinalización da Rede transeuropea de transportes, o cal é unha cuestión evidentemente distinta.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg308">Nós, evidentemente, imos reiterar a nosa posición, porque nós non entramos no xogo inmoral de manipular a dor das vítimas e os seus familiares.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg309">Nada máis e moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u77">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg310">Moitas grazas, señor Gómez Alonso.</seg>
+				<vocal type="murmuring">
+					<desc>(A señora Martínez García pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg311">Tranquilidade, señora Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg312">Rolda de réplica dos grupos propoñentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg313">Comezamos polo Bloque Nacionalista Galego, señor Jorquera.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u78">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg314">Si, señora presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg315">Mire, señor Gómez Alonso, en primeiro lugar, fágolle unha petición: non fale vostede de moralidade e menos non se arrogue vostede o dereito a dicir quen é moral ou inmoral, porque se entramos neste debate necesitaría dúas horas para falar da inmoralidade dalgúns.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg316">¿E vostede fala de réditos electorais? Mire, mañá as vítimas van estar concentradas na praza do Obradoiro, vaia falar con elas e dígalles, explíquelles de novo que están en contra dunha comisión de investigación. Nós, entre outras cousas, estamos servindo de vehículo ás demandas das vítimas, señor Gómez Alonso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg317">Mire, vostede fala de que hai que axustarse á legalidade. O Regulamento deste Parlamento, e de momento creo que iso aínda non se atreven a modificalo, fala de que o Parlamento galego pode acordar a creación dunha comisión de investigación sobre calquera asunto de interese público, non establece ningunha acotación dende o punto de vista competencial. ¿Non é de interese público investigar as causas da maior traxedia ferroviaria da historia do noso país? ¿Galiza tiña competencias en materia de salvamento cando este Parlamento creou unha comisión de investigación sobre o Prestige? Pero poño outro exemplo, señor Gómez Alonso, dado que apela a cuestións de legalidade: a Comisión de investigación das caixas, que postos efectivamente a propoñer novas comisións de investigación, habería que propoñer tamén crear unha comisión de investigación que investigue que pasou coa Comisión de investigación das caixas. Ben, pois a estratexia do Grupo Popular na Comisión de investigación das caixas foi en gran medida dicir que todo o problema do que aconteceu coas caixas foi produto, responsabilidade do Banco de España. ¿Ten Galiza as competencias sobre as políticas do Banco de España? O Regulamento do Parlamento galego permite crear estas comisións de investigación. Polo tanto, cando fale de legalidade fale con máis rigor, non invente vostede unha legalidade que non existe.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg318">Mire, eu da CIAF desconfío por sistema, desconfío por sistema da CIAF. Pero ademais se vostede me fala da CIAF é que non se pode ser xuíz e parte, é dicir, considerar que as conclusións dese organismo obedecen a un criterio de independencia, con todos os respectos, é tomarnos a todos por tontos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg319">Eu fixen un resumo na miña primeira intervención de todas aquelas cuestións que fomos coñecendo dende a última vez que se debateu en pleno. Podería engadir máis: todas elas demostran que houbo responsabilidades tamén no ámbito político. O ámbito penal e o ámbito político son ámbitos distintos e complementarios, e hai que analizar e depurar tamén as responsabilidades no ámbito político. E iso é o que vostedes queren evitar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg320">Nada máis.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u79">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg321">Señor Beiras, pode vostede falar o tempo que lle deixou o señor Jorquera.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u80">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg322">Non, non...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(O señor Jorquera Caselas pronuncia palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u81">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg323">Señor Jorquera, deixe falar o señor Beiras para que non lle remate o tempo.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u82">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg324">Fun eu mesmo quen lle dixen ao señor Jorquera que podía utilizar a maior parte do tempo, porque en realidade eu xa non sei se ten ningún sentido dicir nada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg325">A súa indecencia non ten límites. ¡A súa indecencia non ten límites, é un pozo negro sen fondo! Se eu fose da familia das vítimas, por iso que acaba de dicir, dicía: Gracias por la flor, pero me cago en el tiesto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg326">Os artefactos non son responsábeis porque non son seres humanos. As decisións dos dirixentes das empresas públicas e privadas implicadas neste asunto e responsábeis non son técnicas, aquí non se trata de averiguar que fallo técnico houbo, senón que fallo houbo nas fraudes ás normas que se habían de aplicar. As normas que estaban nas contratacións das empresas que tiñan que realizar o trazado, etc., e que se violaron. E iso é corrupción, e hai responsabilidades morais e políticas. E que veña vostede falar, erixirse en defensor da moralidade, é como poñer á raposa a ter man das galiñas, que é o que están a facer vostedes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg327">Unha comisión que non vai entrar no fondo da cuestión, porque está controlada por vostedes. É a primeira vez que se pode dar unha situación de semellante descaro. Pero, en definitiva, xa sei perfectamente que é inútil vir aquí pretender que vostedes exerzan o máis mínimo de actividade responsábel en canto aos electores, aos seus propios electores. Foron vostedes simplemente...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u83">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg328">Moitas grazas, señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u84">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg329">...persoas que están traizoando sistematicamente os cidadáns que os elixiron, e empezan a levar paus e van escorrentalos como aos ratos, e se non agarden uns meses e xa o verán.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg330">Nada máis, moitas grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u85">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg331">Grazas, señor Beiras.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg332">Non lle vou repetir, porque xa o sabe, que me gustaría que gardara vostede decoro e respecto a esta Cámara.</seg>
+				<vocal type="murmuring">
+					<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg333">
+					Ben, paréceme moi ben, pero gustaríame que respectara o decoro desta Cámara.
+					<vocal type="murmuring">
+						<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+					</vocal>
+					E faga o favor de sentarse, que non ten a palabra.
+				</seg>
+				<vocal type="murmuring">
+					<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg334">Aquí tamén podo chamalo á orde, señor Beiras. Faga o favor.</seg>
+				<vocal type="murmuring">
+					<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg335">¿Para que quere a palabra?</seg>
+				<vocal type="murmuring">
+					<desc>(O señor Beiras Torrado pronuncia palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg336">Pois non se enfade comigo... Señor Beiras, faga o favor porque non ten a palabra.</seg>
+				<note>(O señor Jorquera Caselas pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg337">¿Señor Jorquera, para que...? Non, non hai alusións, señor Jorquera.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u86">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg338">Houbo unha alusión explícita a que eramos inmorais. Claro, ¿e iso non merece reprobación por parte da presidenta?</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u87">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg339">Non ten a palabra, señor Jorquera, vamos a ver.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u88">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg340">É que é o colmo. Eu pido que se reiteren esas palabras, claro que si.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u89">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg341">Señor Jorquera.</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg342">Vamos ver, eu non retirei ningunha palabra, soamente lle dixen ao señor Beiras que agardaba, que lle pedía coma sempre que se ativera ao decoro desta Cámara; pero dígollo ao señor Beiras e dígollo con carácter xeral a todo o mundo. Paréceme que o límite xa está posto nun lugar que creo que o señor Beiras hoxe pois tamén se excedeu, por iso lle fixen esa referencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg343">Eu agardo que todo o mundo se comporte con responsabilidade e con respecto, é o único que pido. O demais poden falar do que queiran, eu non estou aquí para dicir do que teñen que falar e do que non.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg344">E, se lles parece, imos proceder á votación destas solicitudes de convocatoria de plenos extraordinarios.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg345">Comezamos, en primeiro lugar, pola solicitude de convocatoria de plenos extraordinarios.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg346">Comezamos, en primeiro lugar, pola solicitude de convocatoria de pleno extraordinario feita polo Bloque Nacionalista Galego e o Grupo Mixto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg347">Votación da solicitude de convocatoria, por iniciativa dos GG.PP. do Bloque Nacionalista Galego e Mixto, dun pleno extraordinario para a comparecencia urxente do presidente da Xunta de Galicia co fin de que explique as xestións da Xunta de Galicia ante a dramática situación do sector lácteo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg348">Efectuada a votación, deu o seguinte resultado: votos a favor, 10; votos en contra, 11.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg349">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg350">En consecuencia, queda rexeitada esta solicitude.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u90">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg351">Votamos agora a segunda das solicitudes de pleno extraordinario, que é a do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg352">Votación da solicitude de convocatoria, por iniciativa do G.P. dos Socialistas de Galicia, dun pleno extraordinario cuxa orde do día sexan as solicitudes de comparecencia urxente do presidente da Xunta de Galicia solicitadas nos docs. núms. 38409, 38412, 38413 e 38414.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg353">Efectuada a votación, deu o seguinte resultado: votos a favor, 10; votos en contra, 11.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg354">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg355">En consecuencia, queda rexeitada esta solicitude.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u91">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg356">E, por último, votamos a solicitude de convocatoria de pleno extraordinario do Grupo Parlamentario da Alternativa Galega de Esquerda e do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg357">Votación da solicitude de convocatoria, por iniciativa dos GG.PP. da Alternativa Galega de Esquerda e do Bloque Nacionalista Galego, dun pleno extraordinario para a creación dunha comisión de investigación sobre o accidente ferroviario en Angrois.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg358">Efectuada a votación, deu o seguinte resultado: votos a favor, 10; votos en contra, 11.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg359">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg360">En consecuencia, queda rexeitada esta solicitude.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.u92">
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg361">Esgotada a orde do día, levántase a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-07-23-DSPGDP008.seg362">Moitas grazas.</seg>
+			</u>
+			<note type="time">Remata a sesión á unha e corenta e oito minutos da tarde.</note>
+		</div>
+	</body>
+</text>
+</TEI>

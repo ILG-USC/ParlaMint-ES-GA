@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+export DOCKER_BUILDKIT=1
+docker build -f freeling/Dockerfile --ssh default -t parlamint_freeling:latest freeling
+docker build -f eagles2ud2/Dockerfile --ssh default -t parlamint_eagles2ud2:latest eagles2ud2
+
+# Download udpipes model if not present
+if [ ! -f udpipes/models/galician-treegal-ud-2.5-191206.udpipe ]; then
+  curl --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/galician-treegal-ud-2.5-191206.udpipe -o udpipes/models/galician-treegal-ud-2.5-191206.udpipe
+fi
+
+docker build -f udpipes/Dockerfile --ssh default \
+             --build-arg MODEL_FILE_NAME=galician-treegal-ud-2.5-191206.udpipe \
+             --build-arg MODEL_NAME=galician-treegal \
+             --build-arg MODEL_DESC=galician-treegal \
+             -t parlamint_udpipes:latest udpipes
+docker build -f ner/Dockerfile --ssh default -t parlamint_ner:latest ner

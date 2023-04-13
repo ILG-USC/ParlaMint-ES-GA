@@ -1,0 +1,49 @@
+PATH
+  remote: .
+  specs:
+    processint_parlamint (0.1.0)
+      activesupport (~> 7.0)
+      colorize
+      concurrent-ruby (~> 1.1)
+      dotenv
+      rake (~> 13.0)
+
+PATH
+  remote: vendor/nxml
+  specs:
+    nxml (0.2.4)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.4.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    colorize (0.8.1)
+    concurrent-ruby (1.1.10)
+    dotenv (2.8.1)
+    htmlentities (4.3.4)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.18.0)
+    nokogiri (1.14.0-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.6.2)
+    rake (13.0.6)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  bundler
+  nxml!
+  processint_parlamint!
+
+BUNDLED WITH
+   2.3.13

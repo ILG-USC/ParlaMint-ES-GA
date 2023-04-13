@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2019-04-29-DSPG111 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2019-04-29-DSPG111 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="111">Número 111</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2019-04-29">29.04.2019</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="27"/>
+			<measure unit="words" quantity="5970"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100111.pdf</idno>
+				<date when="2019-04-29">29.04.2019</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2019-04-29">29.04.2019</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100111.pdf"/>
+			<note type="time">Ábrese a sesión ás catro e dous minutos da tarde.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u1">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg1">Boa tarde.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg2">Iniciamos a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg3">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia, polo que non procedemos á súa lectura. Xustificaron a súa ausencia os deputados don Pedro Puy e don Antonio Mouriño Villar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg4">E tamén vou comunicar unha alteración da orde do día da seguinte sesión. O Grupo Parlamentario de En Marea presentou un escrito polo que retira a proposición non de lei co número 48318. Polo tanto, esta retirada provocará unha pequena alteración na orde do día e respecto dos tempos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg5">Sen máis, entramos no punto único da orde do día, neste caso o debate e votación da proposta de cesamento da valedora do pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg6">Debate e votación da proposta de cesamento da valedora do pobo</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u2">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg7">Conforme o preceptuado no artigo 5.2 da Lei 6/1984, do 5 de xullo, unha vez substanciado o trámite de audiencia dentro do prazo establecido para o efecto, que rematou o pasado día 13 de abril, e presentado escrito de alegacións pola institución do Valedor do Pobo —documento número 49140—, procede o debate da proposta de cesamento formulada. E, por acordo da Xunta de Portavoces do 23 de abril, a ordenación deste debate constará dunha única rolda dos grupos parlamentarios para explicar a súa posición, por un tempo de entre 8 e 9 minutos por grupo; e, de seguido, procederase á votación da proposta de cesamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg8">Polo tanto, comezamos co Grupo Parlamentario do Bloque Nacionalista Galego, e, para isto, ten a palabra a señora Rodil.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u3">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg9">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg10">Boa tarde a todas e a todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg11">Debatemos hoxe, como xa se indicaba, e por segunda vez neste Pleno, o cesamento da valedora do pobo por cometer —e agora xa confirmado con sentenza firme— desviación de poder e arbitrariedade na designación dunha praza e flagrante vulneración do procedemento. Falamos dun caso gravísimo de enchufismo, dunha cacicada, dunha cacicada con todas as letras, que afecta, ademais, directamente ao Partido Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg12">A señora Otero —porque teño que dicirlles que creo que esta señora non pode ser nomeada xa valedora— foi condenada por enchufar nada máis e nada menos que a irmá do portavoz do Grupo Parlamentario Popular e sobriña de Fraga.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg13">Nos últimos meses, ao fío deste asunto, Galicia viviu unha situación que, para nós, para o Grupo Parlamentario do Bloque Nacionalista Galego, é bochornosa, bochornosa e inaceptable, porque pon en cuestión, enlama, ensucia, unha institución como a Valedoría do Pobo; unha institución estatutaria, creada co deber, ¡co deber!, de velar polo cumprimento e o respecto escrupuloso dos dereitos fundamentais das galegas e dos galegos diante, ademais, das administracións públicas, e non para servir de axencia de colocación da irmá e da sobriña de dirixentes do Partido Popular.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg14">Neste país non se crearon institucións estatutarias para servir de axencias de colocación de ningunha organización política. Quen ten o deber —e insisto nisto—, quen ten o deber de valer o pobo galego actúa coma un cacique, que máis parecese de tempos pasados pero que vemos que é aínda presente, dolorosamente presente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg15">A señora Otero vulnerou coas súas corruptelas calquera principio democrático, mais tamén as obrigas de valedora. E demostrou que actúa, que actuou ao longo de todo este tempo, como militante do Partido Popular e non como defensora do pobo galego. E lonxe de ter a altura —case me atrevería a dicir que lonxe de ter a dignidade— de admitir o que ficou demostrado xudicialmente e presentar a súa renuncia inmediata para salvagardar a pouca vergoña que lle puidese quedar, e sobre todo para salvagardar a institución que representaba, que nos pertence e representa a todas, ¡a todas!, non ao Partido Popular, lonxe diso, a señora Otero decidiu iniciar unha fuxida cara a adiante coa conivencia —porque sabía que a tiña—, a conivencia e o amparo do Partido Popular, ensuciando a imaxe da Valedoría do Pobo pero tamén cuestionando, ou poñendo en cuestión, este Parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg16">
+					A señora Otero non só mentiu, e mentiu mesmo en sede parlamentaria, senón que quixo bloquear e torpedear os mecanismos parlamentarios para a súa destitución do cargo —de novo co apoio inquebrantable do Partido Popular—. E ¿como intentou facer a señora Otero? ¿Como intentou torpedear e bloquear os mecanismos parlamentarios para que fose destituída despois dunha sentenza do Tribunal Superior de Xustiza de Galiza? Pois ao máis puro estilo do Partido Popular: cunha dimisión en diferido, que foi máis unha burla ao conxunto desta Cámara, unha dimisión con condicións. Unha [delincuente]
+					<note>(Expresión retirada do Diario de Sesións, por orde do señor presidente, ao abeiro do artigo 106.3 do Regulamento.)</note>
+					intentando condicionar o Parlamento de Galiza, ¡que escándalo e que bochorno!
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg17">E diante deste panorama aínda tivemos que escoitar de maneira recorrente en boca do Partido Popular que esta señora actuou con responsabilidade. ¡Curiosa visión do Partido Popular da responsabilidade! A actuación da señora Otero vulnera, vulnera claramente, as súas obrigas e incapacítaa para seguir un só minuto máis á fronte da Valedoría do Pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg18">Desde o BNG témolo claro, dixémolo desde o primeiro momento, desde que tivemos coñecemento da sentenza do Tribunal Superior de Xustiza de Galicia, e con máis razón aínda repetímolo agora: o seu comportamento é absolutamente incompatible coas funcións que corresponden á Valedoría do Pobo, e dana que se manteña un minuto máis á fronte desa institución, dana enormemente a credibilidade da propia valedora do pobo; unha credibilidade que estivo, ao longo do tempo que ocupou a Valedoría, enormemente cuestionada, e non só polo Bloque Nacionalista Galego senón por colectivos e entidades sociais que viron como a señora Otero actuou como valedora do Partido Popular máis que das galegas e dos galegos. Vulnerou o dereito á privacidade de persoas sen teito nesta mesma Cámara, instrumentalizou a institución da Valedoría para facer oposición a gobernos municipais, negou o amparo aos cidadáns e ás cidadás que denunciaron a vulneración de dereitos lingüísticos ou ás persoas afectadas —doentes— pola hepatite C que acudiron a ela pedindo amparo. A sentenza do Tribunal Superior de Xustiza de Galicia, xa firme con esa resolución do Tribunal Supremo, é a pinga que fixo rebordar a cunca.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg19">Señorías, por decencia, por hixiene democrática e por respecto ao conxunto das persoas que viven e que traballan neste país, por respecto escrupuloso aos dereitos das galegas e dos galegos, debemos acabar con esta agonía absolutamente impresentable en termos políticos. Hoxe votamos dúas cousas moi claras: se este Parlamento se vai poñer do lado das institucións, salvagardar as institucións estatutarias deste país, a transparencia e, sobre todo, os dereitos democráticos, os dereitos do conxunto das persoas que viven e traballan neste país, ou se, pola contra, o Partido Popular vai seguir apoiando e actuando coniventemente con alguén que está moi lonxe de representar o que debe ser unha valedora do pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg20">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u4">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg21">Grazas, señora Rodil.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg22">Señora Rodil, voulle pedir que retire a expresión delincuente, porque nos estamos movendo nunha actuación administrativa.</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg23">Non, non, perdón, entendo que non, e consultei cos servizos xurídicos. Acabo de consultar cos servizos xurídicos precisamente iso, e a palabra debe ser retirada do Diario de Sesións. Eu pídolle que a retire vostede; se non, retíroa eu coa correspondente chamada á orde.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg24">Déanlle voz ao escano da señora Rodil.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u5">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg25">Eu sigo reafirmándome no que acabo de dicir, e ademais hai que ir ao dicionario para ver o que significa esa palabra. De todas maneiras, vostede faga o que considere oportuno. Iso non cambia a realidade dos feitos que se están debatendo aquí.</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u6">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg26">Queda retirada a expresión e, consecuentemente, ten unha chamada á orde, señora Rodil.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg27">Continuamos co debate.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg28">Polo Grupo Parlamentario Socialista, a señora Vilán.</seg>
+			</u>
+			<note type="speaker">A señora VILÁN LORENZO:</note>
+			<u who="#VilánPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u7">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg29">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg30">Eu, en primeiro lugar, quero expresar o meu agradecemento a todas as cidadás e a todos os cidadáns galegos que no día de onte se comportaron como auténticos cidadáns libres, decentes e que ademais velaron pola democracia votando uns partidos e outros, a todos os que estamos aquí representados. Creo que a festa da democracia vivímola na súa maior extensión. No día de onte a sociedade dixo que estaba farta da corrupción, da España que manipula as institucións públicas no seu propio beneficio, da España de nomeamentos a dedo, da España que insulta con prepotencia a división de poderes, da España do enchufismo, da España clasista de familias &quot;de toda la vida&quot; que pretendían levar ao Congreso dos Deputados a toureiros, a marquesas ou a condesas &quot;como Dios manda&quot;. Tamén Galicia dixo o mesmo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg31">E hoxe é o día no que o Parlamento —vostedes tamén, señoras e señores do Partido Popular — debería estar á altura da sociedade, debería votar o cesamento da valedora, de Milagros Otero Parga, porque ten no seu currículo unha sentenza do Tribunal Superior de Xustiza de Galicia —esta— que dixo &quot;non&quot; a todo isto que acabo de mencionar.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg32">
+					É así. É incrible que algúns de vostedes aínda teñan algo que apostillar, é realmente incrible.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Tres maxistrados do Tribunal Superior de Xustiza de Galicia dixeron &quot;non&quot; a lle facer un traxe á medida á irmá do portavoz do Grupo Parlamentario Popular nesta Cámara e, como dicía ben a voceira do BNG, sobriña do presidente Fraga Iribarne.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg33">
+					Este debate é un déjà vu, xa o fixemos en xullo do ano pasado e vostedes votaron en contra do que pediamos. Veremos o que fan hoxe. Pero entón a valedora, que seguro que nos está escoitando en streaming, porque non tivo a dignidade de vir hoxe —nin tampouco en xullo— a esta Cámara, que é a cámara que representa a todos os galegos e a todas as galegas de Galicia, para escoitar o que temos que dicir,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					pois esa valedora, cremos nós, debeu cesar motu proprio porque xa non tiña naquel momento, e non ten, a confianza dos tres quintos do Parlamento. Nós, o meu grupo parlamentario, retirámoslla naquel momento. Non o fixo. Decidiu seguir enlamando a institución. E os grupos da oposición de novo tivemos que pedir o seu cesamento por entender que incumpre —incumpriu e incumpre— os deberes do seu cargo,.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg34">O Tribunal Supremo falou. En xullo do ano pasado a voceira do Grupo Parlamentario Popular dicía que había que agardar a que a sentenza fose firme. Agora xa o é. Confirmou o Tribunal Supremo, o 28 de marzo —xustamente onte fixo un mes—, a sentenza, esta, do Tribunal Superior de Xustiza de Galicia, sen entrar a valorar o fondo do enchufe, porque nin categoría de enchufe tiña para ser valorado polo propio Tribunal Supremo. Irregularidades na abstención por seguir intervindo, flagrante vulneración do procedemento, desviación de poder, arbitrariedade; en definitiva, todo o que rexeitaron co seu voto onte as galegas e os galegos nas urnas</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg35">E aquí hai outra cousa que case, case, é peor. E é canto custou todo este enchufe. Porque isto non nos sae gratis, evidentemente. Algúns miles de euros —algúns hipoteticamente, non o sei porque non o sabemos— foron polo informe dese catedrático de dereito laboral que dixo que todo estaba perfecto; 1.500 euros de custas da sentenza do Tribunal Superior de Xustiza de Galicia; supoño que uns 3.000 euros polo recurso de casación ante o Tribunal Supremo; e 2.000 euros de custas do propio Tribunal Supremo pola sentenza en contra da valedora do pobo. ¿Quen vai pagar estes, máis ou menos, 10.000 euros? ¿De onde van saír? Dos petos de todos os galegos e galegas, supoñemos, claro. Ao mellor é a propia valedora a que fai fronte a estas custas. E isto precisamente, a utilización dos cartos de todas e de todos coma se fosen propios e cando a min me dá a gana, foi o que onte rexeitaron as galegas e os galegos nas urnas.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg36">Cando se confirmou a sentenza, pedímoslle á valedora que renunciase. E ela, nunha carta do 12 de abril, dixo que a acataba pero que non a comparte —que non a podía compartir, dixo expresamente—. Pero ¿saben que? Dá igual, o de onte chámase democracia, e isto chámase división de poderes. Gústelle ou non lle guste á valedora, esta sentenza do Tribunal Superior de Xustiza de Galicia —que a voceira do Grupo Parlamentario Popular nos dixo que tiña que ser firme, e xa é firme— implica o notorio incumprimento dos deberes do cargo de valedora, gústelle ou non á valedora. E por iso precisamente este Parlamento está na obriga de cesala, para manter a dignidade e a limpeza da institución. Non por nada máis, non busquen vostedes que se queremos, que se non queremos... É para manter a limpeza e a dignidade da institución, e, se vostedes non votan a favor do cesamento, a institución vai seguir enlamada, e os únicos responsables de que sexa así van ser vostedes, ninguén máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg37">Con todos os respectos, que a valedora do pobo interprete a normativa do Valedor como lle peta, a nós parécenos un cachondeo, literalmente. Esa &quot;renuncia, pero pouco&quot; o único que fai é condicionar os grupos parlamentarios, que somos os únicos representantes do pobo de Galicia, porque estamos aquí porque nos votaron, ninguén nos nomeou cun dedo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg38">A normativa do Valedor non permite iso da &quot;posta en disposición de...&quot;, de non sei que... Igual que na democracia non se permite o enchufe dos amiguitos e das amiguitas, exactamente igual. Esa señora non se pode comprometer a presentar unha renuncia formal, porque non está na Lei do Valedor, non existe ese compromiso. Existe a renuncia, pero non a renuncia cando eu considere que teño que renunciar. E tanto é así que os propios letrados do Parlamento de Galicia dixeron que non se podía considerar o seu escrito unha renuncia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg39">E nin a valedora nin o Partido Popular nin o presidente da Xunta son os encargados de interpretar as leis nin de interpretar as normas. Non o son, son os tribunais. E iso chámase &quot;democracia&quot; e &quot;Estado de dereito&quot;. E iso foi o que votaron onte os cidadáns de Galicia.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg40">Nós entendemos que vostedes viven nunha realidade virtual, absolutamente, a realidade virtual que saíu na Televisión de Galicia ao falar do escándalo da valedora, que parecía pouco máis ca unha loita entre o presidente Feijóo e —e non sabemos por que— o presidente Pedro Sánchez. Non entendiamos moi ben a combinación. Pero, claro, é que o presidente Feijóo, despois dun dos debates electorais, dixo: &quot;Vi a un Sánchez incómodo y sin proyecto frente a un Casado preparado para la presidencia&quot;. Evidentemente, vostedes viven nunha realidade absolutamente virtual.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg41">Milagros Otero Parga xa está amortizada, para nós xa non está lexitimada para ser valedora do pobo, dende xullo do ano pasado. Propuxérona vostedes, escoiten o que lles dixeron onte nas urnas e césena hoxe. Os grupos da oposición imos votar o seu cesamento. Césena, non se absteñan, non voten en contra. Césena, escoiten o que lles dixeron onte porque llelo dixeron por algo. Abramos no Parlamento unha nova etapa para a Valedoría do Pobo. Dende logo, polo Grupo Parlamentario Socialista non vai quedar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg42">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u8">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg43">Grazas, señora Vilán.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg44">Polo Grupo Parlamentario de En Marea, o señor Villares.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u9">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg45">Boas tardes, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg46">A pregunta que cabería facerse hoxe en relación con este novo debate é se vale algo a palabra do presidente da Xunta de Galicia. O día 10 de xullo de 2018 houbo un debate nesta Cámara no que o Partido Popular se posicionou en contra de cesar a valedora do pobo como consecuencia do notorio incumprimento dos deberes do seu cargo. E ao día seguinte, na sesión de control ao Goberno, desde En Marea preguntámoslle a Núñez Feijóo o que faría con esta resolución e con esta sentenza cando esta sentenza fose firme. E na resposta do presidente, no boletín do 11 de xullo, páxina 31, di: &quot;Dime se nós imos respectar a sentenza. Si, señor Villares, nós somos demócratas&quot;. &quot;O señor Villares pregunta que, se o Tribunal Supremo considerase que esta sentenza é firme, que vai facer o grupo&quot;. E contesta o señor presidente da Xunta de Galicia: &quot;Tomar nota da sentenza do Tribunal Supremo&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg47">Se daquela a resposta foi &quot;non&quot;, agora que a sentenza é firme o lóxico sería que a resposta fose &quot;si&quot;. Temos unha sentenza firme nunha condena por abuso de poder da persoa encargada de velar contra o abuso de poder por parte da Administración, que, lonxe de renunciar, dá un paso a adiante e condiciona calquera tipo de decisión que poida tomar este Parlamento dicindo que non se irá ata que non se acorde unha substitución. É dicir, quen está condenada por un caso claro de corrupción institucional é a que pretende marcarlle o ritmo a este Parlamento, algo que nós consideramos claramente inaceptable.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg48">Pois ben, estamos de novo ante este debate, un debate que é a segunda oportunidade do Partido Popular para pronunciarse sobre se respalda a aqueles que se valen do público en beneficio particular, a aqueles que fan da corrupción institucional unha forma de goberno, ou ben se rectifica. Hoxe o Partido Popular ten que retratarse novamente e decidir se está do lado dos enchufes, do clientelismo, dos que actúan con arbitrariedade utilizando o seu poder indebidamente, se está, en definitiva, do lado dos corruptos ou se, pola contra, recoñece que se equivocou —agora si, desta vez cunha sentenza firme— depositando a confianza nunha persoa que defraudou a esta Cámara e a toda a cidadanía de Galicia. Temos que posicionarnos neste Parlamento sobre se se lle retira a confianza como consecuencia da súa intervención persoal nun asunto de colocación clientelar dunha persoa nun posto da Administración, vulnerando dereitos fundamentais dos demais concorrentes e obstaculizando o acceso á información sobre o procedemento ao propio tribunal; precisamente ela, a titular do órgano encargado de velar polos dereitos fundamentais fronte aos abusos que exerzan as administracións públicas, a encargada de velar pola transparencia fronte á ocultación da actuación ou da información que deben emitir as administracións públicas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg49">Trátase de decidir se estamos dispostas e dispostos a seguir tolerando que haxa persoas que utilicen as institucións públicas en beneficio particular para beneficiar os seus amigos, os seus antigos xefes, e para devolver favores ao partido que os puxo no cargo. O Partido Popular tense que retratar: ou está do lado dos corruptos ou está do lado dos dereitos fundamentais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg50">Nós entendemos que non pode ser, que xa debeu ser o día 10 de xullo. Pero neste caso hai unha institución condenada por sentenza xudicial porque a súa titular pisoteou os dereitos fundamentais de igualdade, mérito e capacidade, e porque desprezou os dereitos dos cidadáns. E son expresións que utiliza a propia sentenza. ¡Todo para enchufar unha amiga, todo para enchufar a sobriña de Manuel Fraga, todo, señorías, para enchufar a irmá do voceiro do Partido Popular nesta Cámara! Ou se está cos corruptos ou se está coa democracia, aquí non valen equidistancias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg51">Nós pensamos —e así o prevé a lei— que se debe cesar a valedora do pobo por notorio incumprimento dos deberes do seu cargo. E ¿cales son os seus deberes? Di o artigo 1 da súa propia lei que son a defensa dos dereitos fundamentais e das liberdades públicas recoñecidas aos cidadáns e, despois, asesorar, en materia de dereito e de acceso á información, a cidadanía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg52">É a propia sentenza —agora confirmada polo Tribunal Supremo— a que anula o nomeamento de María Puy Fraga para un posto de traballo na Valedoría por pisotear eses dereitos, e ademais por entorpecer a información pública para os interesados no procedemento. Di a sentenza que son datos reveladores —os que obran no expediente— da arbitrariedade na decisión e da desviación de poder, sendo evidente a indefensión que se lles produce ao resto de concorrentes e explicando que a infracción dos principios de igualdade, mérito e capacidade supoñen a infracción de dereitos fundamentais. &quot;É unha decisión que ademais&quot; —di a sentenza— &quot;se fai polo desexo de adxudicalo a unha das candidatas, e con desprezo&quot; —señorías, é a expresión que utiliza a sentenza — &quot;da valoración dos méritos e aptitudes dos restantes aspirantes, e co favorecemento&quot; —di literalmente a sentenza— &quot;da candidata finalmente escollida&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg53">Pensamos que é unha vergoña, señorías, que, na institución condenada por unha actuación da valedora a favor dunha candidata amiga súa, que pisoteou os dereitos fundamentais, esta poida seguir un só día á fronte da institución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg54">Non foi o único motivo polo que foi condenada nesta sentenza. Di a sentenza, ademais, &quot;que non resulta admisible que non se consignara na resolución de abstención e inicialmente tratase de ocultarse o verdadeiro motivo que deu lugar á abstención, mostrándose a valedora reacia a subministrar información&quot; —todo isto di a sentenza— &quot;pese a que a súa condición de defensora dos dereitos fundamentais e presidenta, que a súa condición de defensora ten, da Comisión de Transparencia a obrigaba a ser extremedamente escrupulosa no dito cometido&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg55">Nós pensamos que é unha indignidade, señorías, que un tribunal lle teña que reprochar á señora Otero Parga —non á institución, senón a ela mesma, persoa física— ser precisamente ela quen obstrúe e oculta información a un tribunal, a que ten como función velar pola transparencia das administracións e que subministra información aos cidadáns. ¡A encargada da transparencia escondendo as súas propias vergoñas, un bochorno democrático!</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg56">Temos que recoñecelo, si. Colleron a valedora enchufando a sobriña do fundador do Partido Popular en Galicia, a irmá do alto cargo do partido que a puxo a ela no posto que agora emprega, con abuso de poder, para devolver ese favor. Existen motivos, señorías, para acordar o cesamento da valedora. Se con estas evidencias baseadas en feitos probados nunha sentenza —agora firme— o Partido Popular non quere cesar a valedora, terá que explicar por que. Deberá ser o Partido Popular, con Núñez Feijóo e Puy Fraga á fronte, o que explique cales son os intereses de seguila respaldado e, á parte, de contrariar a propia palabra dada nesta Cámara hai un ano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg57">Deberiamos de preguntarnos nese caso a quen beneficia unha valedora que está pisoteando os dereitos fundamentais dos cidadáns e que segue sendo mantida no seu posto a pesar diso. ¿A quen debe tanto a valedora como para arriscarse ela a facer o que fixo? ¿Era por unha simple amizade, era por ser sobriña do fundador do Partido Popular, ou ese era o prezo que había que pagar por ser enchufada polo Partido Popular? A pregunta que cabe facerse, señorías, é a quen protexe a valedora mentindo a un tribunal.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg58">Este é un debate no que se trata de establecer se estamos diante dun sistema político corrupto, cun aval da maioría parlamentaria, onde unha señora abusa da súa posición de poder nunha institución para agradecer o favor do seu nomeamento ao partido que a colocou. ¿Que fai, señorías, a valedora con esta cacicada declarada en sentenza? Devolver favores, entendemos nós, aos amigos e ao partido. E preguntámonos, unha vez máis, ¿a quen beneficia a valedora? Á filla do xefe na universidade, que é sobriña de Fraga e ademais irmá do voceiro actual do Partido Popular nesta Cámara. ¿A quen beneficia manter esta situación?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg59">Señorías, estamos ante un entramado político totalmente corrupto, utilizado para pagar favores de forma clientelar e enchufista, indigno dunha administración democrática. Pensamos que nesta situación o Partido Popular apoia a valedora para protexer a súa rede clientelar, para protexer a supervivencia dunha institución corrompida pola súa titular en beneficio particular propio do partido, e para protexer tamén o seu actual voceiro parlamentario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg60">O Partido Popular, señorías, ten que retratarse ou coa corrupción e o enchufismo ou cos dereitos fundamentais e a democracia. Manter no cargo a quen enchufou a sobriña de Fraga e irmá do voceiro popular nesta Cámara, pisoteando dereitos fundamentais da xente —como declara a sentenza— e obstruíndo o labor dos tribunais, é algo que o Partido Popular empezou a pagar caro onte e que volverá pagar caro se non rectifica xa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg61">Porque, señorías, pensamos que Galicia non merece pasar por este bochorno e vivir nesta vergoña por un segundo máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg62">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u10">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg63">Grazas, señor Villares.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg64">Polo Grupo Parlamentario Popular, a señora Prado del Río.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u11">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg65">Moitas grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg66">Señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg67">
+					Señora Vilán, o Partido Popular de Galicia gañou todas as eleccións durante corenta anos menos as de onte, o Partido Socialista perdeu todas as eleccións menos as de onte. Eu voulle ler unha cita célebre que di: &quot;Cuando pierdas, no digas nada; y, cuando ganes, di menos aún. Sé humilde en tus victorias y elegante en tus derrotas, que hablen los demás&quot;
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg68">
+					Eu entendo que vostedes estean pletóricos.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Sorpréndeme máis que o señor Villares veña sacar peito cos resultados que obtivo onte, pero ¡alá el!
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg69">
+					Ben, creo que é importante expoñer por que estamos hoxe aquí e por que chegamos a este pleno e o que estamos debatendo.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+				</seg>
+				<vocal type="interruption">
+					<desc>(Interrupción.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg70">Nós escoitamos con moitísimo respecto. Esa maioría tan democrática, que escoita e que deixa falar os demais, agradecería tamén, ¡home!, que escoite, que deixe falar, que estamos en democracia.</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg71">
+					Estamos debatendo sobre unha sentenza que se dá no marco da cobertura dun posto de funcionario por libre designación. Por tanto, non estamos a falar dunha contratación. Se falamos dunha contratación, poderiamos falar da contratación da cuñada de Carmela Silva, ¡claro!, desa condena que custa 120.000 euros públicos do Concello de Vigo que alguén terá que devolver, señora Vilán. Ou ¡que pasa! ¿Os cartos do Concello de Vigo non son tan públicos como os 2.000 euros —como dixo vostede— da Valedora do Pobo? A vostede os 120.000 do Concello de Vigo non lle parecen suficientes.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+				</seg>
+				<vocal type="murmuring">
+					<desc>(Fortes murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg72">E se falamos de dignidade, dígalle a esa señora, á presidenta da Deputación, que a dignidade se demostra vindo aquí a comparecer. Durante tres veces consecutivas non veu comparecer e dar explicacións dos seus orzamentos da Deputación de Pontevedra. Por tanto, leccións de transparencia e de dignidade do Partido Socialista de Galicia, ningunha, señora Vilán, ¡ningunha!</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg73">En segundo lugar, é importante sinalar que a sentenza é no marco dun procedemento administrativo. Porque, claro, nestes días pasados chegamos a escoitar —incluso a algunha portavoza— que estaba condenada por prevaricación, e estaban falando dun asunto penal. Hoxe non se atreveu aquí a subir a esta tribuna e dicir o mesmo que dixo nas roldas de prensa e diante dos medios de comunicación. Supoño que lle caería a cara de vergonza. Pero iso está moi ben porque igual así sacamos uns votiños e hoxe seguimos aquí coa matraca da condena, da prevaricación, da delincuencia e demais. Sigan vostedes, sigan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg74">Pois ben, hai unha sentenza do Tribunal Superior de Xustiza de Galicia que insta a volver ao momento do procedemento de selección entre todos os candidatos despois de baremar. O que non deixa de ser sorprendente —xa que a sentenza estima que as bases foron feitas ad hoc para a candidata— é que non anule esas bases. ¡Sorprendente, señorías! Esa é a verdade xudicial, o Tribunal Superior de Xustiza de Galicia di que as bases están feitas ad hoc para unha candidata e despois non anula esas bases, ¡sorprendente! Señor Villares, vostede, que é xuíz, supoño que tamén estará moi sorprendido con esa sentenza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg75">Ben, pero a valedora cumpriu inmediatamente a sentenza, inmediatamente. Volveu ao procedemento onde lle di a sentenza do Tribunal Superior de Xustiza de Galicia que ten que volver.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg76">
+					En terceiro lugar, o Tribunal Supremo non emite outra sentenza —que tamén escoitamos días atrás que hai unha sentenza do Tribunal Supremo que confirma...—
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Igual vostede non, pero seguro que escoitou algunha portavoza dicindo estas cuestións. E moitos medios de comunicación publicaron que había unha sentenza do Tribunal Supremo que confirmaba esa sentenza. ¡Falso! O que fixo o Tribunal Supremo é considerar que non había interese casacional. Vostede mesmo, señor Villares, nesta tribuna, cando falamos deste tema no mes de xullo, dixo que se estimaba un 8 % dos asuntos que chegaban á casación. ¿A que si? Bueno, pois un 8 % é certo que é unha porcentaxe moi baixa, e neste caso o Tribunal Supremo está nese 92 % que non considera de interese casacional. En ningún caso confirma a sentenza nin ningunha sentenza penal nin ningunha condena por nada, señorías. O Tribunal Supremo simplemente rexeita ese recurso.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg77">Nós dixemos no seu día que agardariamos ata que a sentenza fose firme, señor Villares. E, antes de que se pronunciase o Grupo Parlamentario Popular, a valedora tomou unha decisión e asumiu a súa responsabilidade, e —tal e como explicou na súa comparecencia nesta Cámara—, entre outros motivos, porque se puido defender mellor o caso no xulgado e non se fixo. Ela asumiu esa responsabilidade dunha sentenza que ela non comparte pero acata. E pon o seu posto á disposición dos grupos parlamentarios. Por tanto, queda en funcións ata que se consensúe un novo valedor. Se ela renunciase, a institución quedaría descabezada. ¿Non cren, señorías, que para a valedora o máis cómodo era volver á universidade?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg78">Por tanto, señorías, negociemos. Se vostedes queren que mañá mesmo a valedora non siga no seu posto, esta mesma tarde podemos negociar un nome e mañá mesmo estamos nesa situación que vostedes pretenden. Non é tan complicado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg79">
+					Vostedes din que non é así a situación. Claro, se a valedora cesa, ¿que pasa? Pois, coa lei anterior, automaticamente un vicevaledor pasaría a ocupar o posto da valedora. Coa lei actual temos un valedor adxunto nomeado polo Partido Socialista que tería que pasar
+					<vocal type="murmuring">
+						<desc>(Fortes murmurios.)</desc>
+					</vocal>
+					pola Comisión de Peticións.
+					<vocal type="murmuring">
+						<desc>(Fortes murmurios.)</desc>
+					</vocal>
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Miren, o 25 de xaneiro de 2016, a valedora Milagros Otero renuncia a participar no proceso de selección da praza en cuestión, de libre designación...
+				</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg80">Si, claro, vostede interrompe porque non quere escoitar o que lle vou dicir, pero vaino escoitar, señora Vilán.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg81">
+					Porque, mire, o 4 de marzo de 2016, o señor Pablo David Cameselle Martínez, valedor adxunto por proposta do Partido Socialista, asina a acta que nomea a esa señora que vostedes din que puxo o Partido Popular.
+					<vocal type="murmuring">
+						<desc>(Fortes murmurios.)</desc>
+					</vocal>
+					¡Non, señorías! ¡Non! Quen levou o trámite e o expediente dese nomeamento foi o valedor adxunto nomeado por proposta do Partido Socialista. Por tanto, señora Vilán, non nos veña dar leccións de nada.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg82">Eu o que digo, señorías, é que, se vostedes queren que ese procedemento siga así, teriamos que ir á Comisión de Peticións e poñernos de acordo. Porque nós o que non imos facer é votar o cesamento dunha persoa e que o que asinou a acta quede aí. Pois non, señorías, o expediente afecta a toda a institución e nós consideramos que o que se ten que facer é unha renovación de toda a institución. E, por tanto, se precisamos un consenso para que continúe o valedor adxunto, a nosa proposta é que ampliemos ese consenso a toda a institución e que nos poñamos de acordo para nomear unha nova valedora ou un novo valedor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg83">
+					Señora Rodil, mire, o 14 de abril de 2008 presentou a súa renuncia á condición de membro do Consello de Administración da Radio e Televisión de Galicia dona Cecilia Pérez Orge, por proposta do BNG. E dicía: &quot;A dita renuncia terá efecto no momento en que sexa elixido o meu substituto polo Parlamento de Galicia&quot;. Así que, mire, a paternidade da renuncia en diferido é do Bloque Nacionalista Galego no ano 2008. Así que non veña vostede aquí poñerse tan estupenda e falar de bochorno
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					cando son vostedes os primeiros que adoptaron a renuncia en diferido. Daquela non lles parecía mal e hoxe veñen aquí vostedes poñer as ás de anxiños e a aureola de santos. Pois non, señora Rodil, non, non coa. ¡Non coa, señora Rodil!
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg84">E, miren, os grupos de En Marea e BNG —xa isto foi a guinda do pastel—, e vostede mesmo, señor Villares, chegaron a propoñer que se obviase o trámite de audiencia. Vostede, que é xuíz en excedencia, sorprendentemente dixo que se obviase o trámite de audiencia, porque, total..., non había nada novo dende a sentenza do TSXG ata a sentenza do Tribunal Supremo, non se vulnera ningún dereito porque hai aí unha sentenza do Tribunal Constitucional —que nin por analoxía nin por nada se pode aplicar a este asunto pero vostede atopa unha sentenza do Tribunal Constitucional...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u12">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg85">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u13">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg86">...que lle vén acaída para agora— e di que se obvie o trámite de audiencia. ¡Así de garantistas son vostedes e logo falan de delincuencia!</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg87">Mire, efectivamente, o dicionario di que delincuente é aquel que viola ou incumpre a lei. E vostedes pretendían resolver unha situación de incumprimento da lei incumprindo a lei. Porque non escoitei...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u14">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg88">Remate.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u15">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg89">...nin o Partido Socialista nin o Bloque Nacionalista Galego dicirlle ao señor Villares que vostedes non estaban de acordo con que se obviase o trámite de audiencia, un trámite garantista, e que vulneraría...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u16">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg90">Grazas, señora Prado.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u17">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg91">...un dereito fundamental de defensa.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u18">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg92">Grazas.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u19">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg93">Remato, señor presidente.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u20">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg94">Remate, por favor, xa.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u21">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg95">Se non queren que a valedora siga en funcións, téñeno fácil, negocien, negociemos. Nós estamos dispostos dende o primeiro día. Se queren que teñamos a institución con outra persoa...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u22">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg96">Grazas. Terminou o seu tempo.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u23">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg97">...estamos en condicións de poñernos a negociar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg98">Máis nada e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u24">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg99">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg100">Procedemos á votación da proposta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg101">Pechen as portas, por favor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg102">Votación da proposta de cesamento da valedora do pobo</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u25">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg103">Votamos a proposta de cesamento da valedora do pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg104">A votación será secreta mediante papeletas e chamamento por orde alfabética, conforme o establecido no artigo 91 do Regulamento do Parlamento de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg105">Para estes efectos confeccionáronse unhas papeletas que xa lles están repartindo. Baixo o enunciado da proposta de cesamento da valedora hai tres recadros: si, non ou abstención. Si, a favor da proposta de cesamento da valedora; non, en contra da proposta de cesamento da valedora; e, abstención, para quen non se pronuncia nin a favor nin en contra da proposta de cesamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg106">Os deputados expresarán o seu voto marcando un dos recadros. E considerarase voto nulo cando figure calquera riscada ou anotación diferente. É voto en branco cando non figure ningún recadro sinalado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg107">Lémbrolles ás súas señorías que, para o cesamento da valedora do pobo, conforme o artigo 5.2 da Lei 6/1984, do 5 de xuño, se require o voto favorable das 3/5 partes dos membros da Cámara, é dicir, 45 deputados.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg108">Estanse repartindo xa as papeletas. E comezamos a votación por chamamento, o que fará a secretaria da Mesa do Parlamento, dona Raquel Arias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg109">Rógolle tamén ao vicepresidente e á vicesecretaria que se sitúen a carón da urna para a recollida das papeletas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg110">Comezamos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg111">Cando queira, señora secretaria.</seg>
+			</u>
+			<note>(A señora secretaria da Mesa, Arias Rodríguez, fai o chamamento, por orde alfabética, dos deputados e das deputadas, que depositan o seu voto na urna; fano en último lugar as deputadas e deputados membros do Goberno e os membros da Mesa.)</note>
+			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u26">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg112">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg113">¿Votaron todos os deputados e deputadas?</seg>
+				<note>(Asentimento.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg114">Procedemos ao reconto.</seg>
+			</u>
+			<note>(Procédese ao escrutinio.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.u27">
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg115">O resultado da votación é o seguinte: votos emitidos 73, votos válidos, 73; non hai votos en branco nin nulos; votos a favor da proposta, 34; votos en contra da proposta, 1; abstencións, 38.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg116">Polo tanto, o Pleno do Parlamento rexeita a proposta de cesamento da valedora do pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg117">Sen máis, remata a sesión, pero non nos imos, non nos imos porque seguimos co seguinte pleno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-04-29-DSPG111.seg118">Abran as portas.</seg>
+			</u>
+			<note type="time">Remata a sesión ás catro e cincuenta e dous minutos da tarde</note>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2017-08-01-DSPG037 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2017-08-01-DSPG037 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="037">Número 037</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2017-08-01">01.08.2017</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="78"/>
+			<measure unit="words" quantity="11580"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100037.pdf</idno>
+				<date when="2017-08-01">01.08.2017</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2017-08-01">01.08.2017</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100037.pdf"/>
+			<note type="time">Ábrese a sesión ás dez e trinta e tres minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u1">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg1">Bos días. Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg2">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia de data 28 de xullo de 2017, polo que non procedemos á súa lectura. Non se xustificaron inasistencias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg3">Entramos na orde do día cun punto único, que é:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg4">Debate e votación do límite de gasto non financeiro da Comunidade Autónoma de Galicia para o ano 2018, a que se refire o artigo 12 da Lei 2/2011, do 16 de xuño, de disciplina orzamentaria e sustentabilidade financeira</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u2">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg5">Tendo en conta que o Consello da Xunta de Galicia, con data 28 de xullo de 2017, acordou o límite máximo de gasto non financeiro dos orzamentos da Comunidade Autónoma de Galicia para o ano 2018, que se fixa en 9.487 millóns de euros, que poderá axustarse na variación dos ingresos do sistema de financiamento e dos fondos finalistas que incorpore o Proxecto de lei de orzamentos da Administración xeral do Estado, así como na minoración dos axustes de contabilidade nacional sempre que non afecten ao obxectivo de estabilidade aprobado de acordo co establecido no artigo 12 da Lei 2/2011, do 16 de xuño, de disciplina orzamentaria e sustentabilidade financeira, remitido a esta Cámara para a súa aprobación xunto co informe da Estratexia financeira fiscal ao que se refire o artigo 11.2 da citada lei, procede a súa votación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg6">Antes de proceder a esta votación, o Goberno disporá dunha rolda de quince minutos para a súa presentación, que se seguirá dunha rolda dos grupos parlamentarios por un tempo de dez minutos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg7">Comezamos, polo tanto, coa presentación por parte do Goberno, e para iso ten a palabra o conselleiro de Facenda, don Valeriano Martínez García.</seg>
+			</u>
+			<note type="speaker">O señor CONSELLEIRO DE FACENDA (Martínez García):</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u3">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg8">Moitas grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg9">Bos días, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg10">Comparezo hoxe ante o Parlamento para presentar o límite de gasto non financeiro para o ano 2018, aprobado o pasado venres polo Consello da Xunta en cumprimento do artigo 12 da Lei de disciplina orzamentaria e sostibilidade financeira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg11">Con este xa son sete anos consecutivos os que leva o Goberno galego, o primeiro executivo autonómico que o aprobou por lei, presentando o teito de gasto para o vindeiro ano na Cámara.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg12">Dende o Executivo facilitamos que os grupos parlamentarios coñezan, con case tres meses de adianto sobre o que ata o 2011 era o habitual, o marco xeral no que se elaborarán as contas para o vindeiro 2018.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg13">O Goberno galego aposta pola máxima transparencia na elaboración das súas contas anuais, polo que Galicia ten un feito diferencial, pois ademais de aprobar o Executivo o teito de gasto, pide autorización ao Parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg14">Traemos á Cámara este teito de gasto no mellor momento económico dos últimos nove anos. Neste momento, en Galicia se está consolidando un modelo de crecemento san; a economía galega está medrando de maneira sostible arredor do 3 %; está creando emprego a un ritmo de entre 17.000 e 20.000 novos postos de traballo/ano e estamos batendo mes a mes os seus rexistros históricos en exportacións, cumprindo e mesmo mellorando a nosa folla de ruta trazada no Plan estratéxico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg15">Esta boa evolución económica que se está consolidando desde hai tres anos estase vendo reforzada por todos os indicadores que coñecemos nos últimos meses. Esta é a razón pola cal o Instituto Galego de Estatística acaba de realizar unha forte revisión á alza da previsión de crecemento para este ano. Así, prevemos que a economía galega medrará este ano tamén por riba do 3 %, en concreto un 3,1 %, sete décimas máis do inicialmente previsto. Esta melloría susténtase nun avance por riba do esperado na maioría dos indicadores, sobre todo os que teñen que ver co sector servizos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg16">A actividade do sector servizos leva máis de dous anos en positivo. Está evolucionando por riba da media de comunidades autónomas, con incrementos acumulados a día de hoxe por riba do 10 %. As vendas do comercio polo miúdo seguen medrando pola reactivación do consumo, froito da melloría económica que chega ás familias e fogares de Galicia, e nestes momentos somos a cuarta comunidade con mellor comportamento no que vai de ano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg17">Igualmente mantemos un bo ritmo exportador, e as vendas ao estranxeiro medran este ano por riba do 10,7 %. En 2016 xa acadaramos rexistros históricos neste apartado e imos camiño de superalos. A industria, que foi clave na recuperación económica o ano pasado, segue reactivándose, e a entrada de novos pedidos na industria galega medra por riba do 8 % no que vai de ano. Ademais, a confianza dos empresarios segue a medrar, froito da mellor situación económica e da recuperación do mercado laboral, que agardamos continúe nos vindeiros meses.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg18">En Galicia, pois, sumamos tres anos consecutivos con crecementos superiores ao 3 %. Señorías, esta evolución é moi positiva, porque lembrarán vostedes que hai dous anos decidimos reunir os mellores expertos de Galicia, tanto a representantes sectoriais como da sociedade civil, para que nos axudasen a deseñar as liñas mestras da nosa planificación ata o 2020. Debatemos que deberiamos e que poderiamos facer e que obxectivos nos podiamos marcar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg19">Dixérannos que con planificación era posible medrar de maneira sostida un ritmo anual do 2,5 %. Pois ben, levamos xa tres anos crecendo por riba do 3 %. Dixérannos tamén que era posible crear entre 80.000 e 100.000 novos postos de traballo nese período, e imos polo bo camiño para acadar este volume de novos postos de traballo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg20">En relación coa taxa de paro tamén estamos en condicións de cumprir o fixado no Plan estratéxico para chegar no 2020 a arredor do 10 % en taxa de paro, e este ano 2017 estimamos que baixará ao 15,6 %.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg21">Hai dous anos, como dicía, consensuamos este ambicioso plan estratéxico, que é a nosa folla de ruta para unir con criterio o presente e o futuro, e reitero e podo dicir con satisfacción que estamos cumprindo e mesmo mellorando practicamente todos os nosos obxectivos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg22">Para o vindeiro ano contaremos cun teito de gasto non  financeiro de 9.487 millóns de euros, 490 máis que o orzamento inicial deste ano 2017 e 261 máis que as contas actualizadas hai unhas semanas, como consecuencia da incorporación dos maiores recursos confirmados pola Administración central do Estado. Polo tanto, no 2018 o Goberno galego terá unha capacidade de gasto un 5,4 % superior á que tiña ao inicio deste ano e un 2,9 % maior que a que temos na actualidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg23">Ademais, esta maior capacidade de gasto real medrará aínda máis tendo en conta que en 2018 volveremos reducir o capítulo de gasto financeiro principalmente pola xestión responsable deste Goberno en materia de endebedamento, sendo a autonomía que menos o incrementou dende o ano 2009, e tamén por unha correcta reestruturación da mesma.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg24">En canto aos ingresos non financeiros, os que achega o sistema de financiamento supoñen o 80 % do total. A consolidación da mellora das variables macroeconómicas reflíctese nun aumento do 4,6 % das entregas a conta do sistema de financiamento estimadas para o 2018, o que supón 304 millóns de euros adicionais en relación con este ano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg25">A liquidación a incluír no 2018 —como saben vostedes—, correspondente aos pagos do sistema no 2016, increméntase en 75 millóns de euros sobre a recollida no 2017. Esta recuperación, máis positiva do esperado, débese á continuación do bo desempeño fiscal do exercicio 2016, que permitiu axustar os ingresos efectivos ás previsións orzamentarias do Estado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg26">A evolución da recadación tributaria do Estado en 2016 iguala a de 2015 por efecto da reforma fiscal, o que pon en valor o ensanchamento das bases da devandita reforma, que permite absorber as baixas na cota estatal de IRPF.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg27">En IVE o comportamento presenta un crecemento na recadación do 4,2 % sobre 2015, que á súa vez xa fora un bo ano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg28">Pola súa banda os impostos especiais tamén amosan un bo comportamento, aumentando un 3,8 %, taxas non vistas desde o inicio da crise e superiores ao crecemento da economía xeral.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg29">Á liquidación anual correspondente debe de engadírselle o axuste derivado do adiamento da devolución das liquidacións negativas dos anos 2008 e 2009, é dicir, temos que restar 85 millóns de euros. Polo tanto, o saldo total das liquidacións pasa a achegar ingresos ao sistema de financiamento no 2018 por 442,5 millóns de euros, superando o bo dato do 2017, que fora de 367,6 millóns.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg30">Polo que respecta ás transferencias finalistas doutras administracións, procedentes basicamente da Administración xeral do Estado e dos fondos europeos, aumentan lixeiramente a súa participación en cinco décimas sobre os ingresos non financeiros, ata supoñer o 10,7 % dos mesmos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg31">Os ingresos finalistas da Administración do Estado mostran unha evolución plana, reflexo do diferente ritmo de consolidación fiscal exixible, especialmente exixente para o Estado en 2017 e 2018.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg32">O Fondo de Compensación Interterritorial estímase en liña coa variación da formación bruta de capital prevista na actualización do Programa de estabilidade do reino de España para 2017-2020, e supón un aumento do 2,5 %, é dicir, un millón de euros aproximadamente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg33">Respecto ao Marco estratéxico comunitario 2014-2020, que implicou a elaboración de programas operativos rexionais para os fondos estruturais Feder, FSE, Feader, FEMP e Iniciativa de Emprego Xuvenil europea, xestionada pola Comunidade Autónoma, aos que se engaden os fondos dedicados á cooperación, en especial o POCTEP, que nestes momentos está en plena fase de lanzamento de proxectos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg34">As anualidades financeiras tidas en conta para o vindeiro exercicio son as propias dunha anualidade financeira media dos programas operativos. Unha vez que impulsamos o lanzamento da execución dos mesmos, orzaméntanse os últimos recursos da Iniciativa de Emprego Xuvenil, cuxo desenvolvemento rematará en 2018, e a partir de aí pasará a cubrirse co Fondo Social Europeo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg35">Seguindo as recomendacións do Consello de Contas, non se recollerán nos vindeiros orzamentos os Fondos Feaga, nos que a Xunta de Galicia realiza unha mera función de intermediario de pagos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg36">En relación cos recursos propios non financeiros da Comunidade Autónoma, é dicir, os nosos tributos propios, prezos, taxas e ingresos patrimoniais, representan o 9,3 % dos ingresos non financeiros orzamentarios. A súa evolución estable depende en gran medida da evolución dos tributos cedidos, sobre todo do imposto de sucesións e actos xurídicos documentados, como tamén transmisións patrimoniais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg37">Apreciamos que a continua recuperación do mercado de vivenda, especialmente da vivenda usada, logo de estabilizarse desde finais de 2014 inicia unha fase de crecemento moderado pero continuo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg38">A recadación prevista en sucesións aínda reflicte os efectos da baixada fiscal de 2016, pola cal o 99 % dos herdeiros directos non tributan xa por el.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg39">No que atinxe ao imposto de patrimonio cómpre salientar a consolidación da súa recadación como consecuencia dos efectos derivados da incorporación das novas bases de bens situados no estranxeiro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg40">En total, os ingresos non financeiros para o vindeiro ano sumarán 9.277 millóns de euros, aos que haberá que sumar 190 millóns, como resultado do 0,3 % de déficit, e engadir outros 20 por axustes de contabilidade nacional. Con isto, o teito de gasto non financeiro para o 2018 situarase nos 9.487 millóns de euros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg41">Señorías, levamos xa catro anos en que a presentación ante a Cámara do teito de gasto se produce nun momento económico máis favorable que o anterior. A realidade obxectiva de que estamos crecendo a ritmos do 3 % e reducindo cada vez máis os niveis de desemprego non nos fai esquecer que aínda queda moito por facer para que a inmensa maioría dos galegos e galegas se beneficie desta cada vez máis consolidada recuperación económica. Redobraremos os esforzos para chegar a aqueles que aínda están a pasar dificultades e que teñen máis necesidades.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg42">En canto ás previsións para 2018, o escenario macroeconómico desde a óptica da demanda amosa un crecemento equilibrado, baseado nun crecemento sostido da demanda interna e nunha achega positiva da demanda externa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg43">Desde a óptica da oferta prevese un mellor comportamento do sector industrial en 2018, mentres que os servizos manterán o seu dinamismo dos últimos anos, á vez que a construción continuará coa súa recuperación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg44">Para o vindeiro ano tamén melloramos o escenario previsto no Plan estratéxico e o PIB galego medrará un 2,7 %, mentres que a taxa de paro diminuíra máis de punto e medio, ata baixar ao 14 %. Con esta evolución, a media do incremento do PIB no período 2016-2018 estará no 3 %, medio punto superior ao previsto no Plan estratéxico de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg45">Queremos facer compatible o cumprimento do Plan estratéxico coa consolidación fiscal, por iso elaboramos este teito de gasto cun obxectivo de déficit do 0,3 % do PIB, fronte ao 0,4 % autorizado, e a razón é dobre. Por un lado, acelerar a consolidación fiscal e reducir o déficit público de maneira gradual, do 0,5 % ao 0,3 % e ao 0,1 % no ano 2019. E por outro, reducir ao mínimo o noso recurso ao endebedamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg46">Queremos deixar de emitir nova débeda o antes posible, e en 2018 xa será por un volume moi inferior ao de anos anteriores, cando xa o tiñamos controlado. Non en van Galicia é a comunidade que menos aumentou a súa débeda dende o 2009, en concreto 3.600 millóns de euros menos que a media. De feito, a finais deste ano, e sobre todo no vindeiro 2018, reduciremos de maneira sensible a ratio débeda/PIB, que xa neste momentos é cinco puntos inferior á media das comunidades autónomas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg47">Ademais, seguiremos investindo o máximo posible e pagando cada vez con maior rapidez aos nosos provedores. Galicia é a segunda comunidade autónoma con maior esforzo investidor per cápita nos últimos cinco anos, case o dobre que a media, e xa estamos cumprindo o obxectivo ambicioso de ter un período medio de pago por baixo dos dez días. Pagamos en menos da metade de tempo que a media.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg48">Estamos, pois, consolidando un modelo de crecemento en Galicia, un crecemento san, apoiado no control do déficit e do endebedamento público, no investimento produtivo e no pago áxil dos nosos compromisos. Temos un crecemento san porque crecemos mellor...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u4">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg49">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor CONSELLEIRO DE FACENDA (Martínez García):</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u5">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg50">...e crecemos mellor porque estamos mellorando a produtividade da nosa economía, estamos mantendo a nosa autonomía financeira, estamos respectando as regras de xogo e cumprindo os nosos compromisos, estamos favorecendo a liquidez dos nosos provedores con pagos rápidos, estamos crecendo sen dependencia do mercado inmobiliario e priorizando o crecemento estrutural e estamos batendo mes a mes o récord histórico de exportacións, acadando practicamente a consolidación fiscal e reducindo ao mínimo a nosa dependencia da débeda para destinar cada vez máis recursos a investimento produtivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg51">Isto é, en síntese, o crecemento san, e temos unha estabilidade política e institucional única en España que queremos aproveitar para reforzar esta lexislatura e este crecemento san, que se basea na planificación, na produtividade, na prudencia e no rigor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg52">¿Por que afondar nestes camiños, señorías? Porque a estabilidade dá certezas e permite garantir que Galicia terá un ano máis orzamento; porque contamos cunha estratexia clara onde xa acadaremos un crecemento sostido durante catro anos e prevemos que ao longo desa lexislatura sigan medrando de maneira sostida os ingresos...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u6">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg53">Non se oe ben. Silencio.</seg>
+			</u>
+			<note type="speaker">O señor CONSELLEIRO DE FACENDA (Martínez García):</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u7">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg54">...financeiros que...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u8">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg55">Silencio, é que parece ser que non se escoita ben. Perdoe un momento, señor conselleiro, parece que  non se escoita ben.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg56">Ademais agora xa está rematando, a ver se os servizos da Cámara arranxan ese micrófono.</seg>
+			</u>
+			<note type="speaker">O señor CONSELLEIRO DE FACENDA (Martínez García):</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u9">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg57">Vale, grazas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u10">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg58">Agora vai, agora vai.</seg>
+			</u>
+			<note type="speaker">O señor CONSELLEIRO DE FACENDA (Martínez García):</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u11">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg59">Prevemos —como dicía— que ao longo desta lexislatura seguirán medrando de maneira sostida os ingresos non financeiros, que permitirán crecementos estables da capacidade de gasto a un ritmo medio do 2,8 %.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg60">O escenario que manexamos é que a finais da presente lexislatura, no ano 2020, poidamos ter xa unha capacidade de gasto de arredor dos 10.000 millóns de euros, e sen recurso á débeda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg61">Polo tanto, os obxectivos e a folla de ruta están marcados e creo que nos queda traballar todos xuntos para seguir cumpríndoos. O reto deste teito de gasto non financeiro para o que pedimos hoxe a autorización do Parlamento é que Galicia continúe crecendo a bo ritmo e creando cada vez máis e mellor emprego. Dende o Goberno galego garantimos todo o esforzo para estender un ano máis a recuperación económica e sumar cada vez máis galegas e galegos á mesma.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg62">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u12">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg63">Grazas, señor conselleiro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg64">Rolda dos grupos parlamentarios. Grupo Parlamentario do Bloque Nacionalista Galego, señora Pontón.</seg>
+			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
+			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u13">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg65">Moitas grazas, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg66">Señorías, celebramos hoxe un pleno extraordinario no que en realidade é un pouco decepcionante que só poidamos debater sobre o teito de gasto. Eu teño que dicir que lamento que Feijóo se esconda e que non queira dar a cara neste Parlamento sobre dous asuntos importantes como son, por exemplo, a situación do transporte público, que xa estamos vendo a que grandes empresas beneficia este modelo, ou a transferencia da AP-9.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg67">
+					Eu hoxe teño que recoñecerlles que teño máis claro por que Feijóo se esconde, porque o certo é que é difícil dar a cara despois do papelón de onte con Íñigo de la Serna.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Fixo, señor Feijóo, vostede un espectáculo bochornoso que lamentablemente ten un título, e é traizón a Galiza.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg68">É realmente bochornoso que vostede se limite a poñerse no atril do lado de Íñigo de la Serna a aplaudir que o seu partido vete a transferencia da AP-9. E isto faino porque vostede hai tempo que rompeu o carné de militante de Galicia, creo que só o sacou na campaña electoral, e non é presidente de Galiza, é o delegado de Rajoy en Monte Pío e é incapaz, nin unha soa vez, de defender os intereses deste país.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg69">Non o fai nin defendendo máis teito de gasto nin enfrontándose a un recortazo de 442 millóns de euros. Non defende Galiza nin tan sequera para defender o que aprobamos por unanimidade neste Parlamento, que é a transferencia da AP-9. E moito menos vostede é tan sequera capaz de defender un modelo de financiamento que sexa xusto co noso país. Vostede, señor Feijóo, dimitiu de militante de Galiza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg70">Nese sentido, a última escusa que nos puxeron xa é de nota. Agora o problema da transferencia xa non son as contas públicas, agora o problema da transferencia é Cataluña. Pregúntolle, señor Feijóo, se vostede en marzo non sabía cal era o debate que había en Cataluña. ¿Non o sabía ou é que nos está enganando continuamente a todos en todo momento?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg71">A pregunta que temos que facernos é por que os vascos e os cataláns teñen a xestión da autoestrada desde hai décadas e Galiza non. A pregunta que estaría ben que o seu conselleiro formulara nalgún consello de política fiscal é por que hai 3.500 millóns de euros para rescatar as radiais madrileñas e, sen embargo, hai cero euros para rescatar aos galegos e ás galegas das peaxes da AP-9; unhas peaxes que, por certo, vostedes xa nos anunciaron que queren subir.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg72">Quero dicirlles hoxe —xa que o presidente se esconde e non dá a cara— que no BNG non imos tirar a toalla, que imos solicitar de novo a comparecencia de Feijóo porque cremos que é importante que nos explique por que o presidente da Xunta de Galiza renuncia á transferencia da AP-9, por que rompe a unidade das forzas políticas galegas e por que desautoriza os acordos que tomamos neste Parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg73">Desde logo, nós cremos que o presidente da Xunta non está á altura das circunstancias nin á altura deste país. Os galegos e as galegas somos mellores que vostede, señor Feijóo.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg74">Como tampouco está á altura das circunstancias esta proposta de teito de gasto que hoxe vai aprobar unilateralmente o Partido Popular; unha proposta que xa vén dunha catarata de decisións antidemocráticas, centralistas, que minan este escuálido autogoberno e que son absolutamente contraproducentes para blindar os servizos públicos e poder tirar por toda esa xente que segue instalada na crise económica.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg75">Dicimos que este teito de gasto e toda esta armazón legal que foi articulando o Partido Popular é antidemocrático e centralista porque este teito de gasto, ao final, é fillo dunha repartición do déficit que en realidade nos está impoñendo o Goberno central, que impón unilateralmente o seu criterio, fai unha repartición inxusta da capacidade de gasto, e detrás deste modelo o que se quere é seguir recortando servizos públicos e limitando a capacidade de investimento público, que tiña que ser un motor fundamental para reactivar a economía e, sobre todo, para construír ese país no que ninguén quede atrás.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg76">Desde o Bloque non estamos de acordo cun modelo que é un disparate centralista, que está forzando recortes en servizos básicos como son a sanidade, a educación ou os servizos sociais, e polo tanto nós cremos que este non é un modelo que mereza o noso apoio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg77">Fíxense, para Galiza imponse un teito de gasto, pero o Estado regaloulle máis de 60.000 millóns de euros á banca. Para Galiza imponse un teito de gasto, pero o Estado incrementou en máis de 7.500 millóns de euros o gasto militar. Para Galiza imponse un teito de gasto, pero o Estado ten 3.500 millóns de euros para rescatar as radiais madrileñas. É dicir, teito de gasto si, pero depende, porque o señor Rajoy deixa e mantén uns privilexios que lle permiten ter manga ancha cando lle interesa. E é curioso, os intereses do señor Rajoy nunca coinciden en defender a Galiza, nin os dereitos sociais, nin unha mellor calidade de vida e benestar para os cidadáns.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg78">
+					Hoxe, señor conselleiro, vostede veu aquí repetirnos un pouco todo o que xa coñeciamos na nota que fixo pública a semana pasada. Viñeron aquí, en certa maneira, a gabarse duns datos que saben que están maquillados nunha parte. Publicamente vostedes din que hai un incremento do teito de gasto de 490 millóns de euros, pero isto é unha trampa, porque vostedes fixeron unha modificación orzamentaria. Por certo, fíxense que casualidades, a modificación orzamentaria foi tramitada en lectura única nun día. Non sabemos se chamar ao Constitucional, porque agora o Partido Popular di que os trámites en lectura única rompen España.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					En fin.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg79">Vostedes dinnos que hai un incremento dun 5,4 %, pero en realidade o incremento do teito de gasto real é do 2,3 %, e é un incremento que se sitúa por baixo do crecemento económico previsto. Estamos, polo tanto, ante un marco orzamental continuísta que imposibilitará reverter os recortes e a deterioración dos servizos públicos que son fundamentais para levar a cabo un estímulo da nosa economía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg80">Vostede dicíanos que agora xa coñecemos cal é o marco no que traballo o Goberno para elaborar os orzamentos, e o que nos están dicindo en realidade é que non van reverter os recortes en servizos públicos básicos, que non hai recursos para impulsar realmente a innovación, que non van dotar máis recursos para poñer en marcha novas medidas para loitar contra a pobreza e as desigualdades, para reactivar realmente a economía, porque con esa marxe de 219 millóns o certo é que os seus orzamentos van ser necesariamente continuístas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg81">Pero hai, en todo caso, outro aspecto que eu hoxe quixera destacar, e é unha cuestión que nos parece importante. A pesar de que nos últimos anos —vostede sinalábao na súa intervención— hai un incremento do teito de gasto, as previsións de gasto orzamentario non superaron os niveis previos á crise, e isto o que nos está sinalando son as limitacións e a insuficiencia do actual modelo de financiamento autonómico e a necesidade de superalo, e neste tema aquí vostedes tamén están absolutamente misings, desaparecidos. Véxoos a vostedes felices como perdices cun teito de gasto que só se incrementa en 219 millóns de euros, cando cun modelo de concerto económico como o que propón o BNG poderiamos dispoñer en Galiza de máis de 3.500 millóns de euros para que non tiveramos que pechar colexios, para contratar máis profesorado, para mellorar a sanidade e para poñer en marcha un plan Retorna para que a xente que marchou teña posibilidades; en definitiva, para activar realmente a nosa economía e poñer os recursos que pagan os galegos e galegas ao servizo do país e non  doutros que nada teñen que ver con nós.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg82">Pero se nós xa tiñamos claro que a mellor alternativa para Galiza é poder ter unha facenda galega que nos permita definir os nosos impostos, recadalos e ver cal é a mellor maneira de utilizalos en beneficio da xente do noso país, recoñézolles que despois de ler o informe do comité de expertos o teño moitísimo máis claro que nunca. Ese documento —que imaxino que avala a Xunta de Galiza—, lonxe de avanzar en capacidade fiscal e financeira, o que nos abre a porta é mesmo a que Galiza nese marco poida ter menos ingresos, se ese fora o resultado final. É un auténtico disparate que avalen unha reforma do sistema na que o Estado central non vai aportar máis recursos e na que as propostas que vostedes queren facerlles aos galegos e galegas son subir o IVE ou que haxa máis repagos nos servizos públicos. Ese non é o camiño nin esas para nada son as propostas que imos defender desde o BNG.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg83">En definitiva, nin por razóns de forma nin por razóns de fondo podemos estar de acordo con esta proposta, que non está á altura do que necesita o noso país nin das necesidades que temos en materia de investimento público, de reforzo dos servizos públicos, de reactivar a nosa economía. Realmente, este teito de gasto é un corsé que nos impide utilizar todos os recursos aos que podería ter acceso a Administración realmente para apostar por que ninguén quede atrás para modernizar o país e para realmente poñer en marcha unha recuperación económica real que chegue a todo o mundo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg84">Vostedes parecen obviar que hai un consenso moi importante en que a redución do investimento público alongou a crise e provocou un incremento das desigualdades e un empobrecemento das capas sociais importantes. Eludiron calquera cuestión que teña que ver con isto. E realmente o seu modelo é o dunha economía con pés de barro e o dunha posición na que Galiza non converxe. Os problemas estruturais que vén arrastrando a nosa economía non atopan solucións...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u14">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg85">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
+			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u15">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg86">...nas políticas económicas do Goberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg87">Vou rematando.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg88">Fixo vostede, señor conselleiro, relación a que estiman neste ano unha redución da taxa de paro do 15,6 %. Era exactamente a mesma cifra que puidemos escoitar neste Parlamento no debate de teito de gasto do ano pasado. ¿Isto que quere dicir? Que hai un mal comportamento do emprego no noso país. E sabe que, ademais, moita da redución do desemprego non ten que ver con que haxa máis xente traballando, senón con que se reduce a poboación activa e temos un problema grave coa emigración. Recoñéceno vostedes no propio informe que traen a este Parlamento, onde nos din que unha parte importante da redución do paro vai vir pola redución da poboación activa e non porque haxa máis emprego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg89">Nós, señorías, imos votar non a este teito de gasto porque o teito de gasto é un instrumento para limitar a capacidade real de actuación dos gobernos e a ideoloxía neoliberal e centralista e porque é un teito de gasto que non lle convén a Galiza, que hoxe podía ter máis recursos para mellorar a súa sanidade e a súa educación. Pero vostedes son máis papistas que o Papa e seguen teimosamente recortando servizos...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u16">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg90">Grazas, señora Pontón.</seg>
+			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
+			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u17">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg91">...e recortando a capacidade de actuación do Goberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg92">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u18">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg93">Grazas, señora Pontón.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg94">Grupo Parlamentario Socialista, señor Fernández Leiceaga.</seg>
+			</u>
+			<note type="speaker">O señor FERNÁNDEZ LEICEAGA:</note>
+			<u who="#FernándezXoaquínMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u19">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg95">Bos días, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg96">Señoras e señores deputados, con este pleno iniciamos o ciclo orzamentario de 2018, que rematará dentro duns meses. Trátase de combinar a aplicación do principio de estabilidade orzamentaria —co que nós estamos de acordo, aínda que nos parece que hai algúns aspectos concretos, que despois explicarei, nos que se pode facer outra interpretación ou mellorar a súa aplicación concreta— cunha estimación de ingresos que depende en parte das decisións que adopta a Administración central e que adopta tamén a Administración autonómica, e combinado coa situación económica, porque nos dá a base sobre a que se aplican os tributos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg97">Estamos de acordo co principio de estabilidade orzamentaria e de sostibilidade financeira. Non nos preocupa; ao contrario, cremos que é bo para a nosa economía, que é bo para a nosa sociedade que exista esta estabilidade, porque este principio, ao final, o que nos quere dicir é que se queremos un estado de benestar nórdico —á parte de xestores nórdicos, que, evidentemente, non temos— pois necesitamos tamén unha fiscalidade como a deses países, e que se queremos outra cousa necesitamos unha fiscalidade distinta. Vostedes apostan por unha fiscalidade mediterránea coa que nós non estamos de acordo. A nós gustaríanos unha fiscalidade que se fora aproximando progresivamente á doutros países europeos e que permitiría unha política distinta. Pero o que quere dicir é que hai que equilibrar ingresos e gastos, e iso parécenos un principio correcto, coas salvedades que despois farei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg98">O problema está en que a inercia da súa xestión político-económica leva a unha redución progresiva do gasto público autonómico en relación co produto interior bruto, que non parece que vaia na dirección que nós propoñemos. Por tanto, hai aquí un primeiro elemento de discrepancia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg99">Na estimación de ingresos é onde están os principais problemas. Na miña opinión, falta ambición e sobra conformismo. Necesitariamos unha reforma fiscal de verdade, seria, en España, con consecuencias en Galicia, que ampliase as bases fiscais, que equilibrase o tratamento das rendas do traballo e do capital, que facilitase o cumprimento das obrigas fiscais, de reducirse a fraude. Esa reforma fiscal seria é a que nos traería máis ingresos para o conxunto das administracións —tamén para a Administración autonómica— e permitiríanos pór en marcha políticas diferentes. Pero aínda sen esa reforma fiscal seria, no marco actual cabe facer algo máis para impulsar as políticas de gasto que necesitamos, de apoio ás familias e de redución da pobreza infantil, de apoio aos dependentes, para que teñan os centros de día, para que teñan as residencias asequibles ás que hoxe non teñen dereito, de apoio á sanidade pública ou de reforzo da formación en capital humano, en elementos de investigación e desarrollo que permitan favorecer a nosa competitividade. Para estas políticas que están desenvolvidas insuficientemente ou non están desenvolvidas pola Xunta de Galicia necesitamos algúns recursos adicionais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg100">A traxectoria non nos convence, o seu único proxecto segue sendo o do axuste, indo máis alá incluso do que está previsto nos nosos compromisos europeos e nos nosos compromisos con outras comunidades autónomas e co Estado central; un axuste conservador. E fan unha lectura, ao noso entender, pouco ambiciosa, conservadora, no sentido ideolóxico, da situación económica. Por iso xa lle anuncio que nós non imos apoiar este teito de gasto e que votaremos en contra do mesmo porque nos parece insuficiente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg101">Pero permítame tamén algunhas observacións máis concretas. Vostede fala de crecemento san e refírese ao cadro macroeconómico que acompaña este informe. Pero aparece un primeiro problema, que é a insuficiencia da creación de emprego. O crecemento do 2,7 % significa unha certa desaceleración sobre o destes últimos anos; é alto en termos comparados con outros países europeos. Non vou criticar iso, pero si critico que a súa tradución en termos de emprego é anémica. Estamos falando de 17.000 empregos —un pouco por debaixo dos 20.000— e isto condúcenos nunha senda de creación de emprego inferior á media española, como vén ocorrendo desde o ano 2009. Estamos reducindo a nosa base física de ocupados e isto pon en risco a nosa capacidade para xerar riqueza nos próximos tempos. Si, redúcese o desemprego, pero, como xa se dixo, basicamente pola debilidade na poboación activa, que se converte no principal argumento para ir axustando as cifras de desemprego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg102">Por tanto, primeiro problema, a insuficiente creación de emprego, e xa non falamos da súa calidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg103">O segundo problema ten que ver co perfil do crecemento. No cadro macroeconómico aparece claramente unha aposta pola exportación —está ben—. A exportación crecería o 5,7 %, por riba incluso do crecemento nominal da nosa economía —correcto, parécenos que hai que desenvolver esa traxectoria exportadora—, pero no plano interno hai unha dependencia excesiva do comportamento da formación bruta do capital, igual que ocorría o ano pasado, que todos sabemos que é a variable máis volátil e máis influenciada por factores de carácter psicosocial, o que deriva das expectativas basicamente dos empresarios. Ambas as cousas están ligadas: hai investimento en formación bruta de capital porque hai boas perspectivas exportadoras. ¿Pero cal é a outra cara? A outra cara é que o consumo privado das familias e o consumo público, en cambio, se axustan moito máis e teñen un comportamento que está substancialmente por debaixo destas outras dúas rúbricas. E a nós gustaríanos que en vez de voar cun único motor, que é o motor das exportacións, voaramos cos dous motores, sobre todo porque nun momento de turbulencias está ben ter capacidade de resposta de máis. Voar con dous motores significa afirmar máis a creación de emprego, que suban os salarios en consonancia coa produtividade, que é unha demanda crecente da nosa sociedade e que significa trasladar o crecemento económico ás rendas das familias, á súa capacidade de consumo, ao seu nivel de vida e, por tanto, estar en condicións de que o crecemento sexa máis estable. O crecemento está desequilibrado socialmente, e nós queremos que se reequilibre. O crecemento dos beneficios das empresas do IBEX no conxunto de España neste ano é do 22,8 %, e estamos falando de crecementos salariais do 1 %. Ese é o desequilibrio social e iso é o que temos que remediar, e o cadro macroeconómico que nos presentan incide nesa vía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg104">Por certo, as exportacións crecen un 5,7 %, pero, ¡ollo!, os nosos principais mercados de exportación —deixando á parte o resto da economía española, é dicir, Francia, Portugal, o Reino Unido— están todos medrando por debaixo do 2 %. Por tanto, temos un reto moi importante porque en mercados que medran por debaixo do 2 % ou gañamos cota de mercado ou abrimos mercados noutros lugares con taxas de crecemento superior —India, China, etc.— ou, se non, imos ter un problema. E sitúoo nada máis como unha preocupación de futuro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg105">E, ademais, este modelo debilita a Xunta de Galicia. ¿Por que debilita a Xunta de Galicia? Basicamente porque os nosos ingresos —IRPF e IVE— dependen moito máis da demanda interna. E na medida en que esta se expande pouco a nosa base fiscal xeral está crecendo tamén por debaixo do que debería. Por tanto, crecemento baseado en dous motores en vez de nun só.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg106">Por último, cuestións concretas sobre o informe: a regra de gasto é excesivamente conservadora e habería que revisala. Cunha expansión nominal próxima ao 5 % o gasto público computable está aproximadamente na metade de crecemento, e isto débese a un peso excesivo do que ocorreu nos cinco anos anteriores. O ministro Montoro comprometeuse cos concellos e coas comunidades autónomas a facer a revisión do modo de cálculo da regra de gasto no primeiro semestre deste ano, pero non o fixo, e desta forma estase acentuando o nesgo conservador desta política económica. E na fenda da produción, no que se chama o output gap, sucede algo parecido.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg107">A min chámame a atención que nun contexto en que temos un 15 % de desemprego, en que aínda non conseguimos recuperar os niveis de PIB anteriores á crise e en que temos unha inflación por debaixo do 2 % apareza que o noso PIB real está por riba do potencial a medio prazo da economía galega. Eu non vou criticar o método de cálculo, o que digo é que seguramente se adecúa mal a unha situación excepcional como a que estivemos vivindo nestes anos, e iso está acentuando o nesgo conservador porque obriga a unha política de déficit cero ou en todo caso de pequeno superávit público, o cal me parece un dislate nestas circunstancias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg108">Ademais vostedes —e xa vou rematando, señor presidente— non discuten a distribución de déficit entre administracións. Un déficit para España do 2,2 %, para a Administración central, o -1,8 %, e para o conxunto das comunidades autónomas e os concellos, -0,4 %. Coa distribución do gasto público que ten España, iso significa centrar excesivamente o recurso ao déficit naquela administración que, en cambio, supón menos da metade do gasto público global da economía española, e ten, en cambio, por riba do 80 % do déficit asinado. Hai que pelexar contra isto, hai que facer que as comunidades autónomas, que son as que responden a servizos básicos —sanidade, educación e servizos sociais— teñan tamén acceso a este recurso nunhas condicións comparables ás da Administración central.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg109">E, por último, en relación cos ingresos tributarios previstos, teremos ocasión de discutir sobre o modelo de financiamento —non vou entrar nisto—, o actual e o futuro, entre outras cousas porque non depende das súas decisións. É a aplicación do modelo do ano 2009 o que nos dá lugar a eses ingresos, e cando se revise discutirémolo —supoño que en setembro—. Pero si unha referencia mínima aos ingresos tributarios propios, que vostede tamén fixo. Están estabilizados, de 859 millóns pasamos a 866; practicamente estables. Nun contexto en que hai un crecemento do PIB nominal en Galicia próximo ao 5 %, estabilizamos os ingresos propios, que reducen substancialmente o seu peso no conxunto dos ingresos non financeiros da comunidade autónoma. Eu creo que iso non é bo, sobre todo cando o mercado inmobiliario, como vostede dixo, se está recuperando. Unha recuperación do mercado inmobiliario, un crecemento da economía do 5 % e, sen embargo, estabilidade dos nosos ingresos propios.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u20">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg110">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor FERNÁNDEZ LEICEAGA:</note>
+			<u who="#FernándezXoaquínMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u21">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg111">Eu creo que aquí temos un problema.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg112">Remato xa, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg113">Imos opoñernos ao teito de gasto, e imos opoñernos porque vostedes cumpren cunha das dúas condicións que plantexa a Unión Europea: a estabilidade presupostaria. Está ben, pero a Unión Europea —e podo lerllo aquí literalmente— tamén nos pide ás administracións públicas españolas que adoptemos medidas para promover a contratación por tempo indefinido, que melloremos o apoio ás familias, que fagamos fronte ás disparidades autonómicas nun sistema de rendas mínimas ou que garantamos un nivel adecuado e sostido de investimentos en investigación e innovación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg114">Cumpren a primeira parte, pero non cumpren a segunda. Son só a metade de europeos; nós queremos ser europeos completos, nos ingresos e nos gastos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg115">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u22">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg116">Grazas, señor Fernández Leiceaga.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg117">Polo Grupo Parlamentario de En Marea, señor Villares.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u23">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg118">Bos días, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg119">
+					Señorías, comezamos desta maneira co debate do teito de gasto sobre os orzamentos de 2018, e a primeira pregunta que cabería facerse é: ¿para que vale un orzamento? Un orzamento, en democracia, nunha democracia social como a nosa, debería de valer para asegurar o funcionamento das institucións, para garantir liberdades civís, para asegurar dereitos sociais e dereitos fundamentais de carácter básico; en definitiva, para garantir a liberdade material e a igualdade de oportunidades e, por suposto, para dinamizar a economía e para crear emprego. Debería de ser un debate, en definitiva, sobre o benestar social. Pola contra, ¿que é o que temos? Hoxe temos un debate minguado, triste e mediocre sobre o inicio da forma de facer os orzamentos. ¿E isto por que? Non por razóns de economía, senón por razóns de ideoloxía, algo que xa avanzou hai bastante tempo a fundación FAES cando dicía que a redistribución da riqueza non se fai a partir dunha política fiscal progresiva, senón dunha xestión máis eficiente do gasto; algo así como que unha boa política de austeridade e restrición orzamentaria é a mellor forma para conseguir a menor desigualdade e o benestar social. Hai que ter coidado coas fundacións, porque ás fundacións cárgaas o demo, e pódenos acabar pasando como coa Fundación Adolfo Hitler xestionando o pazo de Meirás, algo que supoño que a ninguén agradará, aínda que sexa legal...
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Quería dicir Francisco Franco, perdoen,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					que é moito máis democrático e moito máis elegante que Adolfo Hitler.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					¡Moito máis elegante!
+				</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg120">
+					Dentro da necesidade de equilibrar as contas públicas, existen diferentes alternativas. A regra do teito de gasto non é única, existen alternativas e existen alternativas que permiten non ignorar o sufrimento alleo. Vese que a vostedes o de ignorar o sufrimento alleo lles vai moito.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Claro, porque, se non fose así, aínda sen reparar a memoria histórica e aínda sen desenterrar a todos os mortos das cunetas e darlles sepultura digna, manter a Fundación Francisco Franco xestionando un patrimonio espoliado ao pobo de Sada e ao conxunto do pobo galego sería inadmisible e avergoñaría a calquera tamén nesta Cámara, e aquí o único que se ve son apupos por denuncialo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg121">O teito de gasto forma parte da arquitectura da austeridade, hai que dicilo así de claro. Aínda que estamos na fase alcista do ciclo, os orzamentos da Xunta seguen na arquitectura da austeridade; os orzamentos van medrar por baixo do que medra a economía, e así o recoñeceu o propio conselleiro na súa intervención. Austeridade significa, neses termos, o avergoñamento do público, da intervención pública na economía e na vida para garantir dereitos. É a insolidariedade e é negar que o conxunto da sociedade poida intervir para axudar aos demais, poida intervir para que ninguén quede atrás, poida intervir para garantir os dereitos básicos a toda a cidadanía. Teito de gasto significa que se temos que escoller entre pagar medicamentos ou pagarlle a Merkel, escollemos a Merkel en vez dos medicamentos, porque nos importa máis a economía que a xente, e iso non pode ser.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg122">A austeridade é poñer o diñeiro por riba das persoas, e nós queremos unha economía ao servizo da xente, por iso rexeitamos o teito de gasto. A arquitectura da austeridade que foi imposta pola Troica —unha entente antisoberana, que non sometida a un funcionamento democrático— condiciona o funcionamento das institucións que si son democráticas, como este Parlamento. E o artigo 135 é o seu enxendro máis deforme, somete a realización dos dereitos da cidadanía ao pago dunha débeda da que a cidadanía non é responsable; é dicir, pagan xustos por pecadores, en termos sociais. Non é economía, é ideoloxía.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u24">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg123">Silencio, por favor. ¡Silencio! Hai moito barullo na sala. A ver se podemos ter silencio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg124">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u25">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg125">O obxectivo do teito de gasto é reducir o gasto público para evitar que o Estado poida intervir, mellorando a vida da xente. ¿E cales foron as consecuencias? Á vista están. A pesar de estar nunha fase alcista do ciclo, a pesar de medrar o PIB, os datos son teimudos e segue habendo en Galicia neste momento máis de 200.000 persoas sen traballo, 35.000 máis que cando o señor Feijóo chegou ao Goberno, e isto a pesar de ter 68.000 persoas menos en idade de traballar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg126">Hai 86.000 persoas máis que levan en desemprego máis de dous anos, fronte ás 22.000 que eran en 2009. O número de fogares con todos os seus membros en desemprego aumentou o 53 % dende que vostede goberna, e o número de persoas sen ningún ingreso, salario nin pensión aumentou un cen por cento. A Comisión Europea denunciou que existe no ano 2016, con relación ao 2015, máis xente en risco de pobreza no noso país, que o índice Gini de desigualdade segue aumentando, e ademais di literalmente que a xente nova está pospoñendo decisións importantes con impactos moi negativos nas súas propias vidas persoais e na cohesión social ás perspectivas de crecemento e ao sostemento dos sistemas sociais. ¿Que está dicindo, en definitiva? Que están vostedes creando as condicións para que a xente siga emigrando e para que a xente non vexa esperanza no seu propio país, e iso non pode ser. Non é xusto facer uns orzamentos nesa clave.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg127">É que a economía española, e a economía galega, medra a pesar da austeridade; non pola súa política, medra a pesar da política do PP. E non o di En Marea, dío o Banco de España... Si, señora, medran a pesar de vostedes, e dío o Banco de España, di que o 70 % do incremento do PIB é imputable á política monetaria expansiva do BCE, ao tipo de cambio euro-dólar, ao prezo do petróleo e a unha relaxación da política fiscal. Esas son as causas do 70 % do incremento do PIB. ¿E iso por que? Porque o Goberno galego non ten política económica, e esa política económica, evidentemente, non incide nin no medre do PIB nin no medre das súas condicións sociais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg128">O resultado de todo isto é que a riqueza xerada se distribúe inxustamente. ¿E por que se distribúe inxustamente e máis aínda coa regra do teito de gasto? Porque a falta de recursos impide satisfacer dereitos. Non hai recursos porque se renuncia a unha política de redistribución mediante un sistema tributario e mediante uns orzamentos xustos. Renúnciase a apañar e a buscar a riqueza alá onde existe, a riqueza que acumulan uns poucos, para distribuíla entre todo o mundo. A economía produce riqueza, efectivamente, pero non se distribúe igual entre empresarios e traballadores. A taxa de ganancia das grandes empresas e dos grupos financeiros está disparada, mentres os salarios non medran en termos reais desde hai practicamente vinte e cinco anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg129">O resultado: os ricos son cada vez máis ricos e os pobres cada vez máis pobres. Son datos oficiais. Dende o inicio da crise produciuse o aumento de persoas hipermillonarias no noso propio Estado, un 457 %, mentres a taxa de desigualdade segue crecendo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg130">Por iso, nós opoñémonos a este sistema de teito de gasto, e, polo tanto, a esta proposta concreta de teito de gasto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg131">Vénsenos aquí anunciando que a economía galega medrará un 3,1 % no 2018 e, sen embargo, o teito de gasto increméntase un 2,8 %, por certo, despois de recoñecer a incompetencia do propio Goberno galego durante os orzamentos do ano pasado á hora de calcular cal era realmente o montante deses orzamentos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg132">En Marea xa llelo advertiu e vostedes non fixeron caso, foron incompetentes á hora de establecer unha verdadeira estimación de ingresos, e nós tivemos que corrixilos. Despois, veu Soraya Sáenz de Santamaria dicir que En Marea tiña razón e, polo tanto, dispuxeron vostedes de case 230 millóns de euros máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg133">
+					Pois ben, tomen nota do que lles imos dicir agora tamén para que poidan elaborar ben o orzamento de 2018. Rexeitamos esta cifra de teito de gasto en concreto por tres razóns: en primeiro lugar, porque se a economía crece un 3,1 % e o teito de gasto un 2,8 %, estamos recoñecendo uns orzamentos que non van acompasados nin sequera co ciclo económico, porque non confían vostedes...
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					¿Que pasa, non confían en que as previsións económicas sexan certas? ¿Están dicindo que manexan outros datos inferiores ao 3,1 % e por iso se encontran no 2,8 %? Terán oportunidade de explicalo, seguramente. ¿Ou é que pensan que a mellor política económica é que non existan uns orzamentos para a redistribución da renda-riqueza e para satisfacer os dereitos da cidadanía?
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					¿Entenden iso vostedes e por iso fan esas previsións?
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg134">Pero é que, ademais, hai outra cuestión esencial, que estes datos non recollen o incremento de prezos, e o incremento de prezos, sumado ao PIB, é dicir, o incremento do PIB nominal para 2018, será do 5,6 %. ¿Por que non soben o teito de gasto ata o 5,6 % podendo facelo? ¿Por que non o fan?</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u26">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg135">
+					Silencio, por favor.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Silencio, se non...
+				</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u27">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg136">Con eses cartos teriamos recursos suficientes para atender...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u28">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg137">Silencio, por favor.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u29">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg138">A ver se non lles interesa.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u30">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg139">Un pouco de respecto a quen está no uso da palabra. Un pouco de respecto, por favor.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u31">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg140">A ver se non lles interesa...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u32">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg141">
+					Un pouco de respecto, por favor. Imos tomar isto un pouco máis en serio. Un pouco de respecto a quen está no uso da palabra, ¡eh!,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					porque, se non, vou ter que..., e non procedería nun pleno que non se prevé demasiado longo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg142">Por favor, respecto a quen estea no uso da palabra, a todos os deputados e deputadas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u33">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg143">¿Sabían vostedes que con este diferencial que non inclúen no teito de gasto...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<vocal type="murmuring">
+				<desc>(Pronúncianse palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u34">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg144">¡Paremos xa, eh! Se non, suspendemos isto momentaneamente. Non hai ningún problema en facelo.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u35">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg145">Ben, parece que molesta a opinión disidente.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u36">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg146">Non, non...</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u37">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg147">Parece que molesta a formación dun estado de opinión político e social alternativo á súa verdade única.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u38">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg148">Silencio.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u39">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg149">Ben, ¿sabían vostedes que, aplicando este sistema, nos permitiría a todos e a todas atender todas as persoas dependentes cun correcto desenvolvemento da Lei de dependencia e converter a Risga nunha verdadeira renda básica de inserción cidadá? E renunciamos a iso simplemente porque vostedes non queren facer uns orzamentos que atendan os dereitos fundamentais?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg150">En segundo lugar, rexeitamos isto porque non ten en conta o novo modelo de financiamento autonómico. Éncheselles a boca de falar do novo modelo de financiamento e non ten repercusión de ningún tipo á hora de establecer estes orzamentos, cando parece que o novo modelo de financiamento debera de bascular cara a unha maior fonte de recursos. ¿Ou non é así? ¿Teñen vostedes datos ocultos sobre o novo modelo de financiamento que leve a unha minoría de ingresos, a unha minoría de recursos por parte da comunidade autónoma? Se é así, suban e dígano.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg151">Pero é que incluso os feitos os desacreditan, porque á data deste ano a secretaria xeral de Financiamento Autonómico acaba de indicar que para o conxunto das comunidades autónomas en 2018, como mínimo, vai haber 4.000 millóns de euros máis. ¿Algo lle tocará a Galicia, non? ¿E onde está ese algo reflectido neste teito de gasto?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg152">Unha vez máis, van volver equivocarse e van ter que ver como En Marea lles fai as contas de forma rigorosa, fronte á súa falta de rigor, empeñada en non satisfacer dereitos fundamentais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg153">Non se acada unha maior suficiencia de recursos para as comunidades autónomas neste modelo de financiamento que vostedes propoñen. É coma se fose un modelo fracasado de antemán. Están vostedes poñendo a venda antes cá ferida. Pois miren, con todo iso, con todos eses recursos que deixan vostedes de presupostar, poderiamos manter abertas as nove escolas unitarias que pecharon, os catro centros de ensino que pecharon hai un mes, os libros de texto gratuítos e un comedor asequible a todos os petos e a todas as persoas que están no ámbito do sistema educativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg154">Finalmente, rexeitamos este sistema porque mantén un dos sistemas fiscais menos eficientes e eficaces da Unión Europea. Debilítase a suficiencia fiscal reducindo os impostos ao capital e ás rendas máis altas. Con isto, ¿que é o que producimos? E á parte aínda vén vostede presumir do aforro de impostos. ¿Para que?, ¿para que despois entre todos paguemos por vía da débeda o que deberan de pagar uns poucos, aqueles que manifestan maior capacidade e maior riqueza? Pois nós non queremos iso. Nós queremos que quen teña máis pague máis, para distribuír e facer solidariedade social co conxunto da sociedade, e asegurar desa maneira que todo o mundo teña o mínimo indispensable para vivir con dignidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg155">Con eses diñeiros que vostedes din que aforran pero que lles aforran ás rendas máis altas, pero que lles aforran sobre todo ás grandes empresas, poderiamos facer políticas de I+D que xerasen emprego, que permitisen á mocidade emigrada volver e crear aquí emprego de calidade e con alto valor engadido. Pero a vostedes a mocidade emigrada pouco lles interesa, ¿verdade?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg156">Miren, finalmente, tamén rexeitamos este modelo porque se incardina nun modelo onde os paraísos fiscais seguen sendo a porta de atrás do seu gran patriotismo de bandeira, porque moita pulserita de España, pero despois, a tributación nos paraísos fiscais, ¿verdade? E niso ¿onde está o Goberno galego? ¿Onde está o Goberno español? ¿Onde están as institucións defendendo a fin desa situación? En ningures, porque non interesa.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u40">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg157">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u41">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg158">Vou rematando coa alternativa que propón En Marea ao teito de gasto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg159">Nós cremos que é posible asegurar o equilibrio das contas públicas, e non mediante unha regra de teito de gasto senón mediante a regra do solo de ingresos, mediante a suficiencia de recursos. Calquera casa —tamén a orzamentaria— non se empeza polo teito, empézase pola base. ¿E cal é a base orzamentaria? A base orzamentaria é saber cantos recursos necesitamos para asegurar o acceso de toda a poboación a bens básicos como a vivenda, a educación, a sanidade, as prestacións sociais, as pensións, a cultura, o medio ambiente, a superación da desigualdade de xénero e o resto das desigualdades sociais. Ese é o punto base, ademais de que o orzamento debe servir, evidentemente, para a creación dun emprego de calidade...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u42">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg160">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u43">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg161">...—e vou rematando— e para que a mocidade non viva empobrecida e cunhas condicións laborais que lle permitan afrontar o futuro con seguridade e lle permitan planificar a súa vida como desexaría esa propia institución da Unión Europea da que vostedes presumen tanto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg162">¿E como se acada isto? —e remato—. Mediante o principio de suficiencia fiscal. ¿Que é a suficiencia fiscal? É un principio que asegura o benestar da cidadanía e polo que se deberían guiar todas as institucións públicas. É a forma de cuantificar o custo da satisfacción dos dereitos fundamentais e dos dereitos sociais mínimos...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u44">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg163">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u45">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg164">...para, a partir deles, establecer un sistema fiscal que asegure a provisión de recursos para atender eses dereitos.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u46">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg165">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u47">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg166">É dicir, primeiro saber que necesidades temos, logo prever como recadalas e, a partir de aí, elaborar un orzamento.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u48">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg167">Grazas, señor Villares. Terminou o seu tempo.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u49">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg168">E, fronte a isto, ¿que política económica temos? Temos un orzamento minguante.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u50">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg169">Terminou o seu tempo. Señor Villares, terminou o seu tempo.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u51">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg170">Ten aí algo de tempo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u52">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg171">Terminou o seu tempo. Non, mire o reloxo, por favor. Terminou o seu tempo.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u53">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg172">Ben, en definitiva, remato o meu turno.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u54">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg173">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u55">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg174">Ben, rexeitamos uns orzamentos que son hiperindividualistas...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u56">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg175">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u57">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg176">...que non cren na solidariedade social, que non miran polo ben común...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u58">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg177">Grazas, señor Villares. Terminou o seu tempo.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u59">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg178">...que non miran polos dereitos da xente.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u60">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg179">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u61">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg180">Cremos que é posible outra alternativa...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u62">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg181">Grazas.</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(O señor Villares Naveira pronuncia palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u63">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg182">Terminou o seu tempo, señor Villares.</seg>
+			</u>
+			<note type="speaker">O señor VILLARES NAVEIRA:</note>
+			<u who="#VillaresLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u64">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg183">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u65">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg184">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg185">Polo Grupo Parlamentario Popular, o señor Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u66">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg186">Señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg187">Señorías, eu supoño que o portavoz de En Marea falaba por el cando falaba de que este debate é triste. Porque nós vimos relativamente satisfeitos e contentos a este debate, porque, de entrada, que se celebre este debate dá nova de tres boas cousas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg188">A primeira é que somos unha comunidade avanzada en transparencia. Hai comunidades autónomas que non debaten o teito de gasto, fomos a primeira en facelo. Outras veñen detrás, de todas as cores, como Castela-León ou Baleares ou Castela-A Mancha. Outras tamén, de todas as cores, non o levan ao parlamento para a súa votación. E mesmo hai outras que nin sequera o teñen aprobado nos seus consellos de goberno. Este é o segundo motivo polo que nós consideramos que é un motivo de satisfacción estar hoxe debatendo aquí, porque o Goberno, que o xoves recibiu a noticia de canto ían ser as entregas á conta, trouxo á Cámara o venres o teito de gasto e estamos debatendo e aprobando hoxe, martes, o teito de gasto. Polo tanto, estamos tamén ante un goberno que funciona con normalidade e con eficiencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg189">O que eu recordo é que, para facer os orzamentos e o teito de gasto, hai que saber cales son as entregas á conta. Porque o que comunica o Goberno —que é o 80 % dos ingresos da Xunta— algúns parece que se esqueceron de que é o que nos permite gastar máis ou menos, e non ao revés.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg190">Evidentemente, o feito de que esas entregas á conta sexan certas e estean comunicadas evita xa falar de posibles reformas do sistema fiscal —como se propuxo aquí— para mellorar os ingresos o ano que vén, ou mesmo do sistema de financiamento autonómico, que, ademais de ter unha cláusula de statu quo, está por ver se entra en vigor e aplicación no ano 2018, cousa que eu persoalmente dubido moito.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg191">En definitiva, estamos contentos e non tristes porque este debate o que demostra é que Galicia ten algo que non teñen outras comunidades autónomas, que é a estabilidade que lle dá unha maioría ampla, sólida; evidentemente, por vontade do pobo galego. E, evidentemente, esa maioría ampla e sólida o que permite é que nós cumpramos as normas, cumpramos os prazos. E, en definitiva, esteamos hoxe a debater algo que na meirande parte do Estado —coa excepción das Cortes Xerais e dúas ou tres comunidades autónomas máis que veñen detrás— apenas se debate.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg192">En segundo lugar, esta satisfacción tamén ten que ver co feito de que o medre do teito de gasto ten que ver con que as cousas van razoablemente ben no crecemento económico. A isto fixo referencia o conselleiro, pero eu quero recordar que o PIB real vai crecer no 2017 o 3,1. Actualmente hai indicadores que están falando de 3,6 en taxa interanual. Onte mesmo a IREF fixo públicos os datos do crecemento do Estado, 3,1, e Galicia, 3,1 —0,9 no último trimestre—. Evidentemente, sen crecemento non hai emprego nin capacidade de prestar políticas sociais. E, evidentemente, o Banco de España di que hai que continuar por esta vía porque hai algúns ventos de cola que poden caer. Pero o certo é que tamén di o Banco de España, señor Villares, que hai que facer máis reformas, particularmente no ámbito laboral.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg193">O PIB entendemos que crece equilibradamente. Efectivamente, as exportacións medran o 5,4. Pero o segundo dato de crecemento é o da formación bruta de capital, o cal é unha boa nova. Crece, de acordo coa memoria, o 4,3; é dicir, o mesmo que a propia cifra de crecemento nominal da economía. O cal para nós fai ver que, xunto co gasto das administracións públicas —máis contido— e o gasto das familias, o crecemento é moito máis equilibrado, desde logo, que cando se baseaba fundamentalmente na expansión inmobiliaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg194">
+					E o emprego tamén vai razoablemente ben. A señora Pontón case non falou do teito de gasto, porque, cando tivemos o debate para o teito de gasto deste ano, dixo, entre outras cousas, que co teito de gasto do ano 2017 non iamos crear nin un só posto de traballo neto. Ben, resulta que levamos 19.067 postos de traballo netos a tempo completo.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E eu comprendo que resulte máis cómodo falar doutras cuestións, sobre as que agora volverei.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg195">Salarios —é certo que hai que falar do ciclo completo—. Aquí sempre se esquece o que pasou cos salarios na etapa alcista do ciclo. Pero, deixando isto mesmo á marxe, temos o dato que acaba de publicar o INE de que os salarios medios creceron en Galicia o 0,32, mentres en España baixaron o 0,30 exactamente. Polo tanto, estamos a falar dunha mellora dos salarios, en relación coa media de España, do 0,6, que é algo que gustaría a todo o mundo que mellorase pero, evidentemente, non é unha mala nova. Iso, xunto coa creación de emprego, fará que mellore a igualdade, unha igualdade que en Galicia non se deteriorou tanto como no resto de España. Eu quero recordar o índice de Gini, feito público polo IGE. No 2009 o índice marcaba un 0,27 e agora marca un 0,28. Polo tanto, estamos a facer as cousas razoablemente ben.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg196">O incremento de gasto é moi significativo. Sobe, en relación co do ano pasado inicial, 490 millóns de euros, é dicir, un 5,4 —o PIB nominal crece o 4,3—. Sobre o gasto real que aprobamos na pasada sesión plenaria, o crecemento é do 2,7 e a inflación prevista no cadro macroeconómico é do 1,4. O cal quere dicir que é certo parcialmente que posiblemente en relación co PIB o gasto público non creza tanto como crece o PIB. Pero o que si é certo é que o gasto público vai medrar por riba do que medra a inflación. Polo tanto, hai un crecemento razoable do gasto público, que é o que expresa esta regra de gasto. E o que é máis importante é que se cumpre a regra de gasto, imos ao límite do cumprimento da regra de gasto, o cal garante a estabilidade e a sustentabilidade das contas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg197">Pero, para destacar a importancia do dato do teito de gasto, que está arredor dos 9.500 millóns de euros, o que hai que facer é comparalo tamén co pasado. Respecto do ano 2008 son 1.000 millóns de euros máis de gasto. E en relación con outros exercicios que foron mencionados nestes últimos días, hai que lembrar que, respecto do 2008, había un orzamento inicial de 10.900 millóns de euros. E digo o último orzamento elaborado pola esquerda nesta Cámara —Bloque Nacionalista, no que estaban algúns das Mareas, e mais Partido Socialista—. Son 10.900 millóns de euros aos que, se lles descontamos os 830 millóns de euros das transferencias do Estado a axentes locais de Galicia —como pediu o Consello de Contas nunha das súas recomendacións— e lles restamos os 574 millóns de euros que aínda estamos a devolver polas liquidacións negativas gastadas naquel exercicio pero non ingresadas realmente, resulta que dá 9.496 millóns de euros; é dicir, 9.500 millóns de euros. Para vostedes este teito de gasto é a apocalipse total e resulta que coincide basicamente en capacidade de gasto real, sen deixar nada a deber aos gobernos do futuro, co que vostedes elaboraron no alto do ciclo económico, no ano 2008.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg198">Comprenderán que, ademais, esteamos satisfeitos porque, sobre este límite de gasto, imos ter que pagar menos xuros como consecuencia do acceso ao Fondo de Facilidade Financeira. E onte descubrimos que imos ter, ademais, o ano que vén 6 ou 7 millóns de euros máis de dispoñibilidade para facer outros investimentos como consecuencia do magnífico acordo ao que acaba de chegar o presidente da Xunta co ministro de Fomento; 6 ou 7 millóns de euros que poderemos gastar noutras actividades e que, a partir do ano que vén, poderá gastar este Goberno non en peaxes para favorecer a Audasa, que foi o que o Bipartito negociou co Estado central.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg199">Hai algunhas diferenzas, pese a que as cifras son semellantes a aquel magnífico orzamento progresista de esquerdas. Primeiro, agora a economía crece, non está ao borde do abismo. Segundo, faino sobre bases máis sólidas e equilibradas, sobre as exportacións e non sobre a construción. Terceiro, a estrutura de gasto variou: o 80 % do gasto agora é social, cousa que non o era no ano 2008. Cuarto, mantéñense os investimentos. Galicia é a segunda comunidade autónoma no período 2012-2016, tras o País Vasco, que ten o investimento autonómico per cápita máis elevado: 2.041 euros versus unha media de 1.268. Estamos pagando aos provedores en 8 días de media fronte a unha media estatal de 24,2. Somos das comunidades autónomas que menos incrementaron a débeda e cun déficit estrutural que tende a cero, que é o que garante a sustentabilidade das contas públicas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg200">Señorías, remato.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg201">
+					Ás veces, cando un escoita a algúns voceiros da oposición, un pensa se aprenderon algo da crise. Europa aprendeu da crise e fixo profundas reformas no ámbito bancario. E esperemos que agora lles dea continuidade con reformas no ámbito orzamentario. A sociedade aprendeu e está desapalancándose, está reducindo o seu endebedamento. E eu pregúntome se algúns aprenderon algo da crise. A señora Yolanda Díaz —antiga compañeira desta Cámara— agoiraba que todo isto do teito de gasto era un argumento ideolóxico. Dixo o 11 de xullo —cando se aprobou o teito de gasto no Estado— que isto xa prevía que iamos ter grandes recortes nas comunidades autónomas e menos capacidade de gasto. Hoxe o portavoz de En Marea recoñeceu que algo crece o teito de gasto —polo tanto, é un avance—. E, desde logo, vén dar aquí leccións de economía esquecendo a primeira de todas: que os recursos son escasos e as necesidades ilimitadas. Se empezamos fixando as necesidades, que son ilimitadas, eu augúrolle que non vai atopar recursos no mundo mundial
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					. Pero ese é outro problema.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg202">
+					Formas de presupostar fixando necesidades para despois atopar os cartos, recurso ao endebedamento, subidas de impostos sen ter en conta o efecto expansivo que ten a baixada de impostos que fixemos nós para as rendas máis baixas e mantendo o imposto do patrimonio nos niveis máis altos de España, cunha clara compoñente redistributiva... Ben, vostedes critican todo isto e eu pregúntome cal é o seu modelo. Eu supoño que o modelo dalgunhas das súas señorías é ese exemplo de respecto á discrepancia ou, como dixo vostede, á disidencia que hai en Venezuela.
+					<vocal type="murmuring">
+						<desc>(Fortes murmurios.)</desc>
+					</vocal>
+					Pero eu voume referir a modelos máis próximos, voume referir a modelos máis próximos.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					¡Home!, vostedes dedícanse a felicitar o pobo venezolano, que non está pasando polo seu mellor momento histórico, con fame, con represión e con persecución.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					E vostedes deféndena, nós non.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg203">Eu ía falar dos países do sur de Europa, como Portugal, que vostedes din que é un exemplo, cun goberno de esquerdas. O PIB está medrando en España o 3 %, en Portugal medra un 1,8 %. As previsións de que creza o ano que vén son as mesmas. Seguen pagando as peaxes nas autovías, seguen pagando por ir ao médico, non recuperaron o poder adquisitivo, fortes baixadas que tiveron nas pensións... Eu, sinceramente, quedo co modelo español, non co modelo portugués.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg204">
+					¿O modelo de Grecia? ¿A Grecia de Tsipras, que agora resulta que é eloxiado polo señor Schäuble como o discípulo distinguido no sur de Europa, ou o modelo de Grecia de Varoufakis, que está ameazando con denunciar o señor Tsipras e sacar gravacións porque, polo visto, o señor Tsipras non fai o que quere o señor Varoufakis?
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Aí si que se parecen algúns grupos desta Cámara, neses debates internos, ao que sucede en Grecia.
+				</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u67">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg205">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u68">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg206">Dicía Keynes en 1934, nunha carta dirixida ao New York Times: &quot;Eu vexo o problema da recuperación desde este punto de vista: ¿en que escala, mediante que expedientes e durante canto tempo é aconsellable que o Goberno continúe realizando gastos anormais?&quot; Esta é a base da teoría keynesiana, a base das políticas contracíclicas. Cando a economía medra, o gasto público tense que conter. ¿Para que? Para que, cando veñan mal dadas, poida un gastar endebedándose máis do que a economía lle dá.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u69">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg207">Grazas.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u70">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg208">Nós imos seguir facendo estas boas prácticas económicas. Imos poder, con este teito de gasto, paliar os efectos sociais da crise, incrementar a igualdade de oportunidades a través da educación e crecer incentivando as empresas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u71">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg209">Grazas, señor Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u72">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg210">De aí que presentásemos o Proxecto de lei de implantación empresarial...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u73">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg211">
+					Grazas, señor Puy. Catro veces grazas.
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					Vamos alá, veña...
+				</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u74">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg212">...para ese labor, para mellorar a empregabilidade das empresas. Por iso esperamos...,</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u75">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg213">Grazas, cinco veces grazas.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u76">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg214">...coma sempre, coa mellor disposición para o diálogo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg215">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u77">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg216">Grazas, rematamos xa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg217">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg218">Isto non pode ser así, non podemos seguir así co tempo. O pleno de hoxe ten a duración que ten, porque, se non, daríanse conta todos os deputados de que sería imposible, nunca terminariamos os plenos. Isto hoxe é excepcional.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg219">Imos votar, polo tanto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg220">Votación do límite máximo de gasto non financeiro da Comunidade Autónoma de Galicia para o ano 2018, a que se refire o artigo 12 da Lei 2/2011, do 16 de xuño, de disciplina orzamentaria e sustentabilidade financeira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg221">Efectuada a votación, deu o seguinte resultado: votos a favor, 40; votos en contra, 34.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg222">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg223">En consecuencia, queda aprobado o límite máximo de gasto non financeiro da Comunidade Autónoma de Galicia para o ano 2018.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.u78">
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg224">Non hai máis temas. Levántase, polo tanto, a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2017-08-01-DSPG037.seg225">Boa tarde.</seg>
+			</u>
+			<note type="time">Remata a sesión ás once e cincuenta e dous minutos da mañá.</note>
+		</div>
+	</body>
+</text>
+</TEI>

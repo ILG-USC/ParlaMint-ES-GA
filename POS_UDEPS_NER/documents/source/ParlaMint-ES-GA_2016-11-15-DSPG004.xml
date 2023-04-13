@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2016-11-15-DSPG004 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2016-11-15-DSPG004 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="004">Número 004</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2016-11-15">15.11.2016</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="4"/>
+			<measure unit="words" quantity="2542"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100004.pdf</idno>
+				<date when="2016-11-15">15.11.2016</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2016-11-15">15.11.2016</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100004.pdf"/>
+			<note type="time">Ábrese a sesión ás doce e trinta e dous minutos do mediodía.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.u1">
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg1">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg2">Imos dar comezo á sesión.</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg3">Bos días outra vez a todos e a todas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg4">Comezamos a sesión e para iso prégolle á señora secretaria que dea lectura á orde do día.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Arias Rodríguez):</note>
+			<u who="#AriasRaquel" ana="#regular" xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.u2">
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg5">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg6">&quot;Punto único. Declaración institucional de apertura da X lexislatura&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg7">Declaración institucional de apertura da X lexislatura</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.u3">
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg8">Moitas grazas, señora secretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg9">Bos días a todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg10">Presidente da Xunta de Galicia, conselleiras e conselleiros, señorías, delegado do Goberno, fiscal superior de Galicia, ex-presidentes do Parlamento de Galicia —señores Pérez Vidal e García Leira—, valedora do Pobo, conselleiro maior de Contas, presidente do Consello Consultivo, presidenta do Consello Económico e Social, directora xeral de Relacións Institucionais e Parlamentarias, reitores das universidades de Santiago e da Coruña, conselleiras e conselleiros de Contas, ex-deputados e ex-deputadas do Parlamento de Galicia, xornalistas, traballadores do Parlamento e invitados, convócanos hoxe a solemne sesión de apertura da X lexislatura do Parlamento de Galicia, un acto simbólico que marca o inicio do traballo ordinario da Cámara para os vindeiros catro anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg11">Bota a andar a décima lexislatura con moitas caras novas e unha elevada presenza feminina. Dúas realidades que acreditan a necesaria coexistencia da experiencia e renovación, e tamén que o avance da igualdade é un feito plenamente asentado nas institucións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg12">Quero agradecer a confianza do presidente do Grupo Parlamentario Popular, do seu portavoz e dos compañeiros e compañeiras que me honraron co seu apoio reelixíndome presidente da primeira institución de Galicia. E agradezo tamén, por suposto, o voto de confianza —eu polo menos así o interpreto— dos restantes integrantes desta Cámara escenificado co seu voto en branco.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg13">Sobra reiterar que esta é maior honra á que puiden aspirar xamais, e sobra insistir que procurarei exercer a responsabilidade que se me encomendou coa altura de miras e a imparcialidade que todas e todos agardan e demandan, con razón, desta presidencia. Pido desculpas, dende xa, polos erros que sen dúbida cometerei, mais teñan a seguridade de que serán froito da miña condición humana, xamais da premeditación ou da animosidade, que, por certo, sería bo desterrar para sempre da política.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg14">Non estamos aquí para representarnos a nós mesmos senón a todas as galegas e galegos que nos elixiron para representar a Galicia durante os vindeiros catro anos. Ampáranos a democracia, a Constitución española e o Estatuto de autonomía de 1981, e inspírannos o Estatuto do 36 e as aspiracións de autogoberno da infinidade de galegos &quot;bos e xenerosos&quot; que traballaron para acadar esa arela que co tempo fomos quen de materializar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg15">Señorías, coincidirán comigo en que a política e os políticos atravesamos unha crise de credibilidade, en parte xerada por nós mesmos. E coincidirán tamén en que estamos obrigados a ofrecer o mellor de nós para superala e recuperar a confianza social que fomos perdendo dun tempo a esta parte.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg16">Coa ollada posta nesa meta común, esta casa deu pasos importantes en datas recentes. Os esforzos dirixidos a racionalizar o gasto converteron o Parlamento de Galicia nun dos máis eficientes do Estado, e dende logo no máis eficiente de todas as comunidades históricas. O esforzo das deputadas e deputados, dos traballadores e traballadoras dos grupos parlamentarios e do persoal funcionario desta institución volveu permitir que o Parlamento de Galicia se situase, ao remate da pasada lexislatura, no máis laborioso de todos os autonómicos. Unha realidade que ha de servirnos de acicate para o mandato que agora comeza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg17">É probable tamén que os milleiros de persoas que cada ano visitan o Parlamento de Galicia ofrezan de nós unha imaxe mellor da que tiñan antes de coñecer a institución en primeira persoa. Quedan dende xa, señorías, convidadas a actuar como anfitrioas e guías para cantas galegas e galegos queiran visitarnos de boa fe. Conto, polo tanto, con todas as súas señorías para acometer a necesaria tarefa de dignificar e mellorar a imaxe da institución, dentro e fóra.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg18">E do mesmo xeito que debemos esforzarnos para amosar o que facemos na nosa sede, tamén é preciso reforzar a presenza social do Parlamento, facernos presentes na rúa, nas empresas, no agro e no mar, no tecido asociativo e cultural, no ensino, como atinadamente penso que estamos a facer xa coa colaboración da Asociación de Ex-deputadas e Ex-deputados. Canto maior sexa a presenza do Parlamento de Galicia, mellor e de máis calidade será o labor que poderemos desenvolver de portas para dentro nós nos nosos debates e nas nosas iniciativas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg19">Estar coa sociedade é necesario, imprescindible. Foino no pasado e ségueo sendo nos nosos días. Pero non abonda con iso, por moito esforzo que lle dediquemos, dado que a clave do éxito de traballo de calquera deputado ou deputada reside nunha atinada combinación da presenza extramuros coa súa capacidade para trasladar ás institucións —sexa en forma de debate ou de iniciativa— o resultado desa interlocución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg20">O respecto institucional e persoal, a capacidade de interlocución e a permanente disposición para entenderse co adversario teñen que superar calquera outra consideración, por moi firmes que sexan os postulados de cadaquén.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg21">Como presidente da Cámara, resultoume especialmente satisfactorio o clima da sa confrontación dialéctica rexistrada neste hemiciclo durante o debate de investidura celebrado na pasada semana. Unha normalidade institucional que reclamo solemnemente para toda a lexislatura. Parabéns a todos e a todas as súas señorías por telo feito posible. Parabéns que son —estou seguro— os dunha inmensa maioría de galegas e galegos que piden con insistencia que o sosego, a cordura e a vocación de entendemento ocupen un crecente protagonismo na política autonómica.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg22">O avance para transparentar canto aquí se fai, mesmo no relacionado co patrimonio e os ingresos das súas señorías, pon de manifesto unha vontade real de responder ás exixencias crecentes dunha sociedade en constante evolución. Tampouco aquí pode haber marcha atrás, porque a transparencia institucional é un camiño sen retorno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg23">As novas oportunidades de participación cidadá na actividade parlamentaria permitiron pasar, por primeira vez, dos discursos aos feitos, convertendo o Parlamento de Galicia nun lexislativo pioneiro ao poñer á disposición da xente ferramentas útiles que complementan e enriquecen unha tarefa tradicionalmente reservada ás deputadas e aos deputados.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg24">Nesta liña, e en colaboración con outras prestixiosas institucións da nosa comunidade, imos poñer á disposición de todos os cidadáns e na nosa lingua as normas galegas consolidadas. Seremos unha vez máis pioneiros cunha ferramenta novidosa respecto doutras comunidades bilingües.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg25">Se fomos quen de dar os primeiros pasos, nada impide afondar nesa dirección e mesmo noutras aínda por explorar, porque —insisto— a vontade existe, como o temos demostrado, e a posibilidade de facelo dentro do inxente ordenamento xurídico tamén.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg26">O Parlamento, o parlamentarismo democrático, atravesa na actualidade un momento clave, e aos aquí presentes compételles tirar o proveito axeitado a prol das galegas e galegos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg27">Vivimos unha etapa determinante no ámbito europeo, derivada das circunstancias como o Brexit ou a reconfiguración do modelo comunitario; dous feitos que están na nosa mente. Pero debería citar algúns outros que, no seu conxunto, nos levaron a unha crise de proxecto de construción europea que require, hoxe máis que nunca, do apoio e da participación de todos, tamén dos parlamentos rexionais, na medida en que constitúen o poder lexislativo máis próximo aos cidadáns. No caso de Galicia, esta participación pode articularse a través do traballo desta Cámara na Conferencia de Asembleas Lexislativas Rexionais Europeas (CALRE) ou coa aplicación do principio de subsidiariedade na elaboración da lexislación comunitaria a través da Comisión Mixta do Congreso e do Senado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg28">Iniciamos tamén unha etapa de enorme intensidade na política estatal, tanto polo mapa político saído das urnas como polas reformas que, sen dúbida, ocuparán a axenda política a curto e medio prazo. Asuntos como o financiamento autonómico ou a consolidación do Estado de benestar deberán ser analizados e negociados como consecuencia, entre outras razóns, da evolución da pirámide demográfica española. Unha realidade á que desgraciadamente Galicia non é allea.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg29">No ámbito estritamente autonómico —como xa sinalamos— esta Cámara está obrigada a aplicar e a analizar as medidas de impulso democrático aprobadas neste hemiciclo na pasada lexislatura, cunha especial incidencia en dúas facetas: a participación popular e a transparencia; sen perder de vista a adopción de medidas encamiñadas a afianzar a recuperación económica iniciada, para que esta se manteña de maneira sustentable e beneficie a totalidade da poboación, así como o desexado impulso da cohesión territorial.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg30">Un traballo arduo o que nos agarda, mais quen lles fala espera que poida desenvolverse desde unha óptica participativa e de proximidade, que aposte pola conciliación e non polo enfrontamento no que ás veces temos caído innecesariamente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg31">Quédannos por diante novos retos e novos desafíos que afrontar, pero tamén días de esperanza nos que deixar atrás a escuridade e as dificultades recentes, que agardo que non regresen.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg32">Dicía Castelao —un dos pais do Estatuto do 36— que Galicia podía ser o que foi e aínda máis do que tiña sido, pero que todo dependía da vontade dos seus fillos. Pido hoxe aquí solemnemente, como presidente desta Cámara, que todos acheguemos a vontade necesaria para construírmos xuntos a Galicia na que cremos e pola que apostamos cada día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg33">Ínstoos, señoras e señores deputados, a aproveitar esta décima lexislatura do Parlamento de Galicia para afondar no verdadeiro sentido do parlamentarismo democrático, experimentando incluso, como acabo de sinalar, novas fórmulas para facer chegar a este hemiciclo e ás diferentes comisións o verdadeiro curso da rúa, das nosas vilas e cidades e dos lugares e aldeas espallados polo país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg34">Lexislar con rigor e con imaxinación respondendo ás necesidades das persoas é posible e, por suposto, resulta obrigado, como o temos demostrado ano tras ano e como agardo que continuemos a facer nun futuro próximo. Como tamén agardo que a exemplaridade caracterice o comportamento das setenta e cinco persoas que temos a alta honra de representar o conxunto do pobo desde estes escanos. Teñamos claro que o Parlamento foi e será o centro da vida democrática. Teñamos claro que a democracia só é viable na medida en que practiquemos a democracia parlamentaria. Falo dunha tarefa común que pode e debe discorrer sempre polas canles estatutarias e constitucionais, dun Parlamento que traballe en e para o Estado de dereito, suxeito aos procedementos legais establecidos e tamén consciente das obrigas e dos límites fixados polas normas xurídicas emanadas da propia institución parlamentaria. Porque, señorías, nunha democracia, nun Estado de dereito, non hai nin pode haber atallos, e teñamos claro tamén que articular alternativas sen contar co Parlamento constitúe unha deriva perigosa que non podemos nin debemos permitirnos. Nunca os problemas das persoas estiveron fóra dos debates deste Parlamento. Pero agora resulta aínda máis importante acertar para que todas as cuestións de interese se continúen abordando entre estas catro paredes. E, do mesmo xeito que as discusións se suceden nas redes sociais, e fano con absoluta lexitimidade, debemos esforzarnos para que ningún asunto sexa furtado deste debate serio e ordenado na sede da representación popular nas institucións democráticas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg35">Como demócrata e como galego quero aproveitar este momento para trasladar a miña solidariedade e afecto aos demócratas noutros países, particularmente nalgún da nosa órbita cultural e afectiva, que sofren decotío os efectos da falta de liberdades e todas as penalidades que esta leva asociadas. Vivimos e pertencemos a un país que exhala capacidades e creatividade por todos os seus poros. Aproveitémolas e deámoslles forma tamén nesta Cámara, desde a lexítima discrepancia, para construírmos entre todos un espazo con máis e mellores oportunidades, comezando polas mozas e polos mozos. Fagámolo así e exploremos esa vía en lugar de optar pola crispación e o enfrontamento, que son vacuos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg36">Enchamos o Parlamento de ideas en lugar de enchelo de tensión. Somos herdeiros da tradición e debemos reivindicar —eu polo menos así o fago— o mellor da nosa historia, mesmo o idealismo dos nosos devanceiros. En breves datas o Parlamento de Galicia cumprirá 35 anos de vida, tres décadas e media de feliz existencia desde a súa primeira sesión constitutiva celebrada o xa afastado 19 de decembro de 1981 nunha sede prestada e lonxe de espertar entusiasmo nin confianza entre as persoas que aquel día circulaban polas rúas de Santiago ou de calquera outro punto de Galicia. Daquela, a autonomía era un ente abstracto, descoñecido e de dubidosa utilidade para moitos. No entanto, co paso do tempo e o esforzo de infinidade de persoas —case sempre desde o traballo anónimo—, o autogoberno de Galicia logrouse asentar, demostrando a súa razón de ser, ata o punto de terse convertido nun piar insubstituíble para os galegos e as galegas, que acreditan a súa eficacia real no día a día das súas vidas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg37">É o certo que nos nosos días, e coa experiencia acumulada, unha enorme maioría de galegos e galegas non concibirían nin permitirían que os servizos públicos esenciais, como a educación e a sanidade, por exemplo, se xestionasen desde fóra de Galicia ou por estruturas afastadas da nosa realidade e, polo tanto, descoñecedoras das necesidades e da nosa idiosincrasia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg38">Recoñecemos o traballo das deputadas e deputados que durante trinta e cinco anos serviron a Galicia desde estes escanos, porque sei que o fixeron con verdadeiro empeño, o que nace no corazón. A nosa lembranza e homenaxe para todos e para todas, especialmente para os que nos deixaron e para as súas familias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg39">Un dos protagonistas daquela primeira sesión constitutiva á que me acabo de referir, Ramón Piñeiro, deputado independente na primeira lexislatura desta Cámara, defendía a idea de impregnar de galeguismo difuso todo o arco parlamentario. E probablemente todo este obxectivo fose xa materializado en boa parte. Todas e todos os que hoxe ocupamos algún dos setenta e cinco escanos deste salón de sesións fariamos ben en reflexionar e interiorizar aquela arela dun dos heroes de Galicia, da Galicia contemporánea, para non desmaiar xamais na nobre tarefa de inzar de galeguismo todo canto fagamos como membros desta Cámara e mesmo fóra dela. Facéndoo así, estaremos honrando a memoria dos nosos devanceiros, mais tamén, e sobre todo, respondendo á confianza brindada polas galegas e os galegos que nos votaron a todas e a todos os aquí presentes, sen distincións, o pasado 25 de setembro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg40">A Europa da que formamos parte, hoxe escasa de líderes que traspasen fronteiras e sobrada de liortas, segue venerando a memoria dunha das grandes personalidades do século XX, Winston Churchill, incombustible no combate contra o fascismo e visionario respecto dos perigos do totalitarismo posterior nos países do leste. Atribúese a Churchill a célebre frase que indica que o político se converte en estadista cando comeza a pensar nas próximas xeracións e non nas próximas eleccións. O mellor servizo que calquera de nós puidera prestar a Galicia durante esta lexislatura estou persuadido, señorías, que sería tratar de actuar como estadista, non en beneficio propio senón a prol das galegas e dos galegos de mañá.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg41">Que así sexa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg42">Moitas grazas a todos.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg43">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg44">Declaro aberta a X lexislatura do Parlamento de Galicia, e convídoos a todos vostedes a que, en pé, escoitemos e cantemos o himno galego.</seg>
+			</u>
+			<note>(As señoras deputadas, os señores deputados e o público asistente á sesión plenaria, postos en pé, cantan o himno galego.)</note>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.u4">
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg45">Levántase a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-11-15-DSPG004.seg46">Grazas.</seg>
+			</u>
+			<note type="time">Remata a sesión á unha e dous minutos da tarde.</note>
+		</div>
+	</body>
+</text>
+</TEI>

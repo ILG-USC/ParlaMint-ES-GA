@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2019-07-31-DSPG125 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2019-07-31-DSPG125 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="125">Número 125</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2019-07-31">31.07.2019</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="51"/>
+			<measure unit="words" quantity="17859"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100125.pdf</idno>
+				<date when="2019-07-31">31.07.2019</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2019-07-31">31.07.2019</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100125.pdf"/>
+			<note type="time">Ábrese a sesión ás once e tres minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u1">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg1">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg2">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg3">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia, polo que non procedemos á súa lectura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg4">Xustificou a súa inasistencia a deputada dona Ana Belén Pontón Mondelo, portavoz do Grupo Parlamentario do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg5">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia por parte de dous novos deputados</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u2">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg6">Como punto preliminar, procederemos a solicitar a prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia do novo deputado don Gonzalo Caballero Míguez e da nova deputada dona María Teresa Porritt Lueiro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg7">Por todo isto, dando cumprimento ao previsto no artigo 7.1 do Regulamento, procede solicitar a prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia dos novos deputados don Gonzalo Caballero Míguez e dona María Teresa Porritt Lueiro.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg8">Segundo o procedemento, a fórmula é a de contestar &quot;si, prometo&quot; ou &quot;si, xuro&quot; á pregunta desta Presidencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg9">Prégolles que respondan dende o seu escano á pregunta que lles vou formular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg10">Don Gonzalo Caballero Míguez, ¿promete ou xura gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">O señor CABALLERO MÍGUEZ:</note>
+			<u who="#CaballeroGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u3">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg11">Si, prometo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u4">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg12">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg13">Dona María Teresa Porritt Lueiro, ¿promete ou xura acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora PORRITT LUEIRO:</note>
+			<u who="#PorrittMaríaTeresa" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u5">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg14">Si, prometo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u6">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg15">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg16">Unha vez prestada a promesa, adquiren vostedes a condición plena de deputados do Parlamento galego. Benvidos os dous.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg17">Moitas grazas.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg18">Agora entramos xa no punto 1 da orde do día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg19">Elección da valedora do pobo, por proposta da Comisión de Peticións.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u7">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg20">Iniciado xa o procedemento para a elección de valedora do pobo e aprobado pola Comisión de Peticións na sesión do día 29 de xullo de 2019, a proposta de candidata ao cargo de valedora do pobo é dona María Dolores Fernández Galiño.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg21">A elección efectuarase por papeleta, conforme o disposto no artigo 91 do Regulamento do Parlamento de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg22">Resultará elixida a candidata se obtén a maioría, tres quintos; é dicir, 45 votos. A expresión do voto efectuarase do seguinte xeito: votos a favor, introducindo a papeleta que contén o nome da candidata; votos en branco, introducindo a papeleta na que non consta ningún nome; e consideraranse votos nulos aqueles nos que na papeleta que se introduce se escriban nomes doutras persoas ou conteñan rascaduras ou sinais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg23">Imos comezar a votación. Polo tanto, supoño que están repartindo xa as papeletas a todas as deputadas e deputados.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg24">Imos esperar uns segundos.</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg25">A secretaria fará o chamamento por orde alfabética das deputadas e dos deputados para que depositen o seu voto na urna.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg26">Teñen que baixar o vicepresidente e a vicesecretaria.</seg>
+			</u>
+			<note>(A señora secretaria, Arias Rodríguez, fai o chamamento, por orde alfabética, dos deputados e das deputadas, que depositan o seu voto na urna; a seguir fano os deputados membros do Goberno e, finalmente, os membros da Mesa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u8">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg27">Xa votaron todos os deputados e deputadas; entón, procedemos ao escrutinio.</seg>
+			</u>
+			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u9">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg28">Efectuado o escrutinio, o resultado é o seguinte: votos a favor da proposta como valedora do pobo de dona María Dolores Fernández Galiño, 51; votos en branco, 18; votos nulos, 2.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg29">Acadada, polo tanto, a maioría exixida polo artigo 2.3 da Lei 6/1984, queda designada como valedora do pobo dona María Dolores Fernández Galiño.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg30">Sen máis, pasamos xa ao punto 2 da orde do día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg31">Debate e votación do Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u10">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg32">Mantéñense as emendas do Grupo Parlamentario do Bloque Nacionalista Galego, do Grupo Parlamentario de En Marea e do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg33">Para a presentación do ditame, ten a palabra o presidente da Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, don Jaime Castiñeira Broz.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA COMISIÓN 2ª, ORDENACIÓN TERRITORIAL, OBRAS PÚBLICAS, MEDIO AMBIENTE E SERVIZOS (Castiñeira Broz):</note>
+			<u who="#CastiñeiraJaime" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u11">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg34">Señorías, señor presidente, o Proxecto de lei do patrimonio natural e da biodiversidade de Galicia tivo entrada no rexistro do Parlamento con data 15 de maio de 2019. A súa admisión a trámite efectuouse pola Mesa do Parlamento na reunión do 21 de maio, e procedeuse á apertura do prazo de presentación de emendas, que rematou os días 10 e o 27 de xuño para as emendas á totalidade e ao articulado respectivamente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg35">Concretamente, a emenda á totalidade de devolución presentada polo Grupo Parlamentario de En Marea rexeitouse na sesión plenaria do 25 de xuño do 2019.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg36">Pola súa parte, as emendas ao articulado presentadas e admitidas a trámite foron un total de 341; 129 do Grupo Parlamentario do Bloque Nacionalista Galego, 91 do Grupo Parlamentario de En Marea, 113 do Grupo Parlamentario dos Socialistas de Galicia e 8 do Grupo Parlamentario Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg37">A Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, na sesión do 5 de xullo, designou a ponencia encargada de elaborar o informe, que se constituíu o 9 de xullo. E, nas tres reunións seguintes, a ponente e os ponentes titulares, don Gonzalo Trenor López, do Grupo Parlamentario Popular; dona Patricia Vilán Lorenzo, do Grupo Parlamentario dos Socialistas de Galicia; don Antón Sánchez García, do Grupo Parlamentario En Marea; e don Xosé Luís Bará Torres, do Grupo Parlamentario do Bloque Nacionalista Galego, elaboraron o informe coas recomendacións definitivas, que emitiron con data 15 de xullo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg38">Posteriormente, a Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, na sesión extraordinaria do 19 de xullo, aprobou o ditame que estou a presentar por 7 votos a favor, 2 en contra e 3 abstencións, incorporando ao texto do proxecto de lei, ademais das correspondentes emendas técnicas, 37 emendas —8 delas, transaccionadas—.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg39">Cómpre, pois, rematar hoxe a tramitación deste procedemento lexislativo coa aprobación, se é o caso, do Proxecto de lei do patrimonio natural e da biodiversidade de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg40">Moitas grazas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u12">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg41">Grazas, señor Castiñeira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg42">Comezamos, polo tanto, coa rolda dos grupos parlamentarios para fixar a súa posición sobre o ditame e, se é o caso, tamén defender as emendas mantidas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg43">Polo Grupo Parlamentario Mixto, o señor Rodríguez Estévez.</seg>
+			</u>
+			<note type="speaker">O señor RODRÍGUEZ ESTÉVEZ:</note>
+			<u who="#RodríguezDavid" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u13">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg44">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg45">Bo día a todos e a todas, señores deputados e señoras deputadas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg46">Hoxe nesta Cámara, no Pleno do Parlamento galego, imos darlle o golpe final, a estocada final, ao noso patrimonio natural. A señora conselleira Ánxeles Vázquez salienta que esta nova lei de patrimonio natural vai pór en valor a riqueza ecolóxica e a calidade ambiental e paisaxística dos concellos galegos. A señora conselleira destaca que a nova lei ten como finalidade principal garantir a restauración e conservación da biodiversidade ao tempo que se potencia o uso sostible. Pero a realidade é outra ben distinta. Esta lei é pouco ambiciosa no que atinxe á protección, e non aborda a grave a situación de abandono do noso patrimonio natural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg47">Esta nova normativa, que vai derrogar a vixente Lei 9/2011, de conservación da natureza, preocupa profundamente á cidadanía, preocupa profundamente ás entidades conservacionistas. E ¿por que? Porque, primeiro, é pouco ambiciosa e, segundo, porque non aborda a grave situación de abandono e de deterioración do noso patrimonio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg48">Destacan vostedes, dende o Goberno, que con esta norma vai haber unha maior defensa e protección do noso patrimonio natural. Primeiro imos depredar todo coa nova Lei de iniciativas empresariais, beneficiando así a minaría, beneficiando así a grande industria, e logo imos darlle un lavado de cara con esta lei que non chega ás cuestións de fondo ás que ten que chegar. A lei recolle que, en caso de dúbida, prevalecerá sempre o criterio natural antes que outras cuestións —entre elas as cuestións urbanísticas ou empresarias—. Ademais, as empresas que se queiran instalar en zonas sensibles ambientalmente terán que presentar un aval ou unha garantía que será executado no caso de que existan riscos para o medio natural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg49">Con esta lei na man, van ter que comezar a darlle unha volta de rosca aos modelos de produción intensiva que temos en comarcas ao longo e ancho do país, comarcas que son salvaxemente agredidas. Aquí teño o exemplo da Limia. A Limia ten unha figura de zona de protección, e este é un depósito de galináceas. E como este hai decenas e decenas espalladas por toda a comarca. Ou sexa, temos unha figura de protección que non protexe.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg50">A Asociación DROSERA para o Estudo e Conservación do Medio Natural, a Asociación Galega de Custodia do Territorio, Ecoloxistas en Acción, Foro de Redes e Entidades de Custodia do Territorio, o grupo naturalista Hábitat, Rede Galega de Entidades de Custodia do Territorio, Sociedade Galega de Historia Natural, ou a Sociedade Galega de Ornitoloxía, entre outras, demostran e argumentan que o borrador non protexe efectivamente o noso patrimonio natural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg51">Para organizacións como a Sociedade Galega de Historia Natural, a nova lei vai pouco máis alá de basearse na anterior, actualizando o texto co indicado na normativa estatal de obrigado cumprimento. É dicir, modificamos a lei porque non temos os nosos regulamentos actuais adaptados ás normativas tanto estatais como europeas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg52">Así, sinalan que nos dezaoito anos —¡dezaoito anos!— que pasaron dende que se promulgou a lei vixente o patrimonio natural galego sufriu unha deterioración continuada sistemática, dado que a Lei 9/2001 non se chegou a aplicar en toda a súa extensión. E nunca contou coa correspondente norma regulamentaria que a levara a cabo, que a desenvolvera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg53">Fálase aquí, nesta lei, dun catálogo de especies ameazadas en perigo de extinción, un catálogo que se aprobou alá no ano 2007 e que recollía máis de duascentas especies ameazadas respecto das que se prevía a elaboración de plans de recuperación ou conservación. Os plans de protección actuais sobre estas especies ameazadas son actualmente tres. Pero, ¡ollo!, incluso eses tres plans aprobados non se están a executar. Un 1,5 % destas especies obtiveron un plan de protección, un 1,5 % en doce anos. Eu penso que non poden vostedes enganar a ninguén con estes datos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg54">Outro exemplo: a Rede Natura 2000 a día de hoxe aínda non está completa, pois non se cumpriu coa obriga establecida pola Unión Europea de ampliala. Somos unha das comunidades que menos superficie de Rede Natura ten e onde menos se protexe esta figura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg55">A isto temos que engadirlle o estado xeral de abandono destes espazos protexidos diante da inexistencia dunha xestión eficaz e dunha vixilancia suficiente. Un exemplo disto é a Rede Natura no macizo central, grande extensión de Rede Natura onde, ano tras ano, arden centos e centos de hectáreas sen que ningunha medida desde o Goberno se estea a adoptar; coa consecuencia da perda e degradación de solos e de perda de biodiversidade, sen que a Xunta de Galicia faga absolutamente nada. Aínda así, é fundamental a súa posición nunha serie de piares básicos que está a marcar o desenvolvemento e tramitación da norma.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg56">Tamén se queixan estas entidades, e con razón, de que a práctica totalidade das emendas que eles presentaron, estes grupos, foron rexeitadas e sen que o Goberno dera ningún tipo de xustificación de por que o fixo. Temos un valor humano e capital traballando dunha forma case altruísta para protexer o noso patrimonio e o Goberno dálle a espalda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg57">Malia o afirmado no preámbulo, a lei garante que os intereses urbanísticos particulares van prevalecer sobre o interese xeral de conservar o noso patrimonio natural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg58">Tamén podemos atoparnos co caso de que non se amplíe, de que non teñamos ningún parque natural máis. Comentan estes grupos e afirman que, á diferenza do resto das comunidades autónomas, a lei establece unha superficie mínima para os parques naturais. Menos o Parque Natural da Baixa Limia-Serra do Xurés, ningún parque natural galego hoxe tería sido declarado con esta lei, por non acadar esa cifra que vostedes marcan de 10.000 hectáreas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg59">Tampouco se recupera a figura do director do parque natural, imprescindible para que haxa unha boa xestión dos mesmos; os humidais seguen estando esquecidos; a custodia do territorio segue estando sen apoio; a nova lei non vai facilitar a participación cidadá, que pensamos que desde as institucións é básico e elemental darlle cabida nas institucións; comete un erro grave na definición do &quot;acordo de custodia&quot; ao non ampliar ao máximo de catro anos para os convenios de custodia coa Administración; non declara as súas actuacións como de utilidade pública e de interese social, e non facilita o seu traballo cun desenvolvemento lexislativo, fiscal, económico e social, e as microrreservas van seguir sendo figuras inútiles.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg60">E entón, por estes motivos citados e por moitos outros, pois estas entidades están preocupadas. E, se estas entidades están preocupadas, penso que a cidadanía galega en xeral ten que estar preocupada pola aprobación dunha lei que non vai garantir a preservación da nosa fauna, a preservación da nosa flora, da paisaxe, xea e sistemas ecosistémicos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg61">A crise, a crise económica do ano 2008, serviulle ao Partido Popular, neste caso, de escusa para abandonar a política medioambiental na nosa terra, de aí que se lles dera cabida a leis como a &quot;Lei de depredación de Galicia&quot;. Crearon un modelo de zonas protexidas inútiles, cunhas microrreservas que impediron unha conservación que non foi real. E fixaron un mínimo de hectáreas para declarar un parque natural que na práctica impedirá a aparición de novos espazos con esta figura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg62">Estamos a observar tamén aquí que o Partido Popular pois esquivou a problemática das especies invasoras, pese a que supoñen a segunda causa de perda de biodiversidade do planeta. No texto desta lei óbviase que o eucalyptus nitens é unha especie invasora exótica, perigosa para o mantemento da biodiversidade e a funcionalidade dos nosos ecosistemas —en virtude da Sentenza 274/2014, da Sección 1ª da Sala do Contencioso-Administrativo da Audiencia Nacional—. Incluso tamén o eucalyptus globulus está a ser considerado invasor no Atlas de plantas alóctonas invasoras de España, publicado pola Dirección Xeral para a Biodiversidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg63">Non queda claro no texto que o aumento imparable do eucalipto estea relacionado co abandono agrario e co declive do medio rural galego, co que se xera así un caldo de cultivo para os incendios forestais e para o negocio pasteiro. Efectivamente, a falla dun modelo produtivo sustentable, multifuncional e socialmente inclusivo fai que o destino dos nosos montes e terras agrarias, que debían ter esas figuras de protección, pois sexa o monocultivo, nomeadamente, do eucalipto, que substitúe as frondosas autóctonas. Isto acontece ante a pasividade, cando non a complicidade, da Xunta de Galicia, que ata agora foi permisiva co incumprimento das normas, polo que vostedes son cómplices de todo o mal que está ocorrendo no nosos montes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg64">¿Por que non cumpriron vostedes a actual lexislación —que foi feita, ademais, por vostedes—, a Lei de montes, a Lei de costas, o que vai ser a antiga Lei de conservación da natureza, que limitaba a plantación con estas especies en parcelas con masas frondosas autóctonas, terreos agrícolas, ríos, costas, hábitats de interese, etc.? ¿Por que permiten vostedes novas plantacións e repoboacións con especies deste xénero nos espazos que pertencen á Rede galega de espazos protexidos?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg65">Cataloguen vostedes dunha maneira formal o eucalyptus nitens como unha especie exótica invasora nesta lei, perigosa para o mantemento da nosa biodiversidade e a funcionalidade dos nosos ecosistemas en virtude das múltiples sentenzas existentes, e poñan vostedes en marcha un plan de control e erradicación naquelas áreas nas que estea presente. E entón aí poderemos comezar a falar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg66">
+					Despois atopámonos con casos como o que está a acontecer na serra do Oribio, un espazo natural protexido, incluído na Rede Natura 2000 como zona de especial conservación —cos Ancares e O Courel—, zona de especial protección dos valores naturais; polo que, segundo o Plan director da Rede Natura e o artigo 32 da Lei do sector eólico de Galicia, do ano 2009, estaría prohibido construír aí novos parques eólicos. Visitamos a zona a semana pasada con veciños e veciñas das aldeas, así como con distintas asociacións ecoloxistas —asociacións que xa teñen denunciados estes feitos—. Aquilo dá auténtica pena. Temos aquí algunha reportaxe gráfica.
+					<note>(O señor Rodríguez Estévez amosa unhas fotos desde a tribuna.)</note>
+					Xa non só podemos observar como están a destruír patrimonio natural senón como incluso lle están pasando por riba a mámoas ou incluso a algún camiño antigo, a algún antigo camiño de Santiago.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg67">No referente a este parque eólico, ao que se atopa vinculada unha liña de alta tensión e cuxo proxecto foi aprobado, pois dende o Grupo Parlamentario Mixto acabamos de pedir documentación da autorización do parque eólico desta serra, así como das posibles modificacións, se é o caso. Queremos que se informe da situación administrativa na que se atopa o procedemento de autorización deste proxecto nos concellos de Samos e de Triacastela e os informes ambientais sobre as modificacións deste parque, así como copia da declaración de parque ambiental do parque eólico que fora aprobado e, se é o caso, se informe da situación deste procedemento de avaliación das afeccións sociais e ambientais. Non podemos vir aquí facer propaganda cunha lei que despois non acabamos cumprindo e que lle pasamos por riba.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg68">Máis casos: as reservas da biosfera. Temos un caso práctico —isto aínda aconteceu hai dúas semanas—. A reserva da biosfera de Allariz, no concello de Rairiz de Veiga, é declarada como tal no ano 2005. Con máis de 21.000 hectáreas e algo máis de 9.000 habitantes é unha das 47 reservas que hai no Estado español. E a Deputación de Ourense pretende arranxar unha estrada cortando máis de 100 árbores, que nalgúns casos son xa de moitos anos; árbores cun porte, tanto rebolos como algún amieiro. E aquí vemos como a Confederación Hidrográfica informa de que non é necesaria a petición, Medio Ambiente permite as obras sen ningún tipo de cautela, Medio Rural autoriza as cortas e Patrimonio Cultural xa non contesta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg69">Pois esta reserva da biosfera, pola que discorre o río Limia e por onde discorre tamén un cordón montañoso, pensamos que ten que ter outro tipo de protección, e non que a propia Consellería de Medio Ambiente informe de que se poden cortar esas árbores sen ningún tipo de coidados. Non entendemos que a Xunta de Galicia dea estes permisos sen ter en conta as impresionantes virtudes coas que conta esta reserva.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg70">
+					Os monumentos naturais, outro exemplo práctico.
+					<note>(O señor Rodríguez Estévez amosa unha foto desde a tribuna.)</note>
+					Esta foto é sacada de hoxe ás sete e media da mañá, vindo para aquí de camiño. É o castiñeiro de Pumbariños, castiñeiro senlleiro con máis de mil anos de antigüidade, que ten un perímetro de 13 metros. E todo o souto está considerado como monumento natural. Este é o estado lamentable no que se atopa. Non se ven os castiñeiros coas silveiras. Isto é o que a Xunta de Galicia está a protexer: as árbores afectadas con enfermidades, coa avespiña, con chancro, sen podar dende hai máis de quince anos. Hai silveiras, avespiñas, chancro e lixo, polo que moitas veces teñen que ir os operarios do concello a un espazo que é seu a recoller o lixo porque aquilo está nunhas condicións lamentables.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg71">Nós, dende o Grupo Parlamentario Mixto, entendemos que esta lei que se vai aprobar hoxe non deixa de ser máis que un panfleto propagandístico de cara ás vindeiras eleccións, un lavado de cara para tapar as desfeitas que a Administración autonómica ten consentido —cando non participado nelas— ao longo e ancho de todo o país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg72">Pola miña parte, nada máis e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u14">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg73">Grazas, señor Rodríguez Estévez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg74">Polo Grupo Parlamentario do Bloque Nacionalista Galego, o señor Bará.</seg>
+			</u>
+			<note type="speaker">O señor BARÁ TORRES:</note>
+			<u who="#BaráXoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u15">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg75">Bo día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg76">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg77">Queriamos comezar cunha cuestión previa que nos parece principal. E é que queremos denunciar a actitude do Partido Popular no trámite de ponencia desta lei pola violentación do Regulamento e das normas de respecto democrático que deben rexer neste Parlamento. Non é de recibo, e é unha mostra, ademais, do autoritarismo e da falta de respecto aos grupos da oposición. Porque vostedes fixeron unha tramitación exprés na ponencia, en cinco días. Puxéronos, metaforicamente, unha pistola no peito. Dixéronnos o 23 de xullo que ao luns seguinte, en cinco días, tiña que estar feito o ditame, cando o Regulamento prevé cando menos quince días ampliables para este trámite. Polo tanto, esta urxencia veu ademais despois de dezaoito anos cunha lei en vigor —incumprida, como é evidente—, despois de doce anos desde a aprobación da lei estatal, despois de dous anos de iniciar a tramitación da lei e despois de tela en dique seco durante cinco meses. Esta lei, entre outubro do ano 2018 e marzo do 2019, estivo gardada nos caixóns da Xunta. Non moveron un papel e, de repente, impóñennos estes prazos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg78">
+					Isto é un auténtico atropelo democrático e querémolo dicir aquí moi alto e claro.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E mostra a verdadeira cara autoritaria, déspota, ruda e os malos modos do Partido Popular. Ademais, faise vetando a participación social, que está prevista no artigo 115.3 do Regulamento, coa posibilidade que no trámite da ponencia se faga unha audiencia ás entidades relacionadas coa materia en cuestión para que nos dean aquí a súa visión da lei. E vostedes vetaron a proposta dos grupos da oposición, que pedimos unha comparecencia de catro entidades —de Adega, da Sociedade Galega de Historia Natural, tamén da Sociedade Galega de Ornitoloxía, e da Rede Galega de Entidades de Custodia do Territorio— como unha mostra de toda esa variedade de entidades que traballan no día a día, que defenden o patrimonio natural e a biodiversidade deste país. E iso non supoñía ningún retraso, supoñía unha mañá de traballo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg79">Isto deixa claro que vostedes queren un parlamento pechado, un parlamento fortaleza, un parlamento mordaza, un parlamento pechado á sociedade, e que vostedes lle teñen aversión á democracia, á participación, ao diálogo, ao debate e ao pluralismo. Porque para vostedes aquí só se pode vir a mirar e a calar, non a debater, non a traballar, non a contrastar coa sociedade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg80">Nós, desde logo, imos utilizar todos os medios ao noso alcance para impedir estes modos do Partido Popular e para abrirlle as portas deste Parlamento á sociedade a aos colectivos que traballan no noso país, que nos parece que, cando menos, merecen respecto. E por iso os grupos da oposición os convidamos, os escoitamos, falamos con eles e estivemos unha mañá traballando con eles. Queremos agradecerlles precisamente hoxe aquí ese traballo, porque eses colectivos están representando a sociedade moi dignamente neste Parlamento. Grazas, moitísimas grazas, de verdade, polo voso traballo.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg81">E ¿cal era o obxectivo destas présas? Pois era aprobar unha lei neste período de sesións. Claro, teñen un balance tan ridículo de aprobación de leis nesta lexislatura que lles viñeron as présas así a última hora. Vostedes nin sequera teñen plan normativo para o ano 2019, están aprobando agora as leis do 2017. Son un auténtico desastre, están na parálise lexislativa, están nun suspenso lexislativo e agora viñéronlles a última hora as présas porque queren camuflar e disfrazar a realidade de que están neste punto morto cunha especie de actividade aquí porque esteamos en pleno verán traballando e aprobando leis. ¡Mentira, falsidade! Impugnamos, desde logo, esa falsidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg82">E como funcionan con estas présas, despois fan leis chapuceiras, que teñen que emendar ao cabo de poucas semanas e poucos meses, como pasou coa Lei de espectáculos, como pasou coa Lei de benestar animal, como está pasando coa Lei de rehabilitación, que acaban de publicar agora unha instrución porque non se aclaraban entre a Consellería de Cultura e a Consellería de Vivenda. Tiveron que facer unha instrución para interpretar a lei. ¡Así nos vai! Así nos vai con esta lei, que é tamén unha &quot;lei remendo&quot;, unha &quot;lei Frankenstein&quot;, porque tiveron que aproveitala tamén para modificar a Lei de montes e a Lei do solo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg83">De todas maneiras, este debate parécenos que é moi relevante porque é un autorretrato do Partido Popular, da xestión do Partido Popular nesta materia. Pon claramente en evidencia a irrelevancia tanto do medio ambiente como da biodiversidade para a Xunta de Galiza. En primeiro lugar, a irrelevancia política da propia Consellaría e da propia Dirección Xeral de Conservación da Natureza; tamén a irrelevancia económica que pon de manifesto esta lei e os propios orzamentos da Xunta de Galiza, e a propia memoria económico-financeira que nos presentan con toda esta lei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg84">Miren un dato que creo que é esclarecedor. ¿Saben canto lle dedica a Xunta de Galiza á xestión de parques naturais, reservas e microrreservas? Está posto na memoria económico-financeira: 11.600 euros, ¡11.600 euros! Isto non se pode dicir que sexa austeridade, isto é tacañería, isto é cutrez, isto é repartir as migallas que quedan para atender... É a mostra clarísima do que significa para vostedes a conservación da natureza e da biodiversidade, señora conselleira. Puxérono vostedes na memoria da propia lei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg85">Tamén puxeron o orzamento que lle dedican a esta materia, á conservación da natureza, que son menos de 6 millóns, dos cales da Xunta de Galiza son pouco máis de 2. Esta é a mostra da relevancia que vostedes lle dan. E nesta lei, ademais, non hai un só compromiso económico para mellorar esta situación. E o que é máis grave para nós: supón a total e absoluta subordinación da natureza e da biodiversidade aos intereses económicos, empresariais e urbanísticos, supón poñer a natureza á mercé dos lobbys enerxéticos, forestais, mineiros e demais. Ademais, como quedou claro tamén, e como lle dixeron xa todos os colectivos conservacionistas e ecoloxistas, vostedes incumpriron sistematicamente a lexislación, toda a normativa aprobada dende o ano 2001. E isto é moi grave. Xa nos gustaría que cumpriran minimamente esa normativa. O que fixeron vostedes foi un goberno que podemos cualificar como &quot;goberno de Atila en Galiza&quot; en materia de biodiversidade, o goberno dos tres &quot;d&quot;, o goberno da desfeita, da desprotección e da depredación do patrimonio natural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg86">Podémoslle poñer múltiples exemplos, empezando polos espazos naturais, que son espazos naturais desprotexidos. Claro, con eses orzamentos, ¿como van estar protexidos? Ademais, agora aplícanlles os numerus clausus aos espazos naturais. Non pode haber máis parques naturais. Iso dino implicitamente nesta lei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg87">En segundo lugar, porque temos a Rede Natura á cola do Estado e de Europea. Temos só o 12 % do territorio protexido con esta figura, cando a media do Estado está no 28  %. Xa lle dei no anterior debate os datos das comunidades que temos ao lado, de Asturias e Castela e León.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg88">Pero o problema non é só que non se amplíe a Rede Natura porque prevalecen os intereses deses lobbys enerxéticos, forestais e mineiros, e temos multitude de exemplos de territorios nos que estaba prevista a ampliación da Rede Natura. Está recentemente o debate sobre a devesa de Anllares, no concello de Mazaricos, prevista nas ampliacións da Rede Natura do ano 2008 e dos anos 2011 e 2012. Foron paralizadas. ¿Por que? Porque aí había proxectos de tres minicentrais e dun parque eólico que están ameazando e destruíndo esta auténtica xoia do bosque atlántico máis occidental de Europa. Así é como tratan vostedes o patrimonio natural. Pero é que, ademais, a Unión Europea díxolles claramente que o plan director da Rede Natura non vale como instrumento de xestión desas áreas, e vostedes non se queren enterar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg89">Está o exemplo dos plans para as especies ameazadas —xa o dixo antes o voceiro do Grupo Mixto e non vou ampliar esta cuestión—: tres míseros plans para duascentas especies. Pero o problema non é xa que non haxa plans, é que os que teñen non os cumpren. Acaba de facer un censo a Sociedade Galega de Ornitoloxía sobre a situación dramática da escribenta das canaveiras, á que lle poñen unha data de extinción no ano 2023 ao o actual ritmo. Quedan 20 parellas. E iso que supostamente hai un plan de recuperación. ¿Como será a situación das especies que non teñen nin sequera plan de conservación nin de recuperación?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg90">Ou está tamén o abandono escandaloso dos ecosistemas talvez máis importantes para a preservación da biodiversidade —señora conselleira, présteme atención—: os humidais. ¿Que están facendo vostedes cos humidais? Temos máis de mil humidais catalogados e están no máis absoluto abandono. Moitos deles xa están desaparecidos pola súa política irresponsable de abandono da natureza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg91">E ¿que dicir xa dos ríos, dos cursos fluviais, das bacías fluviais? Podiamos poñerlle aquí tamén o exemplo recente do río Furelos, señora conselleira. Vostede teno diante dos seus narices. Non son capaces de resolver esta cuestión, nin desde o Concello —cando tiveron responsabilidades alí, que vostede tamén as tivo— nin desde a Xunta de Galiza. É un escándalo que estean morrendo miles de troitas con esta situación porque non son capaces de resolvela.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg92">Xa non me vou referir ao tema da paisaxe, porque é un escándalo que teñamos sen aprobar o regulamento da paisaxe despois de aprobar a lei no ano 2008. Esta é unha cuestión absolutamente central, fulcral, para resolver a cuestión da protección dos espazos naturais do territorio e da paisaxe deste país. Acaban de facer un borrador dun regulamento que é un auténtico perigo, é unha ameaza. Están sen aprobar as directrices da paisaxe. ¿Saben por que están sen aprobar as directrices da paisaxe? Porque si que condicionarían realmente e porían límites a esa depredación e a esa voracidade das empresas que vostedes están protexendo. E por iso non aproban as directrices da paisaxe.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg93">Miren, vostedes non teñen ningunha credibilidade nesta materia, porque non lles importa. A vostedes non lles importa, non lles interesa, o patrimonio natural e a biodiversidade ademais de ser unha pose. Porque, claro, nestas alturas queda ben iso de poñer un pouco de verde na súa vida, na súa política, e vostedes tamén se declaran verdes. Como lles dixo o outro día un portavoz destas asociacións conservacionistas, o seu verde é o verde eucalipto, o verde que encontran os peregrinos que entran en Galiza a través do Camiño de Santiago, coa uniformidade, a pobreza, o empobrecemento do país, da paisaxe e dos solos que significa ese monopolio ou monocultivo do eucalipto ao servizo dos intereses que todo o mundo sabe. Ese é o seu amor polo verde. E nós queremos unha Galiza con variedade cromática, coa variedade cromática que teñen, por exemplo, os bosques de caducifolias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg94">Para vostedes o patrimonio natural é un atranco, unha pedra no zapato, e por iso o sacrifican no altar dos intereses desas grandes empresas, dos negocios das empresas amigas do Ibex e da caixa &quot;b&quot;, as das portas xiratorias, as das prórrogas en tempo de desconto. E non somos ilusos, nós non esperamos que vostedes veñan aquí a presentarnos o new deal green, que é o que está agora de moda, facer un new deal green, ¡Ala, a ser todos moi verdes! Non esperamos iso. O que simplemente esperamos é que cumpran a normativa en vigor, que non tiveron ningunha vontade de facelo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg95">Miren, teriamos ducias, centos, de razóns para opoñernos a esta lei, pero vóullelas resumir en dez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg96">Primeira razón: a subordinación da protección do territorio, da paisaxe e dos espazos naturais aos intereses económicos privados. Isto está clarisimamente de manifesto nesta lei e en toda a política que levan facendo ao longo destes anos, porque a súa receita, a receita do Partido Popular, é a da biouniformidade, non a da biodiversidade. Vostedes son da biouniformidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg97">Segunda razón: falta de compromiso orzamentario —con esa memoria económica que xa citei e que é absolutamente ridícula—. Vostedes néganse, ademais, a crear unha ferramenta que si sería útil para traballar a prol da biodiversidade, que sería un fondo galego para o patrimonio natural, como está previsto, por certo, na lei estatal e como está tamén contemplado na lei de Castela e León. Porque vostedes copian pero copian mal, copian o malo, non copian o bo. A ver se se poñen a copiar o bo neste caso. Entón, na lei non hai medios para ningún plan de xestión, para ningún programa, para ningún espazo natural protexido, para a súa dinamización, para a preservación deses espazos, para combater o impacto brutal que teñen os incendios forestais ou as especies invasoras. Non hai nada de nada nesta lei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg98">Terceira razón: porque supón un menosprezo ás entidades de custodia do territorio, que teñen un papel fundamental de mediación para a xestión dos espazos e chegan precisamente alí onde non chega a Administración. E esta lei maltrata as entidades de custodia do territorio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg99">Cuarta: porque non contempla ningún compromiso de ampliación e de mellora da xestión da Rede Natura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg100">Quinta: polo veto implícito aos novos parques naturais. É absolutamente absurdo e non ten ningunha xustificación nin ningunha base científica que poñan un mínimo de 10.000 hectáreas nos parques.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg101">Sexta: porque exclúe as rías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg102">Sétima: porque non presta a necesaria atención aos humidais, como lles dixemos antes, fundamentais para a biodiversidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg103">Oitava: porque non contempla medios e medidas para a protección e recuperación das especies ameazadas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg104">Novena: porque non contempla medios e medidas para poñer freo á expansión das especies exóticas invasoras.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg105">Décima: porque é unha lei dun goberno sen rumbo, un goberno sen estratexia global e integrada a prol da biodiversidade.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u16">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg106">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor BARÁ TORRES:</note>
+			<u who="#BaráXoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u17">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg107">Remato, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg108">Esta é unha microlei dunha microconsellaría dun goberno que non cre nesta cuestión. É unha tradución da lei estatal, é unha mala copia do peor da lei de Castela e León. É unha &quot;fake lei&quot;, é unha &quot;lei mentira&quot;, que crea aparencia, que crea un decorado, pero no que non hai ningunha política efectiva detrás. É a lei dun goberno cun pasado escuro e sen futuro. É a lei dun &quot;goberno Terminator&quot;, ou, mellor dito, dun &quot;goberno exterminator&quot;, porque vostedes son os exterminadores da biodiversidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg109">Por todo isto, o BNG vai votar en contra. E este vai ser un non coma unha catedral, vai ser un non como unha devesa, como a devesa da Rogueira ou a devesa de Anllares. Poñan a que máis lles guste.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg110">Grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u18">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg111">Grazas, señor Bará.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg112">Polo Grupo Parlamentario de En Marea, o señor Sánchez.</seg>
+			</u>
+			<note type="speaker">O señor SÁNCHEZ GARCÍA:</note>
+			<u who="#SánchezAntón" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u19">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg113">Ben, bos días a todos e a todas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg114">Quería darlles a benvida aos representantes dos colectivos ecoloxistas, ambientalistas e de custodia do territorio que hoxe nos acompañan e o meu recoñecemento para eles non só por estar hoxe aquí, non só polo traballo sobre este proxecto de lei, senón polo traballo que están a facer e que levan facendo durante estes anos; un traballo que fan no seu tempo libre, dedicándolle moito esforzo, mostra do seu compromiso, e cubrindo as carencias dun goberno que traballa contra o patrimonio natural deste país e a favor dos intereses privados. Sei que moitas veces cunde o desánimo, pero que saibades que sen vós este país estaría aínda peor do que está nese aspecto. Moitas grazas, sinceramente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg115">Porque iso é o que pasa cando se pon o raposo a coidar das galiñas, cando se pon o Partido Popular á fronte da Consellería de Medio Ambiente e Ordenación do Territorio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg116">Bueno, estaba vendo estes días Blade runner pola morte deste actor que non vou pronunciar porque o meu inglés é moi malo. Vía a película futurista, que ten moita mensaxe política detrás. E como estaba tamén preparando o debate desta lei, pois en vez de Tyrell Corporation, que era a que facía os replicantes, a min deume por bautizar a Consellería de Medio Ambiente e Ordenación do Territorio —sería nun Blade runner galego— como a &quot;Consellería de Ence, Naturgy e Atalaya Mining&quot;, que é para os que realmente veñen traballando durante os últimos anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg117">Xa teñen, señoras e señores do Partido Popular, o que querían, un novo texto legal que se titula &quot;Lei de patrimonio natural de Galicia&quot;, aprobada para tratar de disimular e ocultar a súa nula bagaxe, a súa negativa bagaxe, de dez anos de desleixo coa protección ambiental e de complicidade coas agresións ao patrimonio natural. Fano coa súa maioría nun pleno extraordinario sen xustificación, e despois de comprimir os prazos para dicir que o señor Feijóo incumpre un pouco menos o seu propio calendario lexislativo, igual que incumpre as leis que vostedes mesmos aproban. Por puro e simple interese partidista fixeron esta tramitación a toda présa, e sen contar coa participación dos colectivos ecoloxistas e ambientalistas, aos que vostedes vetaron, vetaron.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg118">A lei non mellora a anterior, é unha mala lei. E o seu proceder non augura ningún cambio nas súas políticas ambientais dos últimos dez anos. E dígolles que, incluso que tiveramos unha boa lei, o máis importante é querer cumprila, ter vontade de cumprila, a vontade que vostedes non tiveron nestes dez últimos anos. Porque ás veces as leis fanse porque se esgotan as anteriores, porque é un límite á actuación dun goberno unha lei obsoleta. Pero é que vostedes non exploraron os límites. Queda moita Lei 9/2001 por explorar. Porque vostedes incumpriron flagrantemente a lei; polo tanto, é unha lei ociosa, innecesaria. Os problemas ambientais de Galicia dos últimos dez anos non veñen porque haxa unha mellor ou peor lei, veñen porque hai un goberno que non cumpre nin sequera a lei que tiña que cumprir. A Lei 9/2001 ¿impedía a elaboración, a aprobación e a aplicación dos plans de conservación ou recuperación das especies ameazadas ou en perigo de extinción? Non, a lei contemplábao. O que non o permitiu foi a súa acción de goberno. A Lei 9/2001 ¿impedía ampliar a Rede Natura ou dotar a Rede Natura dun plan director de Rede Natura que protexese realmente eses espazos? A lei non o impedía. A lei ¿impedía dotar os orzamentos necesarios para a protección medioambiental? Non, a lei permitíao. E vostedes non fixeron ningunha destas cuestións, e non por incapacidade —que tamén— senón por puro interese. Débense a aqueles para quen vostedes traballan —con soldos públicos, iso si—. Pero non traballan para o público, traballan para intereses moi concretos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg119">Non teñen a vontade de cumprir a lei. Os dez anos do goberno Feijóo son a mostra do incumprimento total da lei. Son vostedes a peor ameaza contra o patrimonio natural de Galicia, aínda que veñan despois a facer publicidade e propaganda. Cando non chega con esa corrupción de aprobar leis á medida de determinados intereses económicos, como vostedes fixeron coa Lei de fomento de iniciativas empresariais —moi ben bautizada como &quot;Lei de depredación&quot;—, vostedes incumpren as leis que vostedes mesmos aproban, porque non lles chega á nada para a súa avaricia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg120">Para vostedes a protección da biodiversidade e do medio ambiente é un estorbo, é un engorro para o seu modelo económico, para o modelo económico que pretenden implantar. Para vostedes, isto da protección da biodiversidade é un freo disque ao desenvolvemento económico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg121">E, falando do incumprimento da lei —e xa se dixo aquí—, o instrumento fundamental que emanaba da Lei 9/2001, de protección da biodiversidade, era a aplicación dos plans de conservación e recuperación de especies ameazadas en perigo de extinción. Había un catálogo presentado no ano 2007, por ese Goberno bipartito, que cifraba en duascentas estas especies. Quero recordar as definicións do catálogo. A categoría &quot;en perigo de extinción&quot; é para o caso daquelas cuxa supervivencia é pouco probable se os factores causais da súa actual situación seguen actuando, e &quot;vulnerables&quot; as que corren o risco de pasar á categoría anterior —perigo de extinción— nun futuro inmediato se os factores adversos que actúan sobre elas non son corrixidos. Entre elas hai en maior número liques, algas, plantas e fentos, aínda que tamén aves, peixes, artrópodos, réptiles e moluscos. Destas definicións dedúcese que cómpre rapidez e eficiencia na actuación para evitar o avance deses factores adversos. Pois ben, pasaron doce anos dende a aprobación do catálogo e só hai tres plans aprobados, o 1,5 %. Non é casualidade, non é por falla de diñeiro nin por falla de tempo, é por falla de vontade política. Non cumpren a lei porque interfire co modelo económico que vostedes defenden. Xa se puxo aquí o exemplo da escribenta das canaveiras. ¿Cando pensan actuar vostedes para frear o proceso de extinción desta especie? Quedan 20 parellas. ¿Cando pensan actuar vostedes? ¿Ou van facer coma o anuncio este que sae do lince? &quot;Bueno, aínda queda unha parella, aínda hai tempo&quot;, ¿verdade? É que cae de caixón, xa debería rematar aquí o debate.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg122">¿É preciso aprobar unha lei o último día de xullo porque é urxente? Non, o que é urxente é ter un goberno que queira defender o medio ambiente deste país. Por exemplo, ¿que pasa coas directrices da paisaxe, coas directrices da paisaxe prometidas en decembro do 2016 polo señor Feijóo para o 2017? Estarían aprobadas no 2017, dixo o señor Feijóo. Estamos no verán de 2019 e seguen sen aprobarse. ¿Casualidade? Dicía a conselleira que hai que facer ben as cousas, con calma. Hai que facer ben as cousas e con calma como nesta lei, que houbo que incumprir incluso os prazos que daba o Regulamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg123">Pois as directrices da paisaxe non están aprobadas para permitir que se implanten os parques eólicos que se están implantando neste país neste ano, antes do 2020. Porque, se estiveran aprobadas, moitos deses parques ou non se implantarían ou implantaríanse doutro xeito. E, cando se aproben as directrices da paisaxe, o mal xa estará consolidado, xa haberá aeroxeradores de 150 metros en Mouriños, na pena Forcada, en Laxe, en Mondoñedo, en Paradela, ou mesmo na Rede Natura, como está pasando na serra do Oribio. En Rede Natura estase instalando un parque eólico cunhas obras que están destrozando incluso turbeiras, un ecosistema tan a preservar como é ese. E aí é onde vemos unha vez máis a corrupción sistémica que hai no Partido Popular. Repasando a tramitación ambiental do parque que se quere instalar na serra do Oribio, un atópase con cuestións tan curiosas como que o 19 de xuño do 2005 foron as eleccións nas que gañou o Goberno bipartito, e o 23 de xuño —catro días despois, e cun goberno en funcións— hai unha resolución na que se somete á información pública e estudo ambiental a autorización e declaración de utilidade pública para a aprobación do proxecto de execución do proxecto sectorial das instalacións que comprende o proxecto de parque eólico do Oribio. Isto sométese a principios de xullo á información pública, e o prazo remata o 11 de agosto de 2005.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg124">Pois ben, casualmente o Goberno do Partido Popular, o 12 de agosto, cando o prazo de información pública acabou o 11 de agosto, aproba a declaración de impacto ambiental do proxecto do parque eólico do Oribio, ¡nun día! Levamos máis de dous anos coa declaración de impacto ambiental de Touro e isto solucionárono nun día. Non é o mesmo —xa se ve— ser amigo do Partido Popular na tramitación ambiental que non selo, ¿verdade? Cando tes bos amigos na Administración as cousas van moi rápido.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg125">Tampouco impedía a lei ampliar a Rede Natura. E a Rede Natura, unha recomendación da Unión Europea a un país que ten unha media de espazos protexidos moito menor que no Estado e que en Europa, pois non se amplía polo mesmo motivo, polo motivo espurio da defensa dos intereses económicos. Xa hai demasiado tempo que cheira moi mal na Dirección Xeral de Enerxía e Minas, xa hai demasiado tempo que se traballa para intereses que non son os intereses xerais. Cobran vostedes soldos públicos para procurar beneficio privado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg126">Ben, pretenden aprobar un texto que non vai solucionar nada, que empeora a situación e que ten cuestións, nesta tradución da lei estatal ao galego, que empeoran a lei estatal. Por exemplo, algo para o que non hai explicación, para o que non obtivemos explicación, é a limitación da superficie dos parques naturais, que se lles pon un límite de 10.000 hectáreas, e de 2.500 cando son insulares. Con este criterio, dos seis parques naturais que hai hoxe en Galicia, só sería un. Con este criterio o que pretenden é que non se declaren máis parques naturais no país, porque lles molestan. Explíquennos os argumentos que hai detrás desta proposta, por favor; porque, se este é un debate, é para que se expoñan os argumentos. Nós estamos encantados de escoitar o porqué desta limitación, cal é o límite e por que se puxo límite.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg127">Por outra banda, a vostedes sóbralles o autogoberno. Cando teñen posibilidades de ter ferramentas que utilicemos nós dende aquí para loitar contra os problemas dos galegos e das galegas, vostedes prefiren delegar no Estado ou en Europa, como sucede co catálogo galego de especies exóticas invasoras que vostedes se negan a crear, para así pasarmos a depender dos catálogos estatal e europeo. E entón teremos menos posibilidades de loitar contra unha das principais ameazas da biodiversidade, porque teremos menos axilidade e menos posibilidades de declarar unha especie exótica e invasora, porque temos que depender de que haxa unha realidade no Estado, unha realidade en Europa, que faga que se declare unha especie como exótica invasora. A vostedes sóbralles. Podiamos ter un catálogo galego, pero vostedes non queren, non queren problemas. ¡Para que! Non son máis que problemas para vostedes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg128">Respecto da custodia do territorio, é unha lei pouco pensada, é evidente; é unha lei improvisada, pouco pensada e con pouca convicción. Vostedes non cren niso e, polo tanto, non traballan, non falan coa xente, non falaron coas entidades de custodia do territorio, que, polo que eu saiba, non veñen dos países comunistas. Eles mesmos denuncian que non se mellora a situación das entidades de custodia do territorio. Non se mellora porque non está traballada a lei, e non se incorporan moitas das peticións que son de sentido común; por exemplo, dicir que imos fomentar as entidades de custodia do territorio cunhas oficinas que fomenten o seu traballo, que apoien o seu traballo, que está sendo en moitos casos moito máis eficiente que o da Administración pública, desgraciadamente. Por outro lado, a propia memoria económica di textualmente que a aprobación desta lei non suporá ningún incremento dos orzamentos aplicados a estas políticas. Claro, as cousas custan cartos, hai que poñer recursos, e esta lei non se comprometen a incrementar ningún recurso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg129">Conservación dos humidais. Xa pasaron dezaseis anos dende que o Ibader fixo o Inventario de humidais de Galicia. Soamente están protexidos os cinco que teñen importancia internacional; o resto non, aínda que teñan importancia estatal ou autonómica. Nós pedimos a actualización dese inventario, e negóusenos a nosa emenda de actualización dos humidais. Non nos estraña, xa vemos como fan vostedes os proxectos de infraestruturas, aproveitando, evidentemente, as zonas húmidas, que son máis baratas para a expropiación e, polo tanto, cementando ou asfaltando as zonas húmidas, que para iso as queren. ¿Para que lles van poñer figuras de protección se despois é un engorro para facer unha carretera ou para facer unha ponte? É así. Ben, é a supeditación ao urbanismo, como xa se dixo aquí, e como xa fixeron, por certo, no Plan director de Rede Natura, co de &quot;salvo en cuestións de interese público xeral&quot;, que aí sempre cola todo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg130">Tampouco me contestou o señor Trenor por que non hai unha liña de políticas tamén contra unha das ameazas da biodiversidade e contra o réxime hidráulico neste país, que son os eucaliptos, nin por que si se exixen códigos de boas prácticas agrarias e non códigos de boas prácticas forestais. Tampouco se contestou. Non hai nada contra a eucaliptización do país e dos espazos protexidos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg131">En resumo, a protección ambiental é un obstáculo para vostedes e para aqueles para quen traballan. Non cumpren a lei nin poñen empeño en facer unha boa lei.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u20">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg132">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor SÁNCHEZ GARCÍA:</note>
+			<u who="#SánchezAntón" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u21">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg133">Polo tanto, nós imos votar en contra desta lei, pero, ademais, lembrando que o que máis necesita este país non é unha boa lei —que a necesita— senón un goberno que crea que o patrimonio natural é algo que temos que preservar para deixar ás vindeiras xeracións, que é algo básico para o noso desenvolvemento como país e incluso como un modelo económico alternativo da depredación que vostedes teñen.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg134">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u22">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg135">Moitas grazas, señor Sánchez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg136">Polo Grupo Parlamentario dos Socialistas de Galicia, a señora Vilán Lorenzo.</seg>
+			</u>
+			<note type="speaker">A señora VILÁN LORENZO:</note>
+			<u who="#VilánPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u23">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg137">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg138">Eu o primeiro que quero facer é saudar as persoas que nos acompañan na tribuna de invitados, porque son persoas que traballan todos os días no territorio pola conservación da natureza e da biodiversidade. Pertencen a asociacións e organizacións que o fan diariamente, e quixeron aportar o seu saber a este proxecto de lei que hoxe vén ao Pleno. Pero vostedes non os deixaron aportar. Esa é a visión que teñen vostedes do medio ambiente, señora conselleira. Para vostedes, a Consellería de Medio Ambiente é unha pose. E, para vostedes, esta lei que van aprobar hoxe é un número máis, exclusivamente. De feito, non sei onde estaría vostede esta fin de semana. Galicia enteira sabía que outra organización ecoloxista traía o seu buque insignia, o Rainbow Warrior, a Vilagarcía de Arousa pola defensa do medio ambiente e a loita contra a crise climática, e ninguén da súa consellaría —vostede tampouco, por suposto—, ninguén do Goberno da Xunta de Galicia —pese a ser invitados—, tiveron o mero detalle de visitar o buque. Probablemente porque a vostedes o medio ambiente e a crise climática lles importa un rábano, señora conselleira.</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg139">
+					Volvo repetir que a súa consellaría é unha pose...
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					—non poderei dicir &quot;rábano&quot; ao mellor, non sei...—. A vostedes parece que non lles importa demasiado, quizais seguen vostedes a liña do señor López Veiga, que todos o recordaremos por ser un magnífico conselleiro de Pesca cando se afundiu o Prestige, e que efectivamente defendeu o medio ambiente e non deixou, de feito, entrar o barco no porto de Vigo. Pois esa é unha boa forma, segundo vostedes, da defensa do medio ambiente.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg140">Hoxe vimos aquí a un pleno extraordinario para que vostedes aproben un número máis, unha lei que vai facer caixa na súa escasísima conta de leis nesta lexislatura. Van aprobar vostedes un texto que xa anunciaron no ano 2017, que vai substituír unha lei súa de hai dezaoito anos que non cumpriron, que non orzaron e que ademais nin sequera desenvolveron regulamentariamente, por suposto, con plans de conservación e recuperación de especies. Chéganme os dedos dunha man, e sóbranme aínda dedos, para falar dos plans de conservación e recuperación de especies que vostedes aprobaron en dez anos. E, polo que se ve —e xa se citou aquí o da escribenta das canaveiras—, tampouco serven para moito, señora conselleira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg141">Eu non sei se vostedes cren que con esta lei imos frear a perda de biodiversidade. Porque supoño que tamén saben que a Comisión Europea vai abrir un procedemento de sanción a España por Galicia, porque o Plan director da Rede Natura 2000 de Galicia é moi xenérico, está incompleto e non se adapta ás necesidades dos espazos. E tamén porque os espazos protexidos non teñen plan de xestión. Levan vostedes dez anos gobernando con maioría absoluta, non nos necesitan absolutamente para nada aos grupos da oposición, de feito así nolo dixeron na propia comisión —o ponente dixo que eran moi xenerosos porque tiñan maioría absoluta e con esa maioría absoluta non nos necesitaban absolutamente para nada—. Nin necesitan as organizacións ecoloxistas nin necesitan os grupos da oposición, e probablemente por iso hoxe vostedes van aprobar esta lei en solitario, señora conselleira.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg142">Non deixaron vostedes falar —xa se dixo— as organizacións ecoloxistas. Pedímolo polo artigo 115 do Regulamento e dixeron que non. Non aceptaron apenas alegacións durante a fase de exposición pública. Viñeron aquí dicindo que no debate da emenda á totalidade aceptaran case un 65 % das alegacións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg143">Eu vou poñer un exemplo. Xa o puxen na Comisión e vouno poñer outra vez. A Sociedade Galega de Historia Natural fixo 33 alegacións ao anteproxecto de lei e vostedes aceptaron 4. Pero é que nós fixemos 113 emendas. Vostedes aceptaron 4, e 3 foron transaccionadas. Despacháronnos con estes tres folios —tres non, foron dous e un pouco—: isto si, isto non, isto si e isto non...</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg144">No proceso de ponencia citáronos tres veces, e durou escasamente unha hora. Ata tivemos que recorrer por parte do Grupo Parlamentario Socialista á posibilidade que nos ofrece o artigo 116 do Regulamento da Cámara e pedir o debate de comisión artigo por artigo. Porque non houbo debate en ponencia, non tivemos debate de ningunha clase. Foi artigo por artigo, e o propio presidente da Comisión tivo que chamar por teléfono para pedirnos por favor que o levásemos a unha pequena redución, porque eran cento e pico artigos e, se non, non iamos acabar en moitas horas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg145">Fixeron vostedes traballar o persoal da Cámara cando non tiñan que estar traballando tantas horas nunha mesma comisión. Durou o debate da lei ao redor de catro ou cinco horas. Fixérono tan mal que ata o Grupo Parlamentario Popular —nun anteproxecto que é do seu Goberno— fixo 10 emendas. Retiraron 1, e desas 9 que quedaban vivas tiveron que modificar 2 porque a Consellería do Medio Rural se deu conta de que estaban mal feitas. E fóra de prazo colocaron outras 2 emendas que pretendían transaccionar cos grupos parlamentarios da oposición. Este é o seu interese, o seu, o do presidente Feijóo, o de todo o Partido Popular e o do Grupo Parlamentario Popular polo medio ambiente de Galicia. ¡Ningún!</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg146">Por iso xa adianto que o noso grupo vai votar que non a este proxecto de lei. Non podemos participar, e vou coller a verba dunha das persoas que tamén está na tribuna de invitados.</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg147">Presidente, a min gustaríame que puidesen falar un pouco máis baixo, porque hai un &quot;run, run&quot; dende que comecei a miña intervención...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Fortes murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u24">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg148">
+					¡Silencio, silencio todos!
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Xa estou eu aquí. Moitas grazas por axudar. Grazas, moitas grazas.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg149">Señora Vilán, pode vostede seguir, non hai apenas un murmurio, que soe habelo sempre. Non hai ningún problema.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg150">Por favor, continúe. E os demais manteñan o silencio, por favor.</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Pronúncianse palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">A señora VILÁN LORENZO:</note>
+			<u who="#VilánPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u25">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg151">Eu vou parafrasear unha das persoas que veu falar con nós, que é propietaria de varias propiedades no Parque Natural das Fragas do Eume e que dixo que esta lei é unha farsa absoluta. E iso é o que é. É certo, é unha absoluta farsa. Aos grupos da oposición, ás organizacións ecoloxistas, ás persoas que realmente traballan no territorio todos os días e, por certo, ás persoas expertas en conservación da natureza e da biodiversidade invitóusenos como simples convidados de pedra. Pero é que esa tamén é a súa idea da democracia, e iso é o realmente lamentable.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg152">Nós dixemos no debate da emenda á totalidade que queriamos participar nesta lei, queriamos axudar a mellorar o texto, porque para iso estamos aquí. Pero non nos deixaron. E repito que non imos participar nesta farsa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg153">Vostedes deberon facer unha análise previa da lei do ano 2001, dos problemas que hai realmente en Galicia para a conservación do territorio, da natureza e da biodiversidade, abrir un proceso real de participación e, a partir de aí, facer un proxecto de lei. Así é como se fan as leis, conselleira. Non mova a cabeza, porque vostedes non o fixeron, non fixeron iso, non o fixeron. Esta lei non vai resolver os problemas do patrimonio natural en Galicia, só vai servir para ser un número máis, un número na conta de leis deste período de sesións. Vostedes van moi mal, van moi mal nesta lexislatura en aprobación de leis. E por iso nos colocaron esta lei no período de desconto nun pleno extraordinario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg154">Pola contra, as nosas emendas partían dunha situación real do territorio, xa llelo contei o día que subín aquí para debater a emenda á totalidade de En Marea. Deixamos feito un borrador no ano 2008. Fíxese, que quedou na súa consellaría, e fíxese se nos importaba e nos importa. Recollen o que nos indicaron todas esas persoas que están aí arriba e todas as persoas que son expertas en protección do patrimonio natural e da biodiversidade que colaboraron con nós. Esta é unha lei que xa nace eivada, porque vostedes non as aceptaron. Repito, foron 7 de 113.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg155">Esta lei non vai facer efectivo o dereito constitucional que temos as persoas a desfrutar dun medio ambiente adecuado. É un dereito nun papel pero pouco máis.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg156">Non pon o enfoque na función social do patrimonio natural e da biodiversidade, e non o entendemos moi ben. Non potencia a participación, nin a Xunta Consultiva para canalizar a participación das persoas propietarias dentro dos parques naturais nin o Consello da Rede de Parques Naturais de Galicia como órgano consultivo. Escasamente mencionan vostedes o Observatorio Galego da Biodiversidade, que existe dende o ano 2007. Debe de ser que, como non o crearon vostedes, pois non lles gusta, non lle dan participación. É coma se non existise. Total son expertos que nos van molestar...</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg157">Impón prazos demasiado longos para resolver os procedementos: dous anos para resolver un procedemento cando vivimos na época da informática, señora conselleira. Vostedes son capaces de dar subvencións a determinados concellos nunha fin de semana, con esa rapidez, pero non son capaces de resolver un procedemento en dous anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg158">Non acepta que as administracións locais teñan coñecemento dos acordos coas entidades de custodia do territorio. Dixéronnos en comisión que era porque eses acordos son entre as administracións e os particulares. Debe de ser que os concellos non son unha administración.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg159">Rexeita que o silencio administrativo sexa estimatorio, e así o que fan vostedes é desincentivar aínda máis a participación da sociedade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg160">Foxe da transparencia. Pedímoslles un informe anual sobre o estado e a previsión da protección do patrimonio natural, e que viñese vostede aquí cada ano e nos dese conta. Díxonos o ponente do Grupo Popular que xa está na lei estatal e que xa lle explica vostede ao Estado ese informe. Pois podiamos pechar o Parlamento, porque, total, para o que serve... Pois non sei moi ben para que estamos aquí.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg161">Esta lei non vai protexer o medio ambiente porque non obriga a que a protección ambiental prevaleza sobre ningunha outra norma, nin sequera vai protexer os espazos que deberían estar protexidos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg162">Non saben vostedes nin regular nun só capítulo a Rede Natura. Está espallada polo texto, por un lado e por outro. Non hai nin sequera coherencia normativa estrutural.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg163">Pon límites físicos mínimos —xa o dixeron os anteriores ponentes— para a declaración de novos parques naturais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg164">Fixeron vostedes un copia e pega da lei estatal mal feito. É un refrito; e, á parte de todo, é un refrito mal frito. Vostedes non entenden a figura da custodia do territorio. E non será porque llo dixeran unha e mil veces. Deixaron desprotexidos os humidais e non inclúen a protección das áreas mariñas, porque, total —tamén se nos dixo na comisión—, non ten sentido que estean nesta lei. Bueno, pois xa está, pechemos tamén as rías que, total, para o que serven...</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg165">É unha lei que non ten compromiso económico. Nós propuxemos a creación dun fondo para a conservación do patrimonio natural de Galicia e dixeron que non. Bueno, tamén é verdade que non hai previsión de orzamento nesta lei e que vostedes levan sen orzar, dende o ano 2008 ao 2018, máis do 30 % da lei que aínda está en vigor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg166">Non aceptaron un réxime xeral de axudas e medidas compensatorias para esas persoas que teñen limitacións porque viven en territorios protexidos, en espazos protexidos, nos parques naturais. ¿Que pasa cos habitantes dos parques naturais? ¿Por que vostedes non se preocupan por eles? Están absolutamente esquecidos. É máis, tamén rexeitaron a nosa proposta de plans de desenvolvemento sostible como elementos que mellorarían os plans de uso e xestión e que mellorarían a calidade de vida destas persoas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg167">Esqueceron vostedes a biodiversidade, nin sequera ía no título da lei —nin no anteproxecto nin no proxecto—. Non se aceptou a creación dun rexistro galego de bancos de material biolóxico e xenético; e tampouco a creación de catálogos galegos de especies invasoras, seguindo esa liña do presidente Feijóo de non pedir máis competencias ao Estado, dese autogoberno raquítico, que é o que defenden vostedes. Nin sequera foron capaces de se comprometer a un prazo para desenvolver a lei —quizais copiando a anterior, que leva dezaoito anos sen regulamento, quizais tamén copiando a Lei de caza ou a Lei de benestar animal, que tampouco teñen regulamento—.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg168">Por último, utilizan esta lei para modificar a súa propia Lei de implantación de iniciativas empresariais en relación con Sogama sen nin sequera remitir informe á Asesoría Xurídica Xeral. Pero non aceptaron a nosa emenda para derrogar a disposición transitoria cuarta da Lei de aproveitamento eólico de Galicia, do ano 2009. E así son absolutamente incontrolables —e así o van seguir sendo— as eólicas sobre os parques naturais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg169">En definitiva, van aprobar vostedes esta lei porque teñen maioría absoluta, maioría absoluta de rodillo. Pero son moi xenerosos, incluso perderon o tempo en posicionarse sobre todas as nosas emendas —segundo se nos dixo na comisión—. Aínda imos ter que pedir desculpas por facer ben, eu diría que moi ben, case 350 emendas por parte de todos os grupos —case 340, polo tanto, por parte dos grupos da oposición—. Fixemos moi ben o noso traballo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg170">No seu mundo ideal esta é unha lei máis, un número máis para o balance normativo. Por desgraza, no mundo real esta lei é unha oportunidade perdida para Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg171">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u26">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg172">Grazas, señora Vilán.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg173">Polo Grupo Parlamentario Popular, o señor Trenor.</seg>
+			</u>
+			<note type="speaker">O señor TRENOR LÓPEZ:</note>
+			<u who="#TrenorGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u27">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg174">Bos días, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg175">
+					Un saúdo tamén ás persoas que nos acompañan neste debate. Pensei que ía haber máis persoas, xa que estaba o hemiciclo antes cheo de insignes socialistas. Pero parece que as cuestións medioambientais lles importan moito menos do que di a súa voceira.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg176">Non, perdoen, cando eu falo de insignes socialistas non me refiro aos que están aquí, que tamén teñen o meu respecto, refírome aos invitados que estaban á primeira hora, cando arrancamos este pleno.</seg>
+				<vocal type="murmuring">
+					<desc>(Pronúncianse palabras que non se perciben.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg177">Pero, mire, señora Vilán, é malo enganar. E é peor aínda enganar e faltar á verdade. E se vostede vai reproducir as miñas verbas, por favor, non as manipule, non as altere. Fágao literalmente. Xamais este voceiro lle dixo a vostede o que vostede dixo aquí que eu dixera, non é verdade. Cando unha persoa non di a verdade, está a mentir. E vostede faino, ademais, habitualmente. Parece que lle colleu gusto. As comisións están gravadas e podemos ir velo, pero, como non quedan transcritas, debe de pensar que é máis fácil. Mire, en todo caso eu xamais lle dixen o que vostede dixo. O que eu lle dixen é que este grupo ía traballar polo consenso, que iamos facer transaccións, que iamos estudar todas as emendas, que nos iamos posicionar en todas as emendas, a favor ou en contra, e tamén coas transaccións. O que tampouco iamos aceptar é que un grupo minoritario —o seu grupo, que ten 14 deputados— fixera un boicot a esta lei e impuxera o rodillo da minoría a esta lei. Iso foi o que dixo este voceiro. Pero vostede queda co que quere quedar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg178">
+					Mire, na ponencia non houbo máis reunións porque vostede non quixo, porque o resto dos grupos xa estaban dispostos a facer unha reunión o xoves e vostede non quixo, porque non podía.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Quería reunirse tamén o venres pola mañá, e vostede non quixo porque tamén tiña outras cousas. Claro, se vostede me di que non pode porque ten que ir a unha comisión, pois ten vostede o suplente, pode mandar o suplente. Pero non, porque estes temas pois só os leva vostede e non quere que ninguén máis os toque. O sábado tampouco podiamos quedar para falar da lei, non, porque vostede traballar un sábado parece que non podía.
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Díxome vostede que o sábado non. O sábado ofrecino eu e vostede díxome que non porque non estaban os servizos da Cámara. Así é que non me diga que si. ¡Ah!, pero iso foi o que vostede dixo. Vostede agarrábase a unha porque non podían, a outra pola súa axenda e a outra polos servizos da Cámara, co cal, se lle facemos caso, non habería reunión. É máis, aceptou reunirse o venres pola tarde porque vostede pensaba que a letrada ía dicir que ela non podía vir. E, como a letrada veu, a vostede fastidióuselle. Pero, se non, estariamos toda unha semana sen facer unha reunión de ponencia. ¡Toda unha semana!
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg179">A señora Vilán, claro, terá que facer moito traballo do Partido Socialista, terá que traballar moito no seu partido, pero tamén hai que traballar para os galegos, señora Vilán, tamén hai que traballar para os galegos.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg180">Señor Bará, eu non suelo entrar nas súas provocacións, nas súas pullas, nos seus belisquiños de monxa. Non, intento non entrar niso. Eu sei que o seu discurso non o fai para todos os galegos e as galegas, faino para a súa parroquia, unha parroquia cada vez máis pequeniña. Pero vostede sabe que ten que ter un discurso moi específico, moi concreto, para tela contenta. Entón, bueno, non suelo entrar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg181">Pero si que lle vou dicir unha cousa. Mire, non fale vostede de violentación do Regulamento. Di vostede cousas moi graves. E eu creo que ás veces hai que medir tamén o que dicimos. O de violentación do Regulamento, primeiro, non é certo, non é certo, porque este grupo respecta escrupulosamente o Regulamento e as normas que nos demos entre todos. Pero quero lembrarlles que, cando vostedes gobernaban, cando vostedes estaban no Bipartito, aprobaron leis nas que só se reunira unha vez a Ponencia. Fixeron a sesión de constitución, a sesión de peche e a de deliberación dalgunha lei tan importante como, por exemplo, a de transparencia nun só día, ¡nun só día! Co cal, señor Bará, antes de facerlles recomendacións aos demais, mire a ver o que vostede fai.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg182">Mire, cando fala de que lles puxemos unhas pistolas, francamente hai que ter certo control da linguaxe. Pistolas son as que usan eses grupos terroristas que vostede non condena. Vostede négase a condenar eses grupos, co cal teña coidado tamén con iso da linguaxe.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg183">Pero, miren, señorías, hoxe concluímos o trámite parlamentario dunha lei que está chamada a ser a máis importante quizais desta lexislatura, xa que estamos a falar da lei, por se vostedes aínda non se enteraron, que vai protexer o noso rico patrimonio natural, garantir a biodiversidade de Galicia, apostar pola súa conservación sostible e que vai preservalo para as xeracións futuras. Namentres que noutras comunidades, señorías, hai unha parálise absoluta no eido lexislativo, a estabilidade que xurdiu das últimas eleccións galegas, que configurou un grupo maioritario capaz de producir novas leis e tamén de sustentar un goberno que se dedica a gobernar e que non perde tempo en crises continuas entre partidos políticos, permite a Galicia estar unha vez máis por diante do que pasa no resto do Estado. Hai unha estabilidade que nos permite ter orzamentos en tempo e forma, que, por exemplo, nos fixo crecer o ano pasado dúas décimas máis que no resto do Estado; estabilidade, xestión e produción lexislativa, señorías, que seica non lle gusta á oposición, que prefire un escenario dominado polo caos e pola liorta continua. Así levan vostedes os últimos tres anos e non ía ser diferente esta vez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg184">Esta lei, señorías —por moito que vostedes o neguen—, tramitouse con diálogo. Despois de aprobarse no Consello da Xunta, foi posta á exposición pública, para que todos os interesados polo noso patrimonio natural e a nosa diversidade puidesen facer as súas achegas, tanto de forma particular como a través de colectivos ou outras administracións. Recibíronse máis de mil achegas, das cales se estimaron, total ou parcialmente, 637, o 65 %, que para nós enriqueceron substancialmente o texto. Eu fíxenlles no anterior debate, no da emenda á totalidade que presentou o grupo de En Marea —que vostedes aplaudiron e seguiron moi contentos—, un relatorio dalgunhas que se aceptaran e dos artigos que modificaban. Pois, por exemplo, da Sociedade Galega de Historia Natural incorporáronse alegacións que modificaron 12 artigos —12 artigos foron modificados polas aportacións da Sociedade Galega de Historia Natural—; 8 artigos modificáronse a través das alegacións de Adega; Colexio de Biólogos, 5; do Colexio de Enxeñeiros de Montes, tamén. O mesmo se fixo coas da CIG —e xa lle dixen que non é moi sospeitosa de ser afín ao Partido Popular—: 4 artigos foron modificados por proposta da CIG; e tamén por proposta de UXT, de Comisións Obreiras, do Sindicato Labrego, das Reservas da Biosfera, da Universidade da Coruña, da Confederación de Empresarios de Galicia e de moitas outras entidades.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg185">Houbo diálogo, escoitouse as entidades e aceptáronse moitísimas alegacións. O que pasa, señorías, é que vostedes teñen un concepto do diálogo moi especial. Para vostedes o diálogo é dicir amén absolutamente ao cen por cento do que vostedes din. É que non admiten que poida haber contrapropostas, non admiten que se poida estimar o 50 % das súas propostas. É que hai que aceptar o cento por cento. E, se non se acepta o cen por cento, ¿é que non se ten capacidade de diálogo? ¡Home!, eu penso que o diálogo non é iso; polo menos, non é ao que está o noso grupo acostumado a facer, nin é o que creo que debamos de ter na nosa comunidade. Pero, bueno, se vostedes conciben que o diálogo é ir con cen medidas e que a Administración, ou o interlocutor que vostedes teñan, teña que aprobarlles as cen medidas porque, se non, non hai diálogo, ¡amigo, iso non é diálogo, non é diálogo! É para facelo mirar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg186">Pero é que, se isto non fora suficiente, logo houbo o procedemento de participación pública que ten o propio Parlamento, o &quot;lexisla con nós&quot;, polo que calquera puido facer as aportacións que consideraba necesarias, ¡calquera! Un procedemento tan válido como o de comparecencia, que dicía o señor Sánchez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg187">Pero é que, a maiores, este grupo traballou para que esta lei fora un texto consensuado. Estudamos todas e cada unha das emendas que vostedes fixeron. Aceptamos moitísimas delas, e sobre as que non aceptamos dixemos o porqué, explicando cada unha delas. Fixemos propostas de transacción sobre as súas emendas e tamén sobre as nosas, e buscamos un texto de consenso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg188">Aceptamos as emendas 1, 2, 12, 13, 24, 32, 68, 91, 92, 96, 97, 112 e 113 do Bloque Nacionalista Galego; a 18, 22, 25, 59 e 73 de En Marea; e a 18, 20, 30 e 89 do Grupo Socialista. Ofrecemos unha ducia de transaccións, incluso sobre as nosas. Vostedes non propuxeron nin unha soa transacción, ¡nin unha soa transacción! Non propuxeron ningunha modificación das súas emendas. Porque vostedes entenden que ou se lles admiten todas as emendas ou é que non hai diálogo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg189">En total, 37 emendas foron aprobadas. Non puidemos aprobar todas, claro que non. Pero é que era imposible que o fixeramos, era imposible. Presentaron vostedes emendas que suprimían unha parte importantísima do articulado, o que desvirtuaba a nova lei e deixaba sen lugar moitos dos aspectos relacionados cos nosos espazos naturais e a conservación da biodiversidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg190">Por exemplo, o Partido Socialista presentou tres emendas de supresión que, de aceptalas, implicarían a eliminación da regulación da loita fronte as pragas que poden afectar especies ameazadas e hábitats raros; tamén de preceptos para a protección da avifauna contra a colisión coas liñas eléctricas, ou para a protección da avifauna no desenvolvemento do sector eólico. Iso é o que vostedes querían suprimir.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg191">Presentaron vostedes emendas que recollían aspectos que xa estaban recollidos noutros artigos da lei. É coma se non leran a lei enteira e empezaran xa a facer as emendas. Vou no artigo 1, pois a emendar; no artigo 4, tres emendas... Cando logo, ao mellor no artigo 10 e no artigo 11, estaban as emendas que vostedes propoñían. Pero aínda así non as retiraban. Mantiveron as emendas vivas para dicir que non lles aprobaban as emendas. Non sei, eu penso que, no proceso de emendas, o rigor que ten que haber ten que ser bastante diferente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg192">Ou, por exemplo, presentaron vostedes emendas que o único que facían eran alterar a orde das palabras dun artigo, sen que iso implicara que cambiara o significado, sen que implicara iso. E desas houbo moitas emendas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg193">Pero, sobre todo, señorías, a maioría das emendas amosaban un gran descoñecemento da lei do 2007 —que é a lexislación de carácter básico na que se inspira esta lei—, como tamén doutras normas europeas, e ían xerar unha gran incerteza e inseguridade xurídica.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg194">
+					Pero aínda tendo en conta que a maioría das emendas non tiña sentido aprobalas, e a pesar do esforzo para cada acordo que fixo o grupo maioritario, vostedes poderían sorprender a todos os galegos e galegas adoptando unha postura responsable e construtiva. Pero non, non, vostedes apostaron pola confrontación, pola ausencia absoluta de colaboración e tamén —por que non dicilo— pola falta do máis mínimo rigor. Vostedes dixeron que non a todo, incluso vetaron a posibilidade de que as transaccións puideran votarse. Iso fixo o Partido Socialista, ao que lle parecía moi mal que houbera propostas de transacción e que elas puideran votarse. Vostedes coa súa minoría, con 14 deputados, non queren, non queren que haxa diálogo e que se voten as cousas neste Parlamento. Da mesma forma que o señor que ten 10 deputados non quería, coa súa emenda, nin sequera que esta lei entrara no debate e se puidera votar —señor Sánchez, lémbrao, ¿non?—.
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Entendino, moi ben. Non sei se vostede entendeu como funciona o das maiorías. Penso que iso é o que non entendeu, claro.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Tampouco sei se sabe cales son as normas mínimas de convivencia que debe de haber nas organizacións. E así acabaron tamén as dúas organizacións nas que vostede militou, tanto En Marea como Alternativa Galega de Esquerdas, que empezaron con moitos máis deputados que cos que acabaron. Ao mellor tiñan que facerse mirar tamén que é o que pasa para que acaben así os grupos nos que vostede está, señoría.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg195">Señorías, a protección efectiva do noso patrimonio non pode depender da axenda partidista da oposición. E a aprobación desta lei é un compromiso deste grupo e do Goberno que está a sustentar. Estamos ante unha lei ambiciosa que vai renovar e adaptar aos tempos e ás necesidades actuais un texto que conta xa con dezaoito anos. Grazas a este novo texto, Galicia vai ser a primeira comunidade en adaptar integramente a lexislación autonómica á estatal —despois das últimas dúas modificacións, que foron quizais as máis importantes—. Quero lembrar que a Lei de patrimonio natural e da biodiversidade do Estado foi modificada ata en seis ocasións dende a súa aprobación, sendo as dúas últimas de moita importancia, o que obrigaba a facer modificacións na nosa normativa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg196">A nova lei aposta polo desenvolvemento sostible dos espazos naturais, garantindo, por un lado, a súa conservación e, por outro lado, o seu uso e desfrute por parte de todos os galegos e galegas, e dos que nos visitan contribuíndo á dinamización da economía das áreas xeográficas. Temos a gran sorte de contar cunha ampla riqueza de espazos naturais que contan cun alto valor. &quot;Valor&quot; era a palabra doutra das emendas do Bloque Nacionalista, que quería que non puxeramos a palabra &quot;valor&quot; senón a palabra &quot;beleza&quot;. Bueno, pois esta foi a gran aportación do Bloque Nacionalista a este texto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg197">Temos espazos que contan cun alto valor, tanto a nivel natural, medioambiental e paisaxístico como de biodiversidade e tamén social e económico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg198">O novo marco normativo introduce importantes novidades; por exemplo, como principio inspirador incorpora o coñecemento científico e establece o deber das administracións e da cidadanía de respectar e conservar o noso rico patrimonio. Refórzase o papel da educación ambiental, destácanse os mecanismos de participación, que garanten a participación pública no deseño e execución das nosas políticas. Establece mecanismos de colaboración con outras administracións, institucións privadas e particulares, así como cos propietarios e usuarios do propio territorio. Impulsa modelos de turismo compatibles, obrigas as novas liñas de transporte de enerxía eléctrica a que minimicen ao máximo os riscos para a fauna, e tamén deseña códigos de boas prácticas para os nosos agricultores e gandeiros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg199">Esta Lei do patrimonio natural e da biodiversidade apuntala o traballo que vén desenvolvendo a Xunta nos últimos anos, e fai unha importante aposta pola conservación e protección dos espazos protexidos. No novo marco legal créanse as microrreservas, unha nova figura que busca preservar e protexer especies ameazadas ou hábitats raros que estean nun espazo cunha superficie reducida. Iso tampouco lle gustou á oposición, que supoño que pensa que esta ferramenta, que é fundamental para a protección das especies ameazadas ou hábitats raros, non debe ter cabida na nosa lexislación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg200">Tampouco a oposición quere que destaquemos a importancia e excepcionalidade dos parques naturais, de xeito que sexan espazos con superficie mínima, que teñan un requisito establecido de superficie mínima...</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u28">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg201">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor TRENOR LÓPEZ:</note>
+			<u who="#TrenorGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u29">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg202">...para darlle unha entidade maior, e que sexa continuo, que non estea fragmentado, de xeito similar ao que fixo a Administración estatal para os parques nacionais, que estableceu un mínimo de hectáreas para ter esta consideración. Non sei por que a oposición non quere para Galicia o que si quere para o resto do Estado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg203">Amplíase o ámbito dos ENIL, de xeito que poidan comprender espazos integrados en máis dun concello. Establécense novas categorías como &quot;espazo protexido de Rede Natura&quot;, que inclúe os LIC, ZEC e os ZEPA, o que lles dará unha maior protección ao incluílos na Rede galega de espazos protexidos, maior protección, o que ao Partido Socialista tampouco lle gusta. Presentaron emendas para eliminar todos os artigos que reforzan a protección da Rede Natura 2000. Supoño que estarán pensando en facer outra &quot;Vila PSOE&quot; nalgún espazo protexido e non queren que esta lei lles puidera obstaculizar esas ansias inmobiliarias.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u30">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg204">Grazas, señor Trenor. Rematou o seu tempo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg205">Antes de entrar no turno de réplica, imos clarexar unha situación, porque eu estaba nese debate.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg206">
+					Señor Trenor, o señor Bará utilizou unha expresión, referíndose á celeridade coa que se tramitou a lei, en sentido metafórico. Dixo &quot;unha pistola no peito&quot; e foi en sentido metafórico sempre. É que é bo clarificar isto para que non quede no ambiente calquera outra cousa. El referiuse á utilización de &quot;pistola no peito&quot; en sentido metafórico, sobre a celeridade coa que se tramitou a lei.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Nada máis. Iso creo que forma parte dunha expresión que moitas veces se utiliza sen máis. Creo que xa quedou claro.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg207">Polo Grupo Parlamentario Mixto, o señor Rodríguez Estévez.</seg>
+			</u>
+			<note type="speaker">O señor RODRÍGUEZ ESTÉVEZ:</note>
+			<u who="#RodríguezDavid" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u31">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg208">Grazas de novo, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg209">Penso que xa se expuxeron aquí por parte de todos os grupos as posicións de cada un. Nós imos, por suposto, votar en contra desta lei por moitas das cuestións que aquí xa saíron. Primeiro por esa actitude despótica na que se fixo a tramitación da propia lei, no que se refire a prazos. O señor Bará ten razón. Ademais el mesmo leu o artigo que así o dita. O Partido Popular nesta Cámara saltou a regulamentación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg210">Tamén imos votar en contra polo veto que existiu á sociedade civil e ás organizacións ecoloxistas e conservacionistas a participar na redacción desta lei. Non sabemos quen a redactou, non sabemos se pasou como coa revisión do Plan forestal, que o fixeron dende Madrid, no que se prevé ese aumento da superficie de plantación de eucalipto. Parece ser que Ence pode estar detrás da revisión do Plan forestal. Non sabemos quen pode estar detrás desta nova lei.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg211">Imos votar en contra tamén pola non existencia —tamén se dixo aquí— dun compromiso económico real para protexer os nosos espazos, por un compromiso case nulo. Tamén por unha escasa mención durante todo o texto tanto á educación como á sensibilización ambiental. Pensamos que este debe de ser un dos piares desta nova lei, sobre todo nos nosos cativos, nas pícaras e nos pícaros. Teñen que ser eles os que leven esta bandeira adiante.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg212">Xa se dixo aquí tamén o da explotación, ao longo e ancho do país, dos territorios. Hai, por desgraza, centos e centos de exemplos por todo o país. E iso deixa en evidencia que esta Xunta de Galicia non está para protexer o noso territorio, senón está máis ben para o contrario: depredalo en favor de empresas e corporacións. A falta de control das actividades forestais xa non só está causando dano—un dano irreparable— ao noso medio natural, senón tamén a todo o patrimonio cultural que temos espallado ao longo do país, que vemos como día tras día é pisado por grandes máquinas sen que a Xunta de Galicia faga absolutamente nada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg213">Falamos tamén de especies alóctonas, de especies invasoras. Cando exista un catálogo serio de especies exóticas invasoras, non só do eucalipto senón doutras moitas máis que existen, aí comezaremos a falar. E tamén das sancións, o réxime de sancións resulta benévolo; sobre todo para as empresas que están a utilizar o noso monte para encher os petos a cambio de destruílo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg214">Queremos tamén, desde o Grupo Parlamentario Mixto, agradecerlles aos colectivos aquí presentes o traballo realizado, darvos todos os azos posibles e poñernos á vosa disposición para todo aquilo que precisedes. Sabemos que a Xunta non vai ao voso carón porque non interesa que haxa colectivos e que haxa xente que de verdade protexan o noso patrimonio. Pero nós si que intentaremos estar aí e agradecervos, desde logo, o voso traballo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg215">Nada máis e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u32">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg216">Grazas, señor Rodríguez Estévez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg217">Polo Grupo Parlamentario do Bloque Nacionalista Galego, o señor Bará.</seg>
+			</u>
+			<note type="speaker">O señor BARÁ TORRES:</note>
+			<u who="#BaráXoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u33">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg218">
+					Mire, señor Trenor, queda moi ben e moi elegante iso de saudar as entidades e as persoas que nos acompañan no público, pero eses colectivos e entidades o que pediron, o que querían, era vir aquí a comparecer no Parlamento, non só vir a escoitar, senón vir a falar.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E vostedes prohíbenlles falar, prohíbenlles dar a súa visión desta lei, porque as temen. Temen as críticas públicas que fixeron estas semanas, que fixeron unha auténtica emenda á totalidade á lei. E por iso vetaron a participación destas entidades no trámite parlamentario da lei.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Si, así, tal cal.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg219">A ver, ¿temos que explicarlle outra vez como se tramitan as leis? Efectivamente, hai trámites de audiencia previa, hai trámites de información pública, despois apróbaa o Consello da Xunta, despois chegan outra serie de trámites e despois vén ao Parlamento. Ás veces vén con moitas modificacións, pero, desde logo, non esas seiscentas que dixeron vostedes que aceptaran. Iso é unha mentira coma unha catedral, ou coma unha devesa —que é tamén unha catedral, un gran monumento natural, desde logo—.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg220">Mire, voulles ler o artigo, porque vostedes non se enteran, non se queren enterar ou queren mentir descaradamente. Artigo 115.3 do Regulamento deste Parlamento :&quot;A Ponencia encargada de redactar o informe poderá establecer un trámite de audiencia de altos cargos da Xunta de Galicia, de persoas expertas e de representantes de colectivos sociais que poidan resultar especialmente afectados pola materia sobre a cal verse o proxecto de lei.&quot; E a vostedes presentámoslles unha proposta para que viñesen aquí a este trámite de audiencia esas catro entidades como representación. E vetárona, vostedes vetárona. Vostedes vetan a participación das entidades da sociedade que están traballando no día a día desinteresadamente, entregando o seu tempo por defender o noso patrimonio cultural. Non as deixan vir aquí a falar, só as deixan vir aquí a escoitar, a ver e a calar. Pois non, nós non aceptamos iso, dende logo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg221">
+					A realidade é esa, que vostedes deixaron cinco días para tramitar a lei cando realmente se prevén quince como mínimo e ampliables. E vostedes despois aquí utilizan escusas de mal pagador. Porque, se se fixo mal no pasado, ¿que pasa?, ¿esa é unha razón para facelo mal agora? Non, procuraremos facelo ben agora, mellor que no pasado.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Pero vostedes utilizan ese argumento para facelo mal.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg222">Despois xa lle dixen o do trámite que tivo este texto e o tempo que estivo parado. Porque vostede colle un par de anécdotas dos discursos e utiliza esas anécdotas, pero vostede non foi capaz aquí de rebater ningún dos argumentos de fondo que demos todos os grupos, ¡ningún!, do incumprimento sistemático e escandaloso de toda a lexislación aprobada nos últimos dezaoito anos, do incumprimento sistemático. E, desde logo, na época do Bipartito houbo un grande impulso normativo que vostedes despois paralizaron. Xa lles falei dun exemplo clarísimo. O das especies ameazadas é un auténtico escándalo. Da Rede Natura hai un expediente sancionador en tramitación porque vostedes non fixeron os plans de xestión. Non é só que non ampliaran a rede, é que non fixeron os plans de xestión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg223">Pero, ademais, a Asesoría Xurídica Xeral fíxolle no trámite un auténtico traxe a esta lei, que obrigou a modificar todos e cada un dos artigos da lei. Curiosamente, despois fixeron aí unha trapallada, porque o informe da Asesoría Xurídica Xeral é do 7 de maio e a conselleira aproba o texto tamén o 7 de maio, curiosamente. Pero é que o 8 de maio a directora xeral fai todas as modificacións que manda facer a Asesoría Xurídica Xeral. ¡Unha auténtica chapuza por facer as cousas ás présas e a correr! ¡Así saen despois as leis!</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg224">Miren, vostedes desde logo non están á altura dos retos dos tempos, e hai grandes ameazas, grandes alarmas no horizonte. Estas semanas pasadas saíu o informe da ONU sobre a perda alarmante de biodiversidade no mundo, que debuxa un futuro desde logo absolutamente apocalíptico. E vostedes parece que non se queren enterar. Está tamén aí o informe recente do observatorio estatal sobre a sostibilidade, que fai unha previsión tamén absolutamente catastrófica e apocalíptica respecto do cambio do clima, da emerxencia climática no noso país, cunha previsión tamén para as próximas décadas. Isto obriga a un cambio radical e profundo non só nas políticas de biodiversidade, non só nas políticas de conservación da natureza, senón de todas as políticas. Porque esa é a maneira de realmente facerlle fronte a este enorme desafío, empezando polas políticas económicas, por esas políticas de depredación que lles dixemos aquí.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg225">Vostede, dende logo, non tivo argumentos. O seu programa, como lle dixen, é o da desprotección, a destrución e a depredación. O seu programa, ademais, pódese resumir nesta campaña que xa agora un humorista galego, Kiko da Silva, bautizou coma &quot;O monte Meme&quot;, porque vostedes xa tamén dixeron no Plan director de turismo que as principais ameazas que había para o turismo e para a imaxe de Galiza era a deterioración da paisaxe e do patrimonio. Esta é a Galiza do Partido Popular, isto é o que venden vostedes como atractivo turístico.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg226">Por todos estes motivos, desde logo, imos votar decididamente, claramente, rotundamente, non a este mal texto legal.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg227">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u34">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg228">Grazas, señor Bará.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg229">Polo Grupo Parlamentario de En Marea, o señor Sánchez.</seg>
+			</u>
+			<note type="speaker">O señor SÁNCHEZ GARCÍA:</note>
+			<u who="#SánchezAntón" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u35">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg230">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg231">
+					Señor Trenor, ante a falta de argumentos, moi previsiblemente vostede veu botar balóns fóra, provocar e enlamar o terreo. Non vou caer na trampa. Só vou dicirlle que nunca estiven nunha organización condenada por corrupción.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Nunca estiven nunha organización xulgada por destruír os discos duros nos que podía haber probas da sistemática corrupción dende o seu nacemento, dos cobros en &quot;b&quot; e dos cobros de mordidas e comisións de parte daquelas empresas para ás que vostedes lexislaban desde os diferentes gobernos, que así lles pagaban e que vostedes cobraban en sobres e en diñeiro &quot;b&quot;, en diñeiro sucio. Nunca estiven nesa organización, señor Trenor.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg232">Tamén falou vostede de estabilidade de Galicia. Eu quero que vexa a diferenza: unha cousa é a estabilidade é outra é o rigor mortis. O que ten este Goberno é rigor mortis. E, se se move por algo, sempre é en contra do noso país. Porque son vostedes a peor ameaza para o patrimonio natural. E digo que son a peor ameaza porque vostedes son os que deberían de estar defendendo o noso patrimonio natural, o noso país, das agresións, e, en cambio, temos os colaboradores necesarios para que esas agresións se incrementen na súa velocidade, ao lexislar a favor deses intereses, como na &quot;Lei de depredación&quot;, e incluso ao facilitar o incumprimento da lei. Hai multitude de exemplos que lles podería poñer, como o que dicía antes da serra do Oribio. Hai colectivos que hai seis meses que pediron o proxecto de modificación do parque eólico do Oribio para ver se é certo que é unha modificación non substancial do parque eólico. Porque, se fose substancial, ese parque non se podería facer en Rede Natura. E levan seis meses esperando por esa documentación porque vostedes non llela dan. E non é casualidade. Vostedes colaboran con esa empresa nesa agresión gravísima ao medio ambiente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg233">Vostede dixo: &quot;A lei máis importante desta lexislatura&quot;. ¡Teñen unha cara espectacular! &quot;A lei máis importante, porque vai garantir a protección do patrimonio da nosa biodiversidade...&quot; ¡Si, si, e non se pon colorado! Claro, mire, a lei non garante nada, señor Trenor, a lei non garante nada. E, se non, veña aquí e conteste que foi o que garantiu a Lei 9/2001, de conservación da natureza de Galicia. Ante o incumprimento sistemático desa lei polo goberno do señor Núñez Feijóo, ¿que foi o que garantiu?, ¿que datos teñen vostedes sobre a perda de biodiversidade que faga crer que vostedes son os garantes da defensa desa biodiversidade? ¡Ningún! Vostedes foron cómplices da perda de biodiversidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg234">O seu modelo é un ataque constante ao patrimonio natural, tanto no sector forestal como no sector mineiro, como no sector enerxético, como na loita contra o cambio climático. Vostedes non queren entrar no miolo do que realmente produce o cambio climático: o modelo enerxético, o modelo urbanístico, o modelo de mobilidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg235">Vostedes din palabras bonitas, pero despois, onde se producen as emisións de gases de efecto invernadoiro, vostedes non queren actuar porque son propiedade de Naturgy, de Endesa, de Audasa, etc. ¡Palabras bonitas e nada máis! E, por detrás, a agredir o patrimonio natural. Esa é a verdade, non hai outra verdade. É a peor das corrupcións: ocupar administracións públicas para defender o interese xeral e, en cambio, estar utilizando todos os resortes, tan poderosos, fronte á cidadanía e para atacar o que deberían de defender.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg236">E veñen aquí dar leccións despois do seu historial. Vostede non desmentiu ningún dos argumentos que aquí se puxeron enriba da mesa. Porque aquí puxéronse enriba da mesa moitos argumentos. E vostede fala de diálogo. Para que haxa diálogo, ten que haber argumentos. Hai que escoitar e hai que contestar honestamente aos argumentos. E vostede o único que fai aquí é vir provocar e insultar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg237">A maior batalla que libra este país nestes anos, ademais da pobreza, da exclusión social e da explotación laboral, é a batalla contra o espolio e o saqueo do país, e contra a agresión e o saqueo do medio ambiente. Estase librando só coas mans da xente, da cidadanía organizada, como no &quot;Nunca máis&quot;. Cando o Goberno elude as súas responsabilidades e traizoa os seus representados, é a propia cidadanía a que ten que librar esta batalla, porque desgraciadamente estamos sós, sen ningún goberno que nos defenda neste aspecto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg238">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u36">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg239">Grazas, señor Sánchez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg240">Polo Grupo Parlamentario dos Socialistas de Galicia, a señora Vilán Lorenzo.</seg>
+			</u>
+			<note type="speaker">A señora VILÁN LORENZO:</note>
+			<u who="#VilánPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u37">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg241">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg242">
+					Señor Trenor, está ben que vostede comezase saudando as organizacións que están aí arriba, creo que é o momento do saúdo, porque me parece que no estudo da lei a vostede non o viron diante nin unha soa vez porque non os chamou.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Está ben que agora os saúde, está ben.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg243">O que traballa cada un eu xa llo dixen na comisión. Non llo quería repetir aquí outra vez, pero é que me forza vostede a facelo. O traballo de cada un e o que conta cada un neste Parlamento, nas comisións e no pleno, sábeo cada un. E na comisión eu deille un dato: á parte das emendas de todos os grupos da oposición e de cantas aceptaron vostedes, eu fixen 107 iniciativas de medio ambiente na Comisión 2ª e vostede fixo 6, señor Trenor. Entón, o que traballa cada un creo que se retrata por escrito, está no Rexistro do Parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg244">E o que cada un di neste Parlamento tamén queda gravado. É certo, a min dáme igual que me diga vostede que eu minto. A min iso non me importa, señor Trenor, dáme exactamente igual. O peor de todo é que vostede veña aquí, minta a todos os galegos e a todas as galegas e aínda por riba crea que imos crer as súas propias mentiras ao falar dunha lei que non vai resolver ningún problema porque é unha lei que xa naceu —vólvollo repetir— eivada, señor Trenor, porque vostedes vetaron absolutamente a participación. Tanto foi así que tivemos que pedir, dende o Grupo Socialista, o debate artigo por artigo con arreglo ao artigo 116 do Regulamento, o que non se fixera nunca. ¡Un debate histórico! Tanto foi así que o presidente da Comisión nos tivo que chamar para pedirnos que agrupásemos os artigos por capítulos, porque, se non, non iamos acabar máis. Tivemos que pedir o debate artigo por artigo porque vostedes nos deron escasamente —cunha fin de semana e cun pleno polo medio— cinco días para a ponencia. Esa é a realidade, señor Trenor. Só fai falla ver as datas. Vostede non conta a verdade, non conta a verdade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg245">A verdade é que o seu aquí hoxe foi un papelón, foi un papelón. Por certo, con escasísimo rigor, señor Trenor. E vólvolle repetir que 10 emendas do Grupo Parlamentario Popular tiveron que retiralas, 10 emendas dun grupo, dun partido, que ten 41 deputados e maioría absoluta, e levan dez anos gobernando. De 10, tiveron que retirar 1, supostamente, porque estaba mal feita. E 2 viñeron fóra de prazo, ¡fóra de prazo, señor Trenor! A Consellería do Medio Rural emendou á Consellería de Medio Ambiente porque esas emendas estaban mal feitas. Esa é a realidade, e non nos veña vostede vestir aquí non sei que. De 10, 7 ben, supostamente, e 3 mal. Pois ese é o seu rigor; unha eficacia, a súa, ben comprometida.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg246">Por certo, voulle poñer dous exemplos. Acaba de dicir vostede que nós pediamos que retirásemos toda a protección á avifauna. Non, nós o que pediamos é que, ademais de que estean as aves protexidas —por exemplo, fronte as torres de alta tensión—, tamén se protexan os quirópteros, os morcegos, porque os morcegos non poñen ovos, non son aves, son mamíferos. E tanto é así que aceptaron a nosa emenda. Iso quere dicir que non pediamos a supresión dese artigo; se non, esa emenda non se podía aceptar, non existiría, señor Trenor. Polo tanto, lea vostede as emendas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg247">E, logo, tanto é así que vostede confunde a emenda do BNG, a que pedía substituír &quot;beleza&quot; por &quot;valor&quot;, e veu vostede aquí a dicir, coma se a emenda fose súa, &quot;valor&quot; por &quot;beleza&quot;. Non, non, foi o BNG, non foi vostede, e foi ao revés. Iso quere dicir que vostede veu facer hoxe aquí un papelón, un papelón dunha consellaría puramente decorativa e dunha lei puramente decorativa. Esa é a realidade, non hai outra.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg248">Vostedes pódeno vestir como queiran, pero xa é difícil que llelo crean fóra, porque eses señores e esas señoras que están aí arriba non os cren, e son os que curran co patrimonio natural todos os días; e non os cren, señor Trenor e señora conselleira, non os cren.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg249">Claro, é difícil vir aquí despois de ter dez mil troitas mortas no río Furelos en Melide, sabendo, cando era alcaldesa, que iso podía ocorrer. Esa é a protección medioambiental da súa consellaría.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg250">Eu vou dicir catro cousas nada máis das emendas dos outros grupos, porque imos absternos ou imos votar &quot;non&quot;. Dalgunha xa pedimos a votación por separado. Na maioría é porque non concordan coas nosas propias emendas. E por coherencia imos absternos. E nas do Partido Popular números 4, 5 e 8, porque entraron pola porta de atrás e nós iso non o podemos aceptar, non o podemos aceptar. Xa llelo dixen na comisión e repítollelo de novo. Na 2, porque vostedes non aceptan, ademais do que di o artigo, un informe da Consellería para o borrador dos plans de conservación e recuperación de especies. E por iso imos votar abstención a esas do Partido Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg251">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u38">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg252">Grazas, señora Vilán.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg253">Polo Grupo Parlamentario Popular, o señor Trenor López.</seg>
+			</u>
+			<note type="speaker">O señor TRENOR LÓPEZ:</note>
+			<u who="#TrenorGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u39">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg254">Si, señoría, eu sinto realmente moito que vostede teña que faltar ao respecto. O único que demostra é que quere tapar a súa falta de argumentos. E, ademais, é moi pouco elegante.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg255">Lembro un deputado que tamén tivo récord de iniciativas nesta Cámara. E o que fixera foi presentar unha iniciativa sobre o parque móbil e logo fotocopiala duascentas veces polos douscentos coches que había no parque móbil e rexistralas. Rexistrou preguntas, rexistrou preguntas en comisión, preguntas en... Señora Vilán, ás veces hai que mirar tamén a calidade. E cando se abusa do copia e pega... Pois vai ver agora por que o digo, e vai entendelo.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg256">
+					Mire, señor Sánchez...
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					¿Respectamos os turnos de palabra ou non? Iso tamén lles custa.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg257">Mire, señor Sánchez, di que a lei non garante nada. Claro, dicindo estas cousas entendo por que está vostede tan frustrado e por que ten ese mal humor permanente. Estar nun Parlamento e crer que as leis non garanten nada indica e explica moi ben cal é a súa actitude.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg258">Señorías, eu podo seguir así toda a miña intervención, facendo referencia a vostedes. Pero é que non se deron conta de que esta lei transcende máis alá de nós, dos portavoces que estamos hoxe aquí, máis alá dos grupos que estamos aquí representados, ou da representación que teñamos os grupos nesta Cámara. Esta lei ten cinco obxectivos esenciais, importantes, como é consolidar a prevalencia da protección medioambiental sobre a ordenación territorial urbanística; garantir a conservación, o uso sostible e a mellora e restauración do noso patrimonio natural, así como a biodiversidade galega; fomentar a información pública e os mecanismos de colaboración, cooperación e participación por parte da sociedade; adaptar e regular a lexislación galega á lexislación básica estatal; e actualizar e normalizar a lexislación galega de 2001, dando resposta ás distintas problemáticas e necesidades que se foron detectando ao longo destes anos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg259">Eses son os grandes obxectivos que persegue o novo texto legal. E, fronte a estes grandes obxectivos, vostedes xa tiñan fixada a súa opinión: o non polo non. Presentaron unha emenda á totalidade para que ni sequera se poida falar nesta Cámara; e, ademais, cunha serie de argumentos completamente falsos e erróneos, e xa llelo dixen varias veces pero non escoitan e din que non llelos expliquei. Voulles enviar un correo electrónico a ver se así lles queda a constancia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg260">Daba igual o que nós fixeramos e o que fixera este grupo, vostedes xa tiñan o non. Non querían esta lei. Do Partido Socialista non esperabamos moito máis; un partido que, cando non se fixeron os investimentos que contemplaban os últimos orzamentos do Estado aprobados, calou; un partido que defendeu que baixaran os orzamentos do Estado do 9 % ao 6 % —menos mal que eses orzamentos foron fallidos e non se aprobaron—, que non quere condonar a débeda que contraeu unha autoridade portuaria para facer un porto refuxio pero, sen embargo, si que están de acordo en que se amorticen débedas de entidades que as contraeron para facer regatas; ou que agora xustifica —e ademais intoxica— que o Estado non nos dea 700 millóns, 700 millóns de entregas á conta máis IVE, 700 millóns que son nosos, dos galegos e das galegas, que son para a sanidade, que son para a educación e que son tamén para o noso medio ambiente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg261">
+					Onte, señorías, estaba falando cunha deputada da antiga Alternativa Galega de Esquerda das queixas que facía cando falaba outra deputada do PSOE. Dicía que, cada vez que traía unha iniciativa a este Parlamento, ela collía, copiábaa e pegábaa, e rexistrábaa como propia. Pero non só é que fixese ese rexistro, é que, despois, cando ela facía as intervencións —a deputada de Alternativa Galega de Esquerda—, logo ía a deputada do PSOE e copiaba literalmente o que dicía. Entón dicía que esta deputada pisaba roda. E iso é o que fixo o Partido Socialista con esta lei, pisar roda. Vostedes compraron os argumentos de En Marea, non tiveron posicionamento propio. O único que fixeron aquí foi reproducir ou enfatizar algúns dos argumentos que fixo En Marea. Nunca pensei que puidera estar de acordo cos de Podemos. Vostedes non son de fiar, vostedes só pensan nos coches oficias.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					De aí que ao seu líder, nada máis entrar na Cámara, en vez de interesarse polo medio ambiente, pola educación ou pola sanidade, o único que lle preocupaba era a data das eleccións.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg262">Diálogo, señorías, falan vostedes, o Partido Socialista, do diálogo, ese Partido Socialista que a semana pasada non foi capaz de chegar a ningún acordo con ningún outro grupo político. Vímolo no Bipartito, que xa lles dixen que aprobaba as leis cunha soa reunión da Ponencia. Vostedes constituían a Ponencia e a pechaban sen que fixera o máis mínimo debate.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u40">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg263">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor TRENOR LÓPEZ:</note>
+			<u who="#TrenorGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u41">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg264">
+					Eu lamento que a máxima preocupación da oposición fora quedar sen dúas semanas de vacacións.
+					<note>(Protestas.)</note>
+					Pero era moi difícil explicarlles aos galegos e ás galegas que unha lei tan importante coma esta quedara no caixón porque vostedes estaban pensando na praia, pensando nos mojitos, señor Bará, en vez de traballar, como é a nosa obriga.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg265">Máis nada e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u42">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg266">Grazas, señor Trenor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg267">Votación do texto lexislativo</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u43">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg268">Imos proceder, polo tanto, á votación das emendas que se manteñen para este debate.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg269">Pechen as portas, por favor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg270">Comezamos votando as emendas do Grupo Parlamentario do Bloque Nacionalista Galego. Aquí hai unha petición de separalas. Eu teño aquí que o Grupo Parlamentario dos Socialistas de Galicia pediu que se separasen, das emendas do Bloque, en concreto a 40, 41, 61, 66, 67 e 125 nun bloque.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg271">Entón comezamos votando estas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg272">Votación das emendas números 40, 41, 61, 66, 67 e 125, do G. P do Bloque Nacionalista Galego, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg273">Efectuada a votación, deu o seguinte resultado: votos a favor, 15; votos en contra, 53; abstencións, 4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg274">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg275">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u44">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg276">Votamos agora —e dende os escanos que nos corresponden a todos—, por separado tamén, as emendas do Grupo Parlamentario do Bloque Nacionalista Galego que pide o Partido Socialista, que son a 18, 22, 25, 26, 36, 70 e 95.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg277">Votación das emendas números 18, 22, 25, 26, 36, 70 e 95, do G. P do Bloque Nacionalista Galego, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg278">Efectuada a votación, deu o seguinte resultado: votos a favor, 15; votos en contra, 39; abstencións, 18.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg279">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg280">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u45">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg281">Votamos agora o resto de emendas do Grupo Parlamentario do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg282">Votación das emendas do G. P do Bloque Nacionalista Galego, agás as xa votadas, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg283">Efectuada a votación, deu o seguinte resultado: votos a favor, 28; votos en contra, 39; abstencións, 4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg284">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg285">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u46">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg286">Votamos agora as emendas do Grupo Parlamentario de En Marea. En concreto, pediu dous bloques por separado o Grupo Parlamentario Socialista. O primeiro, coas emendas 14 e 64.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg287">Votación das emendas números 14 e 64, do G. P de En Marea, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg288">Efectuada a votación, deu o seguinte resultado: votos a favor, 15; votos en contra, 53; abstencións, 4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg289">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg290">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u47">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg291">Votamos agora, tamén por separado, un segundo bloque, que son as emendas números 9, 10, 13, 21, 23, 36, 39, 50, 61, 67, 74 e 76.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg292">Votación das emendas números 9, 10, 13, 21, 23, 36, 39, 50, 61, 67, 74 e 76, do G. P de En Marea, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg293">Efectuada a votación, deu o seguinte resultado: votos a favor, 15; votos en contra, 39; abstencións, 17.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg294">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg295">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u48">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg296">Votamos agora o resto de emendas do Grupo Parlamentario de En Marea.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg297">Votación das emendas do G. P de En Marea, agás as xa votadas, ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg298">Efectuada a votación, deu o seguinte resultado: votos a favor, 29; votos en contra, 39; abstencións, 4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg299">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg300">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u49">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg301">Votamos agora as emendas do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg302">Votación das emendas do G. P dos Socialistas de Galicia ao Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg303">Efectuada a votación, deu o seguinte resultado: votos a favor, 29; votos en contra, 39; abstencións, 4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg304">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg305">En consecuencia, quedan rexeitadas estas emendas.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u50">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg306">Votamos agora o ditame da Comisión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg307">Votación do Ditame, emitido pola Comisión 2ª, Ordenación Territorial, Obras Públicas, Medio Ambiente e Servizos, sobre o Proxecto de lei do patrimonio natural de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg308">Efectuada a votación, deu o seguinte resultado: votos a favor, 39; votos en contra, 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg309">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg310">En consecuencia, queda aprobado este ditame.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.u51">
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg311">O resultado é positivo e, polo tanto, queda aprobada a Lei do patrimonio natural e da biodiversidade de Galicia.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-07-31-DSPG125.seg312">Non habendo máis temas, pois nada, rematamos aquí o pleno.</seg>
+			</u>
+			<note type="time">Remata a sesión á unha e dezasete minutos da tarde.</note>
+		</div>
+	</body>
+</text>
+</TEI>

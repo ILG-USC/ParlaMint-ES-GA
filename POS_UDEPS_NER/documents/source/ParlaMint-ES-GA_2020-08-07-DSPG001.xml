@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001" ana="#parla.sitting #covid">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2020-08-07-DSPG001 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2020-08-07-DSPG001 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="001">Número 001</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2020-08-07">07.08.2020</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="159"/>
+			<measure unit="words" quantity="4157"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110001.pdf</idno>
+				<date when="2020-08-07">07.08.2020</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2020-08-07">07.08.2020</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#covid">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110001.pdf"/>
+			<note type="speaker">O señor LETRADO OFICIAL MAIOR (Sarmiento Méndez):</note>
+			<u who="#SarmientoXoséAntón" ana="#guest" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u1">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg1">Bo día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg2">Señorías, rógolles que ocupen os seus escanos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg3">Constitución da Mesa de Idade</seg>
+			</u>
+			<note type="speaker">O señor LETRADO OFICIAL MAIOR (Sarmiento Méndez):</note>
+			<u who="#SarmientoXoséAntón" ana="#guest" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u2">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg4">Verificadas as declaracións presentadas por cada un dos deputados e das deputadas proclamados electos, a composición da Mesa de Idade resulta ser: don Xosé Luís Rivas Cruz, don Daniel Castro García e don Paulo Ríos Santomé. Prégolles que comparezan na Presidencia co fin de constituír a Mesa de Idade.</seg>
+			</u>
+			<note>(Os señores Rivas Cruz, Castro García e Ríos Santomé pasan a ocupar os seus postos na Presidencia.)</note>
+			<note type="time">Ábrese a sesión ás once e nove minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u3">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg5">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg6">Bos días, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg7">Lémbrolles que teñen á súa disposición o xel hidroalcohólico para o seu uso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg8">Rógolle ao señor secretario, don Daniel Castro García, que dea lectura aos artigos 1 a 5 do Decreto de convocatoria de eleccións e á relación de deputados e deputadas electos, así como á comunicación sobre os recursos contencioso-electorais interpostos, se é que os houber.</seg>
+			</u>
+			<note type="speaker">O señor SECRETARIO DA MESA DE IDADE (Castro García):</note>
+			<u who="#CastroDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u4">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg9">Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia (DOG número 96 do 19-05-2020):</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg10">&quot;Disposicións xerais</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg11">Presidencia da Xunta de Galicia. Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg12">DISPOÑO:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg13">Artigo 1. Convócanse eleccións ao Parlamento de Galicia, que terán lugar o 12 de xullo de 2020.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg14">Artigo 2. En aplicación do artigo 9 da Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia, o número de deputados correspondente a cada circunscrición é o seguinte:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg15">A Coruña: vinte e cinco.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg16">Lugo: catorce.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg17">Ourense: catorce.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg18">Pontevedra: vinte e dous.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg19">Artigo 3. A campaña electoral, por imperativo do disposto no artigo 51.2 da Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral, durará quince días; comezará ás cero horas do venres día 26 de xuño, e finalizará ás vinte e catro horas do venres día 10 de xullo de 2020.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg20">Artigo 4. Celebradas as eleccións convocadas por este decreto, a Cámara resultante reunirase para a súa sesión constitutiva o día 7 de agosto de 2020 ás once horas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg21">Artigo 5. As eleccións convocadas por este decreto rexeranse pola Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral; así como pola Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia; polo Decreto 13/2020, do 10 de febreiro, polo que se establecen as normas sobre os medios materiais que se utilizarán nas eleccións ao Parlamento de Galicia de 2020; polo Decreto 14/2020, do 10 de febreiro, polo que se fixan as gratificacións e indemnizacións que percibirán os membros da Administración electoral en Galicia e o persoal ao seu servizo, os/as xuíces/xuízas de primeira instancia ou de paz, representantes da Administración da comunidade autónoma nas mesas electorais, así como o persoal da Xunta de Galicia, co gallo das eleccións ao Parlamento de Galicia de 2020; e pola demais normativa de desenvolvemento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg22">Santiago de Compostela, 18 de maio de 2020</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg23">Alberto Núñez Feijóo</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg24">Presidente&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg25">Relación de deputadas e deputados electos. Acordo da Xunta Electoral de Galicia do 27 de xullo de 2020 (DOG número 151, do 29 de xullo de 2020):</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg26">&quot;Provincia da Coruña (vinte e cinco).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg27">Polo Partido Popular (PP): María Ángeles Vázquez Mejuto, Diego Calvo Pouso, Martín Fernández Prado, José Manuel Rey Varela, Ethel María Vázquez Mourelle, Miguel Ángel Tellado Filgueira, Pedro Puy Fraga, Fabiola García Martínez, Rosa María Quintana Carballo, Álvaro Pérez López, Borja Verea Fraiz, Paula Prado del Río, Carmen María Pomar Tojo, Ovidio Rodeiro Tato.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg28">Polo Bloque Nacionalista Galego (BNG): Ana Pontón Mondelo, Xosé Luís Rivas Cruz, Mercedes Queixas Zas, Rosana Pérez Fernández, Ramón Fernández Alfonzo, Daniel Pérez López, Iria Carreira Pazos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg29">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Pablo Arangüena Fernández, Noa Susana Díaz Varela, Martín Seco García, Matilde Begoña Rodríguez Rumbo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg30">Provincia de Lugo (catorce).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg31">Polo Partido Popular (PP): María Elena Candia López, Francisco José Conde López, Cristina Sanz Arias, Raquel Arias Rodríguez, José Manuel Balseiro Orol, Ramón Carballo Páez, Sandra Vázquez Domínguez, María Encarnación Amigo Díaz, Daniel Vega Pérez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg32">Polo Bloque Nacionalista Galego (BNG): Olalla Rodil Fernández, Daniel Castro García, María del Carmen Aira Díaz.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg33">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Patricia Otero Rodríguez, Luis Manuel Álvarez Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg34">Provincia de Ourense (catorce).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg35">Polo Partido Popular (PP): María Sol Díaz Mouteira, Miguel Ángel Santalices Vieira, José González Vázquez, Marta Nóvoa Iglesias, Antonio Rodríguez Miranda, Noelia Pérez López, Gabriel Alén Castro, José Antonio Armada Pérez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg36">Polo Bloque Nacionalista Galego (BNG): Noa Presas Bergantiños, Iago Tabarés Pérez Piñeiro, María González Albert.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg37">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Marina Ortega Otero, Juan Carlos Francisco Rivera, María del Carmen Rodríguez Dacosta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg38">Provincia de Pontevedra (vinte e dous).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg39">Polo Partido Popular (PP): Alberto Núñez Feijóo, María Corina Porro Martínez, Alfonso Rueda Valenzuela, Jesús Vázquez Almuíña, María Guadalupe Murillo Solís, Román Rodríguez González, Valeriano Martínez García, José Manuel Cores Tourís, Marta María Fernández-Tapias Núñez, María Elena Suárez Sarmiento, José Alberto Pazos Couñago.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg40">Polo Bloque Nacionalista Galego (BNG): Xosé Luís Bará Torres, María Monserrat Prado Cores, Alexandra Fernández Gómez, Manuel Antonio Lourenzo Sobral, María do Carme González Iglesias, Paulo Ríos Santomé.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg41">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Gonzalo Caballero Míguez, María Isaura Abelairas Rodríguez, Paloma Castro Rei, Julio Torrado Quintela, María Leticia Gallego Sanromán.&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg42">Información sobre a presentación, se é o caso, de recursos contencioso-electorais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg43">Infórmase, ao abeiro da lexislación electoral vixente, que ata o día de hoxe non consta a presentación de recursos contencioso-electorais.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u5">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg44">Señoras deputadas, señores deputados, imos proceder á elección da Mesa do Parlamento en votacións separadas para o presidente ou presidenta, os vicepresidentes ou as vicepresidentas e o secretario ou a secretaria e o vicesecretario ou a vicesecretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg45">Elección da Mesa do Parlamento</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u6">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg46">A elección efectuarase conforme o previsto no artigo 91 do Regulamento, é dicir, mediante papeletas, tras o chamamento nominal das deputadas e dos deputados pola secretaría da Mesa de Idade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg47">Os servizos da Cámara procederon con anterioridade á repartición das papeletas de diferente cor para cada cargo: a branca será para a presidencia, a verde será para as vicepresidencias e a amarela para a secretaría e vicesecretaría.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg48">A expresión do voto efectuarase consignando no recadro correspondente de cada papeleta un só nome. Considerarase voto en branco aquela papeleta na que non conste ningún nome. Considerarase voto nulo toda papeleta que conteña máis dun nome, algún risco ou sinal.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg49">Procedemos á elección de presidente ou presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg50">Elección de presidenta ou presidente</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u7">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg51">Prégolle ao señor secretario que efectúe o chamamento correspondente para que os deputados e deputadas depositen na urna as papeletas de cor branca. Lémbrolles que se escribirá só un nome na papeleta e que resultará elixido ou elixida o deputado ou a deputada que obteña o voto da maioría absoluta dos membros da Cámara. Comeza, pois, a votación.</seg>
+				<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg52">Señorías, o resultado da votación é o seguinte: don Miguel Ángel Santalices Vieira, 42 votos; en branco, 32 votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg53">Elección de vicepresidentas ou vicepresidentes</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u8">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg54">Procedemos á elección simultánea das vicepresidentas ou dos vicepresidentes, segundo dispón o artigo 36.2 do Regulamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg55">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor verde. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os deputados ou as deputadas que acaden maior número de votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg56">Comeza a votación.</seg>
+				<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg57">O resultado da votación é o seguinte: don Diego Calvo Pouso, 42; dona Monserrat Prado Cores, 32.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg58">Quedan, polo tanto, elixidos, e proclámase vicepresidente primeiro a don Diego Calvo Pouso e vicepresidenta segunda a dona Monserrat Prado Cores.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg59">Elección de secretaria ou secretario e de vicesecretaria ou vicesecretario</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u9">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg60">Procedemos á elección simultánea do secretario ou da secretaria e do vicesecretario ou vicesecretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg61">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor amarela. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os dous deputados ou deputadas que acaden maior número de votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg62">Comeza a votación.</seg>
+				<note>(O señor secretario da Mesa e Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg63">O resultado da votación é o seguinte: dona María Corina Porro Martínez, 42 votos; e dona Marina Ortega Otero, 32 votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg64">Constitución da Mesa do Parlamento</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u10">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg65">Por tanto, a composición da Mesa do Parlamento, como consecuencia destas eleccións, queda da seguinte maneira: presidente, don Miguel Ángel Santalices Vieira; vicepresidente primeiro, don Diego Calvo Pouso; vicepresidenta segunda, dona Monserrat Prado Cores; secretaria, dona María Corina Porro Martínez; e vicesecretaria, dona Marina Ortega Otero.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg66">Prego aos señores e señoras deputados elixidos e elixidas que tomen posesión dos seus cargos.</seg>
+				<note>(Os membros da Mesa do Parlamento ocupan os seus postos na Presidencia.)</note>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg67">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u11">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg68">Corresponde, en primeiro lugar, que xure ou prometa o presidente, e vouno facer a continuación, se os membros da Mesa se poñen de pé, por favor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg69">Señoras deputadas e señores deputados, ante o pobo de Galicia representado aquí polo seu Parlamento, prometo... —perdón—, xuro acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg70">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg71">E agora vou tomar xuramento aos membros da Mesa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg72">Don Diego Calvo Pouso, vicepresidente primeiro, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">O señor VICEPRESIDENTE PRIMEIRO (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u12">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg73">Si, juro.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u13">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg74">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg75">Señora vicepresidenta segunda, dona Monserrat Prado Cores, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora VICEPRESIDENTA SEGUNDA (Prado Cores):</note>
+			<u who="#PradoMaríaMontserrat" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u14">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg76">Comprométome a ser fiel a Galiza e a defender os dereitos sociais e nacionais dos galegos e das galegas e a súa liberdade. E, por imperativo legal, prometo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u15">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg77">Grazas pola súa promesa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg78">Señora secretaria, dona María Corina Porro Martínez, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u16">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg79">Si, xuro.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u17">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg80">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg81">Señora vicesecretaria, dona Marina Ortega Otero, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora VICESECRETARIA (Ortega Otero):</note>
+			<u who="#OrtegaMarina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u18">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg82">Si, prometo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u19">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg83">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg84">De seguido, a secretaria, constituídos xa todos como Mesa do Parlamento, procederá ao chamamento das señoras e señores deputados para que, dende o propio escano, contesten a pregunta que se lles formula para todos dende esta Presidencia, que é: ¿señoras deputadas ou señores deputados, xuran ou prometen acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg85">Señora secretaria, cando queira.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u20">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg86">Ben.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg87">Abelairas Rodríguez, María Isaura.</seg>
+			</u>
+			<note type="speaker">A señora ABELAIRAS RODRÍGUEZ:</note>
+			<u who="#AbelairasMaríaIsaura" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u21">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg88">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u22">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg89">Aira Díaz, María del Carmen.</seg>
+			</u>
+			<note type="speaker">A señora AIRA DÍAZ:</note>
+			<u who="#AiraMaríadelCarmen" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u23">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg90">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e das galegas e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u24">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg91">Alén Castro, Gabriel.</seg>
+			</u>
+			<note type="speaker">O señor ALÉN CASTRO:</note>
+			<u who="#AlénGabriel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u25">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg92">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u26">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg93">Álvarez Martínez, Luis Manuel.</seg>
+			</u>
+			<note type="speaker">O señor ÁLVAREZ MARTÍNEZ:</note>
+			<u who="#ÁlvarezLuisManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u27">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg94">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u28">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg95">Amigo Díaz, María Encarnación.</seg>
+			</u>
+			<note type="speaker">A señora AMIGO DÍAZ:</note>
+			<u who="#AmigoMaríaEncarnación" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u29">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg96">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u30">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg97">Arangüena Fernández, Pablo.</seg>
+			</u>
+			<note type="speaker">O señor ARANGÜENA FERNÁNDEZ:</note>
+			<u who="#ArangüenaPablo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u31">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg98">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u32">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg99">Arias Rodríguez, Raquel.</seg>
+			</u>
+			<note type="speaker">A señora ARIAS RODRÍGUEZ:</note>
+			<u who="#AriasRaquel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u33">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg100">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u34">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg101">Armada Pérez, José Antonio.</seg>
+			</u>
+			<note type="speaker">O señor ARMADA PÉREZ:</note>
+			<u who="#ArmadaJoséAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u35">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg102">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u36">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg103">Balseiro Orol, José Manuel.</seg>
+			</u>
+			<note type="speaker">O señor BALSEIRO OROL:</note>
+			<u who="#BalseiroJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u37">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg104">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u38">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg105">Bará Torres, Xosé Luís.</seg>
+			</u>
+			<note type="speaker">O señor BARÁ TORRES:</note>
+			<u who="#BaráXoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u39">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg106">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u40">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg107">Caballero Míguez, Gonzalo.</seg>
+			</u>
+			<note type="speaker">O señor CABALLERO MÍGUEZ:</note>
+			<u who="#CaballeroGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u41">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg108">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u42">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg109">Candia López, María Elena.</seg>
+			</u>
+			<note type="speaker">A señora CANDIA LÓPEZ:</note>
+			<u who="#CandiaMaríaElena" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u43">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg110">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u44">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg111">Carballo Páez, Ramón.</seg>
+			</u>
+			<note type="speaker">O señor CARBALLO PÁEZ:</note>
+			<u who="#CarballoRamón" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u45">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg112">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u46">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg113">Carreira Pazos, Iria.</seg>
+			</u>
+			<note type="speaker">A señora CARREIRA PAZOS:</note>
+			<u who="#CarreiraIria" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u47">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg114">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e a súa liberdade. E, por imperativo legal, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u48">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg115">Castro García, Daniel.</seg>
+			</u>
+			<note type="speaker">O señor CASTRO GARCÍA:</note>
+			<u who="#CastroDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u49">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg116">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u50">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg117">Castro Rey, Paloma.</seg>
+			</u>
+			<note type="speaker">A señora CASTRO REY:</note>
+			<u who="#CastroPaloma" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u51">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg118">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u52">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg119">Conde López, Francisco José.</seg>
+			</u>
+			<note type="speaker">O señor CONDE LÓPEZ:</note>
+			<u who="#CondeFranciscoJosé" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u53">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg120">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u54">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg121">Cores Tourís, José Manuel.</seg>
+			</u>
+			<note type="speaker">O señor CORES TOURÍS:</note>
+			<u who="#CoresJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u55">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg122">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u56">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg123">Díaz Mouteira, María Sol.</seg>
+			</u>
+			<note type="speaker">A señora DÍAZ MOUTEIRA:</note>
+			<u who="#DíazMaríaSol" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u57">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg124">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u58">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg125">Díaz Varela, Noa Susana.</seg>
+			</u>
+			<note type="speaker">A señora DÍAZ VARELA:</note>
+			<u who="#DíazNoaSusana" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u59">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg126">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u60">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg127">Fernández Alfonzo, Ramón.</seg>
+			</u>
+			<note type="speaker">O señor FERNÁNDEZ ALFONZO:</note>
+			<u who="#FernándezRamón" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u61">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg128">Comprométome a ser fiel a Galiza e a defender os intereses nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u62">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg129">Fernández Gómez, Alexandra.</seg>
+			</u>
+			<note type="speaker">A señora FERNÁNDEZ GÓMEZ:</note>
+			<u who="#FernándezAlexandra" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u63">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg130">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u64">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg131">Fernández Prado, Martín.</seg>
+			</u>
+			<note type="speaker">O señor FERNÁNDEZ PRADO:</note>
+			<u who="#FernándezMartín" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u65">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg132">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u66">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg133">Fernández-Tapias Núñez, Marta María.</seg>
+			</u>
+			<note type="speaker">A señora FERNÁNDEZ-TAPIAS NÚÑEZ:</note>
+			<u who="#Fernández-TapiasMartaMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u67">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg134">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u68">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg135">Francisco Rivera, Juan Carlos.</seg>
+			</u>
+			<note type="speaker">O señor FRANCISCO RIVERA:</note>
+			<u who="#FranciscoJuanCarlos" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u69">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg136">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u70">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg137">Gallego Sanromán, María Leticia.</seg>
+			</u>
+			<note type="speaker">A señora GALLEGO SANROMÁN:</note>
+			<u who="#GallegoLeticia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u71">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg138">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u72">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg139">García Martínez, Fabiola.</seg>
+			</u>
+			<note type="speaker">A señora GARCÍA MARTÍNEZ:</note>
+			<u who="#GarcíaFabiola" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u73">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg140">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u74">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg141">González Albert, María:</seg>
+			</u>
+			<note>(Ausente.)</note>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u75">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg142">González Iglesias, María do Carme.</seg>
+			</u>
+			<note type="speaker">A señora GONZÁLEZ IGLESIAS:</note>
+			<u who="#GonzálezMaríadoCarme" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u76">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg143">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u77">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg144">González Vázquez, José.</seg>
+			</u>
+			<note type="speaker">O señor GONZÁLEZ VÁZQUEZ:</note>
+			<u who="#GonzálezJosé" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u78">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg145">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u79">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg146">Lourenzo Sobral, Manuel Antonio.</seg>
+			</u>
+			<note type="speaker">O señor LOURENZO SOBRAL:</note>
+			<u who="#LourenzoManuelAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u80">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg147">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u81">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg148">Martínez García, Valeriano.</seg>
+			</u>
+			<note type="speaker">O señor MARTÍNEZ GARCÍA:</note>
+			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u82">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg149">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u83">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg150">Murillo Solís, María Guadalupe.</seg>
+			</u>
+			<note type="speaker">A señora MURILLO SOLÍS:</note>
+			<u who="#MurilloMaríaGuadalupe" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u84">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg151">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u85">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg152">Nóvoa Iglesias, Marta.</seg>
+			</u>
+			<note type="speaker">A señora NÓVOA IGLESIAS:</note>
+			<u who="#NóvoaMarta" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u86">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg153">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u87">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg154">Núñez Feijóo, Alberto.</seg>
+			</u>
+			<note type="speaker">O señor NÚÑEZ FEIJÓO:</note>
+			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u88">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg155">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u89">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg156">Otero Rodríguez, Patricia.</seg>
+			</u>
+			<note type="speaker">A señora OTERO RODRÍGUEZ:</note>
+			<u who="#OteroPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u90">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg157">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u91">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg158">Pazos Couñago, José Alberto.</seg>
+			</u>
+			<note type="speaker">O señor PAZOS COUÑAGO:</note>
+			<u who="#PazosAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u92">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg159">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u93">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg160">Pérez Fernández, Rosana.</seg>
+			</u>
+			<note type="speaker">A señora PÉREZ FERNÁNDEZ:</note>
+			<u who="#PérezRosana" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u94">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg161">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. Por imperativo legal, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u95">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg162">Pérez López, Álvaro.</seg>
+			</u>
+			<note type="speaker">O señor PÉREZ LOPEZ:</note>
+			<u who="#PérezÁlvaro" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u96">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg163">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u97">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg164">Pérez López, Daniel.</seg>
+			</u>
+			<note type="speaker">O señor PÉREZ LÓPEZ:</note>
+			<u who="#PérezDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u98">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg165">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u99">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg166">Pérez López, Noelia.</seg>
+			</u>
+			<note type="speaker">A señora PÉREZ LÓPEZ:</note>
+			<u who="#PérezNoelia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u100">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg167">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u101">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg168">Pomar Tojo, Carmen María.</seg>
+			</u>
+			<note type="speaker">A señora POMAR TOJO:</note>
+			<u who="#PomarCarmenMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u102">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg169">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u103">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg170">Pontón Mondelo, Ana.</seg>
+			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
+			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u104">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg171">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e galegas e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u105">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg172">Prado del Río, Paula.</seg>
+			</u>
+			<note type="speaker">A señora PRADO DEL RÍO:</note>
+			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u106">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg173">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u107">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg174">Presas Bergantiños, Noa.</seg>
+			</u>
+			<note type="speaker">A señora PRESAS BERGANTIÑOS:</note>
+			<u who="#PresasNoa" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u108">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg175">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e galegas e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u109">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg176">Puy Fraga, Pedro.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u110">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg177">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u111">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg178">Queixas Zas, Mercedes.</seg>
+			</u>
+			<note type="speaker">A señora QUEIXAS ZAS:</note>
+			<u who="#QueixasMercedes" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u112">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg179">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u113">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg180">Quintana Carballo, Rosa María.</seg>
+			</u>
+			<note type="speaker">A señora QUINTANA CARBALLO:</note>
+			<u who="#QuintanaRosaMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u114">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg181">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u115">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg182">Rey Varela, José Manuel.</seg>
+			</u>
+			<note type="speaker">O señor REY VARELA:</note>
+			<u who="#ReyJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u116">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg183">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u117">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg184">Ríos Santomé, Paulo.</seg>
+			</u>
+			<note type="speaker">O señor RÍOS SANTOMÉ:</note>
+			<u who="#RíosPaulo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u118">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg185">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u119">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg186">Rivas Cruz, Xosé Luís.</seg>
+			</u>
+			<note type="speaker">O señor RIVAS CRUZ:</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u120">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg187">Comprométome a ser fiel a Galicia e a defender os dereitos nacionais e sociais dos galegos e das galegas, así como a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u121">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg188">Rodeiro Tato, Ovidio.</seg>
+			</u>
+			<note type="speaker">O señor RODEIRO TATO:</note>
+			<u who="#RodeiroOvidio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u122">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg189">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u123">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg190">Rodil Fernández, Olalla.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u124">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg191">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u125">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg192">Rodríguez Dacosta, María del Carmen.</seg>
+			</u>
+			<note type="speaker">A señora RODRÍGUEZ DACOSTA:</note>
+			<u who="#RodríguezMaríadelCarmen" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u126">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg193">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u127">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg194">Rodríguez González, Román.</seg>
+			</u>
+			<note type="speaker">O señor RODRÍGUEZ GONZÁLEZ:</note>
+			<u who="#RodríguezRomán" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u128">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg195">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u129">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg196">Rodríguez Miranda, Antonio.</seg>
+			</u>
+			<note type="speaker">O señor RODRÍGUEZ MIRANDA:</note>
+			<u who="#RodríguezAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u130">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg197">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u131">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg198">Rodríguez Rumbo, Matilde Begoña.</seg>
+			</u>
+			<note type="speaker">A señora RODRÍGUEZ RUMBO:</note>
+			<u who="#RodríguezMatildeBegoña" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u132">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg199">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u133">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg200">Rueda Valenzuela, Alfonso.</seg>
+			</u>
+			<note type="speaker">O señor RUEDA VALENZUELA:</note>
+			<u who="#RuedaAlfonso" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u134">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg201">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u135">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg202">Sanz Arias, Cristina.</seg>
+			</u>
+			<note type="speaker">A señora SANZ ARIAS:</note>
+			<u who="#SanzCristina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u136">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg203">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u137">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg204">Seco García, Martín.</seg>
+			</u>
+			<note type="speaker">O señor SECO GARCÍA:</note>
+			<u who="#SecoMartín" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u138">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg205">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u139">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg206">Suárez Sarmiento, María Elena.</seg>
+			</u>
+			<note type="speaker">A señora SUÁREZ SARMIENTO:</note>
+			<u who="#SuárezMaríaElena" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u140">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg207">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u141">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg208">Tabarés Pérez-Piñeiro, Iago.</seg>
+			</u>
+			<note type="speaker">O señor TABARÉS PÉREZ-PIÑEIRO:</note>
+			<u who="#TabarésIago" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u142">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg209">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e das galegas e a súa liberdade. Por imperativo legal, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u143">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg210">Tellado Filgueira, Miguel Ángel.</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u144">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg211">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u145">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg212">Torrado Quintela, Julio.</seg>
+			</u>
+			<note type="speaker">O señor TORRADO QUINTELA:</note>
+			<u who="#TorradoJulio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u146">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg213">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u147">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg214">Vázquez Almuíña, Jesús.</seg>
+			</u>
+			<note type="speaker">O señor VÁZQUEZ ALMUÍÑA:</note>
+			<u who="#VázquezAlmuíñaJesús" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u148">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg215">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u149">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg216">Vázquez Domínguez, Sandra.</seg>
+			</u>
+			<note type="speaker">A señora VÁZQUEZ DOMÍNGUEZ:</note>
+			<u who="#VázquezSandra" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u150">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg217">Si, prometo.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u151">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg218">Vázquez Mejuto, María Ángeles.</seg>
+			</u>
+			<note type="speaker">A señora VÁZQUEZ MEJUTO:</note>
+			<u who="#VázquezMaríaÁngeles" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u152">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg219">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u153">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg220">Vázquez Mourelle, Ethel María.</seg>
+			</u>
+			<note type="speaker">A señora VÁZQUEZ MOURELLE:</note>
+			<u who="#VázquezEthelMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u154">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg221">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u155">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg222">Vega Pérez, Daniel.</seg>
+			</u>
+			<note type="speaker">O señor VEGA PÉREZ:</note>
+			<u who="#VegaDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u156">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg223">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u157">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg224">Verea Fraiz, Borja.</seg>
+			</u>
+			<note type="speaker">O señor VEREA FRAIZ:</note>
+			<u who="#VereaBorja" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u158">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg225">Si, prometo.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u159">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg226">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg227">Pódense sentar os membros da Mesa. Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg228">Aquí pon o guión: &quot;discurso do novo presidente&quot;. Farei un discurso estilo &quot;ourensanía&quot;, vanmo permitir. Será un discurso breve. Xa saben que nos discursos eu sigo as recomendacións que me deron dende hai moitos anos: se tes que falar en público, ponte de pé para que te vexan, fala alto para que te escoiten e fala pouco para que che aplaudan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg229">Entón, o primeiro que quero facer é saudar os novos membros, as persoas que me van acompañar na Mesa. Debemos de ser institucionais; penso que imos seguir esa liña que tivemos sempre neste Parlamento. Tamén quero saudar a todos os deputados e deputadas que hoxe acaban de tomar posesión neste Parlamento e tamén a todos os invitados, que non os podemos ver, pero que sabemos que están aquí.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg230">Estoulle moi agradecido ao meu grupo por propoñerme unha vez máis para ser presidente do Parlamento. Espero poder cumprir. Desde logo, ese é o sentimento que teño neste momento, e reitero as grazas polo seu apoio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg231">Tamén ao conxunto da Cámara lle agradezo a súa cordial actitude neste momento que se acaba de elixir a Mesa e, por ende, o presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg232">Quero tamén pedir desculpas por este escenario; asumín toda a responsabilidade, pero sei que o tiña que facer así. Non é o día máis agradable para que teñamos o pleno así. Gustaríame ter isto cheo de invitados, pero hei de ser responsable ―algo bo ten ser médico―. E fíxeno tamén por dúas cousas: primeiro, por prudencia, e, segundo, porque tamén quero trasladar unha mensaxe á cidadanía do cumprimento das normativas e dos consellos sanitarios. Só así poderemos saír ben disto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg233">Pido a súa colaboración, a colaboración de todos os deputados e deputadas. Vostedes son elixidos por eles. As súas frases, os seus comentarios han de ter unha incidencia positiva niso. Pido a súa colaboración para iso: medidas de seguridade sempre, coa máxima prudencia. Iso é o que hoxe pido. E por iso pido desculpas, porque non teñamos este hemiciclo como se merecía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg234">É a miña sétima lexislatura xa, coñezo esta casa mellor ca ninguén. Xa dixen na miña anterior toma de posesión que poucas persoas pode haber que lle queiran tanto ao Parlamento. Eu quéroo moito. Coñezo os seus traballadores, sei o que fan e, dende logo, sei que a súa única función é estar aí para que nós fagamos ben o noso traballo parlamentario. Polo tanto, hoxe tamén quero ter un recordo para eles e agradecérllelo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg235">Sei tamén o orgullo que é ser deputado, e vostedes, sobre todo os que se incorporan hoxe, vano sentir; e tamén lles digo por experiencia propia ―e é unha idea que lles transmito― que calan os discursos que teñen contido e os que teñen unha argumentación sólida e que non cala a estridencia ―acábase de ver, acabámolo de comprobar non hai moito tempo―. Polo tanto, eu pídolles que nese sentido vaiamos todos, desde as discrepancias lóxicas que pode haber, pero sempre mantendo, por suposto, a dignidade da Cámara.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg236">Esta ha de ser a lexislatura das persoas, estou convencido; estano pasando mal e aquí estamos nós para tratar de axudar, para tratar de facer cousas en que poidamos axudalos. E eu —e con isto xa remato— só pido unha cousa: poder estar á altura da confianza que se depositou en min. E tamén pido por vostedes, por todos os deputados e deputadas, para que poidan estar á altura da confianza que os electores depositaron en todos vostedes. Ese é o desexo que hoxe pido.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg237">Nada máis e moitas grazas por escoitarme nesta toma de posesión. Moitas grazas.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg238">Polo tanto, en cumprimento do artigo 5 do Regulamento, declaro constituído o Parlamento de Galicia na súa XI lexislatura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg239">Unha vez máis, antes de que escoitemos o himno, convídoos a todos vostedes, que adquiriron xa a condición plena de deputadas e deputados do Parlamento de Galicia, e antes de levantar esta sesión, a gardar un minuto de silencio en memoria das vítimas da covid-19 e de todas as persoas falecidas por diferentes causas durante este tempo sen poder ser despedidas polos seus seres queridos; minuto de silencio tamén como mostra de afecto, solidariedade e cercanía coas familias afectadas, con todas as persoas enfermas e, por suposto, de agradecemento a todos os profesionais sanitarios e aos restantes servizos esenciais para a sociedade.</seg>
+				<note>(As señoras deputadas e os señores deputados e demais asistentes a esta sesión, postos en pé, gardan un minuto de silencio.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg240">E agora si, escoitamos o himno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg241">Moitas grazas.</seg>
+				<note>(As señoras deputadas e os señores deputados e demais asistentes á sesión, postos en pé, cantan o himno galego.)</note>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg242">Moitas grazas. Quedou constituído o Parlamento. Grazas a todos.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="time">Remata a sesión ás doce e trinta e oito minutos do mediodía.</note>
+		</div>
+	</body>
+</text>
+</TEI>

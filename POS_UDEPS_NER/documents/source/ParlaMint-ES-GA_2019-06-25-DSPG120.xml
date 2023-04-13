@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2019-06-25-DSPG120 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2019-06-25-DSPG120 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="120">Número 120</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2019-06-25">25.06.2019</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="9"/>
+			<measure unit="words" quantity="788"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100120.pdf</idno>
+				<date when="2019-06-25">25.06.2019</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2019-06-25">25.06.2019</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100120.pdf"/>
+			<note type="time">Ábrese a sesión ás dez e seis minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u1">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg1">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg2">Damos comezo á sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg3">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia, polo que non procedemos á súa lectura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg4">Xustificou inasistencia a este pleno a deputada dona Paula Vázquez Verao.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg5">Antes procede que gardemos un minuto de silencio en lembranza de don Raúl Fernández Fernández, que, como ben saben, foi compañeiro noso e faleceu recentemente.</seg>
+			</u>
+			<note>(Pausa.)</note>
+			<note>(Os membros da Cámara, postos en pé, gardan un minuto de silencio.)</note>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u2">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg6">Agora entramos no desenvolvemento da orde do día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg7">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia dunha nova deputada</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u3">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg8">Como punto preliminar procedemos á prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia da nova deputada, dona Jackeline Elizabeth Fernández Macías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg9">Dando cumprimento ao previsto no artigo 7.3 do Regulamento, procede solicitar a prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía á nova deputada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg10">Segundo o procedemento, a fórmula é a de contestar &quot;si, prometo&quot;, ou &quot;si, xuro&quot; á pregunta desta presidencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg11">Prégolle responda dende o escano á pregunta que lle vou formular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg12">Pómonos en pé, por favor.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg13">Dona Jackeline Elizabeth Fernández Macías, ¿promete ou xura acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora FERNÁNDEZ MACÍAS:</note>
+			<u who="#FernándezJackelineElizabeth" ana="#regular" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u4">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg14">Si, xuro.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u5">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg15">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg16">Unha vez prestado, neste caso, xuramento, adquire a condición plena de deputada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg17">Benvida ao Parlamento.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg18">Designación de senadoras ou senadores representantes da Comunidade Autónoma de Galicia, en conformidade co artigo 165.1 do Regulamento do Parlamento de Galicia</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u6">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg19">Agora, como punto único deste Pleno, corresponde a designación de senadoras ou senadores representantes da Comunidade Autónoma de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg20">Iniciado o procedemento para a designación de senadoras ou senadores en representación da Comunidade Autónoma de Galicia, por acordo da Mesa e da Xunta de Portavoces do 18 de xuño de 2019, o número de senadores ou senadoras que hai que designar é de tres, conforme o disposto no artigo 10.1 do Estatuto de autonomía de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg21">A súa distribución, feita en proporción da representación das distintas forzas políticas existentes na Cámara, determina que ao Grupo Parlamentario Popular de Galicia lle corresponde a proposta de dous candidatos ou candidatas e ao Grupo Parlamentario de En Marea lle corresponde un.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg22">Rematado o prazo de presentación das propostas, a Mesa, na reunión do 21 de xullo de 2019, acordou admitir a trámite as propostas dos grupos parlamentarios e designar candidata e candidatos para senadores ou senadora.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg23">A elección efectuarase por papeleta, conforme o disposto no artigo 91 do Regulamento de Galicia. Na papeleta repartida ao efecto figuran os nomes da candidata e dos candidatos propostos para marcar cunha aspa o recadro da candidata ou dos candidatos aos que presten o seu apoio. De non marcar ningún recadro, considérase voto en branco, e de introducirse algunha emenda riscada ou calquera outra adición, declararíase voto nulo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg24">Procédase, polo tanto, ao reparto das papeletas.</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg25">Xa están repartidas todas as papeletas, polo tanto, comezaremos a votación —pechen as portas, por favor—, que se fará por chamamento efectuado por parte da secretaria da Mesa, dona Raquel Arias Rodríguez. Prégolles ao vicepresidente primeiro e á vicesecretaria que se sitúen onde a urna para a recollida das papeletas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg26">Señora secretaria, pode proceder ao chamamento das súas señorías.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA DA MESA (Arias Rodríguez):</note>
+			<u who="#AriasRaquel" ana="#regular" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u7">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg27">Grazas, presidente.</seg>
+			</u>
+			<note>(A señora secretaria, Arias Rodríguez, fai o chamamento, por orde alfabética, dos deputados e das deputadas, que depositan o seu voto na urna; a seguir fano os membros do Goberno e, finalmente, os membros da Mesa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u8">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg28">
+					¿Exerceron todos os deputados e deputadas o dereito a voto?
+					<note>(Asentimento.)</note>
+					Grazas.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg29">Procedemos ao reconto.</seg>
+			</u>
+			<note>(Procédese ao escrutinio.)</note>
+			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.u9">
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg30">O resultado do escrutinio é o seguinte:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg31">Votos a favor de D. José Manuel Sande García, do G. P. de En Marea, 62; votos a favor de D. Jesús Vázquez Abad, do G. P. Popular de Galicia, 62; votos a favor de Dª Elena Muñoz Fonteriz, do G. P. Popular de Galicia, 62; votos en branco, 8.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg32">Acadado o apoio da Cámara, queda designada e designados senadora e senadores representantes da Comunidade Autónoma de Galicia para a lexislatura número XIII do Senado: dona Elena Muñoz Fonteriz, don José Manuel Sande García e don Jesús Vázquez Abad.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg33">Polo tanto, dámoslles a noraboa, por suposto, e remata aquí a sesión ordinaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2019-06-25-DSPG120.seg34">Advírtolles que levantaremos a sesión e continuamos co desenvolvemento do outro pleno que procede a continuación.</seg>
+			</u>
+			<note type="time">Remata a sesión ás dez e vinte e catro minutos da mañá.</note>
+		</div>
+	</body>
+</text>
+</TEI>

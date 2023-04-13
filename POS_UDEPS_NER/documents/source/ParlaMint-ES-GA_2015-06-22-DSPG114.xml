@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2015-06-22-DSPG114 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2015-06-22-DSPG114 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.9 #parla.uni" n="009">IX Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="114">Número 114</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2015-06-22">22.06.2015</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="31"/>
+			<measure unit="words" quantity="1720"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90114.pdf</idno>
+				<date when="2015-06-22">22.06.2015</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2015-06-22">22.06.2015</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90114.pdf"/>
+			<note type="time">Ábrese a sesión ás dez e dous minutos da mañá.</note>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u1">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg1">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg2">A ode do día está publicada no Boletín Oficial do Parlamento de Galicia número 482, do 18 de xuño, polo que non se procede á súa lectura. Non se xustificaron inasistencias.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg3">Modificación da orde do día</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u2">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg4">Antes de entrar na orde do día, procede a inclusión dun punto preliminar, en cumprimento do establecido no artigo 7 do Regulamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg5">Prestación, se é o caso, de promesa ou xuramento de acatar e gardar a fidelidade á Constitución e ao Estatuto de autonomía de Galicia da deputada Dª María Sol Díaz Mouteira</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u3">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg6">Procederase a solicitar a prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía da nova deputada Dona María Sol Díaz Mouteira, en substitución de don Jesús Vázquez Abad.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg7">Segundo o procedemento, a fórmula é contestar &quot;si, xuro&quot; ou &quot;si, prometo&quot; á pregunta desta Presidencia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg8">Prégolle que responda dende o escano á pregunta que lle vou formular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg9">Dona María Sol Díaz Mouteira, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía  de Galicia?</seg>
+			</u>
+			<note type="speaker">A señora DÍAZ MOUTEIRA:</note>
+			<u who="#DíazMaríaSol" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u4">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg10">Si, xuro.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u5">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg11">Prestado xuramento, acada a condición plena de deputada do Parlamento de Galicia e dámoslle a benvida.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg12">Pasamos ao seguinte punto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg13">Designación de senadora ou senador representante da Comunidade Autónoma de Galicia, en substitución de Dª Paula María Fernández Pena</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg14">Modificación da orde do día</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u6">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg15">Comunícolles que as deputadas e deputados do Grupo Parlamentario Popular de Galicia solicitaron, mediante o documento número 38189, a alteración da orde do día e o aprazamento do punto único da orde do día de designación de senadora ou senador en representación da Comunidade Autónoma de Galicia en substitución de dona Paula María Fernández Pena. Polo tanto, de conformidade co disposto no artigo 73 do Regulamento, someto a votación a dita proposta de alteración da orde do día.</seg>
+				<note>(O señor Méndez Romeu pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg16">Si, señor Méndez Romeu, ¿para que quere a palabra?</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u7">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg17">Para unha cuestión de orde.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u8">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg18">¿En relación con que artigo?</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u9">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg19">Co artigo 165...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u10">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg20">¿Cal é o apartado que entende vostede...?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg21">Ten a palabra, pero gustaríame que concretara en relación con esta cuestión.</seg>
+			</u>
+			<note type="speaker">O señor MÉNDEZ ROMEU:</note>
+			<u who="#MéndezJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u11">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg22">Señora presidenta, o artigo 165 regula a modalidade de elección de senadores en representación da Comunidade Autónoma, e faino a medio dun procedemento que implica o acordo previo da Mesa e da Xunta de Portavoces, como así ten acaecido, e o dereito de proposta do grupo ao que lle corresponde a substitución, como se di no inciso artigo 4. Eses requisitos foron cumpridos e, polo tanto, non se pode aplicar de xeito xenérico o previsto nos artigos 72 e 73 para a modificación da orde do día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg23">Estamos nun pleno extraordinario que ten como única finalidade cumprir e cubrir unha vacante que se produciu e que lle corresponde a este grupo parlamentario. Reclamamos, polo tanto, que se continúe co procedemento e co pleno previsto e non se acuda a unha triquiñuela legal que implica na práctica impedir o dereito deste grupo a contar cun senador por representación autonómica.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg24">Como sabe vostede, señora presidenta, non hai precedentes dunha situación semellante neste Parlamento.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u12">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg25">Ben.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg26">Señor Méndez Romeu, en calquera caso, paréceme moi ben que vostede acuda a eses artigos, pero tamén hai outros artigos, en concreto o 71, que fixa que a alteración da orde do día pode ser solicitada pola quinta parte dos deputados desta Cámara, como así ten acontecido. Polo tanto, se lle parece...</seg>
+				<note>(O señor Jorquera Caselas pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg27">
+					¿Señor Jorquera?
+					<vocal type="murmuring">
+						<desc>(A señora Acuña do Campo pronuncia palabras que non se perciben.)</desc>
+					</vocal>
+					Señora Acuña, eu creo que, neste caso, se lle parece, ten un portavoz que xa sabe perfectamente o que ten que dicir; polo tanto, faga o favor.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg28">Señor Jorquera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg29">¿Si, señor Jorquera?</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u13">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg30">Si, señora presidenta, tamén por unha cuestión de orde. Apelo ao mesmo artigo 165 que o  señor Méndez Romeu....</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u14">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg31">
+					¿E ao mesmo apartado tamén?
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					.
+				</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u15">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg32">Ao artigo en xeral.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u16">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg33">En xeral, xa.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u17">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg34">Mire, señora presidenta, se me permite, expoñerei brevemente  a posición do noso grupo parlamentar, porque creo que non somos aquí robots que acudimos a esta Cámara nada máis que a votar cando o determinada o Partido Popular e a inhibirnos de votar cando o determina o Partido Popular. Como vostedes sabe, na Xunta de Portavoces denunciamos que se procedese non só á escolla do senador, que é o que agora nos ocupa, senón á renovación de órganos estatutarios sen previamente informar a todos os grupos parlamentares de negociacións entre dúas forzas políticas, e ademais demandamos que puidese haber un debate previo, unha fixación de posicións nesta Cámara, antes de proceder a votar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg35">Agora resulta que, presuntamente, pola ruptura do acordo ao que chegaron fóra das instancias deste Parlamento o Partido Popular e o Partido Socialista, o Grupo Popular solicita a anulación dun pleno legalmente convocado. Nós o que demandamos é que se explique o porqué e se debata o porqué por transparencia ante esta Cámara e ante o pobo galego...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u18">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg36">Moitas grazas, señor Jorquera.</seg>
+			</u>
+			<note type="speaker">O señor JORQUERA CASELAS:</note>
+			<u who="#JorqueraFranciscoXesús" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u19">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg37">...porque, insisto, aquí non somos convidados de pedra, somos representantes do pobo galego e temos dereito a saber.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u20">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg38">Moitas grazas, señor Jorquera.</seg>
+				<note>(O señor Beiras Torrado pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg39">Señor Beiras. Déanlle voz ao escano do señor Beiras, por favor.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u21">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg40">Bueno, teño a impresión de que toda a cidadanía galega está pendente do debate deste pleno porque estamos a tratar unha das cousas máis importantes da traxedia que está a vivir o noso pobo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg41">Eu quería, en primeiro lugar, formular unha dúbida. Eu non sei se cancelar unha orde dun pleno extraordinario convocado é equivalente a modificar a orde do día. Unha cousa é modificar a orde do día e outra é cargarse un pleno. Así que... a min non me gustan todas estas lerias de regulamentismos, etc., etc. A min paréceme que isto é un espectáculo propio máis ben dos espellos cóncavos de la calle del gato. En todo caso, tamén eu, en nome da Alternativa Galega de Esquerda, que nunca nos preocupamos demasiado de se entramos ou non en conversas plurais ou non plurais... De todas maneiras, aquí o pluralismo consiste en que a lista máis votada, como estamos nun sistema maioritario, conforme a lei electoral e a propia Constitución... Pois ou se é demócrata, estando de acordo co grupo maioritario, ou non se está de acordo e, entón, un non é demócrata.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg42">Pero o que quero dicir, señora presidenta, sobre todo é que...</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u22">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg43">Si, moitas grazas, señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u23">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg44">...non sei se no aviso a navegantes todo o mundo se decatou de que o Titanic xa bateu co iceberg e ten contadas as horas de estar a flote.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u24">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg45">Moitas grazas, señor Beiras.</seg>
+			</u>
+			<note type="speaker">O señor BEIRAS TORRADO:</note>
+			<u who="#BeirasXoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u25">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg46">De maneira que non sei que razón de ser ten intentar amarrar as cousas con acordos para órganos que teñen un mandato de catro anos cando estamos a piques de rematar esta lexislatura e probablemente a derradeira lexislatura do Estado das autonomías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg47">Nada máis e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u26">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg48">Moita grazas, señor Beiras.</seg>
+				<note>(O señor Puy Fraga pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg49">¿Señor Puy?</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u27">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg50">Si, eu, para cubrir o trámite formal, acóllome ao artigo 77, no que se lle solicita á Presidencia da  Cámara  que cumpra o Regulamento de xeito estrito, neste caso na petición de aprazamento desta cuestión da orde do día, do mesmo xeito que no primeiro punto da orde do día do pleno ordinario convocado a continuación, polo feito de que, efectivamente, aquí existía un acordo para unha renovación institucional que finalmente non puido materializarse para a elección de persoas que necesitan unha maioría cualificada, como establece a normativa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg51">E quero dicir que o meu grupo, solicitando este aprazamento por escrito, evitou, como fai a oposición, que se fixera de xeito verbal ao inicio do pleno. É frecuente que os portavoces que acaban de intervir cando se inicia un pleno ordinario pidan unha modificación da orde do día, que o grupo maioritario non coñece ata que se produce o pleno, e nós pensamos que, tendo en conta que se trata de designacións institucionais, o máis elegante era comunicalo por anticipado rexistrando un escrito para evitarlle ao señor Besteiro o espectáculo de presenciar in situ, asistindo a esta sesión...,</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u28">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg52">Moitas grazas, señor Puy.</seg>
+			</u>
+			<note type="speaker">O señor PUY FRAGA:</note>
+			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u29">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg53">...como, pola falta de acordo, non podiamos aceptar a súa nominación como senador. Unha baixa que se produciu hai cinco días, comunicada a esta Cámara o luns pasado, cando as baixas no Consello de Contas son do ano 2014 e a interinidade no Valedor do Pobo remóntase ao ano 2012.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg54">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u30">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg55">Moitas grazas, señor Puy.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg56">En calquera caso...</seg>
+				<note>(O señor Méndez Romeu pide a palabra.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg57">
+					Señor Méndez Romeu, non imos abrir un debate con esta cuestión. Eu creo que... ¡Perdón! Os grupos posicionáronse, cada un dixo o que tiña que dicir...
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Perdón... Penso que se lles deu un turno de posicionamento aos distintos grupos e, se lles parece, agora o único que procede é votar. Polo tanto, imos proceder á votación.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg58">Votamos a alteración da orde do día solicitada polo Grupo Parlamentario Popular de aprazamento do punto de designación de senador ou senadora.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg59">Votación da modificación da orde do día solicitada polo Grupo Parlamentario Popular de Galicia de aprazamento do punto de designación de senadora ou senador representante da Comunidade Autónoma de Galicia, en substitución de Dª Paula María  Fernández Pena.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg60">Efectuada a votación, deu o seguinte resultado: votos a favor, 38; votos en contra, 25.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg61">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg62">En consecuencia, queda aprobada esta solicitude de aprazamento.</seg>
+			</u>
+			<note type="speaker">A señora PRESIDENTA:</note>
+			<u who="#RojoPilarMilagros" ana="#chair" xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.u31">
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg63">Antes de levantar a sesión, lembro aos membros da Cámara que deseguido dará comezo a sesión ordinaria convocada para o día de hoxe, unha vez rematada esta sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2015-06-22-DSPG114.seg64">Levántase a sesión.</seg>
+			</u>
+			<note type="time">Remata a sesión ás dez e trece minutos da mañá.</note>
+		</div>
+	</body>
+</text>
+</TEI>

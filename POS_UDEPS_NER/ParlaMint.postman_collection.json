@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "1fbc1808-a452-43ea-bfe1-05936c8c6ec1",
+		"name": "ParlaMint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UDPipes parser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "data",
+							"value": "# sent_id = 2\n# text = O Foro para o Novo Estatuto recolle o dereito á autodeterminación\n1\tO\to\tDET\tDdms\tDefinite=Def|Gender=Masc|Number=Sing|PronType=Art\t_\t_\t_\t_\n2\tForo\tforo\tPROPN\tSpms\tGender=Masc|Number=Sing\t_\t_\t_\t_\n3\tpara\tpara\tADP\tP\tAdpType=Prep\t_\t_\t_\t_\n4\to\to\tDET\tDdms\tDefinite=Def|Gender=Masc|Number=Sing|PronType=Art\t_\t_\t_\t_\n5\tNovo\tnovo\tADJ\tA0ms\tGender=Masc|Number=Sing\t_\t_\t_\t_\n6\tEstatuto\testatuto\tNOUN\tScms\tGender=Masc|Number=Sing\t_\t_\t_\t_\n7\trecolle\trecoller\tVERB\tVpi30s\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t_\t_\t_\t_\n8\to\to\tDET\tDdms\tDefinite=Def|Gender=Masc|Number=Sing|PronType=Art\t_\t_\t_\t_\n9\tdereito\tdereito\tNOUN\tScms\tGender=Masc|Number=Sing\t_\t_\t_\t_\n10-11\tá\t_\t_\t_\t_\t_\t_\t_\t_\n10\ta\ta\tADP\tP\tAdpType=Prep\t_\t_\t_\t_\n11\ta\to\tDET\tDdfs\tGender=Fem|Number=Sing|PronType=Art\t_\t_\t_\t_\n12\tautodeterminación\tautodeterminación\tNOUN\tScfs\tGender=Fem|Number=Sing\t_\t_\t_\t_\n\n# sent_id = 5\n# text = Intervención de Xosé Luís Barreiro Rivas.\n1\tIntervención\tintervención\tNOUN\tScfs\tGender=Fem|Number=Sing\t_\t_\t_\t_\n2\tde\tde\tADP\tP\tAdpType=Prep\t_\t_\t_\t_\n3\tXosé\txosé\tPROPN\tSpm0\tGender=Masc\t_\t_\t_\t_\n4\tLuís\tluís\tPROPN\tSpm0\tGender=Masc\t_\t_\t_\t_\n5\tBarreiro\tbarreiro\tPROPN\tSpm0\tGender=Masc\t_\t_\t_\t_\n6\tRivas\trivas\tPROPN\tSpm0\tGender=Masc\t_\t_\t_\t_\n7\t.\t.\tPUNCT\tQ.\t_\t_\t_\t_\t_\n",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/process?&parser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"process"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "parser",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eagles2UD2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Isto\\tisto\\tPD0CN000\\né\\tser\\tVSIP3S0\\nunha\\tun\\tDI0FS0\\nproba\\tproba\\tNCFS000\\n.\\t.\\tFp\\n\\n\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5002"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Freeling",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Isto é unha proba.\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001"
+				}
+			},
+			"response": []
+		}
+	]
+}

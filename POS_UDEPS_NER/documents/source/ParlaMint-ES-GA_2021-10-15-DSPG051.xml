@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051" ana="#parla.sitting #covid">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2021-10-15-DSPG051 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2021-10-15-DSPG051 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="051">Número 051</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2021-10-15">15.10.2021</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="59"/>
+			<measure unit="words" quantity="21952"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110051.pdf</idno>
+				<date when="2021-10-15">15.10.2021</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2021-10-15">15.10.2021</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#covid">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110051.pdf"/>
+			<note type="time">Retómase a sesión ás once e tres minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u1">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg1">Bo día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg2">Reiniciamos a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg3">En primeiro lugar, hai que comunicar a inasistencia a esta sesión plenaria de don Francisco Rivera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg4">Trasládolles a información sobre o desenvolvemento desta sesión, en concreto, do debate, que o faremos de acordo co que se falou na Xunta de Portavoces do día 5 de outubro de 2021 e co que alí se acordou.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg5">Desenvolverase do seguinte xeito. En primeiro lugar, haberá un anuncio da agrupación e unha votación separada das propostas de resolución para a votación, conforme a información recibida polos grupos parlamentarios; unha rolda de intervención dos portavoces dos grupos parlamentarios para a presentación e defensa global de todas as propostas de resolución por un tempo de 30 minutos por grupo parlamentario; unha rolda de fixación de posición dos grupos parlamentarios en relación coas propostas doutros grupos por un tempo de 10 minutos por grupo parlamentario; e, por último, votariamos as propostas de resolución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg6">E para iso, en primeiro lugar, ten a palabra a secretaria da Mesa da Cámara para dar conta das propostas de resolución emitidas pola Mesa e da súa agrupación para a votación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg7">Cando queira.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u2">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg8">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg9">A Mesa do Parlamento, na súa sesión do 14 de outubro de 2021, cualificou as propostas de resolución formalizadas polos grupos parlamentarios en relación co Debate de política xeral da Comunidade Autónoma de Galicia de 2021.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg10">Na sesión do 15 de outubro examináronse as propostas de transacción e as peticións de votacións separadas das propostas de resolución e adoptouse o seguinte acordo:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg11">&quot;1. Tomar coñecemento das propostas de transacción e das peticións de votacións separadas seguintes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg12">Propostas de resolución transaccionadas:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg13">23715, proposta transaccionada entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario do Bloque Nacionalista Galego verbo da proposta de resolución número 16, do Grupo Parlamentario Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg14">23716, proposta de transacción entre o Grupo Parlamentario do Bloque Nacionalista Galego e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 31, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg15">23717, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 16, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg16">23718, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 32, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg17">23719, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 15, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg18">23720, proposta de transacción entre o Grupo Parlamentario dos Socialistas de Galicia e o Grupo Parlamentario Popular de Galicia verbo da proposta de resolución número 20, do Grupo Parlamentario Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg19">27721, proposta de transacción entre o Grupo Parlamentario dos Socialistas de Galicia e o Grupo Parlamentario Popular de Galicia verbo da proposta de resolución número 39, do Grupo Parlamentario Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg20">23722, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 13, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg21">23723, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 21, do Grupo Parlamentario Popular de Galicia, e da número 30, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg22">23724, proposta de transacción entre o Grupo Parlamentario dos Socialistas de Galicia e o Grupo Parlamentario Popular de Galicia verbo da proposta de resolución número 26, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg23">23725, proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 36, do Grupo Parlamentario dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg24">Solicitudes de agrupación e votacións separadas das propostas de resolución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg25">Grupo Parlamentario dos Socialistas de Galicia:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg26">- Propostas de resolución números 3 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg27">- Propostas de resolución números 19 e 22.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg28">- Propostas de resolución números 1, 2, da 4 á 12, 14, 17, 18, 20, 21, da 23 á 25, da 27 á 29, 34, 35 e da 37 á 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg29">Grupo Parlamentario do Bloque Nacionalista Galego:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg30">- Propostas de resolución números 16 e 35.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg31">- Propostas de resolución números 22 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg32">- Propostas de resolución números 1, 4, 8, 11, 26, 31 e 34.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg33">- Propostas de resolución números 2, 12, 19, 20, 25, 36 e 37.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg34">- Propostas de resolución números 3, da 5 á 7, 9, 10, 13, da 13 á 15, 17, 18, 21, 23, 24, da 27 á 30, 32 e da 38 á 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg35">Grupo Parlamentario Popular de Galicia:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg36">- Proposta de resolución número 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg37">- Propostas de resolución números 1 e 3.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg38">- Propostas de resolución números 8, 11 e 31.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg39">- Propostas de resolución números 4, 6, 32 e 38.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg40">- Propostas de resolución números 9, 17 e 24.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg41">- Propostas de resolución números 25, 27, 29 e 36.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg42">- Propostas de resolución números 10, 18, 19, 26 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg43">- Propostas de resolución números 2, 7, 22, 28, 34 e 35.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg44">- Propostas de resolución números 5, da 12 á 15, 30 e 37.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg45">2. As propostas de transacción implican o decaemento de propostas de resolución sobre as que se transacciona, polo que estas non se someterán a votación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg46">3. Someterase a votación a parte resolutiva e non a parte expositiva das propostas de resolución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg47">4. Os parágrafos da parte resolutiva das propostas de resolución, estean ou non identificados con guións ou con calquera outro signo de puntuación, non poderán dar lugar a unha votación separada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg48">5. En relación coas propostas polas que se crean órganos parlamentarios por resolución do Pleno, conforme o previsto no Regulamento e os precedentes, a súa creación está suxeita ao previo cumprimento dos requisitos regulamentarios exixidos para cada tipo de órgano.&quot;</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u3">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg49">Grazas, señora secretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg50">Debate das propostas de resolución</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u4">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg51">Comezamos, polo tanto, coa rolda dos grupos parlamentarios para a presentación e defensa global das propostas de resolución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg52">Para iso ten a palabra, en primeiro lugar, polo Grupo Parlamentario Socialista, o señor Arangüena.</seg>
+			</u>
+			<note type="speaker">O señor ARANGÜENA FERNÁNDEZ:</note>
+			<u who="#ArangüenaPablo" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u5">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg53">Grazas, señor presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg54">Antes de nada, quero manifestar o meu máis sentido pésame polo falecemento do conselleiro Valeriano Martínez. Non tiven ocasión de facelo anteriormente. Dóullelo na miña representación, dado que en nome do Grupo Socialista xa o fixo Gonzalo Caballero. O meu máis sentido pésame.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg55">
+					Voulles dar un dato que resume perfectamente a política do Partido Popular de Galicia. No Debate do estado da Nación do ano 2017 --último ano do Goberno de Rajoy--, o PP presentou, entre as súas 40 propostas, soamente 5 reclamándolle diversas cousas ao Goberno central. En troques, neste debate, presentou 20 propostas de 40; é dicir, exactamente a metade das propostas do PP neste debate son para reclamarlle algo ao Goberno central. Esta variación é un escándalo. Multiplicaron por catro as peticións ao Goberno central desde que Pedro Sánchez é presidente. Cinco peticións de 40 ao Goberno de Rajoy, 20 peticións de 40 ao Goberno de Pedro Sánchez; un aumento do 400 %.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Esta é a realidade.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg56">Presentamos neste debate do estado da Autonomía 40 propostas de resolución sistemáticas, coherentes e que configuran unha estratexia de país nos temas que determinan o presente e o futuro de Galicia: a política económica, a política industrial e de emprego, a sanidade, a educación, as políticas sociais, a modernización da Administración, o medio ambiente e a emerxencia climática, ou o equilibrio territorial entre a Galicia urbana e a rural, o autogoberno, a mocidade e a ética pública, entre outros temas. Son un conxunto de propostas que aspiran ao mesmo que aspira o PSdeG: a corrixir as eivas de doce anos de políticas conservadoras baseadas na inacción e na inercia. Porque o modelo galego do que falou hai dous días o señor Feijóo é o da inercia, a inacción e a falla de rumbo nun mundo que se move a unha velocidade moito maior que en calquera outro momento da historia da humanidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg57">E mentres todo cambia ao noso arredor, a Xunta xa non é que non sexa proactiva, é que nin sequera reacciona ante ese cambio, porque a súa filosofía política é a daquel político chileno que dicía que hai dous tipos de problemas: os que se resolven sós e os que non se resolven nunca. Nós non participamos desa filosofía política e cremos que hai que ser sempre proactivos, pero moito máis nunha época na que todo muda ao noso arredor, na que no último ano e medio sufrimos unha fonda e inesperada sacudida nas nosas vidas e na que experimentamos cada vez con máis frecuencia esa maldición china que dicía aquilo de &quot;oxalá vivas tempos interesantes&quot;. Estes tempos son, desde logo, interesantísimos; tanto, que lembran aquela canción de Los Ilegales: Tiempos nuevos, tiempos salvajes. Pero parece que ao PP de Galicia non lle interesa demasiado o que pasa no mundo e segue coas mesmas vellas políticas e vellas receitas; vellas políticas que consisten en deixarse levar pola inercia, rezar, rezar de vez en cando, e botarlles a culpa sistematicamente a outros.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg58">
+					En política industrial, botarlle a culpa ao Goberno, rezar para que non pechen empresas e rezar para que se instalen empresas novas. En política antiincendios, rezar para que chova e botarlle a culpa ao que vostedes chaman terrorismo incendiario. En política demográfica, botarlle a culpa a quen non ten fillos e dicir, como dixo o outro día o señor Feijóo, que o problema é que hai poucos nacementos e moitas defuncións. Unha reflexión dun simplismo que esquece que a xente non deixa de ter fillos por falta de ganas, senón por falta de oportunidades no presente e de esperanza no futuro.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E desde que o señor Feijóo foi investido no ano 2009 Galicia perdeu 66.000 habitantes. Temos os peores datos demográficos de España, non os segundos peores, os peores datos demográficos de España, o cal podería levar a pensar que non hai un anticonceptivo máis eficaz e potente que o Partido Popular de Galicia.
+				</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg59">E poderiamos seguir relatando a lista de inaccións do PP ata o ano que vén, pero o que nós queremos hoxe é fundamentalmente propoñer cousas que sirvan para corrixir as eivas da súa política.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg60">Queremos corrixir a falla de política industrial, cando Galicia está inmersa nunha situación de aguda crise industrial e tendo en conta que o Goberno do PP, a pesar de ter plena competencia, non fixo política industrial nos últimos doce anos, nin moita nin pouca, quitando o gran fiasco de Pemex, aquel no que dicía vostede que ían traer 20 barcos ou 22 barcos e logo foron 2 e un estaleiro quebrado. E agora ten que afrontar a oportunidade que representan os fondos Next Generation sen unha traxectoria de política económica e industrial activa. Iso implica un cambio de paradigma na Xunta que ao señor Feijóo lle resulta francamente complicado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg61">Por iso propoñemos un pacto pola industria e converter o Igape nun verdadeiro instrumento de política e promoción económica, que hoxe non o é nin por asomo, porque a política industrial consiste en parte nunha tarefa importantísima, que é conseguir manter o capital galego en Galicia e atraer novo capital. E o seu balance, señor Feijóo, nesta materia é francamente terrorífico. Para mostra, de acordo cos datos da Fundación de Abanca en 2020, mantense --como vén pasando cada ano das súas lexislaturas-- unha enorme asimetría entre o fluxo de investimento estranxeiro recibido --80,4 millóns-- e o realizado desde Galicia ao exterior --1.814 millóns--; 80 millóns que entran en Galicia e 1.814 que saen de Galicia. É dicir, Galicia investiu o ano pasado no estranxeiro 22,5 veces máis que os fondos que recibiu do exterior.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg62">E o Boletín de fluxos de investimento estranxeiro do Ministerio de Industria indica que Galicia recibiu o ano pasado o 0,3 % do investimento estranxeiro total de España, cando representa máis do 5 % do PIB, e nos mellores anos case nunca, practicamente nunca, chegamos en promedio ao 1 %, cando representamos, como digo, o 5 % do PIB español.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg63">Por tanto, Galicia descapitalízase e deixa que emigre o seu propio capital, ben sexa ao estranxeiro ou a fóra de Galicia, e non capta capital foráneo. Este é un indicador de presente e de futuro altamente preocupante, porque amosa dun xeito claro e meridiano que non somos atractivos desde o punto de vista económico, nin para os nosos propios empresarios, nin para os de fóra. E esta é a maior proba do gran fracaso económico dese autodenominado &quot;gran xestor&quot; que di ser o señor Feijóo.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg64">Por iso propoñemos, ademais da transformación do Igape, fixar como obxectivo que a formación de capital sexa, como mínimo, do 60 % do excedente bruto de explotación, o cal, traducido a linguaxe común, significa que Galicia deixe de descapitalizarse; é dicir, que o capital empresarial de Galicia deixe de emigrar, que é o que leva facendo máis dunha década. E propoñemos consensuar os proxectos que opten aos fondos Next Generation para pasar da carta aos Reis Magos que plantexou a Xunta á realidade e á concreción. Porque levamos case ano e medio de pandemia e unha caída do PIB no 2020 que non se viu desde a Guerra Civil española; unha caída de case o 11 %. E a maior oportunidade para reconstruír a nosa economía e para modernizar Galicia de paso, unha oportunidade extraordinaria, histórica, irrepetible --sobre todo irrepetible-- son os fondos Next Generation, que implican o maior esforzo financeiro da historia da Unión Europea, e dos cales a España lle vai corresponder  -- tome nota, señor Feijóo --  o 18 %, co 9 % da poboación total da Unión Europea; é dicir, o dobre de fondos Next Generation que lle correspondería a España pola súa poboación. ¡Nada máis e nada menos que o dobre! Un éxito histórico e incuestionable do Goberno de Pedro Sánchez, que foi o primeiro en Europa en lanzar a idea dun Plan Marshall. Un éxito que deberían vostedes recoñecer.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg65">Por certo, mentres, o señor Casado se adicaba durante un ano a tratar de sabotar na Unión Europea algo tan vital para España como é ese enorme paquete financeiro de 140.000 millóns de euros, nunha actitude francamente indigna dun político que debera defender o seu país nun momento de emerxencia, ou, polo menos, non sabotalo.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg66">
+					En Galicia levan vostedes un ano mareando a perdiz cos proxectos para os fondos Next Generation, pero tivo que vir a ministra de Economía, Nadia Calviño, a Galicia a dicirlle ao señor Feijóo o que levamos un ano dicindo tamén desde o PSdeG: que priorice, que marque estratexia cos proxectos. Porque non se pode dicir un día que hai 7, outro día 107 e rematar dicindo que hai 354, que son, en realidade, todos os proxectos que xa estaban en marcha en Galicia antes da pandemia.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Porque os fondos Next Generation teñen dúas características principais que están explicitadas na súa estrutura desde o minuto cero: carácter transformador e adicionalidade. É dicir, en primeiro lugar, son para facer cousas que transformen o noso sistema produtivo, non para facer, por exemplo, rotondas. E por iso teñen que estar destinados a investimentos e a programas que non estivesen xa previstos ou en execución, porque para iso xa está o orzamento ordinario do país e o da propia Unión Europea.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg67">
+					En segundo lugar, deben ser adicionais dos proxectos ordinarios que teñen os países, e non servir para financiar proxectos xa en marcha. Desde calquera deses parámetros o plantexamento de Galicia é un desastre, porque están collendo vostedes todos os proxectos que xa tiñan previstos, incluso orzados, meten algún máis de refilón e din vostedes: ¡que aplicados somos, que temos un montón de proxectos, 354! Iso é unha gran mentira, unha estafa e un engano á cidadanía, porque se cada comunidade tivese un número de proxectos proporcional á súa poboación, para igualar a Galicia tería que haber en España 7.000 proxectos. É evidente que non vai haber 7.000 proxectos en España, nin a décima parte desa cifra no mellor dos casos. Como digo, o 95 % dos proxectos --que din vostedes que teñen un 95 %-- poden ser non financiables, ou serán non financiables, porque incumpren as bases da normativa comunitaria do regulamento estatal para eses fondos. E vostedes tratan de usar eses fondos para aforrar o orzamento propio,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					que prefiren gastar en chiringuitos ou en clientelismo, mentres sembran vostedes irresponsablemente a idea da aldraxe a Galicia para tapar as súas vergoñas. Inflan vostedes o globo de &quot;España róubanos&quot;,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					que queda radicalmente desmontado cos orzamentos xerais do Estado para 2022, que implica con respecto ao 2021 un aumento do investimento estatal directo do 29,3 %, e van implicar, ademais, un aumento do gasto social, que beneficia especialmente a Galicia, porque cando aumentan as pensións gaña Galicia, porque ten máis pensionistas que a media polo envellecemento da súa poboación, e máis pensionistas coa mínima. E cando aumenta o gasto social tamén gaña especialmente Galicia porque ten máis persoas en situación de dependencia que a media, e así sucesivamente.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg68">E dirán vostedes --xa o dixeron, con toda seguridade-- que estes orzamentos soben porque os anteriores eran malos. Pero a realidade é que cos anteriores estabamos bastante por enriba da media estatal en investimento por habitante e por enriba da maioría das comunidades autónomas. Esa é a realidade. E nestes estamos mellor aínda que naqueles. Por tanto, deixen vostedes o &quot;España róubanos&quot; e recoñezan que a Galicia lle vai bastante mellor con este goberno, moito mellor con este goberno, que cos de Mariano Rajoy. Non digan vostedes o contrario porque é unha falsidade.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg69">Recoñezan vostedes que hai un goberno que non perdeu nin un segundo da construción do AVE, mentres que un informe do Tribunal de Contas --do Tribunal de Contas, non meu-- determinou que con Ana Pastor e outros ministros de Rajoy houbo atrasos de dous anos de media e sobrecustos e ilegalidades. Iso puxo branco sobre negro a un informe do Tribunal de Contas. Vostedes non dicían entón nin mu. E o AVE vai chegar a Galicia en decembro, cun goberno progresista, e sen un segundo de atraso desde que ese goberno colleu o temón.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg70">Recoñezan vostedes que cun goberno progresista hai unha rebaixa histórica das peaxes do AVE; unha rebaixa que puideron levar a cabo vostedes durante os sete anos de Rajoy. Puideron levala a cabo, pero non lles deu a gana. Non lles deu a gana, nin a Rajoy se lle ocorreu, nin vostedes llo pediron, porque estaban caladiños, estaban completamente mudos. E vostedes, que parece que algo deberían contar no PP, ¿que conseguiron para Galicia na etapa Rajoy? ¿Que conseguiron para Galicia vostedes na etapa Rajoy? Ningún de vostedes poderá dicirme nada minimamente significativo. Esa é a realidade e eses son os feitos.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg71">E porque Galicia ten un claro déficit en política social, propoñemos que se corrixa ese déficit investindo, para situarnos progresivamente na media española, reforzando os equipos de valoración de incapacidades, para que non tarden tanto tempo en facer un traballo do que depende a vida de tanta xente, mellorando as políticas de atención á dependencia e impulsando dunha vez un novo modelo residencial e de coidados ás persoas maiores que supere as eivas do actual; algo do que o PP leva, por certo, falando desde que a pandemia destapou as vergoñas da situación na que viven moitos dos nosos maiores e o escándalo de empresas como DomusVi, na que persoas amigas do PP se forran e se fan millonarias a custa da saúde dos nosos maiores. Porque a señora Fernández --que vostedes coñecen moi ben, exconselleira delegada de DomusVi-- dixo na Comisión de Reactivación nesta Cámara que estaba moi orgullosa de facer negocio cos nosos maiores, e veu á Comisión de Reactivación a rirse deste Parlamento e da cidadanía de Galicia e vostedes aplaudían. Por certo, tamén lle quitaban a palabra a este deputado que fala neste momento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg72">Nós propoñemos un novo modelo residencial e de coidados que comece por non facer a vista gorda ante as irregularidades das grandes empresas do sector, porque un informe do Consello de Contas publicado en 2017 puxo branco sobre negro a conivencia do Goberno de Galicia coa patronal do sector, as irregularidades e a falta de sancións. DomusVi non foi sancionada ata esta pandemia, a pesar de que houbo decenas de denuncias anteriores. Hai sete inspectores de residencias para toda Galicia. Somos a segunda comunidade de España pola cola en número de inspectores en proporción á poboación que está nas residencias. Vostedes poden retorcer as cifras, e seguro que o farán, todo o que queiran, pero no último informe da Asociación Estatal de Directores e Xerentes de Servizos Sociais, que é o informe de referencia en materia de políticas sociais en España, nun conxunto de 30 indicadores, Galicia figura como a cuarta comunidade pola cola. É dicir, somos a comunidade número 14 entre as 17. Só estamos por diante de Murcia, Madrid e Canarias. Estamos por detrás de trece comunidades autónomas. E somos a comunidade autónoma que menos gasto por persoa en situación de dependencia ten, a pesar de ser unha das comunidades que máis cartos recibe do Estado para tal fin e de ter unha taxa de poboación dependente superior á media estatal. Hai 320.000 persoas en situación de pobreza severa en Galicia; de pobreza severa, e está crecendo alarmantemente. Pero para vostedes aquí todo está ben ou o que non está ben é culpa do Goberno. Mentres, adicamos o 1,58 % do PIB a gasto social, fronte a un 1,98 % de media estatal. E, por iso, o informe que mencionei anteriormente inclúe a Galicia entre as comunidades autónomas que teñen o que se chama nese informe &quot;dereitos sociais de papel&quot;; é dicir, dereitos sociais que soamente están recoñecidos sobre o papel e que son a súa grande especialidade. E nós, ademais de que ideoloxicamente defendemos a sanidade pública como motor de igualdade, estamos orgullosos da sanidade pública galega e dos seus profesionais, porque cada día salvaron vidas na pandemia e hoxe tamén, como cada día seguen salvando vidas e melloran a calidade de vida de moita xente co seu traballo e co seu esforzo, co seu sobreesforzo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg73">Pero, por iso mesmo, temos que recoñecer os problemas desa sanidade: a falla de investimento, a falla de recursos, a falla de estabilidade, a precariedade laboral, o servizo de atención primaria desbordado... E, por iso, propoñemos que se reforce a atención primaria, que se planifique e coordine mellor e que se dea estabilidade laboral ao persoal sanitario, porque a sanidade pública está deteriorándose despois da pandemia e despois dunha década de recortes. Por primeira vez, hai listas de espera en atención primaria, listas de espera para obter unha primeira cita, que, nalgúns sitios, está chegando a case un mes, e aumentan os prazos para ver a un especialista ou para entrar en cirurxía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg74">
+					A nosa educación sufriu tamén recortes desde o ano 2009, como saben moi ben os profesionais da comunidade educativa e como saben tantos pais e nais de Galicia que ven como neste comezo de curso hai problemas de falla de profesorado. Por iso, propoñemos un pacto pola estabilidade orzamentaria que reverta os recortes que houbo desde o ano 2009 e que recupere a gratuidade dos libros de texto. Galicia pechou, desde que Feijóo chegou á Presidencia da Xunta en 2009, 1.308 colexios, e pedímoslle á Xunta de Galicia que atenda as reclamacións da comunidade educativa, porque a Xunta ten máis de 1.800 millóns extra desde que comezou a pandemia na súa caixa entregados polo Estado, entre outras cousas, para reforzar os servizos públicos. Por certo, está moi ben que o señor Feijóo anuncie o mércores a gratuidade dos colexios para nenos de ata 3 anos, pero parécenos unha auténtica tomadura de pelo que onte presentaran vostedes unha proposta de resolución para pedirlle ao Estado que financie esa gratuidade.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					O mércores anuncian a gratuidade e o xoves presentan unha proposta solicitando que pague o Estado.
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Iso si que é o modelo Galicia, o modelo de &quot;invito eu e pagas ti&quot;.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg75">Pero á parte desa tomadura de pelo, a nós parécenos moi ben a medida, parécenos moi ben, e por iso a levamos no noso programa electoral. Porque Galicia está á cola do Estado en políticas medioambientais. O secretario xeral das Nacións Unidas dicía hai dous anos que por primeira vez na historia a humanidade está destruíndo conscientemente os sistemas ecolóxicos que serven de soporte para a nosa vida. E porque hai unha emerxencia ecolóxica e climática propoñemos declarar a emerxencia climática, como fixeron tantos países, entre eles España, e tantas cidades e a maioría das comunidades autónomas, menos Galicia e algunha máis do PP. Isto xa se acordou no ano 2019, pero incriblemente a Xunta segue a incumprir esa resolución de declarar a emerxencia climática en Galicia, o cal me leva a preguntar: ¿en que converten vostedes as resolucións e os acordos deste Parlamento? Porque no ano 2009, a instancia do propio PP, apróbase unha resolución, a número 46 --por se a queren consultar vostedes e que cito literalmente--, que di que &quot;o Parlamento de Galicia insta a Xunta de Galicia a declarar o estado de emerxencia climática en Galicia co obxectivo primordial de comprometer as políticas do Goberno galego en facer fronte á emerxencia climática&quot;. E dous anos despois foron vostedes incapaces de cumprir o seu propio acordo, que é tamén o desta Cámara. ¿Que credibilidade teñen vostedes? Eu pregúntome se teñen algún tipo de credibilidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg76">
+					¿Cantos acordos desta Cámara cumpren vostedes? Non o sabemos, porque vostedes nin sequera informan, como marca a Lei de transparencia de Galicia,  que di, no seu artigo 19, que anualmente teñen vostedes que publicar un informe do grao de cumprimento dos acordos deste Parlamento. Pero vostedes vulneran a lei e publican con tres anos de atraso un papeliño que non é o que di a lei que hai que publicar, senón un papeliño que di que cumpren o 99 %. Iso dino vostedes, pero non din como, nin cales, nin en que grao, e poñen alí unhas cifras que son completamente falsas, porque todos sabemos que non se cumpriron gran parte dos acordos deste Parlamento da pasada lexislatura. E como vostedes incumpren a Lei de transparencia e gobernan en Galicia desde a opacidade, o nepotismo, o favoritismo e a discrecionalidade, propoñemos tamén un plan de control da Administración pública galega e do sector público galego que inclúa medidas de transparencia e control da corrupción e da legalidade das designacións de cargos e empregos públicos, para que non sigan vostedes inspirándose no auténtico gran modelo do PP de Galicia, que é o modelo Baltar, no que máis do 80 % dos contratos e das subvencións se reparten a dedo a empresas amigas do PP e a concellos do PP.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Ese é o seu gran modelo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg77">Propoñemos tamén unha estratexia de renaturalización de Galicia que contemple combater a contaminación dos nosos ríos e rías, que para vostedes están fantasticamente, pero dos cales vostedes mesmos recoñecen nos seus datos --que son, imos dicir así, francamente optimistas, por dicilo eufemisticamente --  que o 22 % non cumpren os parámetros da Unión Europea.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg78">Propoñemos tamén a protección do bosque autóctono, que está en franca regresión na nosa comunidade, a pesar dos seus inventarios, que son pouco menos que máxicos; a protección real da Rede Natura máis pequena de España, que é o 12 % do noso territorio protexido, cando a media estatal é do 27 %, e nin sequera é real esa protección, porque a organización ecoloxista internacional WWF di que o Plan director da Rede Natura de Galicia é --cito literalmente --  &quot;o peor de España&quot;. Unha Rede Natura que propoñemos, ademais, ampliar, de acordo co proxecto que xa deixou no ano 2009 o Goberno de Emilio Pérez Touriño, e un modelo de xestión de residuos que supere o de Sogama e non aposte pola incineración, senón pola reciclaxe, porque cremos que é o momento de cambiar as políticas medioambientais de Galicia, porque é o momento da transición ecolóxica e porque é o momento de aproveitar todos os fondos que Europa e o propio Goberno español poñen á disposición das comunidades autónomas que queiran apostar por ese modelo. Pero vostedes non apostan e, en cambio, apostan por maximizar o ecopostureo ou a propaganda verde.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg79">Galicia ten hoxe unha superficie agraria útil do 20 % do territorio, unha das porcentaxes máis baixas de Europa, que en Alemaña ou Francia supera o 40 %. Perdemos nas últimas décadas máis de 250.000 hectáreas de superficie agraria útil, e un terzo dos nosos concellos camiña cara á desaparición, mentres en Galicia nas últimas décadas baixamos un 25 % a nosa renda agraria, cando en Andalucía se duplicou; é dicir, Galicia baixa un 25 % e Andalucía duplica a súa renda agraria, o cal dá idea da ineficacia das políticas agrarias da Xunta e dos seus gobernos durante trinta e catro dos corenta anos de autonomía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg80">
+					O sector forestal galego, que supón o 50 % da madeira cortada de España, só aporta o 13 % da facturación e do emprego, e co 40 % da produción leiteira de España só aportamos o 11 % da facturación e o 7 % do emprego no sector leiteiro, no que pecharon unha enorme cantidade de explotacións. Estes son os datos. Lamento ter que dicir que obxectivamente, e máis alá da miña opinión persoal ou a de calquera, son moi malos. Por iso, propoñemos unha axencia de desenvolvemento rural independente, inspirada no modelo escocés, e medidas de dinamización do medio rural, incluíndo medidas contra a exclusión financeira, porque non pode ser que pechen as sucursais e vostedes digan que as responsabilidade son do Goberno central. Por certo, presentan unha proposta nesa liña, mentres subvencionan a implantación dun caixeiro xustamente onde pechan sucursais.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					É dicir, péchase unha sucursal, normalmente da maior entidade financeira de Galicia, que é  Abanca, e vostedes, acto seguido, fináncianos para que poñan un caixeiro. Iso, evidentemente, é un disparate, un absurdo e é financiar a exclusión financeira. É o que están facendo vostedes desde a Xunta de Galicia: financiar a exclusión financeira, subvencionar a exclusión financeira.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg81">Hai en Galicia case 300.000 vivendas baleiras, a maior proporción do Estado, a maior. Pero, sen embargo, hai escaseza de vivenda e prezos de alugueiros inasumibles para moita xente, diga o que diga o señor Casado e diga o que diga o Partido Popular; inasumibles para moita xente, sinaladamente para a xente máis nova. E nós propoñemos superar a ausencia case absoluta dunha política de vivenda pública desde o ano 2009 duplicando en cinco anos o parque de vivenda pública. Porque na pasada lexislatura --este é o dato-- finalizáronse 24 vivendas de promoción pública, ¡24!, cando no Goberno de Emilio Pérez Touriño se fixeron máis de 10.000. Esa é a desproporción. Co Goberno de Emilio Pérez Touriño había política de vivenda pública, con vostedes non hai política de vivenda pública, o que hai é propaganda, abundante propaganda. A propaganda aumenta, a vivenda diminúe; a vivenda pública diminúe mentres a súa propaganda aumenta exponencialmente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg82">E propoñemos reformular consensuadamente un novo modelo eólico para minimizar o impacto ambiental e social e maximizar o beneficio económico para o territorio, garantindo a instalación de potencia eólica suficiente para levar a cabo a transición enerxética. Porque Galicia importa o 70 % --arredor do 70 %-- da enerxía que consome en forma de petróleo e gas, con evidente impacto climático. Para substituír esa potencia, descarbonizar e chegar a un impacto cero sobre o clima e para chegar á neutralidade climática hai que apostar polas renovables, pero ordenadamente. Hai que apostar sistemática e ordenadamente, e iso non ocorre en Galicia. Vostedes teñen competencias. É certo que o Estado ten competencias, pero vostedes poden marcar unha determinada tendencia no noso modelo eólico e determinadas prioridades e determinadas singularidades no noso modelo eólico. E o presidente da Asociación Eólica de Galicia di que o que pasa en Galicia é &quot;a lei da xungla&quot;  -- cito literal -- , a lei da xungla, mentres que o presidente o Observatorio Eólico de Galicia cambia un pouco a lei e di que é a &quot;lei do oeste&quot;. Eu non o digo, dino os expertos do sector; é dicir, eu non estou inventando nada, isto é o que opinan dous expertos do sector como o presidente da Asociación Eólica de Galicia e o máximo responsable do Observatorio Eólico de Galicia. Polo tanto, haberá que cambiar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg83">E non nos digan vostedes que estamos en contra da eólica, estamos a favor da eólica, pero dunha eólica ordenada e de que vostedes marquen unha sistemática que permita a implantación progresiva e regular, cada ano, da enerxía eólica que fai falta para facer a transición enerxética. Pero o que están facendo neste momento é paralizar por completo o sector, ao mesmo tempo que xeran alarma, desconcerto e todo tipo de problemas. É a súa responsabilidade. Nós propoñémoslles que cambien o modelo eólico consensuadamente; tendémoslles a man para que o fagan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg84">E como somos federalistas e galeguistas, propoñemos unha vez máis avanzar no autogoberno. Quero recalcar que somos respectuosos co nacionalismo como ideoloxía e que concordamos co BNG no espazo común do galeguismo, pero rexeitamos o separatismo porque só conduce a que os ricos se separen dos pobres e a xerar discordia, desorde e pobreza. Temos máxima vontade de consenso e diálogo nun tempo, marcado pola crise sanitaria e económica, no que a cidadanía reclama entendemento, e afrontamos este debate do estado da Autonomía dende o minuto cero desde esa actitude aberta e propositiva.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg85">
+					E por iso transaccionamos xa onte sete propostas co Partido Popular, mentres que o PP transaccionou dúas con nós, o cal indica que a nosa vontade de diálogo é un 350 % superior á súa. Temos 3,5 veces máis vontade de diálogo e de consenso que o PP, a teor destes datos.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E iso, obviamente, sen contar coa votación final das propostas, onde nós votaremos con seguridade a favor de varias do PP e o PP, previsiblemente, non votará a favor de ningunha nosa.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg86">Polo tanto, acreditamos neste debate a nosa vontade de acordo e diálogo e o PP aínda está a tempo de facelo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg87">Nada máis e seguiremos.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u6">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg88">Grazas, señor Arangüena.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg89">Polo Grupo Parlamentario do Bloque Nacionalista Galego, a señora Rodil.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u7">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg90">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg91">Bo día a todas e a todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg92">Este debate do estado da Nación prodúcese o mesmo ano --vostedes tamén o saben-- no que se cumpren corenta da aprobación do Estatuto de 1981 e trinta e dous anos do primeiro debate de política xeral, celebrado o 14 de marzo de 1989. Eu nacín en setembro dese ano. Coma min, catro persoas neste hemiciclo --catro persoas máis neste hemiciclo-- aínda non naceran cando tivo lugar o primeiro debate do estado da Autonomía. Somos cinco as persoas nacidas entre 1989 e 1996, os últimos millennials e os primeiros da &quot;Xeración Z&quot; en  Galiza, de dúas forzas políticas diferentes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg93">Tanto aniversario e conmemoración estatutaria, tanta nova era xurdida da pandemia, convida --coincidirán comigo-- a unha reflexión xeracional, aínda que tamén hai que dicir que non pasou nin unha soa persoa menor de 40 anos por ningún dos actos que acolleu este Parlamento para celebrar a data. ¡Curioso!</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg94">
+					E a primeira reflexión está aí. A mocidade somos futuro, obviamente, pero sobre todo somos presente, estamos aquí xa. E ollando atrás, efectivamente, neste país hai máis centros de saúde hoxe dos que había en marzo de 1989 --tamén, ¡só faltaba!--; hai máis quilómetros de carretera e de autopistas --¡menos mal!--, imos en coches, cada vez máis eléctricos, e vivimos en casas con luz, aínda que paguemos bastante máis por ela que hai trinta anos. A pregunta é, señorías: ¿estamos construíndo un país que ofreza máis oportunidades que hai unha década? ¿Que expectativas vitais, profesionais ou persoais ten hoxe unha moza galega de 32 anos? É a xeración máis formada, a máis preparada da historia, pero tamén a que, en vez de inflar o currículo, esconde o título de máster a ver se ten máis posibilidades de que a collan. ¡Que paradoxo!, ¿non? Todas as nosas nais e os nosos país esforzándose por que fósemos á universidade, por que estudásemos a carreira e tivésemos o máster habilitante, por que tivésemos o título de inglés, e agora temos que esconder os títulos para poder optar a un posto de traballo,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					porque, se non, tes demasiadas expectativas salariais.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg95">¿En que condicións vive a mocidade galega, atravesada hoxe por dúas crises? Este é o rostro tamén deste país, o dunha xeración situada entre os 20 e os 35 anos que vive, ou vivirá, en peores condicións, por primeira vez na historia, que os seus pais. É máis, a pandemia empeorou o que eran xa unhas condicións negativas pola perda de salario, o aumento da temporalidade e a precariedade laboral, a débeda pública e o envellecemento demográfico. Isto díxoo o Banco de España, non o Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg96">Chámanlle a xeración estafada, á que lle prometeron que o mundo se rendería aos  seus pés nada máis saísemos pola porta da facultade, e o único que atoparon foi a ringleira do paro con máis xente que a cola do Ruta ou do Maycar en hora punta.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg97">
+					Iso deulle un billete baratísimo para traballar en Londres. &quot;Mobilidade internacional&quot;, segundo o presidente da Xunta nesta Cámara, emigración xuvenil, para o común dos mortais, e un drama social e económico para calquera país.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Iso si que divide familias.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg98">A calquera con 30 anos hoxe faríalle falta cobrar o dobre do que cobra para poder mercar unha casa e poder comer mentres paga a hipoteca. Pagar o alugueiro supón dedicar máis da metade do salario á renda --iso se tes traballo--. Así é máis fácil entender que en Galiza hoxe --na Galiza de hoxe-- teñamos a segunda peor taxa de emancipación xuvenil en persoas entre os 30 e 34 anos de toda España, só detrás de Canarias. Son datos do Observatorio de  Emancipación e do Injuve.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg99">Volvo facerlles a mesma pregunta: ¿estamos construíndo un presente que ofreza máis oportunidades de futuro? A resposta é que non. Pero é non desde hai máis dunha década. Levan dicíndonos os últimos dous días neste debate do estado da Nación --e realmente os últimos doce anos-- que isto é o que hai, que o máximo ao que podemos aspirar é a ver con resignación un país que vai facéndose cada día un pouquiño máis pequeno: máis pequeno en poboación, máis pequeno en emprego, máis pequeno en industria e máis pequeno en innovación. E intentan facernos crer que o país non dá máis de si, que isto é todo o que pode dar.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg100">
+					E nun momento decisivo coma este no que nos atopamos, despois dunha pandemia que non só puxo pernas para arriba toda a nosa vida, senón que marcou o inicio, probablemente, dunha nova era, nun momento determinante, de grandes transformacións, no que as decisións que tomemos hoxe marcarán o modelo de sociedade para as próximas décadas, o que nos di a mocidade deste país en particular, pero a sociedade galega en xeral, esa expresión en inglés que a vostedes lles vén como un anel ao dedo, é: business as usual; o de sempre, que imos volver ao de sempre, a la normalidad. Pero resulta que o normal foi precisamente o que nos trouxo até aquí, o que xerou este caos
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					, que non empezou coa covid. Aínda non recuperamos os dereitos que nos roubaron na anterior crise e xa están afiando e preparando os dereitos que perderemos na seguinte.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg101">Pero o certo é que non precisamos volver ao de sempre, hai que romper con ese business as usual. Non necesitamos volver ao de sempre, senón novas ideas, novas ferramentas, e, sobre todo, levantar o freo que vostedes e as súas políticas representan para este país. Porque o que falla non é o país, non, o que falla son vostedes.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg102">Estes días falouse moito do conselleiro de Facenda, obviamente, do señor Martínez. Eu dos recordos máis grandes que teño, ademais da retranca e do ton dos debates --sobre todo despois de comer, dos que el mesmo se ría--, foi o día que recibimos --non sei se o lembran-- o Proxecto de orzamentos para 2019, cunha epígrafe moi do estilo do señor Martínez e do seu equipo --ao que lle trasladamos, unha vez máis, como a todas as súas señorías do Partido Popular, e á súa familia, por suposto, o noso máis sentido cariño--. Nese Proxecto de orzamentos para 2019 había unha epígrafe que sintetizaba perfectamente, en tres palabras, o contexto político entre Galiza e España: néboa en Pedrafita. ¿Lembran? E como máis alá da distancia política e ideolóxica, que era e é sideral, foi unha persoa á que lle tivemos moito aprecio, a min parecíame unha boa maneira de renderlle, non sei se homenaxe, pero polo menos lembranza, explicar --como fixo el naquel proxecto de orzamentos para 2019-- o que está a pasar hoxe politicamente neste país da maneira máis galega que existe, que é falando do tempo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg103">
+					Miren, en Lugo --e en xeral en Galiza, en calquera país ou lugar do mundo no que chove moito--, a xente, cando empeza a caer auga, acostuma a dicir que vai mal tempo. Logo a todo o mundo lle gusta vir aquí e ver verde, verde autóctono, non o dos eucaliptos
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					--ninguén vén a este país a ver eucaliptais, por iso non aparecen en ningunha imaxe promocional de Turgalicia--. Pero, ben, eu, cos anos, aprendín que, cando ves chover --tamén grazas a un amigo que viviu anos en Alemaña--, cando empeza a chover, tes que pensar que non hai mal tempo. Non hai tempo malo, o único que hai é roupa inapropiada. E dirán vostedes: ¿que ten que ver iso co debate do estado da Nación? Pois que cos países, señorías, acontece exactamente o mesmo que coa choiva: non falla o país, senón o traxe. E o traxe é o Goberno, é dicir, vostedes, que o levan exercendo e sostendo desde hai doce anos, sendo rigorosas e na data na que estamos. Levamos gobernadas polo Partido Popular trinta e catro dos corenta anos da autonomía. Unha parte do traxe son vostedes, pero tamén o marco político tan conmemorado nestas datas. Ese si que é un traxe estreito, ese é dos de dous ou tres talles máis pequenos do que necesita e, sobre todo, merece este país.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg104">
+					Miren, en Galiza non existe unha crise demográfica porque as galegas non teñan fillos, como escoitamos aquí no primeiro día do debate do estado da Nación por boca do presidente da Xunta de Galiza. Como as mulleres levabamos poucas lousas encima, agora unha máis...
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					: a culpa da crise e da hecatombe demográfica deste país é vosa, que parides pouco. Non, señorías, non é que non teñan fillos as galegas, senón que hai décadas que teñen fillos en Suíza, en Bélxica, en Bilbao, en Madrid, en Barcelona...
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg105">
+					Tampouco está Galiza na cola da ciencia, da investigación, da xeración de coñecemento porque non teñamos talento,  creatividade, capacidade ou universidades e centros de investigación do máis alto nivel, senón porque con vostedes no Goberno temos hoxe menos investimento que en 2008.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Non chegamos nin a un pírrico 1% do produto interior bruto.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg106">
+					Tampouco neste país se destruíron 14.700 postos de traballo na industria desde que vostedes gobernan, non sei se por unha especie de praga bíblica ou de condena divina, senón porque temos un goberno incapaz de salvar nin unha soa --¡nin unha soa!--
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					das empresas en crise en doce anos, nin unha, e moito menos de xerar novas oportunidades industriais, aproveitando recursos propios deste país, entre eles a electricidade, que tamén é un recurso produtivo máis.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg107">
+					Non falla Galiza, nin fallan as galegas nin os galegos, falla un goberno sen máis ambición que o propio interese electoral e o dos lobbys económicos amigos do Partido Popular
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					, que eses si, ¡tremendo negocio teñen montado!, chámenlle Iberdrola, chámenlle Audasa, chámenlle Ence, chámalle Abanca, chámenlle DomusVi, regados con cantidades obscenas de cartos públicos e cunha lexislación a medida dos seus intereses. Ese traxe non, non lles queda pequeno, e, se lles queda pequeno, cámbianllelo.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Para eses tanto ten cantas crises nos pasen por riba, que una, que dúas, que tres..., non perden un euro; todo o contrario, aínda gañan máis.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg108">No BNG, que, como diciamos o primeiro día do debate, como dicía a portavoz nacional, Ana Pontón, somos optimistas da vontade e da razón, e cremos con absoluta convicción que temos un gran país que ten todo para ser a envexa de Europa, traemos hoxe a esta segunda parte do debate do estado da Nación 40 propostas de resolución cun obxectivo fundamental: deixar atrás a resignación poñendo a riqueza, o potencial e o talento de Galiza ao servizo do país, das galegas e dos galegos, das maiorías sociais, das traballadoras e dos traballadores deste país e non dun puñado de multinacionais; corenta propostas de resolución que pivotan arredor de tres grandes ideas: unha Galiza con máis poder de decisión, unha Galiza máis xusta socialmente e unha Galiza con máis oportunidades.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg109">
+					Unha Galiza con máis poder de decisión quere dicir unha Galiza máis dona de si mesma, con máis peso político, que deixe atrás doce anos sen unha soa competencia nova transferida para reclamar o traspaso das competencias pendentes, tanto aquelas que están recollidas no Estatuto de 1981 como aquelas que foron xa acordadas, obxecto de acordos unánimes nesta mesma Cámara. Ampliar a capacidade de decisión política significa tamén ampliar a capacidade económica do propio país cun novo modelo de financiamento que supere o actual vixente e caducado desde 2014. Precisamos ter a chave dos nosos cartos, porque este país nin vive subvencionado nin é pobre; en todo caso, estará empobrecido.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Un modelo de financiamento que nos faga máis donas de nós mesmas, pero, sobre todo, que faga que o país conte cos recursos económicos necesarios para a atención dos servizos públicos e a cobertura das necesidades sociais. Pero no BNG queremos ir máis alá e non renunciamos a que neste país se abra un debate amplo, un debate sereno, un debate democrático e con altura de miras para facer que Galicia avance cara a un novo status político; non como un mantra ou unha bandeira que axitar e rastrearlle ao do lado pola cara, non, senón como unha caixa de ferramentas necesarias para falar de dereitos, para falar de mellores condicións de vida e de traballo, de oportunidades e de servizos públicos neste país.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg110">
+					Ferramentas para poder enfrontar os enormes, enormes retos que temos por diante, e para o que non serve un traxe que xa era estreito no ano 1981 e aínda o é hoxe máis, convertido, como fixeron vostedes en doce anos, nunha lei morta, nunha lei que nin se cumpre nin se fai cumprir. Nun país como o noso non podemos falar de dereitos, de benestar social ou de condicións de vida e de traballo sen cuestionar un centralismo político que non fai máis que concentrar poder, riqueza e poboación a 600 quilómetros de aquí. Unha Galiza máis dona de si, con máis autogoberno e tamén construíndo unha democracia de máis calidade. Isto fíxolles saír un pouco de sarpullido o primeiro día do debate, porque lles debe parecer  -- non sei --  moi democrático ter un delincuente real fugado non sabemos moi ben en que emirato, que nin sequera pode ser xulgado.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¡Que nin sequera pode ser xulgado!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Ou vivir nun estado onde mandan máis os xefes das eléctricas que os presidentes do Goberno.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg111">
+					Unha democracia de máis calidade a través do impulso dunha lexislación clara, audaz e valente que poña fin ás portas xiratorias. Unha reforma fiscal que persiga de verdade a fraude, máis participación cidadá na vida política diaria. Empoderar as propias galegas e galegos, que fagan parte dos procesos de toma de decisións con absoluta normalidade sobre os asuntos que lles preocupan, que lles ocupan e, sobre todo, que lles afectan directamente a través da convocatoria de consultas populares, como nos países máis avanzados de Europa. E tamén máis e mellor democracia --hoxe que, ademais, é o 178º venres negro na CRTVG-- a través de medios de comunicación públicos, libres e independentes,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					que garantan un dereito básico e un dereito fundamental en calquera sistema democrático, que é o dereito a unha información veraz, a unha información obxectiva e próxima ás cidadás e aos cidadáns. Acabar coa situación anómala que vivimos neste país desde hai unha década, na que o director xeral  -- en contra do que di a lei --  segue ocupando un cargo posto única e exclusivamente a dedo. Cambiemos a Lei de medios públicos de 2011 e que esa dirección xeral se escolla e se renove a través dun concurso público de méritos entre persoas profesionais e independentes.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg112">Unha Galiza máis soberana e, en segundo lugar, unha Galiza máis xusta, que blinde e reforce os servizos públicos, fundamentalmente a sanidade e a educación, pero tamén os dereitos sociais. Se algo deixou en evidencia a pandemia, a da covid-19, foron as costuras da atención primaria, completamente exhausta, como as súas profesionais hoxe, e no chasis despois de doce anos de recortes de persoal e orzamentario, pero tamén que neste país  -- iso tamén o deixou visible, para quen o quixera ver, a covid --  os coidados, como o dereito social subxectivo, inherente a toda persoa, son unha entelequia, pero unha entelequia sostida no lombo das mulleres, ou ben as da casa ou as precarizadas en servizos absolutamente escuálidos.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg113">
+					Galiza precisa unha rede de servizos públicos forte e garantir a corresponsabilidade social na atención e no coidado das persoas dependentes. E iso pasa por un novo modelo de residencias públicas, pero tamén por unha rede de servizos de proximidade que poñan no centro as persoas, non os intereses económicos de DomusVi ou da Fundación San Rosendo; non, as persoas, que son as usuarias destes servizos. E, por suposto, claro que si, escolas infantís de 0 a 3 anos gratuítas, ¡gratuítas e públicas!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Porque, se non, imos atoparnos a mesma situación que temos nas residencias e nos centros de día, e o único que se vai conseguir é drenar máis cartos públicos para seguir cebando a privada.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg114">
+					Volvo repetilo aquí, ¿saben canto nos custa ao ano a concesión e a concertación nas residencias? Setenta e catro millóns de euros públicos, a tocateja, para que enchan os petos as mesmas empresas que controlan o sector.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¡Setenta e catro millóns de euros públicos son 10 millóns de euros máis que a risga ao ano! Cartos hai, pero mal repartidos.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg115">Unha Galiza máis xusta no social e unha Galiza con máis dereitos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg116">
+					Estes días o Partido Popular --o máis ultra, botado ao monte xa completamente desde esa viaxe que tiveron a Valencia, botado, insisto, ao monte e máis ultra despois dese rearme ideolóxico-- di que quere devolvernos ás mulleres a 1985.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					É que non só non deixan avanzar este país,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					é que nos queren arrastrar ao pasado.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E sae de boca del sector moderado. Tardou menos en quitar a carauta Gallardón que este novo alcalde madrileño.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Queren volver a 1985 no dereito das mulleres a interromper voluntariamente o seu embarazo, ¡a 1985!, hai máis de trinta anos,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					a unha lexislación, iso si, coa que tapar a dobre moral na que vostedes se moven: aborta, si, pero búscate a vida para facelo.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Aborta, pero búscate a vida para facelo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg117">
+					A proposta do BNG, incluída nas propostas de resolución que hoxe se debaten e votan, é moi clara: dereito ao aborto si, pero tamén na sanidade pública.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Neste país, hoxe, cos datos do Sergas, o 77 % das interrupcións voluntarias do embarazo lévanse a cabo en clínicas da rede privada, en contra do que di a lei, ¡o 77 %!
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg118">
+					Dereitos das mulleres e das persoas LGBT, rexeitando con toda claridade e rotundidade os discursos de odio que ameazan gravemente a dignidade e a condición humanas, pero tamén rexeitando con toda claridade e rotundidade calquera pacto coa extrema dereita, que é a que está detrás, co seu discurso de odio, deses actos de agresión que atentan contra a dignidade humana e contra a dignidade das persoas.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Esa é a única violencia que existe no día de hoxe neste país,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					a machista, a racista e a homófoba.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg119">Unha Galiza máis soberana...</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u8">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg120">Silencio, por favor.</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg121">Silencio.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u9">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg122">Unha Galiza máis soberana, máis xusta, pero tamén con máis oportunidades. Porque hoxe xustiza é tamén o dereito a vivir e a traballar neste país en condicións dignas, non a calquera prezo, tanto para as xeracións presentes como para as futuras. Ese é o terceiro grande eixo das propostas do BNG; propostas que apostan na xeración de riqueza e no emprego con dereitos. A I+D+i como motor de desenvolvemento social, económico, cultural e humano, pero unha aposta clara e decidida pola investigación, o desenvolvemento e a innovación onde ten que facerse, que non é con grandes anuncios, que, ademais, xa son reciclados, que xa os oímos aquí hai meses, senón cun compromiso de verdade nos orzamentos para o 2022: comprometer o 3 % do orzamento da Xunta para o 2022 en ciencia e en investigación, crear o Innogal como programa para a retención e a captación de talento e, sobre todo, garantir recursos económicos suficientes a quen hoxe crea máis do 70 % do coñecemento no noso país, que é o sistema universitario galego. Que se garanta un orzamento no novo Plan de financiamento das universidades que teña como referencia o 1,5 % do produto interior bruto; novas oportunidades que xeren riqueza e emprego, aproveitando momentos de transición coma este; e facer da loita contra a crise climática da dixitalización, da transición ecolóxica, unha oportunidade, porque ese é o debate que temos agora enriba da mesa. Iso é o que está en xogo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg123">¿Quen vai aproveitar este momento? ¿Quen vai sacar tallada deste momento e dos cambios que están por vir e dos que xa están en marcha? ¿Vano facer as maiorías sociais, as traballadoras e os traballadores, ou o van facer un puñado de empresas? Reindustrializar o país apostando nos sectores tradicionais  -- como o agro, o forestal, o pesqueiro, o naval ou o sector do automóbil -- , pero tamén abrindo novos horizontes nos que Galiza pode e debe ser tamén unha potencia, como é o dixital tecnolóxico, o biofarmacéutico, o sector dos coidados, que tanto retorno económico e social nos dá, ou a rehabilitación, por exemplo, de vivendas. Pór luces longas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg124">E aí o que traemos son dúas propostas moi concretas: por unha banda, un plan de fomento da actividade tecnolóxica e industrial, co obxectivo de elevar a participación da industria no produto interior bruto do noso país ao 25 % nun horizonte a 2030 e promover a construción, a creación de tecido industrial orientado á creación de valor engadido, á transformación das materias primas que producimos no noso país, xerando postos de traballo cualificados e de calidade, pero tamén con dereitos. E, por outra, un plan de potenciación do sector industrial e da Estratexia galega de emprego 2025, que impulse a creación de 50.000 postos de traballo en sectores industriais e tamén vinculados ás grandes transformacións que están en marcha, poñendo especial fincapé nas mozas, nos mozos, na incorporación ao mercado de traballo tamén das mulleres, na incorporación das mulleres a sectores aínda moi masculinizados, aproveitando novos perfís profesionais que hoxe xa son demandados no mercado de traballo galego que permitan o relevo xeracional no sector primario, a dixitalización inclusiva no noso país, a robotización, a aposta na intelixencia artificial, na rehabilitación  -- como dicía --  de vivendas, ou na xeración de coñecemento a través da ciencia e da investigación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg125">En definitiva, señorías  -- e con isto remato -- , estamos no abrente dun tempo novo no que non valen as receitas económicas e políticas que nos levaron a unha nova crise devastadora. A resposta aos retos que temos por diante como país, como galegas e como galegos, pasa por asumir máis capacidade de decisión sobre as nosas propias vidas, por promover un desenvolvemento autocentrado que aposte nos recursos do propio país, que sexa respectuoso co medio e coas persoas; pasa por crear instrumentos fiscais e financeiros ao servizo das maiorías sociais que se convertan en pancas de modernización e de benestar colectivo. A resposta aos retos que temos por diante pasa por promover a activación dos sectores económicos, os tradicionais, os estratéxicos, abrindo tamén novos horizontes, por afortalar o papel da ciencia e a investigación como o que é, un sector produtivo máis, por xerar equidade e cohesión social e territorial e por poñer en marcha a gran transformación tecnolóxica e dixital da sociedade galega. Porque é nos momentos de ruptura e transición coma estes cando de súpeto  -- como dicía Rebeca Solnit --  xorden novas oportunidades.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg126">A este país o que nos cómpre responder é á pregunta de quen vai aproveitar este momento. Nós, desde o BNG, cremos que son as galegas e os galegos, o conxunto do país, quen debe aproveitalo, porque xa nos fixeron demasiadas veces perder esa oportunidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg127">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Prolongados aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u10">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg128">Grazas, señora Rodil.</seg>
+				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg129">Polo Grupo Parlamentario Popular, o señor Tellado.</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u11">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg130">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg131">Membros do Goberno galego, deputados, moi bo día a todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg132">
+					Logo desta defensa encuberta da autodeterminación da Galiza,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					e deste alegato en favor do anticapitalismo, eu invítoos a falar de Galicia.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg133">
+					Nos momentos máis difíciles demóstrase o verdadeiro carácter das persoas, a súa altura ética e a súa altura moral. Nas dificultades, as mulleres, os homes e tamén as organizacións políticas teñen que demostrar de que pasta están feitos. E por iso, como secretario xeral do Partido Popular de Galicia, eu quero agradecer todas as mostras de respecto que recibimos ao longo da última semana polo falecemento do noso compañeiro Valeriano Martínez.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Agradecémolas todas, aquelas máis sinceras, produto do cariño ou do respecto profesional, e tamén aquelas que proveñen da falsa cortesía de quen non tivo nin a xenerosidade nin a empatía por retrasar cinco días un debate como este porque non se axustaba ao seu calendario electoral. E por iso, dende o Partido Popular de Galicia, enfrontamos este debate do estado da Autonomía cun goberno e cun partido ferido no emocional, pero probablemente máis forte e máis motivado que nunca. É verdade que non tivemos tempo para chorar a marcha abrupta do noso compañeiro, pero é verdade tamén que co noso traballo estamos a honrar a memoria do noso compañeiro e amigo Valeriano Martínez. Descanse en paz.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg134">Señorías, hai un ano unha amplísima maioría de galegos deron a súa confianza ao Partido Popular de Galicia e encargáronlle que liderara o Goberno de Galicia nun dos momentos máis difíciles da nosa historia recente. Reiteraron e ampliaron unha confianza que xa nos deran no 2016, no 2012 e tamén no 2009. Querían un goberno estable, un goberno único, un goberno unido, un goberno serio e un goberno traballador; un goberno, en definitiva, que estivese á altura das circunstancias. E nós cremos que o Partido Popular de Galicia e Alberto Núñez Feijóo non defraudaron nesa confianza depositada.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg135">Pouco máis dun ano despois da cita electoral, o presidente da Xunta de Galicia presentouse neste debate do estado da Autonomía para render contas, unha vez máis, ante a Cámara e ante os galegos. Fixo balance de todo o acadado durante este ano de traballo e sentou as bases dos anos que están por vir. Deu contas dunha Galicia estable que cumpre en tempo e forma os seus compromisos institucionais e democráticos. Porque o mellor indicador da saúde dunha democracia, o mellor termómetro de como están as cousas, é a normalidade institucional. Celebrar con normalidade un debate do estado da Autonomía, presentar as contas nos tempos establecidos pola lei, poden ser nimiedades para o Partido Socialista ou para os seus socios do Bloque Nacionalista Galego, pero para os galegos son, dende logo, indicadores de que as cousas marchan ben, de que alomenos en Galicia as leis, a Constitución e as institucións democráticas se respectan e funcionan adecuadamente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg136">Señorías, o presidente fixo o mércores o balance dunha Galicia que avanza, unha comunidade que superou mellor que o resto de España  -- mal que lles pese --  a crise do coronavirus, tanto en termos sanitarios como en termos económicos. En termos sanitarios somos a comunidade autónoma peninsular con menores taxas de contaxio e de mortalidade. A min gustaríame que a oposición se alegrase destes datos. Lamentablemente non é así.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg137">En termos económicos somos unha economía que funciona, a economía galega resistiu mellor que a media de España o impacto da pandemia en 2020. O PIB de España caeu un 10,8 %, e en Galicia, un 8,9 %. Señor Arangüena, revise os datos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg138">A pesar da grave crise que supuxo o coronavirus, Galicia xa empeza a superar as cifras de antes da pandemia en numerosos indicadores económicos e de benestar, e as previsións de recuperación do PIB galego  -- 6,8 % --  superan a media española, señor Arangüena. Temos as mellores cifras de paro e de afiliación á Seguridade Social dende hai doce anos, señor Arangüena. Nesta década pasamos de estar entre as cinco comunidades con máis débeda de toda España  -- despois do Goberno bipartito --  a estar hoxe entre as cinco comunidades autónomas con menos débeda do noso país. É unha Galicia real á que chega moita máis xente da que emigra, señora Rodil, o que desmonta ese mantra habitual dos nacionalistas. Este último ano chegaron 16.000 mozos máis dos que saíron da nosa comunidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg139">É unha Galicia que recupera o seu pulo turístico, por moito que lle moleste a ese BNG pechado en si mesmo e que pensa nunha Galicia cativa que non ten que recibir turistas e que o Xacobeo é negativo para a nosa comunidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg140">É unha Galicia do benestar que celebra os mellores indicadores educativos da nosa historia, coas taxas universitarias conxeladas dende hai case unha década e coa segunda mellor ratio profesor/alumno de toda España. E ese é un logro que non se lle pode arrebatar a este goberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg141">Contamos co maior investimento en sanidade da nosa historia. Por moito que a vostedes lles moleste, é un dato inapelable, incontestable, o demais é mentir literalmente nesta Cámara. É o maior investimento en sanidade da nosa historia, cun aumento do 26 % na última década, con 90 centros de saúde novos e renovados dende o ano 2009 e coa mellora de todos os hospitais comarcais de Galicia.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg142">En definitiva, é unha Galicia responsable que fixo as cousas ben durante os tempos de bonanza, o que permitiu que nestes momentos difíciles puideramos investir e seguir rebaixando impostos e seguir rebaixando a débeda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg143">En definitiva, señorías, o presidente veu falar dunha Galicia que avanza, que a pesar das dificultades logrou con moito esforzo e responsabilidade saír adiante. É certo que non estamos plenamente satisfeitos. Queda moito por facer aínda, efectivamente, e son moitos os retos que enfrontamos como goberno e como sociedade. E por iso o presidente tamén presentou unha batería de medidas e unha batería de retos inmediatos que debe afrontar a nosa comunidade. En definitiva, o Goberno veu a esta Cámara a presentar unha foto en tempo real da Galicia real, unha foto en tempo real da Galicia real, non desa Galicia apocalíptica na que viven uns partidos da oposición instalados naquilo de &quot;canto peor, mellor&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg144">Pola súa contra, non teño moi claro a que veu a oposición a este debate. Supoño que están pensando noutras cousas. Están por un lado reflexionando ou tratando de gañar unhas primarias, e trataron de converter este debate do estado da autonomía nun plató de televisión onde gañar votos nas súas carreiras persoais dentro dos seus propios partidos. Viñeron a esta Cámara co piloto automático posto e a recitar os mesmos mantras de sempre, as mesmas receitas caducas que non só se ten demostrado que nunca funcionaron en ningún lugar, senón que ademais son mantras e receitas que sistematicamente os galegos, cando foron chamados ás urnas, rexeitaron de forma taxativa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg145">Pero vostedes non aprenden ningunha lección. Vostedes veñen aquí co seu catecismo particular, primeiro, para falar dunha Galicia que non é tal como vostedes a pintan e, despois, para defender mantras políticos nos que levan instalados décadas, mantras políticos que foron rexeitados unha e outra vez polos galegos cada vez que tiveron ocasión de opinar sobre eles.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg146">O Grupo Popular vén de rexistrar 40 propostas de resolución para este debate  -- eu si vou falar das nosas propostas -- . Son 40 propostas que se poden agrupar en catro grupos: as primeiras delas, sobre benestar e servizos públicos; as segundas, sobre industria, emprego e sector primario; o terceiro grupo, infraestruturas; e finalmente, autogoberno e institucións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg147">
+					No primeiro grupo  -- benestar e servizos públicos --  temos a rebaixa do prezo da factura eléctrica, tanto para as familias como para as grandes empresas. Señor Arangüena, ¡claro que instamos o Goberno do Estado a poñer solucións nos problemas que creou o Goberno do Estado!, ¡por suposto que si! Aí vai estar sempre o Partido Popular de Galicia.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Lamento que o Partido Socialista non estea, porque vostedes non lle poden pedir nada a ese Ferraz que mira con lupa a ver como de obedientes son, canto de obedientes son, para ver se os apoian ou non nesas primarias  -- que é o único que a vostedes lles preocupa -- .
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg148">Outra das cuestións que solicitamos nas nosas propostas é que a Xunta inclúa unha nova rebaixa de impostos nos orzamentos do ano 2022. Pódense baixar impostos para facer que a economía funcione, ¿por que non o fai o Goberno de España, señor Arangüena? ¿Por que non utilizan unha receita que se ten demostrado útil nos momentos como os que estamos a vivir? Así, gobernar como vostedes pretenden, é moi sinxelo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg149">Instamos nas nosas iniciativas, efectivamente, a que o Goberno de España poña en marcha un plan global contra a exclusión financeira no rural, porque este é un problema que non afecta só a Galicia, afecta a todo o rural de todo o país. Quen ten instrumentos é o Goberno de España e o Banco de España. Polo tanto, claro que instamos o Goberno de España a tomar decisións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg150">Pedimos que se amplíe o parque público de vivenda en Galicia e que se abra ás comunidades autónomas a elaboración desa futura lei estatal de vivenda.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg151">Pedimos que se poña en marcha a Área de Transporte de Galicia universalizando a gratuidade e as rebaixas do transporte metropolitano. Instamos os concellos, como o de Vigo, señor Arangüena, para que se sumen tamén a ese plan de transporte.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg152">Pedimos que se impulse un novo modelo do ciclo integral da auga, en colaboración cos concellos e coas deputacións, ou que se continúe loitando contra a violencia de xénero e implantando novas medidas a favor da igualdade entre homes e mulleres.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg153">Con respecto aos servizos públicos, en primeiro lugar  -- e como unha cuestión que nos preocupa -- , co fin de dotar o sistema de todos os profesionais que sexan necesarios para atender as necesidades dos galegos, pedimos que o Goberno central elimine as taxas de reposición nas convocatorias de ofertas públicas de emprego. E imos estar moi atentos ao que votan vostedes. Porque a resolución de moitos dos problemas que ten a Xunta de Galicia se arreglan desta forma. ¿Vanse atrever vostedes a pedirlle, xunto con nós, ao Goberno de España que elimine esas taxas de reposición? Lamentablemente, temo que non.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg154">Avogamos por implantar novas medidas que aseguren un ensino galego de calidade e integrador. Tamén avogamos por implantar novas medidas que aseguren que as universidades conten con financiamento estable para o período 2022-2026, que se impulse a dixitalización e a innovación na cultura galega, que se proceda a un novo ordenamento da atención primaria e se melloren as infraestruturas tanto en centros de saúde como en hospitais públicos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg155">
+					Tamén solicitamos que o Goberno central contribúa ao financiamento da gratuidade total das escolas infantís de 0 a 3 anos. ¡É que xa o pedimos hai un ano e vostedes non nos apoiaron! Pero ¿sabe o que ocorre? Que a partir do próximo curso as escolas infantís serán gratis para todos os fillos das familias galegas, co apoio do Goberno ou sen el.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E ¿sabe do que estou seguro? Que vai ser sen o apoio dese goberno a quen vostedes tanto defenden.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg156">O segundo grupo de iniciativas ten que ver coa industria, co emprego e co sector primario. En primeiro lugar, está a sinatura dun pacto de Estado por Ferrol coa presenza de todas as administracións públicas, ao que se engade a creación dunha delegación territorial da Xunta de Galicia para a comarca de Ferrolterra e a solicitude ao Goberno do Estado para a posta en marcha dunha zona franca en Ferrol. ¿Vostedes van apoiar isto? Porque sabe que o presidente da Xunta lle enviou unha carta ao presidente do Goberno en maio para pedirlle que o Goberno de España se incluíse neste pacto de Estado. E ¿sabe o que pasou? Que dende maio o seu presidente non responde a Galicia e non lle responde a Ferrol. Iso é o que lle importa ao Goberno de España Galicia e iso é o que lle importa ao Goberno de España a situación dunha comarca como a comarca da que eu veño.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg157">Pedímoslle, ademais, ao Goberno central unha transición ecolóxica e enerxética xusta e ordenada, que facilite o mantemento da produción e do emprego en empresas como Alcoa, como Ence  -- de Ence vostedes seguro que hoxe non falan, porque propostas de resolución non presentaron ningunha -- , como Alu Ibérica ou como a central térmica das Pontes  -- cuxa inminente volta ao funcionamento demostra que a súa política de transición ecolóxica foi improvisada e un erro monumental -- . Sigan vostedes aplaudindo ese goberno que tanto castiga á industria e ao emprego da nosa comunidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg158">Pedímoslle, ademais, á Xunta de Galicia o deseño da primeira fábrica de fibras téxtiles en España, que peche o ciclo da madeira e que se instale na provincia de Lugo. Propoñemos un impulso á carreira investigadora que garanta maior profesionalización e maior estabilidade e o deseño dunha axenda galega de capacidades e necesidades laborais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg159">No que respecta ao sector primario, pedimos o apoio ás explotacións de leite de pastoreo a través do recoñecemento das súas peculiaridades na nova PAC; a posta en marcha de polígonos agroforestais e a aplicación do novo plan forestal; o deseño dunha estratexia galega para a economía azul; e a definición dunha proposta para a revisión da Política Común de Pesca que aborde os retos actuais para alcanzar unha pesca sostible, equitativa e próspera.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg160">En materia de infraestruturas o que propoñemos nas nosas propostas de resolución é o cumprimento do compromiso do Goberno de España coa chegada do AVE a Galicia  -- o cumprimento, señor Arangüena, coa chegada do AVE a Galicia --  e que iso sexa neste outono, como estaba comprometido cando o ministro era o señor Ábalos  -- ese que defenestraron -- ; que se doten trens Avril, así como a modernización da rede ferroviaria galega  -- de nada serve finalizar as obras se non se dota esa infraestrutura dos trens que poden garantir a redución do tempo nos traxectos -- .</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg161">E pedimos a inclusión nos orzamentos do Estado para 2022 das necesidades históricas de Galicia en materia de infraestruturas viarias. Neses orzamentos que vostede tanto aplaude, temos que dicirlle que a autovía que conecta Lugo con Santiago queda atrasada ata o ano 2025. Se vostede cre que iso é de recibo, alá vostede.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg162">No eido do autogoberno e no eido institucional plantexamos a solicitude para que a Xunta presente as conclusións da auditoría de delimitación de competencias entre a Administración autonómica e os concellos, propoñemos a axilización do traspaso de competencias prioritarias para Galicia  -- en particular a da AP-9 -- , a xestión do dominio público marítimo-terrestre e a xestión do ingreso mínimo vital, así como o establecemento dun sistema de cogobernanza real dos fondos europeos. Toda Galicia sabe que imos ser estafados polo goberno de Pedro Sánchez na repartición deses fondos. Gustaríanos contar co seu respaldo, co respaldo do Partido Socialista, na defensa do que Galicia merece, na defensa do que Galicia precisa.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg163">Demandamos un dialogo multilateral na negociación do novo sistema de financiamento autonómico e a solicitude para que o Goberno central manteña nos orzamentos do Estado para 2022 o Fondo Covid, de xeito que as comunidades autónomas sigan dispoñendo deses recursos extraordinarios para facer fronte a unha situación que segue sendo extraordinaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg164">Dentro do ámbito institucional, as nosas propostas van dirixidas ao impulso e ao apoio ao Xacobeo 2021-2022, á defensa da lingua galega e á súa dinamización no tecido socioeconómico, ao impulso da Estratexia Galicia Dixital 2030, á recuperación da memoria histórica e á reclamación da propiedade dos bens con valor cultural incorporados ilegalmente ao patrimonio da familia Franco, ou a favorecer a integración persoal e familiar das persoas retornadas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg165">Hai unha iniciativa na que eu quixera poñer o foco, unha iniciativa que plantexamos e que pactamos co Partido Socialista a través dunha transacción. É a nosa proposta de resolución número 39. Queremos que o BNG se posicione explicitamente sobre este asunto. O BNG cre que en Galicia hai pouca calidade democrática e nós con esta iniciativa queremos medir a saúde democrática do Bloque Nacionalista Galego. E, polo tanto, como esta resolución é resultado dun acordo, dunha transacción co Partido Socialista, queremos saber se o BNG está co Partido Socialista e co Partido Popular  -- en definitiva, cos constitucionalistas --  ou se está do lado dos que queren romper o sistema.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg166">No marco do 40º aniversario do Estatuto de autonomía renovamos o noso compromiso coa Constitución española e co Estatuto de autonomía de Galicia  -- supoño que estarán de acordo, señora Pontón -- . Reafirmamos o noso autogoberno e rexeitamos posicións separatistas e independentistas  -- supoño que están a favor -- . E condenamos a violencia e a todos os que a utilicen como forma para facer política  -- supoño que non terán ningún obstáculo para votar a favor desta iniciativa; dende logo, para nós será importante coñecer que é o que fan -- .</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg167">Eu quixera comentar no tempo que me queda as iniciativas que presentaron os distintos grupos da oposición.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg168">Señorías do Partido Socialista, presentan vostedes unha batería de resolucións que non actualizaron dende o ano pasado, ou é que nin sequera escoitaron o discurso do presidente. En calquera caso, denotan que están completamente sometidos ao que lles mandan dende Madrid. Ese é o PSdeG-PSOE.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg169">Entre as iniciativas do copia e pega, del corta y pega, está a proposta de resolución número 35. Piden abaratar o prezo das garderías, cando o presidente anunciou a súa gratuidade. Supoño que non tiveron tempo. Están coas primarias, están no seu.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg170">Na proposta de resolución número 27 piden un plan para axudar a saír da crise da covid á hostalaría, cando xa se aprobaron tres e recentemente resolvemos os problemas que impuxo o Goberno de España cunha serie de trabas administrativas que dificultaron o último deles.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg171">Tamén está moi presente a súa submisión a Madrid nas súas iniciativas. Na proposta de resolución número 21 piden vostedes que cubramos todas as prazas apurando ao máximo a taxa de reposición, pero non se atreven a pedir ao Goberno central que elimine a taxa de reposición. Moi valentes non son vostedes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg172">Na proposta de resolución número 22 piden que dotemos de prazas médicas a atención primaria, pero ás prazas MIR que dependen do Goberno de España non hai ningunha mención. Seguen vostedes moi valentes. En definitiva, submisión total e absoluta a Madrid. Nada novo por outra parte.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg173">Xa no ámbito das curiosidades, quero falarlles de dúas iniciativas que nos chamaron poderosamente a atención.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg174">Na proposta de resolución número 25 piden vostedes que se desenvolva a Área Metropolitana de Vigo, que foi aprobada por unanimidade neste Parlamento, cando é o alcalde de Vigo o que a ten paralizada  -- un alcalde do PSOE que supoño que o coñecen, que o coñecen bastante -- .</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg175">Na proposta de resolución número 8 piden un plan anticorrupción. Señor Arangüena, ¿seguro?, ¿dende o Partido Socialista de Galicia? A nós parécenos ben, pero é curioso que o pidan vostedes, cando o único imputado nos últimos anos por corrupción aquí en Galicia pertence ao seu partido  -- o señor Liñares -- . ¿Saben que apuntaba nunha libreta todas as mordidas para financiar non se sabe que? ¿Seguro que piden un plan anticorrupción? Será para o Partido Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg176">Con respecto ás iniciativas do Bloque Nacionalista galego, o certo é que non parecen moito mellores moitas delas. Empezan cunha batería de resolucións que van en contra da lei, do Estatuto de autonomía ou, en xeral, da orde establecida. Aquí temos a Ana Pontón convertida na lideresa do anticapitalismo galego abandeirando aquilo de &quot;nacionalícese&quot;, coma se iso fose a solución a todos os problemas. Vaia vostede a Ferrol, onde os estaleiros son públicos cen por cento, a ver se a titularidade pública resolve o problema. ¿Verdade que non? Quen pode resolver é o Goberno de España que vostede nomeou e que, dende logo, non o resolve senón que o agrava.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg177">Onte baixaban a cabeza cando o presidente lles preguntaba sobre a súa posición fronte ao independentismo. E o certo é que empezan nas súas propostas de resolución falando de Galicia como nación e propoñendo a creación de embaixadas galegas no estranxeiro  -- importando o modelo de Otegi e de Junqueras a Galicia -- , e queren eliminar a Garda Civil das estradas de Galicia. Bueno, eu creo que é o mesmo Bloque de sempre, por moito que trate de presentar unha faciana máis moderna.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg178">Inclúen a súa dose de populismo. Na proposta de resolución número 37 piden a convocatoria de referendos populares en Galicia, importando o modelo do 1 de outubro catalán. Na proposta de resolución número 22 propoñen o rescate dos sectores estratéxicos, de todos os sectores  -- unha nacionalización masiva da industria galega -- . A verdade é que se esmeraron de coidado nas súas propostas, nas súas iniciativas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg179">Pero o máis grave, señorías, é ver que ocorre con esa proposta de resolución que lles presentamos. A nós gustaranos ver, e estaremos especialmente atentos, se este BNG realmente practica esa moderación da que nos deu conta a señora Pontón na súa intervención ou se segue sendo o BNG radical de sempre.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg180">Señor Arangüena, na súa intervención di vostede que a metade das propostas que presentamos son contra o Goberno Sánchez. E ¿non lle fai pensar? ¿Non lle fai pensar que verdadeiramente boa parte dos problemas que sofre Galicia son pola xestión, ou pola falta de xestión, do goberno que vostede tanto defende nesta Cámara? E vostedes ¿canto lle reclaman a Sánchez? ¡Vostedes nada, vostedes nada! Aquí do que se trata, señor Arangüena, é de defender a Galicia. ¿Están vostedes dispostos a vir aquí a defender a Galicia?, ¿si ou non? A verdade é que non, vostedes veñen a este debate do estado da autonomía a ver se Ferraz os apoia para continuar á fronte do PSdeG-PSOE. ¡Lamentable o papel do Partido Socialista!</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg181">É insultante, ¡insultante!, que o Partido Socialista de Galicia propoña nas propostas de resolución un pacto pola industria, cando a industria galega está ameazada por esa política enerxética errática do goberno socialista. ¿Sabe cal é o mellor pacto pola industria? Dicirlle ao Goberno de España que quite as súas mans da política enerxética española, que está afogando tantas industrias que se ven abocadas a pechar. É realmente lamentable que veñan aquí a dar leccións dese tipo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg182">
+					Galicia perde poboación e a culpa é do PP, segundo o discurso do señor Arangüena. Debe ser que todos os habitantes que perdeu Galicia na última década, dende o ano 2009, eran socialistas, porque vostedes pasaron de 25 escanos a 14 escanos.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Eu creo que a calidade dos discursos dese tipo é o que os levou a perder eses escanos.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg183">Fala vostede dos fondos Next Generation. ¡Se todo o mundo sabe que o Goberno vai castigar a Galicia desviando fondos que lle corresponderían á nosa comunidade a outras comunidades das que depende o apoio parlamentario do señor Sánchez! Eu agradézolle a sinceridade, porque vostede na súa intervención veu recoñecer que moitos dos proxectos que ten presentados Galicia van decaer. Díxoo vostede só, sen necesidade de que ninguén lle preguntase nada. Xa dixo que presentamos moitos  -- é verdade --  e xa dixo que a maioría van decaer, porque &quot;¿como van atender todos os de Galicia?&quot;. Señor Arangüena, grazas pola súa sinceridade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg184">
+					Falou vostede dos orzamentos xerais do Estado para o próximo ano, que di que medran un 22 %. Claro, o que non di é que medran un 22 % respecto dos peores orzamentos do Estado para Galicia en vinte anos. ¡Tómannos o pelo!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¿Saben por que medran os orzamentos? Porque o Goberno lle ten que devolver a Galicia 204 millóns de euros por orde xudicial, por unha sentenza xudicial, que nos negaron dende o ano 2018. Mire, o que non di é que Cataluña recibe o dobre que Galicia, iso non o di vostede.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg185">
+					Saca vostede peito porque se soben as pensións un 2 %. ¡Está moi ben, só faltaría, é o IPC! É que, se soben as pensións un 2 % no mesmo momento en que vostedes permiten unha subida da luz dun 44 %, ¿sabe onde vai a subida das pensións? A pagar parte da subida da luz  -- non toda -- . Esa é a realidade.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Vostedes están empobrecendo a todos os pensionistas de España con esa política irresponsable.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg186">Vostedes acúsannos de confrontar co Goberno, de que estamos aquí confrontando co Goberno. ¡É que esa é a nosa obriga! A nosa obriga é defender os intereses xerais de Galicia por riba de quen goberne en España. ¿Pretenden que calemos ante un goberno que provoca a maior crise industrial da historia de Galicia? ¿Iso é o que pretenden vostedes? ¿Pretenden que calemos ante a maior subida do prezo da electricidade da historia do noso país? ¿Pretenden que calemos a boca ante un goberno que abdicou da xestión da crise sanitaria deixando en mans das comunidades autónomas toda a responsabilidade durante a pandemia e queren que lles aplaudamos por pegar pegatinas nos envíos de vacinas que enviaba a Unión Europea? ¡Señor Arangüena, un pouquiño de rigor! Non conten con nós para aplaudir ao goberno de Pedro Sánchez, porque para iso aquí  -- xa o demostraron --  xa están vostedes. E son os que mellor o fan. Aplauden vostedes ao peor goberno que tivo nunca este país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg187">Falaba vostede da taxa de pobreza. Mire, o que non se pode facer é subir a esta tribuna a mentir. Galicia está por debaixo da media nacional e somos a décima comunidade en persoas en situación de pobreza. Esa é a realidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg188">
+					Falou vostede de discrecionalidade do Goberno galego, de que discriminamos non se sabe a quen. Mire, estas son as reparticións dos fondos de subvencións nas deputacións nas que gobernan vostedes, estes son os concellos nos que gobernan vostedes, os vermellos son vostedes e os azuis son os concellos do Partido Popular.
+					<note>(O señor Tellado Filgueira amosa unha gráfica desde o estrado.)</note>
+					¿De verdade que quere falar vostede de discriminación ante un goberno que é un goberno de todos os galegos e que traballa para todos os galegos? ¡Leccións do Partido Socialista aquí en Galicia, ningunha!
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg189">Señor Arangüena, falou vostede do eólico, e teño que recoñecerlle que fixo unha pirueta magnífica. Resulta que é a lei da xungla, que paramos o sector, e ao mesmo tempo din que depredamos o medio. Non se pode acusar dunha cousa e da contraria. Póñanse de acordo. Ou aprobamos moitos parques ou aprobamos poucos parques. Pero vostede vén aquí a dicir, ao mesmo tempo, que depredamos o medio e que paramos o sector. É bastante difícil de entender. ¿Sabe quen é quen autoriza parques en zonas Rede Natura? O seu goberno, o Goberno de España.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg190">
+					Con respecto á señora Rodil, eu teño que dicirlle que o buenismo do BNG no cuela. Esa é a verdade, o buenismo no cuela porque vostedes falan coma se vostedes non tivesen nada que ver co que está acontecendo no noso país, coma se vostedes non fixeran presidente a Pedro Sánchez. E eu teño que recordarlle esta foto.
+					<note>(O señor Tellado Filgueira amosa unha foto desde o estrado.)</note>
+					Esta señora de americana branca é Ana Pontón, e a outra señora  -- xa defenestrada --  é Adriana Lastra. Este é o pacto da vergoña. Vostedes fixeron presidente do Goberno a Pedro Sánchez e, polo tanto, vostedes son corresponsables, salvo que esta firma non sexa a de Ana Pontón.
+					<note>(O señor Tellado Filgueira amosa un documento desde o estrado.)</note>
+					Pero eu creo que si. Vostedes presentaron este pacto, o &quot;pacto da vergoña&quot;, este pacto que ía resolver todos os problemas de Galicia. E o certo é que vostedes son tan responsables como o Partido Socialista da mala xestión que está facendo o goberno de Pedro Sánchez. Esa é unha realidade innegable.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg191">Vostede falou de paro xuvenil. A nós preocúpanos moito o paro xuvenil, claro que si. Pero o que é innegable é que temos unha taxa de paro xuvenil do 33,7 %, 4,7 puntos menos que a media de España. Hai máis paro xuvenil en Canarias, hai máis paro xuvenil en Andalucía, hai máis paro xuvenil en Estremadura, en Baleares, na Comunidade Valenciana, en Castela-A Mancha, en Asturias, no País Vasco, en Cantabria, en La Rioja, en Madrid... ¡Claro que queremos traballar para que haxa menos paro xuvenil! Pero, dende logo, a situación non é a que vostede describe, señora Rodil. Non o é, esa é a realidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg192">
+					Fala vostede de enerxía. Pero ¿cal é o modelo enerxético do Bloque Nacionalista Galego? ¿Cal é o seu modelo? Vostedes están a favor de pechar as centrais térmicas, vostedes están en contra do sector eólico  -- do terrestre pero tamén do marítimo -- , vostedes están en contra das centrais hidroeléctricas. Exactamente, ¿cal é o seu modelo?, ¿cal é o seu modelo?
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					O seu modelo é defender todo aquilo que fai Galicia, efectivamente, máis pequena.
+				</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u12">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg193">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u13">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg194">Ese é o modelo do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg195">Criticou vostede a sanidade pública. Dixo que temos unha mala sanidade pública. Mire, temos máis orzamentos ca nunca, máis profesionais ca nunca, menos listas de espera ca nunca, máis centros de saúde ca nunca, máis investimentos ca nunca. E esa é unha realidade indiscutible. Galicia tivo un orzamento sanitario neste ano 2021 de 4.587 millóns de euros. Cando gobernaban vostedes  -- cando supostamente o farían todo ben --  investían 3.690 millóns de euros. ¿Que leccións de compromiso coa sanidade pública queren vostedes darnos, señor Rodil?</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u14">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg196">Remate, por favor.</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u15">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg197">Con respecto aos profesionais, ¡claro que fan falla máis profesionais na sanidade pública galega, por suposto que si! Pero hoxe na sanidade pública galega hai 42.000 profesionais, 5.700 máis que cando gobernaban vostedes. Se as cousas están mal agora, supoño que cando gobernaba o Bipartito as cousas estarían francamente fatal. E por iso levan vostedes tanto tempo na oposición.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg198">Nada máis e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u16">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg199">Grazas, señor Tellado.</seg>
+				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg200">Polo Grupo Parlamentario Socialista, o señor Arangüena.</seg>
+			</u>
+			<note type="speaker">O señor ARANGÜENA FERNÁNDEZ:</note>
+			<u who="#ArangüenaPablo" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u17">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg201">
+					Señor Tellado, en primeiro lugar, paréceme unha auténtica indignidade que utilice vostede un falecemento  -- que nós sentimos --  para sacar rédito político, ¡unha auténtica indignidade!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Porque nós non nos opuxemos a pospoñer este debate do estado da nación, simplemente non nos puxemos de acordo con vostedes en canto ás datas. E, por certo, teño que lembrarlle que, cando morreu a nosa deputada Isaura, Isaura Abelairas, non se suspendeu ningunha comisión neste Parlamento. Por tanto, paréceme  -- insisto --  unha auténtica indignidade, digna da súa ínfima talla política.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E, por tanto, agradeceríalle que pedise vostede desculpas por facelo, por utilizar esa morte para sacar rédito político. Porque é lamentable, ¡lamentable!
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg202">Entrando xa no tema, di vostede que dixen que os orzamentos xerais do Estado se incrementan un 22 %, di que eu dixen iso. Eu non dixen iso. Dixen un 29,3 %, non un 22 %. E increméntase a parte de investimento directo do Estado, nada que ver coa sentenza xudicial do IVE, como di vostede. Iso é ou unha falsidade ou ignorancia. No seu caso, francamente, é difícil distinguir unha da outra, porque as comete reiteradamente neste Parlamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg203">Pídeme que eu revise os datos. Eu falei de case un 11 % de caída do PIB en España, non falaba de Galicia. Non teño ningún dato que revisar, señor Tellado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg204">Fala vostede dun maior investimento en sanidade. Utilizan vostedes reiteradamente a técnica de facer as contas en termos non actualizados. É dicir, collen vostedes 100 euros do ano 2009 e din que, se hai 101 euros no ano 2020, creceron os orzamentos. Pois teñen vostedes que aplicarlle o IPC, e xa verá como desa forma non creceron practicamente os investimentos nin en educación nin en sanidade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg205">Fala vostede de que teñen vostedes unha foto en tempo real, da Galiza real, e que en cambio a nosa é apocalíptica. Nós non dicimos que en Galicia se estea a producir ningún tipo de apocalipse, simplemente dicimos que Galicia está estancada. E Galicia está estancada, entre outras cousas, porque Emilio Pérez Touriño no ano 2005 colleu Galicia cun 80 % de renda respecto do conxunto do Estado  -- a renda per cápita era o 80 % --  e cando se foi Emilio Pérez Touriño era do 88 %. E ¿sabe vostede canto creceu a renda galega en comparación co conxunto do Estado nos anos de Feijóo? Do 88 % ao 90 %. Por tanto, estamos practicamente estancados. Ese é o mellor indicador  -- sen contar con que ese indicador está inflado pola caída da poboación -- .</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg206">&quot;Submisión a Madrid&quot;, di vostede. Fala de submisión a Madrid. Eu xa lles preguntei: ¿que conseguiron vostedes nos sete anos de goberno de Rajoy para Galicia?, ¿que conseguiron vostedes? Dígamo vostede. A mellor mostra de submisión a Madrid son as súas propostas: cinco propostas para pedirlle cousas ao goberno de Rajoy e vinte propostas para pedirlle cousas ao goberno de Pedro Sánchez  -- é dicir, catro veces máis -- . Polo tanto, ¿quen é submiso a Madrid, vostedes ou nós?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg207">Respecto das prazas MIR, como xa lle dixo moitas veces Julio Torrado nesta Cámara, as últimas catro convocatorias foron récord. A partir de aí está todo dito. As últimas catro convocatorias foron progresiva e sucesivamente récord en convocatorias de prazas MIR, que vostedes nin se molestaron en cubrir nin en planificar durante os anos do goberno de Rajoy.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg208">Fala vostede de corrupción. Bueno, eu teño que dicirlle que a sentenza do caso Gürtell puxo negro sobre branco o que hai no seu partido  -- o que había, polo menos, no seu partido -- : un auténtico e eficaz sistema de corrupción institucional. Lea vostede a sentenza do caso Gürtell e lerá exactamente estas palabras: &quot;auténtico e eficaz sistema de corrupción institucional&quot;. Fala do PP, non fala do PSOE. E que me falen vostedes de corrupción tendo nas súas filas a Baltar, tendo nas súas filas, no seu momento, a un Pablo Crespo, tendo nas súas filas no seu momento a un Louzán... Bueno, eu soamente teño que dicirlles: ¿sabe de onde procedeu o último pago da &quot;caixa b&quot; do PP? Hai dezasete comunidades autónomas en España. ¿Adiviñan de que comunidade autónoma procedeu  -- e, por certo, cando xa era presidente da Xunta o señor Feijóo -- ? Procedeu de Galicia. Non procedeu de ningunha das outras comunidades de España, procedeu de Galicia.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg209">O PP de Galicia non quere moverse nin un ápice  -- pola súa intervención e pola de Feijóo --  da campaña de propaganda permanente que nos pinta unha Galicia feliz que só existe nas súas mentes e na propaganda oficial. As nosas propostas simplemente non mercan esa falsificación, falan dos problemas reais da cidadanía, que segundo o PP practicamente son inexistentes. Porque o señor Feijóo di que Galicia é líder en moitas cousas, polo que falar dos problemas de Galicia, obviamente, lle chirría. Se unha décima parte das veces que o señor Feijóo di que Galicia é líder  -- líder nisto, líder naquilo... --  estivese dicindo a verdade, Galicia sería unha auténtica potencia mundial. E non o é, evidentemente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg210">A nós gústanos moito Galicia, estamos moi orgullosos de Galicia. Pero evidentemente non somos a potencia mundial que se desprendería das súas afirmacións reiteradas nesta Cámara. De feito, dicíalle que Galicia está estancada. Xa lle dixen hai un rato cales son os datos. E se avanzamos en renda comparada co conxunto do Estado foi pola vía da caída da poboación. Porque, como xa lles dixen, perdemos 66.000 persoas. Eu non digo que sexan vostedes culpables, pero digo que temos os peores datos demográficos de España. Terá algún tipo de responsabilidade, terán que ter algún tipo de responsabilidade sobre os peores datos demográficos de España, que non son os segundos peores, son os peores. ¿Teñen vostedes algo que dicir á parte de que as mulleres non teñen fillos porque non lles dá a gana? Esa é a súa reflexión, esa é a súa política demográfica.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg211">Miren, difunden vostedes constantemente o relato de que hai un malvado goberno central que conspira contra Galicia e unha Xunta do PP que defende a Galicia contra esa malvada conspiración. E se vostedes, coa súa maquinaria propagandística  -- obviamente formidable, e pagada, por certo, con cartos públicos --  repiten machaconamente que hai un inimigo exterior que trata de quitarnos o noso, e que os problemas de Navantia, de Alcoa, de Vestas, de Gamesa, ou do naval, de Vulcano, de Barreras, son tan sinxelos que se arranxan dun plumazo e que os ten que arranxar o Goberno central  -- a pesar de que o artigo 30 do Estatuto de autonomía di que Galicia ten competencia exclusiva en política industrial -- , o que fan é pintar un mundo de bos e malos no cal vostedes son moi bos e o resto somos moi malos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg212">Pois difundindo esa falacia están vostedes contribuíndo a que Galicia permaneza alienada e non afronte a causa dos seus problemas, que en parte teño que dicir que é por vostedes mesmos, despois de trinta e catro anos de gobernos narcotizantes dunha dereita rancia e conservadora  -- non digo o de &quot;narcotizantes&quot; por Marcial Dorado, aínda que tamén, por certo -- . E a realidade é que en Galicia hai problemas industriais moi importantes froito da conxuntura, pero tamén pola falla absoluta de planificación. E a realidade é que vostedes teñen  -- insisto --  plenas competencias en política industrial que non exercen. Porque Galicia practica hoxe o escapismo competencial constante e reiteradamente. Esa esforzada conquista do Estatuto de autonomía, que o pai de Noa Díaz relatou nun libro con ese mesmo título, está sendo desvirtuada constantemente por un goberno que ten capacidade de autogoberno e a obriga de autogobernarnos, de exercer as súas competencias e as súas responsabilidades, pero que non o fai.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg213">Como lles dicía, ese malvado inimigo exterior que parece ser que é o Goberno central non é máis ca unha montaxe e un relato que é francamente contraproducente. Porque non é certo, non é certo nin por asomo. E desmóntase con estes orzamentos. Por moito que vostede diga o contrario, increméntase un 30 % o investimento en Galicia  -- nada que ver coa sentenza do IVE -- , increméntase un 30 % o investimento en Galicia cando nos anteriores xa estabamos por riba da media española e por riba da metade das comunidades de España.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg214">E Barreras ten problemas moi graves. ¿Por culpa do goberno de Pedro Sánchez? Creo que non. Vulcano quebrou. ¿Foi por culpa do goberno de Pedro Sánchez? Obviamente non. Vestas vaise. ¿Por culpa do goberno central? Vostedes din que si, pero temo que non. Centos de empresas galegas deslocalizáronse ao norte de Portugal nos anos nos que en España gobernaba Rajoy. Por iso lles dixen antes que sae moito máis capital de Galicia do que entra, moito máis, ¡pero moitísimo máis! Ese é un problema, estámonos descapitalizando. E cando Gamesa se deslocaliza ao norte de Portugal, facendo o mesmo que fixeron eses centos de empresas galegas durante anos, ¿é culpa do Goberno central? Pois, obviamente, non. O fiasco de Pemex, que nos venderon vostedes que ía facer en Galicia 22 barcos  -- que logo quedaron en dous -- , ou instalar unha base loxística para toda Europa en Punta Langosteira  -- da que nunca se viu ningún ladrillo -- , ¿é culpa do goberno de Pedro Sánchez? Pois paréceme que é máis ben culpa dos seus gobernos. ¿É culpa do goberno de Pedro Sánchez que o señor Aznar prorrogase vinte e cinco anos  -- como non se fixo en ningunha outra comunidade autónoma --  a concesión da AP-9 no ano 2000, para logo darlla privatizada esa mesma concesión a algunha empresa máis ou menos amiga? Pois iso creo que é responsabilidade súa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg215">E, por tanto, deixen vostedes ese discurso bronco, falaz, demagóxico e indocumentado  -- especialmente indocumentado no seu caso --  co que parece que queren competir con Vox. De feito, compiten con Vox. Gobernen Galicia, deixen a propaganda e marquen un rumbo dunha vez para Galicia, algún tipo de rumbo para Galicia. Porque xa o dixo Séneca hai bastante tempo: &quot;Non hai vento favorable para quen non sabe a que porto vai&quot;.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg216">Nada máis e moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u18">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg217">Moitas grazas.</seg>
+				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg218">Polo Grupo Parlamentario do Bloque Nacionalista Galego, ten a palabra a señora Rodil Fernández.</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u19">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg219">
+					Eu non sei por que está tan nervioso e tan alterado, señor Tellado. A min recordábame bastante o pitufo gruñón.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Sempre que vén aquí...
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					¡Home!, é unha referencia creo que duns debuxos animados que todas e todos compartimos. Porque vén aquí o señor Tellado, cada vez que ten oportunidade,
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					a reñernos.
+				</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u20">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg220">¡Silencio!</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u21">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg221">
+					Vén a reñernos por pensar diferente, a reñernos por defender e traer propostas e a reñernos  -- sobre todo ao BNG --  por querer que Galiza avance, que Galiza medre e que Galiza xere máis oportunidades
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					para as persoas que hoxe vivimos e traballamos neste país, para as xeracións presentes e tamén para as xeracións futuras.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg222">E, claro, calquera preguntaría: oian, se vai todo tan ben, se vai todo tan estupendamente, eu non sei por que están tan enfadados.</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Murmurios.)</desc>
+			</vocal>
+			<vocal type="murmuring">
+				<desc>(Pronúncianse palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u22">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg223">¡Silencio!</seg>
+			</u>
+			<note type="speaker">A señora RODIL FERNÁNDEZ:</note>
+			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u23">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg224">Calquera diría que algo está pasando, porque parece que o Partido Popular está neste debate do estado da nación bastante nervioso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg225">
+					Os únicos que veñen aquí co piloto automático, señor Tellado, son vostedes. O único que vén co piloto automático e os mesmos mantras unha e outra vez é o Partido Popular. Porque no seu catecismo teñen dous mandamentos: o primeiro, poñerás sempre o Partido Popular por encima de Galiza;
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					e o segundo, culparás o BNG de todas las cosas. Aínda, se me apuran, atreveríame a dicir que ten outro máis, o terceiro: O mundo empezou en 2005
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					Todo o que pasou neste país antes, nada, é un invento, son los padres.
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E o mellor exemplo de que aquí os únicos que veñen co piloto automático e cos mesmos mantras de sempre son os da bancada do Partido Popular  -- e con ese segundo mandamento de &quot;culparás o BNG de todas as cousas&quot; --  son algunhas das súas propostas  -- concretamente unha -- . Porque, coa que está caendo neste país  -- e coincidiremos polo menos niso, en que estamos inmersas, aínda que a situación sanitaria felizmente é distinta, nunha pandemia cunha crise económica e social dunha envergadura enorme e sen precedentes en tempos de paz -- , vostedes dedican unha proposta de resolución, das corenta que podemos presentar, única e exclusivamente para facerlle oposición ao Bloque Nacionalista Galego.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E a súa defensa nesta tribuna desa proposta de resolución déixao clarísimo. Tamén lles digo unha cousa: se cren que así atacan ou erosionan o máis mínimo o Bloque Nacionalista Galego, sigan por aí.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Eu anímoos a que sigan adiante,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					e tamén a quen queira facerlle de comparsa ao Partido Popular, que siga tamén facéndolle de comparsa ao Partido Popular... Comprarlle o marco á dereita, un plan sen fisuras, ¡eh!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+				</seg>
+				<vocal type="laughter">
+					<desc>(Risos.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg226">
+					Fala de autogoberno o Partido Popular aquí. Ademais, con golpes de peito. Din &quot;defensa do autogoberno&quot;, ¡manda chover na Habana! Vostedes abrazan un estatuto no que non crían nin o día que o aprobaron.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Non crían nel nin o día que o aprobaron. Para querelo tanto, apérteno un pouco menos e, sobre todo, exérzano un pouquiño máis.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¡Exérzano un pouquiño máis, señorías! Porque defender o autogoberno é pedir que se cumpra a lei, a que está aprobada, a lei orgánica de 1981, que é contra o que van votar vostedes en contra na proposta de resolución número 1 que presenta hoxe o Bloque Nacionalista Galego. ¿Que é o que pide a proposta de resolución do Bloque Nacionalista Galego? Que reclamemos a transferencia das competencias que aparecen recollidas no Estatuto de autonomía de Galicia de 1981. Iso é o que van votar vostedes en contra, os que din querer envolverse tanto na bandeira do galeguismo, na bandeira do autonomismo. Os que están fóra do Estatuto son vostedes,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					aos que lles queda demasiado grande, ¡demasiado grande!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E ese é un exemplo perfecto, señorías do Partido Popular, do pequeniña que queren vostedes a Galiza, do país pequeniño ao que nos queren levar a vivir a todas. Nin sequera son capaces de exercer ese estatuto de 1981 e reclamar que se cumpra o que aparece recollido nel desde hai máis de trinta anos.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg227">
+					Dicíanos o señor Tellado, e o Partido Popular, que estaban preocupados  -- non sei como foi que dixo porque estivo aquí trinta minutos falando do todo e da nada -- . Falaba da saúde democrática, estaba preocupado da saúde democrática do Bloque Nacionalista Galego. Pola saúde democrática do BNG non se preocupe nada. ¡Está estupenda!, ¡estupenda!
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Preocúpese da saúde das galegas e dos galegos,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					que, para estar mellor que calquera e mellor que hai trinta anos, está todo tan ben, señor Tellado, que lles dimiten en bloque xefes da maior área de servizo deste país.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¡Temos mobilizacións porque faltan médicos nos centros de saúde de norte a sur e de leste a oeste! ¡Está estupenda! Cubran as vacantes do Sergas, reforcen a sanidade pública deste país, recoñézanlle dereitos  -- máis dereitos --  aos profesionais da sanidade pública, atendan como se debe a saúde mental da nosa poboación, que é unha preocupación enorme. Eu falaba da mocidade ao comezo da miña intervención. Avanzamos moito, porque o que antes era un tabú  -- hai moitos anos --  creo que hoxe para a mocidade deste país xa é un debate social e público. E elas e eles abriron a necesidade de coidarnos, social e psicoloxicamente, colectivamente. Quedamos tocadas todas e todos por unha experiencia colectiva sen precedentes. E agora o que necesitamos é poñer os recursos para que esas feridas que quedan  -- tamén emocionais e psicolóxicas en todas e todos despois do que levamos vivido --  estean debidamente atendidas. E iso son profesionais, iso son cartos, iso son orzamentos, investimentos e recursos.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Esa é a saúde que lle preocupa ao Bloque Nacionalista Galego, a saúde das galegas e dos galegos, e a empezar pola saúde mental do noso país.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg228">
+					E dicíanos tamén que tiñamos que explicar cal é o modelo enerxético do Bloque Nacionalista Galego. Debe ser que non leron as corenta propostas; ou que  -- non sei --  damos debates aquí sen que se escoite o que dicimos. Pero eu creo que quen debería explicar un pouco a política enerxética é o Partido Popular. ¿Cal é o modelo enerxético do Partido Popular? Eu, se mo permiten, sintetizaríao nunha frase: seguir abrazando o negocio de Iberdrola ou algo así como seguir facendo o que lles manden as eléctricas.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					E eu dígolles que ao Partido Popular lle viría ben explicarlle a este país cal é o modelo enerxético que ten. Porque agora que están nese intento de arrastrarnos a todas a 1985 e de volvernos para atrás ás mulleres, igual quen tiña que facer unha pouca viaxe no tempo serían vostedes. A recomendación hoxe é: a ver se volven vostedes atrás en vez de arrastrarnos a nós ao pasado. Fagan vostedes un pouco de memoria, viaxen comigo a 2004, por exemplo  -- saben que nos gusta ao Bloque Nacionalista Galego tirar de hemeroteca -- . ¿Saben o que dicía o 9 de maio de 2004 o Partido Popular  -- daquela reunido nunha convención aquí en Galiza --  nunha ponencia sobre galeguismo? Dicía: &quot;O Partido Popular reclama compensacións para Galicia por exportar electricidade&quot;.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Deberían facerse un pouquiño máis de caso a si mismos,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					e sumarse á proposta de resolución que ten presentada o Bloque Nacionalista Galego. ¿Quere saber cal é o noso modelo? Pois cando hai que escoller entre os negocios dos amigos do PP e os negocios das eléctricas, o Bloque Nacionalista Galego escolle sempre Galiza, o interese das galegas e dos galegos e a riqueza para este país.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					O noso modelo enerxético é que as galegas e os galegos se beneficien da potencia eléctrica que é Galiza. E que se compensen os danos e o impacto ambiental e social que ten a produción de enerxía eléctrica no noso país, que se compense pola vía de poder acceder a este ben básico dunha maneira máis barata. Quizais na súa segunda intervención nos poida explicar  -- xa que dan vostedes máis voltas que un polo sen cabeza --  se están en 2004 ou en 2021.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg229">Eu remato como comecei a miña primeira intervención. Estamos nun momento de profundos cambios, cambios que xa están aquí, cambios que están por vir. E a pregunta que temos que facernos colectivamente  -- non esta Cámara senón o conxunto do país --  é quen vai saír beneficiado. Nós temos claro  -- e así o recollemos nas nosas propostas de resolución --  que quen ten que aproveitar esta oportunidade é o conxunto do país, as maiorías sociais, as traballadoras e os traballadores galegos e, en definitiva, o conxunto de Galiza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg230">Máis nada.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u24">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg231">Grazas.</seg>
+				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg232">Polo Grupo Parlamentario Popular de Galicia ten a palabra o señor Tellado Filgueira.</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u25">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg233">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg234">
+					Señor Arangüena, o que está claro é que vostedes non quixeron atrasar cinco días o debate do estado da autonomía porque non lles conviña no seu calendario electoral das primarias.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Esa é a única realidade. E laméntoo, porque estou seguro de que esa é unha decisión que non respaldaron os integrantes do seu grupo...
+				</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Fortes murmurios.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u26">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg235">¡Silencio!</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u27">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg236">...e que foi unha decisión exclusiva do señor Caballero.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg237">Pregunta vostede que foi o que conseguimos dos gobernos de Mariano Rajoy. Pois, mire, conseguimos que os orzamentos do Estado que aprobaba o goberno de Mariano Rajoy dedicasen a Galicia o 13 % do investimento territorializado. E vostedes agora celebran o 8 %. Criticaban o 13 % pero, sen embargo, apoian e aplauden o 8 % de Pedro Sánchez. ¡Vaia coherencia! ¡Vaia lección de compromiso con Galicia!</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg238">Métaselo en la cabeza, señor Arangüena. A política enerxética do goberno de Sánchez é a que está poñendo en perigo a industria galega. Nada se pode facer por defender a nosa industria se o Goberno de España a afoga cunha política enerxética errática, incoherente e insolidaria. Mire, Gamesa e Vestas non se foron de Galicia, fóronse de España, quérense ir de España, porque non confían na política de transición enerxética do seu goberno. Esa é a realidade, señor Arangüena.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg239">Claro que estamos orgullosos de ser o goberno que máis inviste en sanidade pública. E nós podemos seguir mellorando a sanidade pública galega se o Goberno de España arrima o ombro. Tan só ten que autorizar máis ofertas de MIR. ¿Que ocorre? Que vostedes non o fan dende o Goberno nin o apoian aquí dende esta Cámara. Pero o que son indiscutibles son as cifras  -- gústenlle ou non, señor Arangüena -- e que hoxe hai máis profesionais ca nunca na sanidade pública galega. Hai 42.000 traballadores, o 15 % máis que cando gobernaban vostedes. Incrementamos a plantilla do Sergas un 15 %, é indiscutible. E gastamos un 26 % máis en sanidade pública galega que cando gobernaban vostedes. Así que deixen de partirse o peito defendendo a sanidade pública, porque dende onde a teñen que apoiar é dende o Goberno de España, e non o fan, señor Arangüena, non o fan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg240">
+					Sobre o BNG, señora Rodil, dígolle, póñase como se poña  -- e descualificacións á parte -- , que vostedes queren representar o futuro pero vostedes son o pasado.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					O seu discurso é un discurso decimonónico. Queren facer Galicia pequena.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg241">
+					Mire, a señora Pontón cansouse de dicir que sacamos peito polos mortos durante a pandemia. ¡Hai que ser inmoral!, din que sacamos peito polos mortos. ¡Non, non, sacamos peito polos vivos, señora Pontón!, por todas as vidas que este goberno conseguiu salvar durante os meses da pandemia,
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					cando vostedes estaban pechados na casa buscando en que criticar o Goberno en vez de arrimar o ombro.
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg242">Mire, señora Pontón, vostede fixo declaracións tan irresponsables durante a pandemia como o de dicir que &quot;al ritmo actual se tardará cuatro años en vacunar de covid al 70 % de la población&quot;. Vostede dicía que as aglomeracións dos establecementos onde se vacinaba eran perigosísimas, animando a xente a non ir. É que vostedes foron autenticamente irresponsables. Non apoiaron o Goberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg243">
+					Señora Rodil, vostede falou de mandamentos, e ten razón, claro. ¿Sabe cal é o quinto?
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					&quot;Non matarás&quot;. Coméntellelo aos seus compañeiros de Bildu cos que fan coalicións electorais.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					¡Coméntellelo!
+				</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
+				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg244">
+					Señores do BNG, vostedes non son o futuro, vostedes son o pasado. E a señora Pontón, que se erixe como a suma sacerdotisa da renovación, é a deputada máis lonxeva desta Cámara. Leva dezasete anos pisando a moqueta do Parlamento de Galicia. Señora Pontón, cando vostede entrou nesta Cámara os seus familiares non a puideron felicitar a través do whatsapp sinxelamente porque o whatsapp aínda non existía. ¿Sabe quen mandaba no mundo cando vostede entrou nesta Cámara? En Galicia, Fraga; en España, Aznar; en Estados Unidos, Bush; e no BNG  -- hai cousas que nunca cambian --  a UPG.
+					<vocal type="murmuring">
+						<desc>(Murmurios.)</desc>
+					</vocal>
+					Cando vostede chegou a este Parlamento, o Dépor estaba camiño da Champions, o Madrid acababa de fichar a Beckam e o Barça a Ronaldinho. E un español, compatriota seu, acababa de gañar un Roland-Garros. Non era Rafa Nadal  -- que era un neno por aquelas datas -- , era Juan Carlos Ferrero.
+				</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg245">Máis alá de bromas, señora Pontón, a veteranía non sería un problema se non levase vostede case vinte anos repetindo os mesmos mantras, manexando os mesmos conceptos  -- nación, autodeterminación, tarifa eléctrica galega, cupo vasco, nacionalización de empresas... -- . ¿Esta é a nova Galicia que vostede quere construír? Non, señoría, é a vella Galicia. É unha idea vella que xa trataron de impoñer durante o Bipartito e que os galegos levan doce anos rexeitando para este país. Señores do BNG, queren vostedes construír unha nova Galicia porque na actual, na Galicia real, non lle gañan a ninguén nas eleccións. Esa é a realidade, porque ninguén cre nos seus mantras.</seg>
+				<vocal type="murmuring">
+					<desc>(Murmurios.)</desc>
+				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg246">O que pasou neste debate de autonomía é un claro exemplo da situación política da nosa comunidade.</seg>
+			</u>
+			<vocal type="murmuring">
+				<desc>(Pronúncianse palabras que non se perciben.)</desc>
+			</vocal>
+			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u28">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg247">¡Silencio!</seg>
+			</u>
+			<note type="speaker">O señor TELLADO FILGUEIRA:</note>
+			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u29">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg248">Por un lado, vimos un goberno serio, responsable, centrado nos problemas dos galegos, un goberno propositivo que anunciou algunhas das grandes medidas da lexislatura: gratuidade das garderías, novo modelo de residencias, máis investimentos en sanidade, grandes medidas industriais en Ferrol, Pontevedra e Lugo. Vimos un goberno que definiu claramente o seu modelo: menos impostos, menos débedas, máis investimento. Vimos un goberno que renovou o seu compromiso co desenvolvemento do seu programa electoral, un contrato irrenunciable que firmamos hai un ano cos galegos que nos votaron. É un goberno garante da estabilidade e tamén da normalidade democrática, pois en Galicia respéctanse as institucións e cúmprense as leis, por moito que a vostedes lles moleste.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg249">Do outro lado o que vimos neste debate foi unha oposición ensimesmada que se limitou a repetir os mesmos mantras de sempre, ese catecismo. É unha oposición máis preocupada polo seu que polo dos demais, porque o que menos lles preocupa agora mesmo a vostedes é Galicia. O único que lle preocupa a Ana Pontón verdadeiramente é Ana Pontón. E o único que lle preocupa ao señor Gonzalo Caballero nestes momentos  -- hai que dicilo --  é Gonzalo Caballero. Están demasiado preocupados polo seu futuro, polas súas liortas internas, están nese juego del calamar, que é ese proceso interno que vive cada un dos seus partidos; preocupados, unha, por eses coroneis da UPG que non aplauden a Ana Pontón todo o que a ela lle gustaría, e preocupados por un congreso socialista que todo apunta a que iniciou a conta a atrás do final do ciclo político do señor Gonzalo Caballero. Esa é a realidade na que vivimos nestes momentos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg250">Eu podo dicirlle ao señor Gonzalo Caballero  -- que non está na sala --  que nesta Cámara o apoiamos case todos. Apóiano boa parte dos deputados socialistas, apoiámolo todos os deputados do Partido Popular, e estou seguro de que o apoian tamén no Bloque Nacionalista Galego porque pensan que, canto peor lle vaia a el, mellor lles irá a eles. Á señora Pontón teño que dicirlle que aquí non ten máis apoio que o dos seus deputados. Pode ter apoios fóra, pode ter o apoio de Oriol Junqueras, de Arnaldo Otegi e de persoas membros deses partidos. Pero aquí en Galicia ten bastante poucos apoios.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg251">Remato xa.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg252">Hai algo máis dun ano os galegos votaron democraticamente, e libremente decidiron que gobernase o Partido Popular de Galicia e que Alberto Núñez Feijóo fose quen xestionase esta pandemia. Eses mesmos galegos decidiron que o BNG debía estar na oposición, eses mesmos galegos converteron o PSdeG-PSOE de Gonzalo Caballero na forza minoritaria deste Parlamento. Un ano despois podemos dicir que cumprimos co mandato das urnas: xestionar con rigor a pandemia sanitaria, tratar de salvar o maior número de vidas dos galegos, tomar decisións difíciles pero as mellores decisións para frear o virus e preservar a vida dos máis vulnerables. A boa xestión salvou vidas e iso é tan innegable como reconfortante para o Goberno e o grupo que o sustenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg253">Vostedes, como oposición  -- teño que dicírllelo -- , non estiveron á altura, nin apoiaron o goberno nin arrimaron o ombro cando máis falta facía. Fixeron o que fan sempre: criticalo todo durante todo o tempo. Eu creo que non se dan conta de que, cando lle negan a Galicia o recoñecemento dos éxitos conseguidos, non lle negan ese recoñecendo ao Goberno galego nin ao Partido Popular de Galicia. Vostedes renegan do pobo galego, que é quen co seu esforzo plantou cara a esta crise sanitaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg254">Hoxe na recta final da pandemia podemos dicir alto e claro que Galicia saíu mellor desta crise que o resto de comunidades autónomas. Podemos dicir que aquí en Galicia houbo un goberno que o deu todo por salvar vidas, un goberno que se desgastou gobernando. E enfronte dese goberno houbo unha oposición desleal e unha oposición oportunista liderada pola señora Pontón e polo señor Gonzalo Caballero. ¡Alá cadaquén!, alá cadaquén como quere pasar á historia e alá cadaquén como entende o seu traballo. Para nós non hai maior honra que servir a Galicia e por iso nos deixamos a pel e nos deixamos a vida no traballo  -- ás veces de forma literal, como fixo o noso compañeiro Valeriano Martínez -- .</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg255">Somos servidores de Galicia e entendemos que o noso partido debe subordinarse sempre aos intereses de Galicia, e non ao revés, como fan vostedes. Para nós Galicia é o primeiro e quizais por iso, cando os galegos son convocados ás urnas, nos dan o seu respaldo maioritario.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg256">É verdade que nin todos os partidos somos iguais  -- é verdade, hoxe quedou acreditado --  nin todos os líderes son iguais. O pasado mércores quedou testemuñado nesta Cámara. Nós temos a sorte de ter un líder que día a día nos sinala cal debe ser o camiño: traballo, compromiso, entrega e lealdade plena a Galicia, un líder que representa a toda Galicia, a todos os galegos, un líder que viste a camiseta do país, non a camiseta do partido correspondente. Non é sinxelo atopar liderados así na política actual. Vostedes sábeno ben, son o exemplo precisamente do contrario. Deberían telo aprendido con cada unha das derrotas electorais e xa levan vostedes unhas cantas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg257">A nosa única lealdade chámase Galicia, a deste grupo parlamentario, a do Goberno galego e, por suposto, a do presidente Feijóo. Lealdade a Galicia porque Galicia o merece todo, esa é a realidade. Esa lealdade a Galicia é a que nos ten aquí nesta Cámara, cinco días despois de perder ao noso compañeiro, velando o seu legado de traballo, velando o seu legado de compromiso e honrando a súa memoria como el merecía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg258">Grazas, presidente, por guiar este barco durante os peores momentos da pandemia. Galicia creo que coñece dos teus desvelos, das túas inquedanzas e do teu compromiso. Creo que falo en nome de todos os integrantes do Grupo Parlamentario Popular cando digo que é unha honra traballar ao carón do primeiro servidor de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg259">Nada máis, moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u30">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg260">Grazas, señor Tellado.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg261">Rematado o debate procedemos ás votacións.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg262">Votación das propostas de resolución</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u31">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg263">En total imos ter que facer 28 votacións. A ver se o podemos facer dun xeito ben ordenado, que así nos irá mellor a todos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg264">En primeiro lugar, imos votar as propostas de resolución transaccionadas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg265">En concreto, a primeira é unha proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario do Bloque Nacionalista Galego verbo da proposta de resolución número 16 do Grupo Parlamentario Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg266">Votación do texto transaccionado verbo da proposta de resolución número 16 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg267">Efectuada a votación, deu o seguinte resultado: votos a favor, 61; abstencións, 13.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg268">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg269">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u32">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg270">A segunda votación é sobre unha proposta de transacción entre o Grupo Parlamentario do Bloque Nacionalista Galego e o Grupo Parlamentario Socialista de Galicia verbo da proposta de resolución número 31 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg271">Votación do texto transaccionado verbo da proposta de resolución número 31 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg272">Efectuada a votación, deu o seguinte resultado: votos a favor, 32; votos en contra, 42.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg273">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg274">En consecuencia, queda rexeitado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u33">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg275">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 16 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg276">Votación do texto transaccionado verbo da proposta de resolución número 16 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg277">Efectuada a votación, deu o seguinte resultado: votos a favor, 74.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg278">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg279">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u34">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg280">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 32 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg281">Votación do texto transaccionado verbo da proposta de resolución número 32 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg282">Efectuada a votación, deu o seguinte resultado: votos a favor, 74.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg283">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg284">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u35">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg285">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario dos Socialistas de Galicia verbo da proposta de resolución número 15 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg286">Votación do texto transaccionado verbo da proposta de resolución número 15 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg287">Efectuada a votación, deu o seguinte resultado: votos a favor, 74.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg288">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg289">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u36">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg290">Votamos agora a proposta de transacción entre o Grupo Parlamentario Socialista de Galicia e o Grupo Parlamentario Popular de Galicia verbo da proposta de resolución número 20 do Grupo Parlamentario Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg291">Votación do texto transaccionado verbo da proposta de resolución número 20 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg292">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg293">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg294">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u37">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg295">Votamos agora a proposta de transacción entre o Grupo Parlamentario Socialista de Galicia e o Grupo Parlamentario Popular de Galicia verbo da proposta de resolución número 39 do Grupo Parlamentario Popular.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg296">Votación do texto transaccionado verbo da proposta de resolución número 39 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg297">Efectuada a votación, deu o seguinte resultado: votos a favor, 54; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg298">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg299">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u38">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg300">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario Socialista verbo da proposta de resolución número 13 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg301">Votación do texto transaccionado verbo da proposta de resolución número 13 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg302">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg303">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg304">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u39">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg305">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario Socialista verbo das propostas de resolución número 21 do Grupo Parlamentario Popular e número 30 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg306">Votación do texto transaccionado verbo das propostas de resolución número 21 do G. P. Popular de Galicia e número 30 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg307">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg308">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg309">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u40">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg310">Votamos agora a proposta de transacción entre o Grupo Parlamentario Socialista e o Grupo Parlamentario Popular verbo da proposta de resolución número 26 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg311">Votación do texto transaccionado verbo da proposta de resolución número 26 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg312">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; abstencións, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg313">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg314">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u41">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg315">Votamos agora a proposta de transacción entre o Grupo Parlamentario Popular de Galicia e o Grupo Parlamentario Socialista de Galicia, verbo da proposta de resolución número 36 do Grupo Parlamentario Socialista.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg316">Votación do texto transaccionado verbo da proposta de resolución número 36 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg317">Efectuada a votación, deu o seguinte resultado: votos a favor, 56; abstencións, 18.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg318">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg319">En consecuencia, queda aprobado este texto.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u42">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg320">Votamos agora as propostas dos grupos parlamentarios, coas solicitudes de agrupacións e votacións separadas que fixeron os distintos grupos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg321">Comezamos votando as do Grupo Parlamentario Socialista. En concreto, nesta primeira votación pediuse que se separasen as propostas número 3 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg322">Votación das propostas de resolución números 3 e 33 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg323">Efectuada a votación, deu o seguinte resultado: votos a favor, 74.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg324">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg325">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u43">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg326">Votamos agora as propostas de resolución do Grupo Parlamentario Socialista 19 e 22.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg327">Votación das propostas de resolución números 19 e 22 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg328">Efectuada a votación, deu o seguinte resultado: votos a favor, 13; votos en contra, 42; abstencións, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg329">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg330">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u44">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg331">Votamos agora as propostas de resolución números 1 e 2, da 4 á 12, 14, 17, 18, 20, 21, da 23 á 25, da 27 á 29, 34, 35 e da 37 á 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg332">Votación das propostas de resolución 1, 2, da 4 á 12, 14, 17, 18, 20, 21, da 23 á 25, da 27 á 29, 34, 35, e da 37 á 40 do G. P. dos Socialistas de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg333">Efectuada a votación, deu o seguinte resultado: votos a favor, 32; votos en contra, 42.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg334">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg335">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u45">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg336">Agora votamos as propostas do Grupo Parlamentario do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg337">Pediron que se votasen por separado, en primeiro lugar, as propostas números 16 e 35.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg338">Votación das propostas de resolución números 16 e 35 do G. P. do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg339">Efectuada a votación, deu o seguinte resultado: votos a favor, 32; votos en contra, 42.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg340">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg341">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u46">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg342">Votamos agora as propostas 22 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg343">Votación das propostas de resolución números 22 e 33 do G. P. do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg344">Efectuada a votación, deu o seguinte resultado: votos a favor, 19; votos en contra, 55.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg345">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg346">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u47">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg347">Votamos agora as propostas de resolución números 1, 4, 8, 11, 26, 31 e 34.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg348">Votación das propostas de resolución números 1, 4, 8, 11, 26, 31 e 34 do G. P. do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg349">Efectuada a votación, deu o seguinte resultado: votos a favor, 19; votos en contra, 42; abstencións, 13.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg350">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg351">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u48">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg352">Votamos agora as propostas números 2, 12, 19, 20, 25, 36 e 37.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg353">Votación das propostas de resolución números 2, 12, 19, 20, 25, 36 e 37 do G. P. do Bloque Nacionalista Galego.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg354">Efectuada a votación, deu o seguinte resultado: votos a favor, 19; votos en contra, 55.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg355">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg356">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u49">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg357">Votamos agora as propostas de resolución números 3, da 5 á 7, 9, 10, da 13 á 15, 17, 18, 21, 23, 24, da 27 á 30, 32 e da 38 á 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg358">Votación das propostas de resolución números 3, da 5 á 7, 9, 10, da 13 á 15, 17, 18, 21, 23, 24, da 27 á 30, 32 e da 38 á 40 do G. P. do Bloque Nacionalista Galego</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg359">Efectuada a votación, deu o seguinte resultado: votos a favor, 32; votos en contra, 42.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg360">O resultado da votación é negativo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg361">En consecuencia, quedan rexeitadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u50">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg362">E agora votamos as propostas do Grupo Parlamentario Popular de Galicia. Comezamos votando a proposta de resolución número 40.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg363">Votación da proposta de resolución número 40 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg364">Efectuada a votación, deu o seguinte resultado: votos a favor, 61; votos en contra, 13.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg365">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg366">En consecuencia, queda aprobada esta proposta de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u51">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg367">Votamos agora as propostas números 1 e 3.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg368">Votación das propostas de resolución números 1 e 3 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg369">Efectuada a votación, deu o seguinte resultado: votos a favor, 42; votos en contra, 13; abstencións, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg370">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg371">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u52">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg372">Votamos agora as propostas de resolución números 8, 11 e 31.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg373">Votación das propostas de resolución números 8, 11 e 31 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg374">Efectuada a votación, deu o seguinte resultado: votos a favor, 61; votos en contra, 13.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg375">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg376">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u53">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg377">Votamos agora as propostas de resolución números 4, 6, 32 e 38.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg378">Votación das propostas de resolución números 4, 6, 32 e 38 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg379">Efectuada a votación, deu o seguinte resultado: votos a favor, 42; abstencións, 32.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg380">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg381">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u54">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg382">Votamos as propostas de resolución números 9, 17, 23 e 24.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg383">Votación das propostas de resolución números 9, 17, 23 e 24 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg384">Efectuada a votación, deu o seguinte resultado: votos a favor, 74.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg385">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg386">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u55">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg387">Votamos agora as propostas 25, 27, 29 e 36.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg388">Votación das propostas de resolución números 25, 27, 29 e 36 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg389">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg390">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg391">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u56">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg392">Agora votamos as propostas de resolución números 10, 18, 19, 26 e 33.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg393">Votación das propostas de resolución números 10, 18, 19, 26 e 33 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg394">Efectuada a votación, deu o seguinte resultado: votos a favor, 42; votos en contra, 32.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg395">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg396">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u57">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg397">Agora votamos as propostas números 2, 7, 22, 28, 34 e 35.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg398">Votación das propostas de resolución números 2, 7, 22, 28, 34 e 35 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg399">Efectuada a votación, deu o seguinte resultado: votos a favor, 55; votos en contra, 19.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg400">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg401">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u58">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg402">E, por último, votamos as propostas de resolución números 5, da 12 á 15, 30 e 37.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg403">Votación das propostas de resolución números 5, da 12 á 15, 30 e 37 do G. P. Popular de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg404">Efectuada a votación, deu o seguinte resultado: votos a favor, 42; votos en contra, 19; abstencións, 13.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg405">O resultado da votación é positivo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg406">En consecuencia, quedan aprobadas estas propostas de resolución.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.u59">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg407">E así remata o debate sobre o estado de Autonomía e a votación das propostas de resolución.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-15-DSPG051.seg408">Grazas. Bo día.</seg>
+			</u>
+			<note type="time">Remata a sesión á unha e corenta e cinco minutos da tarde</note>
+		</div>
+	</body>
+</text>
+</TEI>

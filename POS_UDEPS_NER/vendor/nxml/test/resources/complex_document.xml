@@ -1,0 +1,58 @@
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <document_header>
+    <corpus>CORGA</corpus>
+    <subcorpus>etiquetado automaticamente</subcorpus>
+    <oral>false</oral>
+    <group_produtora></group_produtora>
+    <group_produtora></group_produtora>
+    <group_produtora></group_produtora>
+    <group_ano_versión>2006</group_ano_versión>
+    <autor>Nebot, F.</autor>
+    <autor>Pino, D.</autor>
+    <autor>Portela, C.</autor>
+    <autor xsi:nil="true"/>
+    <autor xsi:nil="true"/>
+    <área>1</área>
+    <área>1</área>
+    <área>1</área>
+    <subárea>2</subárea>
+    <subárea>5</subárea>
+    <subárea>1</subárea>
+  </document_header>
+  <document_content>
+    <text>
+      <source_text>Introducción: condicionantes pra redacción do planeamento no medio rural en Galicia.</source_text>
+      <context_id>3</context_id>
+      <text_section>encabezamento</text_section>
+      <tokens>
+        <token>
+          <form>introducción</form>
+          <tag>Scfs</tag>
+          <lemma>introducción</lemma>
+          <unit>Introducción</unit>
+          <real_position>1</real_position>
+        </token>
+        <token>
+          <form>:</form>
+          <tag>Q:</tag>
+          <lemma>:</lemma>
+          <unit>:</unit>
+          <real_position>2</real_position>
+        </token>
+      </tokens>
+      <units>
+        <unit_element>
+          <unit_text>Introducción</unit_text>
+          <visible_unit>Introducción</visible_unit>
+          <real_position>1</real_position>
+        </unit_element>
+        <unit_element>
+          <visible_unit>:</visible_unit>
+          <real_position>2</real_position>
+          <ignored/>
+        </unit_element>
+      </units>
+      <display_section>prólogo</display_section>
+    </text>
+  </document_content>
+</document>

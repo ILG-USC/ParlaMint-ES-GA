@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160" ana="#parla.sitting #reference">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2016-07-12-DSPG160 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2016-07-12-DSPG160 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.9 #parla.uni" n="009">IX Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="160">Número 160</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2016-07-12">12.07.2016</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="5"/>
+			<measure unit="words" quantity="542"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90160.pdf</idno>
+				<date when="2016-07-12">12.07.2016</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2016-07-12">12.07.2016</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#reference">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D90160.pdf"/>
+			<note type="time">Ábrese a sesión ás nove e trinta e tres minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.u1">
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg1">Bos días.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg2">Imos dar comezo á sesión.</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg3">Bos días, outra vez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg4">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg5">A orde do día está publicada no Boletín Oficial do Parlamento de Galicia, polo que non procedemos á súa lectura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg6">Xustificou a inasistencia a este pleno a deputada dona Elena González Sánchez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg7">Polo tanto, entramos, xa, no desenvolvemento da orde do día.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg8">Punto único neste pleno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg9">Designación de senadores ou senadoras representantes da Comunidade Autónoma de Galicia, de conformidade co disposto no artigo 165.1 do Regulamento do Parlamento de Galicia</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.u2">
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg10">Iniciado o procedemento para a designación dos senadores ou senadoras en representación da Comunidade Autónoma de Galicia, por acordo da Mesa e da Xunta de Portavoces do 5 de xullo de 2015, o número de senadores ou senadoras que hai que designar é de tres, conforme o disposto no artigo 10.1 do Estatuto de autonomía de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg11">A súa distribución, feita en proporción da representación das distintas forzas políticas existentes na Cámara, determina que ao Grupo Parlamentario Popular de Galicia lle corresponden dous candidatos e ao Grupo Parlamentario Socialista de Galicia lle corresponde un candidato.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg12">Rematado o prazo de presentación de propostas, a Presidencia, por resolución do 8 de xullo de 2016, resolveu admitir a trámite as propostas dos grupos parlamentarios e designar candidatos para senador. A elección efectuarase por papeletas conforme o disposto no artigo 91 do Regulamento do Parlamento de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg13">Na papeleta repartida ao efecto figurarán os nomes dos candidatos propostos para marcar cunha aspa a casilla dos candidatos aos que presten o seu apoio. De non marcar ningún recadro, considerarase voto en branco, e de introducirse algunha emenda riscada ou calquera outra adición declararíase voto nulo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg14">Procedemos, polo tanto, ao reparto das papeletas. Non sei se xa todas as señorías teñen as súas papeletas. Polo tanto, terminado o reparto de papeletas, rógolles á vicepresidenta primeira e á vicesecretaria que se sitúen onde a urna para a recollida de papeletas, e ao señor secretario que faga o chamamento por orde alfabética das deputadas e dos deputados, que depositarán o seu voto na urna. Cando queiran.</seg>
+			</u>
+			<note>(O señor secretario, Balseiro Orol, fai o chamamento, por orde alfabética, dos deputados e das deputadas, que depositan o seu voto na urna; a seguir, fano os membros do Goberno e, finalmente, os membros da Mesa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.u3">
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg15">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg16">¿Todos os deputados e deputadas exerceron o seu dereito a voto?</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg17">Procedemos ao reconto.</seg>
+			</u>
+			<note>(Procédese ao escrutinio.)</note>
+			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.u4">
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg18">O resultado xa o temos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg19">Votos a favor de don Juan Manuel Jiménez Morán, 40; votos a favor de don Modesto Pose Mesura, 18; votos a favor de don Fernando Carlos Rodríguez Pérez, 40; votos en branco, 14.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg20">Polo tanto, acadado o apoio da Cámara, quedan designados como senadores representantes da Comunidade Autónoma de Galicia, para a lexislatura no Senado, don Juan Manuel Jiménez Morán, don Modesto Pose Mesura e don Fernando Carlos Rodríguez Pérez.</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.u5">
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg21">Esgotado o punto da orde do día, levántase a sesión, que en realidade non se levanta porque continuamos coa nova sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-07-12-DSPG160.seg22">En todo caso, noraboa a todos os senadores.</seg>
+			</u>
+			<note type="time">Remata a sesión ás nove e corenta e oito minutos da mañá.</note>
+		</div>
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052" ana="#parla.sitting #covid">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2021-10-26-DSPG052 [ParlaMint]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2021-10-26-DSPG052 [ParlaMint]</title>
+			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+			<meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
+			<meeting ana="#parla.meeting #parla.uni" n="052">Número 052</meeting>
+			<meeting ana="#parla.sitting #parla.uni" n="2021-10-26">26.10.2021</meeting>
+			<respStmt>
+				<persName>Adina Vladu</persName>
+				<persName>Carmen Magariños</persName>
+				<persName>Daniel Bardanca</persName>
+				<persName>Elisa Fernández Rei</persName>
+				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+			</respStmt>
+			<funder>
+				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
+		</titleStmt>
+		<editionStmt>
+			<edition>3.0</edition>
+		</editionStmt>
+		<extent>
+			<measure unit="speeches" quantity="5"/>
+			<measure unit="words" quantity="479"/>
+		</extent>
+		<publicationStmt>
+			<publisher>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</publisher>
+			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+			<availability status="free">
+				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+			</availability>
+			<date when="2023-03-01">01.03.2023</date>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+				<publisher>Parlamento de Galicia</publisher>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110052.pdf</idno>
+				<date when="2021-10-26">26.10.2021</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+		</projectDesc>
+		<tagsDecl>
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="body" occurs="1"/>
+			</namespace>
+		</tagsDecl>
+	</encodingDesc>
+	<profileDesc>
+		<settingDesc>
+			<setting>
+				<name type="address">Rúa do Hórreo, 63</name>
+				<name type="city">Santiago de Compostela</name>
+				<name type="country" key="ES-GA">Galicia</name>
+				<date when="2021-10-26">26.10.2021</date>
+			</setting>
+		</settingDesc>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
+	</revisionDesc>
+</teiHeader>
+<text ana="#covid">
+	<body>
+		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110052.pdf"/>
+			<note type="time">Ábrese a sesión ás dez e cinco minutos da mañá</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.u1">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg1">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg2">A orde do día está publicada no Boletín Oficial do Parlamento, polo que non procedemos á súa lectura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg3">Xustificou a súa inasistencia a este pleno dona Rosana Pérez Fernández.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg4">Sen máis entramos no único punto da orde do día, que é a designación do senador ou senadora representante da Comunidade Autónoma de Galicia en substitución de don Jesús Vázquez Abad. Todo isto faise de acordo co artigo 165.4.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg5">
+Designación de senador ou senadora representante da Comunidade Autónoma de Galicia en substitución de D. Jesús Vázquez Abad</seg>
+			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.u2">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg6">Farase tendo en conta o acordo da Mesa e a Xunta de Portavoces do día 20 de outubro de 2021 polo que se inicia o procedemento para a designación dun senador ou senadora en representación da Comunidade Autónoma de Galicia en substitución e don Jesús Vázquez Abad ao abeiro do artigo 165.4 do Regulamento da Cámara.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg7">Por acordo da Mesa do 25 de outubro acéptase como candidato a senador, en representación da Comunidade Autónoma de Galicia, a don Juan Carlos Serrano López. A elección efectuarase por papeleta conforme o disposto no artigo 91 do Regulamento do Parlamento de Galicia. Para estes efectos, os servizos da Cámara elaboraron unha papeleta co nome do candidato. Cada deputada ou deputado emitirá o seu voto marcando cunha aspa &quot;si&quot;, &quot;non&quot; ou &quot;abstención&quot; no recadro correspondente. De non marcar ningún recadro, considerarase voto en branco; e de introducirse algunha emenda, riscada ou calquera outra adición, declararíase voto nulo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg8">Xa se repartiron as papeletas e supoño que todos vostedes están en posesión dela. Se hai alguén que non a teña, que o comunique.</seg>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg9">Téñena todos. Polo tanto, prégolle á secretaria da Mesa, a señora Porro Martínez, que proceda ao chamamento; e ao vicepresidente primeiro e á vicesecretaria, señor Calvo e señora Ortega, que se sitúen onda urna para a recollida das papeletas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg10">Cando queira, señora secretaria.</seg>
+			</u>
+			<note type="speaker">A señora SECRETARIA DA MESA (Porro Martínez):</note>
+			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.u3">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg11">Grazas, señor presidente.</seg>
+			</u>
+			<note>(A señora secretaria, Porro Martínez, fai o chamamento, por orde alfabética, dos deputados e das deputadas, que depositan o seu voto na urna; a seguir fano as deputadas e os deputados membros do Goberno e, finalmente, os membros da Mesa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.u4">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg12">Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg13">¿Votaron todos os deputados e deputadas?</seg>
+				<note>(Asentimento.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg14">Procedemos, entón, ao reconto.</seg>
+			</u>
+			<note>(Procédese ao escrutinio.)</note>
+			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.u5">
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg15">O resultado do escrutinio é o seguinte: votos a favor de don Juan Carlos Serrano López, 41; votos en branco, 31.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg16">O resultado da votación é favorable ao candidato. Polo tanto, acadado o apoio da Cámara, queda designado senador, en representación da Comunidade Autónoma de Galicia, don Juan Carlos Serrano López.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2021-10-26-DSPG052.seg17">Remata aquí esta sesión específica para a elección do senador e continuamos co seguinte pleno, que xa é sesión ordinaria.</seg>
+			</u>
+			<note type="time">Remata a sesión ás dez e vinte minutos da mañá</note>
+		</div>
+	</body>
+</text>
+</TEI>
